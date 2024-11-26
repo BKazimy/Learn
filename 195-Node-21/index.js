@@ -7,4 +7,3 @@ console.log(a + b);
 let c = a - b;
 c = a - b;
 c = a - b;
-
