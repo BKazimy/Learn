@@ -12,9 +12,17 @@ function MealsOverviewScreen(){ //{ route }) {
         return mealItem.categoryIds.indexOf(catId) >= 0;
     })
 
+    function renderMealItem() {
+
+    }
+
     return (
         <View style={styles.container}>
-            <FlatList data={displayedMeals} />
+            <FlatList 
+                data={displayedMeals} 
+                keyExtractor={(item) => item.id}
+                renderItem={renderMealItem}
+            />
         </View>
     );
 }
