@@ -7,7 +7,7 @@ import { MEALS } from "../data/dummy-data";
 function MealsOverviewScreen({ route }) {
     const catId = route.params.categoryId;
 
-    const displayedMeals = MEALS.filter
+    const displayedMeals = MEALS.filter.indexOf()
 
     return <View style={styles.container}>
         <FlatList 
