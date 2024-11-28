@@ -13,7 +13,7 @@ function MealsOverviewScreen(){ //{ route }) {
     })
 
     function renderMealItem(itemData) {
-
+        return
     }
 
     return (
