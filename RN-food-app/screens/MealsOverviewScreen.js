@@ -9,3 +9,5 @@ function MealsOverviewScreen() {
 }
 
 export default MealsOverviewScreen;
+
+const styles = StyleShee
