@@ -36,6 +36,10 @@ const styles = StyleSheet.create({
         flex: 1,
     },
 
+    buttonPress: {
+        opacity: .5,
+    },
+
     innerContainer: {
         flex: 1,
         padding: 16,
