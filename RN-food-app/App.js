@@ -9,7 +9,7 @@ export default function App() {
     <>
       <StatusBar style='light' />
       <NavigationContainer>
-      <CategoriesScreen />
+        <CategoriesScreen />
       </NavigationContainer>
     </>
   );
