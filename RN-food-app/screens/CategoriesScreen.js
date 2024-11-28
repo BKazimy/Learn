@@ -14,6 +14,7 @@ function CategoriesScreen({ navigation }) {
             title={itemData.item.title} 
             color={itemData.item.color}
             onPress={pressHandler}
+            navi
         />;
     }
 
