@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-function MealItem() {
+function MealItem({ tit}) {
     return (
         <View>
-            <Text>Meal Item</Text>
+            <Text>Meal Item!</Text>
         </View>
     );
 }
