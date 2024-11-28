@@ -8,6 +8,8 @@ function MealsOverviewScreen(){ //{ route }) {
     // const route = ;
     const catId = useRoute().route.params.categoryId;
 
+    const displayedMeals = MEALS.fi
+
     return <View style={styles.container}>
         <Text>Meals Overview Screen! #{catId}</Text>
     </View>
