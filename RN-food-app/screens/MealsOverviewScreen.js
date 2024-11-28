@@ -8,7 +8,7 @@ import MealItem from "../components/MealItem";
 function MealsOverviewScreen({ route }) {
     const catId = route.params.categoryId;
 
-    const displayedMeals = MEALS.filter((MealItem))
+    const displayedMeals = MEALS.filter((mealItem))
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
     function renderMealItem(itemData) {
