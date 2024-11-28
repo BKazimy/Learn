@@ -5,7 +5,18 @@ import { FlatList } from 'react-native';
 
 function CategoriesScreen({ navigation }) {
 
+    function renderCategoryItem(itemData) {
+        function pressHandler() {
     
+        }
+    
+        return <CategoryGridTile 
+            title={itemData.item.title} 
+            color={itemData.item.color}
+            onPress={pressHandler}
+        />;
+    }
+
     return <FlatList 
         data={CATEGORIES} 
         keyExtractor={(item) => item.id} 
