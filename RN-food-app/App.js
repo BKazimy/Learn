@@ -6,18 +6,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CategoriesScreen from './screens/CategoriesScreen';
 
 import { Asset } from 'expo-asset';
-import * as Font from 'expo-font';
-
-async function loadResourcesAsync() {
-  await Promise.all([
-    Asset.loadAsync([
-      require('./assets/images/example.png'),
-    ]),
-    Font.loadAsync({
-      ...Ionicons.font,
-    }),
-  ]);
-}
 
 const Stack = createNativeStackNavigator();
 
