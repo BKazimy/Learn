@@ -18,7 +18,7 @@ export default function App() {
             component={CategoriesScreen}
           />
           <Stack.Screen 
-            name='Meal Categories' 
+            name='Meals over' 
             component={CategoriesScreen}
           />
         </Stack.Navigator>
