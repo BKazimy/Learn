@@ -11,14 +11,14 @@ export default function App() {
   return (
     <>
       <StatusBar style='light' />
-      <NavigationContainer>
+      {/* <NavigationContainer> */}
         <Stack.Navigator>
           <Stack.Screen 
             name='Meal Categories' 
             component={CategoriesScreen}
           />
         </Stack.Navigator>
-      </NavigationContainer>
+      {/* </NavigationContainer> */}
     </>
   );
 }
