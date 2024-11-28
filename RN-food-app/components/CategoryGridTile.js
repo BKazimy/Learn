@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 16,
         justifyContent: 'center',
-        ali
+        alignItems: 'center',
     }
 })
