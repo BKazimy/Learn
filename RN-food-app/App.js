@@ -18,8 +18,8 @@ export default function App() {
             component={CategoriesScreen}
           />
           <Stack.Screen 
-            name='Meals over' 
-            component={CategoriesScreen}
+            name='Meals overview' 
+            component={Meal}
           />
         </Stack.Navigator>
       </NavigationContainer>
