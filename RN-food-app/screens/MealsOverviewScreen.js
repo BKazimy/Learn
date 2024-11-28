@@ -12,7 +12,7 @@ function MealsOverviewScreen(){ //{ route }) {
         return mealItem.categoryIds.indexOf(catId) >= 0;
     })
 
-    function renderMealItem() {
+    function renderMealItem(itemData) {
 
     }
 
