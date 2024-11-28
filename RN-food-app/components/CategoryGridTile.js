@@ -19,7 +19,5 @@ const styles = StyleSheet.create({
         height: 150,
         borderRadius: 8,
         elevation: 4,
-        shadowColor: 'gray',
-        shadowOffset: 5,
     }
 })
