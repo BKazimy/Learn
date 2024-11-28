@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         elevation: 4,
         shadowColor: 'black',
-        shadowOffset: { width}
+        shadowOffset: { width: 0, height: 2},
+        shadowOpacity: 0.25
     },
 
     button: {
