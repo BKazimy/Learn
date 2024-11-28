@@ -4,9 +4,14 @@ import { CATEGORIES } from '../data/dummy-data'
 import { FlatList } from 'react-native';
 
 function renderCategoryItem(itemData) {
+    function pressHandler({ navigation }) {
+        
+    }
+
     return <CategoryGridTile 
         title={itemData.item.title} 
         color={itemData.item.color}
+        onPress={pressHandler}
     />;
 }
 
