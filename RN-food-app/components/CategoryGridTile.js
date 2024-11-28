@@ -1,4 +1,4 @@
-import { Pressable } from "react-native";
+import { Pressable, View, Text } from "react-native";
 
 function CategoryGridTile() {
     return
