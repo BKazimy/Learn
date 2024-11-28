@@ -20,11 +20,12 @@ function MealsOverviewScreen(){ //{ route }) {
 
     return (
         <View style={styles.container}>
-            <FlatList 
+            <Text>text!</Text>
+            {/* <FlatList 
                 data={displayedMeals} 
                 keyExtractor={(item) => item.id}
                 renderItem={renderMealItem}
-            />
+            /> */}
         </View>
     );
 }
