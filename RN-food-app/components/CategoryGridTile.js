@@ -1,4 +1,4 @@
-import { Pressable, View, Text } from "react-native";
+import { Pressable, View, Text, StyleSheet } from "react-native";
 
 function CategoryGridTile({ title, color }) {
     return <View>
@@ -11,3 +11,4 @@ function CategoryGridTile({ title, color }) {
 }
 
 export default CategoryGridTile;
+
