@@ -5,7 +5,7 @@ function CategoryGridTile({ title, color }) {
         <View style={styles.gridItem}>
             <Pressable>
                 <View style={styles.innerContainer}>
-                    <Text>{title}</Text>
+                    <Text style>{title}</Text>
                 </View>
             </Pressable>
         </View>
