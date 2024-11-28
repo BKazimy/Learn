@@ -5,7 +5,7 @@ function CategoryGridTile({ title, color }) {
         <View style={styles.gridItem}>
             <Pressable 
                 android_ripple={{color: '#ccc'}}
-                style={styles.button}
+                style={() => {}}
             >
                 <View style={styles.innerContainer}>
                     <Text style={styles.title}>{title}</Text>
