@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
         height: 150,
         borderRadius: 8,
         elevation: 4,
-        shadowColor: 'black',
-        shadowOffset: { width: 0, height: 2},
-        shadowOpacity: 0.25,
         backgroundColor: 'white',
+        shadowColor: 'black',
+        shadowOpacity: 0.25,
+        shadowOffset: { width: 2, height: 2},
     },
 
     button: {
