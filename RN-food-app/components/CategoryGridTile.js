@@ -21,5 +21,8 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
 
-    
+    innerContainer: {
+        flex: 1,
+        
+    }
 })
