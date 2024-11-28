@@ -12,7 +12,7 @@ function MealsOverviewScreen({ route }) {
     return <View style={styles.container}>
         <FlatList 
             data={displayedMeals}
-            keyExtractor={(itme)}
+            keyExtractor={(item) => item.id}
 
         />
     </View>
