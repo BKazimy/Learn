@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function MealItem({ tit}) {
+function MealItem({ title }) {
     return (
         <View>
             <Text>Meal Item!</Text>
