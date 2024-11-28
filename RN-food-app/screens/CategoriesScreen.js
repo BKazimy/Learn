@@ -7,7 +7,7 @@ function CategoriesScreen({ navigation }) {
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
-            navigation.navigate('MealOverview');
+            navigation.navigate('Meal Overview');
         }
     
         return <CategoryGridTile 
