@@ -8,8 +8,9 @@ export default function App() {
   return (
     <>
       <StatusBar style='light' />
-      
+      <NavigationContainer>
       <CategoriesScreen />
+      </NavigationContainer>
     </>
   );
 }
