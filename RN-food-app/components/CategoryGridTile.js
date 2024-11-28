@@ -2,3 +2,4 @@ function CategoryGridTile() {
     return
 }
 
+export default CategoryGridTile;
