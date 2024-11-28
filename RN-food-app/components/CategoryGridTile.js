@@ -4,9 +4,7 @@ function CategoryGridTile() {
     return <View>
         <Pressable>
             <View>
-                <Text>
-                    
-                </Text>
+                <Text></Text>
             </View>
         </Pressable>
     </View>
