@@ -1,7 +1,7 @@
 class Meal {
   constructor(
     id,
-    categoryIds,
+    categoryIds, 
     title,
     affordability,
     complexity,
