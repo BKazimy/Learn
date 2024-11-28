@@ -10,4 +10,7 @@ function MealsOverviewScreen() {
 
 export default MealsOverviewScreen;
 
-const styles = StyleSheet.create
+const styles = StyleSheet.create({
+    flex: 1,
+    padding
+})
