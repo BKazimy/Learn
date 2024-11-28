@@ -6,7 +6,9 @@ import { FlatList } from 'react-native';
 function CategoriesScreen({ navigation }) {
 
     function renderCategoryItem(itemData) {
-        function pressHandler() {}
+        function pressHandler() {
+            
+        }
     
         return <CategoryGridTile 
             title={itemData.item.title} 
