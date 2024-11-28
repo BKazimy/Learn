@@ -13,7 +13,7 @@ function MealsOverviewScreen(){ //{ route }) {
     })
 
     return <View style={styles.container}>
-        <Text>Meals Overview Screen! #{catId}</Text>
+        
     </View>
 }
 
