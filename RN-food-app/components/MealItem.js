@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 function MealItem({ title }) {
     return (
         <View>
-            <Text>Meal Item!</Text>
+            <Text>{title}</Text>
         </View>
     );
 }
