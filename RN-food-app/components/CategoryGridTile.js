@@ -17,5 +17,7 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 16,
         height: 150,
+        borderRadius: 8,
+        shado
     }
 })
