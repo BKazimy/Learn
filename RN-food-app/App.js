@@ -12,13 +12,13 @@ export default function App() {
     <>
       <StatusBar style='light' />
       {/* <NavigationContainer> */}
-        <Stack.Navigator>
+        {/* <Stack.Navigator>
           <Stack.Screen 
             name='Meal Categories' 
             component={CategoriesScreen}
           />
         </Stack.Navigator>
-      {/* </NavigationContainer> */} 
+      </NavigationContainer>  */}
     </>
   );
 }
