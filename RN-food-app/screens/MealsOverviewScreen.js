@@ -13,6 +13,7 @@ function MealsOverviewScreen({ route }) {
         <FlatList 
             data={displayedMeals}
             keyExtractor={(item) => item.id}
+            
 
         />
     </View>
