@@ -13,7 +13,7 @@ export default function App() {
       <StatusBar style='light' />
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name='' />
+          <Stack.Screen name='Home' />
         </Stack.Navigator>
         <CategoriesScreen />
       </NavigationContainer>
