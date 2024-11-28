@@ -8,4 +8,4 @@ function MealItem({ title }) {
     );
 }
 
-export default MealItem
+export default MealItem;
