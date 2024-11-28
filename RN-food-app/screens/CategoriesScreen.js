@@ -6,7 +6,7 @@ import { FlatList } from 'react-native';
 function renderCategoryItem(itemData) {
     return <CategoryGridTile 
         title={itemData.item.title} 
-        
+        itme
     />;
 }
 
