@@ -3,7 +3,7 @@ import { MEALS } from "../data/dummy-data";
 
 
 function MealsOverviewScreen({ route }) {
-    route.params.category
+    const catId = route.params.categoryId;
 
     return <View style={styles.container}>
         <Text>Meals Overview Screen!</Text>
