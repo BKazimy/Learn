@@ -6,3 +6,4 @@ function MealItem() {
     </View>
 }
 
+export default MealItem
