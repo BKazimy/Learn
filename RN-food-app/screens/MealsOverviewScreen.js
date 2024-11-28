@@ -9,6 +9,7 @@ function MealsOverviewScreen({ route }) {
     const catId = route.params.categoryId;
 
     const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
+    // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
     function renderMealItem(itemData) {
         return <MealItem title={itemData.title} />
