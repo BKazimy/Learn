@@ -4,7 +4,7 @@ import { useRoute } from "@react-navigation/native";
 import { MEALS } from "../data/dummy-data";
 
 
-function MealsOverviewScreen({ route }) {
+function MealsOverviewScreen(){ //{ route }) {
     const route = useRoute();
     const catId = route.params.categoryId;
 
