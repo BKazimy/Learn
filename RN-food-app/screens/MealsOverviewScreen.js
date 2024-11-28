@@ -7,10 +7,12 @@ import { MEALS } from "../data/dummy-data";
 function MealsOverviewScreen({ route }) {
     const catId = route.params.categoryId;
 
+    const displayedMeals = MEALS.filter
+
     return <View style={styles.container}>
         <FlatList 
             data={MEALS}
-            
+
         />
     </View>
 }
