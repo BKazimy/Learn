@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     innerContainer: {
         flex: 1,
         padding: 16,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        ali
     }
 })
