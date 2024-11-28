@@ -12,9 +12,11 @@ function MealsOverviewScreen(){ //{ route }) {
         return mealItem.categoryIds.indexOf(catId) >= 0;
     })
 
-    return <View style={styles.container}>
-        
-    </View>
+    return (
+        <View style={styles.container}>
+            
+        </View>
+    );
 }
 
 export default MealsOverviewScreen;
