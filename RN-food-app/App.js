@@ -12,6 +12,9 @@ export default function App() {
     <>
       <StatusBar style='light' />
       <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen />
+        </Stack.Navigator>
         <CategoriesScreen />
       </NavigationContainer>
     </>
