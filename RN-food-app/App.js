@@ -5,8 +5,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import CategoriesScreen from './screens/CategoriesScreen';
 
-import { Asset } from 'expo-asset';
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
