@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
 
     innerContainer: {
         flex: 1,
+        padding: 16,
         
     }
 })
