@@ -9,7 +9,7 @@ function MealsOverviewScreen({ route }) {
     const catId = route.params.categoryId;
 
     const displayedMeals = MEALS.filter((mealItem) => {
-        return mealItem
+        return mealItem.categoryIds.indexOf()
     })
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
