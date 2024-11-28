@@ -1,1 +1,7 @@
-fun
+
+
+function MealsOverviewScreen() {
+
+}
+
+export default MealsOverviewScreen;
