@@ -13,7 +13,7 @@ export default function App() {
     <>
       <StatusBar style='light' />
       <NavigationContainer>
-        <Stack.Navigator initialRouteName=''>
+        <Stack.Navigator>
           <Stack.Screen 
             name='Meal Categories' 
             component={CategoriesScreen}
