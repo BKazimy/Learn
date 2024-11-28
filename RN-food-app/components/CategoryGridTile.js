@@ -7,7 +7,6 @@ function CategoryGridTile({ title, color }) {
                 android_ripple={{color: '#ccc'}}
                 style={({ pressed }) => [
                     styles.button,
-                    {backgroundColor: color},
                     pressed ? styles.buttonPress : null,
                 ]}
             >
