@@ -18,7 +18,6 @@ export default function App() {
             component={CategoriesScreen} 
           />
         </Stack.Navigator>
-        {/* <CategoriesScreen /> */}
       </NavigationContainer>
     </>
   );
