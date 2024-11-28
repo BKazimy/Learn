@@ -2,7 +2,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { MEALS } from "../data/dummy-data";
 
 
-function MealsOverviewScreen({ nav }) {
+function MealsOverviewScreen({ navigation }) {
     return <View style={styles.container}>
         <Text>Meals Overview Screen!</Text>
     </View>
