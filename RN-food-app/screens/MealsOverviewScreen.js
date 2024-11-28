@@ -11,7 +11,8 @@ function MealsOverviewScreen({ route }) {
 
     return <View style={styles.container}>
         <FlatList 
-            data={MEALS}
+            data={displayedMeals}
+            
 
         />
     </View>
