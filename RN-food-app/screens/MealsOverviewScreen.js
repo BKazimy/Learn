@@ -8,7 +8,7 @@ function MealsOverviewScreen(){ //{ route }) {
     // const route = ;
     const catId = useRoute().route.params.categoryId;
 
-    const displayedMeals = MEALS.filter((meal))
+    const displayedMeals = MEALS.filter((mealItem))
 
     return <View style={styles.container}>
         <Text>Meals Overview Screen! #{catId}</Text>
