@@ -8,7 +8,7 @@ function MealItem({ title, imageURL, duration, complexity, affordability }) {
                     <Image source={{uri: imageURL}} style={styles.image} />
                     <Text style={styles.title}>{title}</Text>
                 </View>
-                <View style={styles.mealItem}>
+                <View style={styles.details}>
                     <Text>{duration}m</Text>
                     <Text>{complexity.toUpperCase()}</Text>
                     <Text>{affordability.toUpperCase()}</Text>
