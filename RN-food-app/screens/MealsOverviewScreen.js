@@ -20,7 +20,7 @@ function MealsOverviewScreen({ route, navigation }) {
 
     navigation.setOptions({
         title: categoryTitle,
-    });
+    })
 
     function renderMealItem(itemData) {
         const item = itemData.item;
