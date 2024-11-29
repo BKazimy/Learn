@@ -15,7 +15,9 @@ function MealsOverviewScreen({ route, navigation }) {
 
     const categoryTitle = CATEGORIES.find((category) => category.id == catId).title;
 
-    navigation.setOptions({})
+    navigation.setOptions({
+        title: categoryTitle,
+    })
 
     function renderMealItem(itemData) {
         const item = itemData.item;
