@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         overflow: 'hidden',
         backgroundColor: 'white',
+        elevation: 4,
     },
 
     image: {
