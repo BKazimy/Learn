@@ -39,4 +39,8 @@ const styles = StyleSheet.create({
         fontSize: 18,
         margin: 8,
     },
+
+    details: {
+        flex
+    }
 })
