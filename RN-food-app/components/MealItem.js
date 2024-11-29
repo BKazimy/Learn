@@ -10,7 +10,7 @@ function MealItem({ title, imageURL, durationn, complexity, affordability }) {
                 </View>
                 <View>
                     <Text>{durationn}m</Text>
-                    <Text>{complexity}</Text>
+                    <Text>{complexity.toUpp}</Text>
                     <Text></Text>
                 </View>
             </Pressable>
