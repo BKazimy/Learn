@@ -19,7 +19,7 @@ function MealsOverviewScreen({ route }) {
             imageURL: itemData.item.imageUrl,
             complexity: itemData.item.complexity,
             duration: itemData.item.duration,
-            
+            affordability: itemData.item.affordability,
         }
         return (
             <MealItem 
