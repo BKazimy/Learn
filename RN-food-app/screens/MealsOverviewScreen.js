@@ -13,6 +13,8 @@ function MealsOverviewScreen({ route, navigation }) {
     });
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
+    
+
     function renderMealItem(itemData) {
         const item = itemData.item;
         const mealItemProps = {
