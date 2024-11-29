@@ -17,7 +17,7 @@ function MealsOverviewScreen({ route }) {
         const mealItemProps = {
             title: itemData.item.title,
             imageURL: itemData.item.imageUrl,
-            
+            complexity: item
         }
         return (
             <MealItem 
