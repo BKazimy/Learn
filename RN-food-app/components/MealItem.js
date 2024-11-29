@@ -4,7 +4,9 @@ function MealItem({ title }) {
     return (
         <View>
             <Pressable>
-            <Text>{title}</Text>
+                <View>
+                <Text>{title}</Text>
+                </View>
             </Pressable>
         </View>
     );
