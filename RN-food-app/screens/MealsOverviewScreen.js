@@ -14,6 +14,9 @@ function MealsOverviewScreen({ route }) {
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
     function renderMealItem(itemData) {
+        const mealItemProps = {
+            title
+        }
         return (
             <MealItem 
                 title={itemData.item.title} 
