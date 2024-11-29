@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        fontWeight: 'b'
+        fontWeight: 'bold',
+        textAlign: 'center',
+        
     }
 })
