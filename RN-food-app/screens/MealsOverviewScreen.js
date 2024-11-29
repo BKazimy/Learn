@@ -16,11 +16,11 @@ function MealsOverviewScreen({ route }) {
     function renderMealItem(itemData) {
         const item = itemData.item;
         const mealItemProps = {
-            title: itemData.item.title,
-            imageURL: itemData.item.imageUrl,
-            complexity: itemData.item.complexity,
-            duration: itemData.item.duration,
-            affordability: itemData.item.affordability,
+            title: item.title,
+            imageURL: item.imageUrl,
+            complexity: item.complexity,
+            duration: item.duration,
+            affordability: item.affordability,
         }
         return (
             <MealItem {...mealItemProps} />
