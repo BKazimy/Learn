@@ -5,7 +5,7 @@ function MealItem({ title, imageURL }) {
         <View>
             <Pressable>
                 <View>
-                    <Image source={{uri: imageURL}} style={styles.image} />
+                    {/* <Image source={{uri: imageURL}} style={styles.image} /> */}
                     <Text style={styles.title}>{title}</Text>
                 </View>
             </Pressable>
