@@ -21,7 +21,7 @@ export default function App() {
           <Stack.Screen 
             name='Meal Categories' 
             component={CategoriesScreen}
-            options={globalOptions}
+            options={{}}
           />
           <Stack.Screen 
             name='Meal Overview' 
