@@ -46,5 +46,7 @@ const styles = StyleSheet.create({
         padding: 8,
     },
 
-    
+    detailItem: {
+        
+    }
 })
