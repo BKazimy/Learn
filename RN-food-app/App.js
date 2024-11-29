@@ -9,9 +9,6 @@ import MealsOverviewScreen from './screens/MealsOverviewScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  const globalOptions = { 
-    title: 'All Categories',
-  }
   return (
     <>
       <StatusBar style='light' />
