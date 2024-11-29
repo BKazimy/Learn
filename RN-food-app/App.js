@@ -9,7 +9,12 @@ import MealsOverviewScreen from './screens/MealsOverviewScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  
+  const globalOptions = { 
+    title: 'All Categories',
+    headerStyle: { backgroundColor: '#351401' },
+    headerTintColor: 'white',
+    contentStyle: { backgroundColor: '#3f2f25' },
+  }
   return (
     <>
       <StatusBar style='light' />
