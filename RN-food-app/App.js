@@ -17,6 +17,7 @@ export default function App() {
           <Stack.Screen 
             name='Meal Categories' 
             component={CategoriesScreen}
+            
           />
           <Stack.Screen 
             name='Meal Overview' 
