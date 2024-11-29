@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
 
     details: {
         flexDirection: 'row',
-        alignItems: 'center'
-    }
+        alignItems: 'center',
+        padding: 8,
+    },
 })
