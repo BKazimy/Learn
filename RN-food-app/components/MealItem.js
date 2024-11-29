@@ -47,6 +47,6 @@ const styles = StyleSheet.create({
     },
 
     detailItem: {
-        
-    }
+        marginHorizontal: 4,
+    },
 })
