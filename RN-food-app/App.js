@@ -28,6 +28,7 @@ export default function App() {
           <Stack.Screen 
             name='Meal Overview' 
             component={MealsOverviewScreen}
+            options={globalOptions}
           />
         </Stack.Navigator>
       </NavigationContainer>
