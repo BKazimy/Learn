@@ -8,7 +8,7 @@ function MealItem({ title, imageURL, duration, complexity, affordability }) {
                     <Image source={{uri: imageURL}} style={styles.image} />
                     <Text style={styles.title}>{title}</Text>
                 </View>
-                <View>
+                <View style={styles.mealItem}>
                     <Text>{duration}m</Text>
                     <Text>{complexity.toUpperCase()}</Text>
                     <Text>{affordability.toUpperCase()}</Text>
@@ -21,6 +21,13 @@ function MealItem({ title, imageURL, duration, complexity, affordability }) {
 export default MealItem;
 
 const styles = StyleSheet.create({
+    mealItem: {
+        margin: 16,
+        borderRadius: 8,
+        overflow: 'hidden',
+        backgroundColor: 'white',
+    },
+
     image: {
         width: '100%',
         height: 200,
