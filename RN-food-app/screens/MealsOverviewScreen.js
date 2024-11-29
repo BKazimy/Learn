@@ -5,7 +5,7 @@ import { MEALS } from "../data/dummy-data";
 import MealItem from "../components/MealItem";
 
 
-function MealsOverviewScreen({ route }) {
+function MealsOverviewScreen({ route, navigation }) {
     const catId = route.params.categoryId;
 
     const displayedMeals = MEALS.filter((mealItem) => {
