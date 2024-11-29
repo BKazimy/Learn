@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     },
 
     details: {
-        flex
+        flexDirection: 'row',
+        alignItems: ''
     }
 })
