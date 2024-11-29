@@ -1,4 +1,4 @@
-import { View, Text, Pressable, Image } from "react-native";
+import { View, Text, Pressable, Image, StyleSheet } from "react-native";
 
 function MealItem({ title, imageURL }) {
     return (
@@ -14,3 +14,5 @@ function MealItem({ title, imageURL }) {
 }
 
 export default MealItem;
+
+const styles = StyleSheet
