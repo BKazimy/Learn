@@ -9,8 +9,8 @@ function MealItem({ title, imageURL, durationn, complexity, affordability }) {
                     <Text style={styles.title}>{title}</Text>
                 </View>
                 <View>
-                    <Text>{durationn}</Text>
-                    <Text></Text>
+                    <Text>{durationn}m</Text>
+                    <Text>{complexity}</Text>
                     <Text></Text>
                 </View>
             </Pressable>
