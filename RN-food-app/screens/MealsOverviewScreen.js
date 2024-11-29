@@ -22,10 +22,7 @@ function MealsOverviewScreen({ route }) {
             affordability: itemData.item.affordability,
         }
         return (
-            <MealItem 
-                title={itemData.item.title} 
-                imageURL={itemData.item.imageUrl}
-            />
+            <MealItem {...mealItemProps} />
         );
     }
 
