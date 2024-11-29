@@ -1,4 +1,4 @@
-import { View, Text, Pressable, Image, StyleSheet } from "react-native";
+import { View, Text, Pressable, Image, StyleSheet, Platform } from "react-native";
 
 function MealItem({ title, imageURL, duration, complexity, affordability }) {
     return (
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     mealItem: {
         margin: 16,
         borderRadius: 8,
-        overflow: 'hidden',
+        overflow: Platform.OS === 'android' ? 'hidden' : 'visible',
         backgroundColor: 'white',
         elevation: 4,
         shadowColor: 'black',
