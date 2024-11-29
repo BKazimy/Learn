@@ -10,8 +10,8 @@ function MealItem({ title, imageURL, durationn, complexity, affordability }) {
                 </View>
                 <View>
                     <Text>{durationn}m</Text>
-                    <Text>{complexity.toUpp}</Text>
-                    <Text></Text>
+                    <Text>{complexity.toUpperCase()}</Text>
+                    <Text>{affordability.toUpperCase()}</Text>
                 </View>
             </Pressable>
         </View>
