@@ -3,7 +3,11 @@ import { View, Text, Pressable, Image, StyleSheet, Platform } from "react-native
 function MealItem({ title, imageURL, duration, complexity, affordability }) {
     return (
         <View style={styles.mealItem}>
-            <Pressable>
+            <Pressable 
+                // onPress={}
+                android_ripple={{ color: '#ccc' }}
+                style={({ pressed }) => (pressed ? styles.buttonPressed : null)}
+            >
                 <View>
                     <View>
                         <Image source={{uri: imageURL}} style={styles.image} />
@@ -33,6 +37,15 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.35,
         shadowOffset: {width: 0, height: 2},
         shadowRadius: 8,
+    },
+
+    buttonPressed: {
+        opacity: 0.25,
+    },
+
+    innerContainer: {
+        borderRadius: 8,
+        overflow: 'hidden',
     },
 
     image: {
