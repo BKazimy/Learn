@@ -15,12 +15,9 @@ function MealsOverviewScreen({ route, navigation }) {
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
     useEffect(() => {
-        const categoryTitle = CATEGORIES.find((category) => category.id == catId).title;
+        const categoryTitle = CATEGORIES.find((category) => category.id == catId).title
     })
 
-    navigation.setOptions({
-        title: categoryTitle,
-    })
 
     function renderMealItem(itemData) {
         const item = itemData.item;
