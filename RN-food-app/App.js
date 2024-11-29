@@ -18,8 +18,8 @@ export default function App() {
             name='Meal Categories' 
             component={CategoriesScreen}
             options={{ 
-            
-             }}
+              
+            }}
           />
           <Stack.Screen 
             name='Meal Overview' 
