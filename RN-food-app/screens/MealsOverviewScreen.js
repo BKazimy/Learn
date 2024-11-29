@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 // import { useRoute } from "@react-navigation/native";
 
