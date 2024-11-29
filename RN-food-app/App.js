@@ -21,7 +21,7 @@ export default function App() {
               title: 'All Categories',
               headerStyle: { backgroundColor: '#351401' },
               headerTintColor: 'white',
-              contentStyle: { backgroundColor: '#3f' }
+              contentStyle: { backgroundColor: '#3f2f25' },
             }}
           />
           <Stack.Screen 
