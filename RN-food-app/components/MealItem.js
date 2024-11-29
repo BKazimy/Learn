@@ -4,6 +4,7 @@ function MealItem({ title, imageURL, duration, complexity, affordability }) {
     return (
         <View style={styles.mealItem}>
             <Pressable>
+                <View></View>
                 <View>
                     <Image source={{uri: imageURL}} style={styles.image} />
                     <Text style={styles.title}>{title}</Text>
