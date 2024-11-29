@@ -1,6 +1,6 @@
 import { View, Text, Pressable, Image, StyleSheet } from "react-native";
 
-function MealItem({ title, imageURL,  }) {
+function MealItem({ title, imageURL, durationn, complexity, affordability }) {
     return (
         <View>
             <Pressable>
@@ -9,7 +9,7 @@ function MealItem({ title, imageURL,  }) {
                     <Text style={styles.title}>{title}</Text>
                 </View>
                 <View>
-                    <Text></Text>
+                    <Text>{durationn}</Text>
                     <Text></Text>
                     <Text></Text>
                 </View>
