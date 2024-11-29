@@ -14,6 +14,7 @@ function MealsOverviewScreen({ route }) {
     // const displayedMeals = MEALS.categoryIds.filter.indexOf(catId) >= 0;
 
     function renderMealItem(itemData) {
+        const item = itemData.item;
         const mealItemProps = {
             title: itemData.item.title,
             imageURL: itemData.item.imageUrl,
