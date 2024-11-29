@@ -9,6 +9,7 @@ import MealsOverviewScreen from './screens/MealsOverviewScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+  
   return (
     <>
       <StatusBar style='light' />
