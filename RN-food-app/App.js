@@ -28,7 +28,7 @@ export default function App() {
           <Stack.Screen 
             name='Meal Overview' 
             component={MealsOverviewScreen}
-            options={[globalOptions, {backgroundColor, 
+            options={[globalOptions, {backgroundColor: 'grey'
             }]}
           />
         </Stack.Navigator>
