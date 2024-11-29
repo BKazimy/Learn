@@ -29,7 +29,7 @@ export default function App() {
             name='Meal Overview' 
             component={MealsOverviewScreen}
             options={({ route, navigation }) => {
-              return {}
+              return {};
             }}
           />
         </Stack.Navigator>
