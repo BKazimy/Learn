@@ -19,7 +19,7 @@ export default function App() {
             component={CategoriesScreen}
             options={{ 
               title: 'All Categories',
-              headerStyle: { backgroundColor: '#ccc' }
+              headerStyle: { backgroundColor: '#351401' }
             }}
           />
           <Stack.Screen 
