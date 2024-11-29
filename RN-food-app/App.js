@@ -28,7 +28,8 @@ export default function App() {
           <Stack.Screen 
             name='Meal Overview' 
             component={MealsOverviewScreen}
-            options={[globalOptions, {}]}
+            options={[globalOptions, {backgroundColor, 
+            }]}
           />
         </Stack.Navigator>
       </NavigationContainer>
