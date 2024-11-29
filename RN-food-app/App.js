@@ -18,7 +18,8 @@ export default function App() {
             name='Meal Categories' 
             component={CategoriesScreen}
             options={{ 
-              title: 'All Categories'
+              title: 'All Categories',
+              
             }}
           />
           <Stack.Screen 
