@@ -9,7 +9,7 @@ function MealItem({ title, imageURL, duration, complexity, affordability }) {
                     <Text style={styles.title}>{title}</Text>
                 </View>
                 <View style={styles.details}>
-                    <Text>{duration}m</Text>
+                    <Text style={styles.detailItem}>{duration}m</Text>
                     <Text>{complexity.toUpperCase()}</Text>
                     <Text>{affordability.toUpperCase()}</Text>
                 </View>
