@@ -17,7 +17,8 @@ function MealsOverviewScreen({ route }) {
         return (
             <MealItem 
                 title={itemData.item.title} 
-                imageURL={itemData.item.imageURL} />
+                imageURL={itemData.item.imageURL} 
+            />
         );
     }
 
