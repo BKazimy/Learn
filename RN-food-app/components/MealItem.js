@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         elevation: 4,
         shadowColor: 'black',
-        shadowOffset
+        shadowOpacity: 0.25,
     },
 
     image: {
