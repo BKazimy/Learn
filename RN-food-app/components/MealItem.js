@@ -16,5 +16,7 @@ function MealItem({ title, imageURL }) {
 export default MealItem;
 
 const styles = StyleSheet.create({
-    
+    image: {
+        
+    }
 })
