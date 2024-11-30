@@ -5,7 +5,7 @@ import { MEALS } from "../data/dummy-data";
 function MealDetailScreen({ route }) {
     const mealId = route.params.mealId;
 
-    
+    const selectedMeal = MEALS.find
 
     return (
         <View>
