@@ -1,4 +1,4 @@
-import 
+import { View, Text } from "react-native";
 
 function Subtitle() {
     return (
