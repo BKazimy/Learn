@@ -61,12 +61,12 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
         fontWeight: 'bold',
-        margin: 4,
         textAlign: 'center',
     },
 
     subtitleContainer: {
         padding: 6,
+        
         borderBottomWidth: 1,
         borderBottomColor: 'white',
     }
