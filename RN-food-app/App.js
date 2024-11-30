@@ -43,7 +43,7 @@ export default function App() {
             options={{
               title: "Meal Detail",
               headerRight: () => {
-                return <Button title='' />
+                return <Button title='Ad' />
               }
             }}
           />
