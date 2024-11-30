@@ -29,9 +29,6 @@ function MealDetailScreen({ route }) {
             ))}
 
             <Subtitle>Steps:</Subtitle>
-            {selectedMeal.steps.map(step => (
-                <Text key={step}>{step}</Text>
-            ))}
         </View>
     );
 }
