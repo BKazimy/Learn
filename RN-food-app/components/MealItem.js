@@ -22,10 +22,10 @@ function MealItem({ id, title, imageURL, duration, complexity, affordability }) 
                         <Text style={styles.title}>{title}</Text>
                     </View>
                     <MealDetails 
-                duration={duration}
-                complexity={complexity}
-                affordability={affordability}
-            />
+                        duration={duration}
+                        complexity={complexity}
+                        affordability={affordability}
+                    />
                 </View>
             </Pressable>
         </View>
