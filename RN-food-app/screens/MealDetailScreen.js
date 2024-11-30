@@ -15,7 +15,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <Button  />
+                return <Button title="T" />
             }
         })
     })
