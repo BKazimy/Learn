@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 function Subtitle() {
     return (
@@ -9,3 +9,5 @@ function Subtitle() {
 }
 
 export default Subtitle;
+
+s
