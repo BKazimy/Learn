@@ -4,7 +4,6 @@ import {
     StyleSheet, 
     Text, 
     View, 
-    Button 
 } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
@@ -12,6 +11,7 @@ import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
 import { useLayoutEffect } from "react";
+import IconButton from "../components/IconButton";
 
 function MealDetailScreen({ route, navigation }) {
     const mealId = route.params.mealId;
@@ -26,10 +26,7 @@ function MealDetailScreen({ route, navigation }) {
         console.log('tapped');
         navigation.setOptions({
             headerRight: () => {
-                return <Button 
-                    title="Tap me" 
-                    onPress={headerButtonPressHandler}
-                />
+                return <IconButton />
             }
         });
     }, [navigation, headerButtonPressHandler]);
