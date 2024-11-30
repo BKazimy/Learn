@@ -12,8 +12,10 @@ function MealDetailScreen({ route, navigation }) {
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
+    function headerButtonPressHandler() {
+        
+    }
 
-    
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
