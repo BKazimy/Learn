@@ -1,7 +1,7 @@
 import { Text } from "react-native";
 
 function MealDetailScreen({ route }) {
-    const mealId = rout
+    const mealId = route.params.id
     return <Text>This is the Meal Detail screen {id}!</Text>
 }
 
