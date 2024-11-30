@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 function MealItem({ title, imageURL, duration, complexity, affordability }) {
     const navigation = useNavigation;
     navigation.navigate("MealDetail", {
-        
+        mealId:  id
     })
     
     return (
