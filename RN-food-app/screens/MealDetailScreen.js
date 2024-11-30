@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
         fontWeight: 'bold',
-        margin: 6,
+        margin: 4,
+        
     }
 })
