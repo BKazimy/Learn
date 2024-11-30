@@ -10,7 +10,8 @@ function MealDetailScreen({ route }) {
 
     return (
         <View>
-            <Image source={{uri: selectedMeal.imageUrl}} />
+            <Image 
+            source={{uri: selectedMeal.imageUrl}} />
             <Text>{selectedMeal.title}</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
@@ -35,6 +36,6 @@ export default MealDetailScreen;
 const styles = StyleSheet.create({
     image: {
         width: "100%",
-        
+        width: 350,
     }
 })
