@@ -12,7 +12,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
     useLayoutEffect(() => {
-        navi
+        NavigationPreloadManager.setOp
     })
 
     return (
