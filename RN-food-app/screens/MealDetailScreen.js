@@ -18,6 +18,7 @@ function MealDetailScreen({ route }) {
                 affordability={selectedMeal.affordability}
             />
             <Text>ingredients:</Text>
+            
         </View>
     );
 }
