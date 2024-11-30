@@ -3,6 +3,7 @@ import {
     ScrollView, 
     StyleSheet, 
     Text, 
+    TouchableOpacity, 
     View, 
 } from "react-native";
 import { Button } from 'react-native';
@@ -25,7 +26,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <Tou 
+                return <TouchableOpacity 
                     title="header button" 
                     onPress={() => console.log("header button!")}
                 />
