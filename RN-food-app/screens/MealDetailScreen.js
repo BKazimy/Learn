@@ -14,7 +14,7 @@ function MealDetailScreen({ route }) {
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
             />
-            <Text>{selectedMeal.title}</Text>
+            <Text style>{selectedMeal.title}</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
@@ -46,6 +46,6 @@ const styles = StyleSheet.create({
         fontSize: 24,
         margin: 8,
         textAlign: 'center',
-        
+
     }
 })
