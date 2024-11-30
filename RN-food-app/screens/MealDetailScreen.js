@@ -26,7 +26,8 @@ function MealDetailScreen({ route }) {
             {selectedMeal.ingredients.map(ingredient => (
                 <Text key={ingredient}>{ingredient}</Text>
             ))}
-
+            
+            <Subtitle>ingredients:</Subtitle>
             {selectedMeal.steps.map(step => (
                 <Text key={step}>{step}</Text>
             ))}
