@@ -56,6 +56,10 @@ const styles = StyleSheet.create({
         width: '80%',
     },
 
+    listoutterContainer: {
+        alignItems: 'center',
+    },
+
     detailText: {
         color: 'white',
     },
