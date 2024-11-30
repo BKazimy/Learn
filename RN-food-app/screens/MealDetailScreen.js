@@ -22,7 +22,7 @@ function MealDetailScreen({ route, navigation }) {
                 return <Button title="Favorite" onPress={headerButtonPressHandler}/>
             }
         })
-    }, [])
+    }, [navigation, headerButtonPressHandler])
 
     return (
         <ScrollView style={styles.rootContainer}>
