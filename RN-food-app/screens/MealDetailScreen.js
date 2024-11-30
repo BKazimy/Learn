@@ -41,10 +41,6 @@ function MealDetailScreen({ route, navigation }) {
                 source={{uri: selectedMeal.imageUrl}} 
             />
             <Text style={styles.title}>{selectedMeal.title}</Text>
-            <Button 
-                    title="Tap me" 
-                    onPress={() => console.log("pressed!")}
-                />
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
