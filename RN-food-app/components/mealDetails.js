@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 
-function MealDetails() {
+function MealDetails({}) {
     return (
         <View style={styles.details}>
             <Text style={styles.detailItem}>{duration}m</Text>
