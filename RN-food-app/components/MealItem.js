@@ -2,6 +2,8 @@ import { View, Text, Pressable, Image, StyleSheet, Platform } from "react-native
 import { useNavigation } from "@react-navigation/native";
 
 function MealItem({ title, imageURL, duration, complexity, affordability }) {
+    const navigation = useNavigation
+    
     return (
         <View style={styles.mealItem}>
             <Pressable 
