@@ -19,10 +19,10 @@ export default function App() {
           contentStyle: { backgroundColor: '#3f2f25' },
         }} >
           <Stack.Screen 
-            name='Meal Categories' 
+            name='MealCategories' 
             component={CategoriesScreen}
             options={{
-              title: "All Categories"
+              title: "AllCategories"
             }}
           />
           <Stack.Screen 
