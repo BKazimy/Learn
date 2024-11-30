@@ -20,5 +20,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#e2b497',
     },
 
-    item
+    itemText: {
+        
+    }
 })
