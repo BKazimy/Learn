@@ -24,7 +24,7 @@ function MealDetailScreen({ route }) {
                 textStyle={styles.detailText}
             />
 
-            <View style={styles.detailContainer}>
+            <View style={styles.listContainer}>
                 <Subtitle>ingredients:</Subtitle>
                 <List data={selectedMeal.ingredients} />
                 <Subtitle>Steps:</Subtitle>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 
-    detailContainer: {
+    listContainer: {
         flex: 1,
     },
 
