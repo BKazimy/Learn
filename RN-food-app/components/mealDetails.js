@@ -1,3 +1,5 @@
+import { View, Text } from "react-native";
+
 function MealDetails() {
     return (
         <View style={styles.details}>
