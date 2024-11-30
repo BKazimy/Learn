@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 
-function Subtitle() {
+function Subtitle({ chil}) {
     return (
     <View style={styles.subtitleContainer}>
         <Text style={styles.subtitle}>Steps:</Text>
