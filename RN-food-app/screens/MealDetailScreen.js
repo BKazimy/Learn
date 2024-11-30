@@ -26,7 +26,7 @@ function MealDetailScreen({ route, navigation }) {
         navigation.setOptions({
             headerRight: () => {
                 return <Button 
-                    title="Tap me" 
+                    title="header button" 
                     onPress={() => console.log("pressed!")}
                 />
             }
