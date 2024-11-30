@@ -10,4 +10,6 @@ function IconButton({ onPress, icon, color }) {
 
 export default IconButton;
 
-const styles = StyleSheet.create
+const styles = StyleSheet.create({
+    
+})
