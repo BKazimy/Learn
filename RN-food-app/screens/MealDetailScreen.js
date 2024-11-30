@@ -24,6 +24,7 @@ function MealDetailScreen({ route }) {
                 textStyle={styles.detailText}
             />
 
+
             <View style={styles.listContainer}>
                 <Subtitle>ingredients:</Subtitle>
                 <List data={selectedMeal.ingredients} />
