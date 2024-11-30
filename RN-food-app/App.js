@@ -35,6 +35,13 @@ export default function App() {
             //   };
             // }}
           />
+          <Stack.Screen 
+            name='Meal Categories' 
+            component={CategoriesScreen}
+            options={{
+              title: "All Categories"
+            }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </>
