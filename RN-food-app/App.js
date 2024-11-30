@@ -39,7 +39,7 @@ export default function App() {
             name='MealDetail' 
             component={CategoriesScreen}
             options={{
-              title: "All Categories"
+              title: "Meal Detail"
             }}
           />
         </Stack.Navigator>
