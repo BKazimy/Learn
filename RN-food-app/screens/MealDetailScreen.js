@@ -1,5 +1,8 @@
 import { 
-    Image, ScrollView, StyleSheet, Text, View, Button } from "react-native";
+    Image, 
+    ScrollView, 
+    StyleSheet, 
+    Text, View, Button } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
