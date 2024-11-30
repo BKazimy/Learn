@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
@@ -11,7 +11,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
     return (
-        <View>
+        <ScrollView>
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
@@ -32,7 +32,7 @@ function MealDetailScreen({ route }) {
                     <List data={selectedMeal.steps} />
                 </View>
             </View>
-        </View>
+        </ScrollView>
     );
 }
 
