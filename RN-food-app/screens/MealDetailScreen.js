@@ -11,7 +11,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
     return (
-        <ScrollView>
+        <ScrollView style={styles.rootContainer}>
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
