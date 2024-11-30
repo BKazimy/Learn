@@ -36,6 +36,10 @@ function MealDetailScreen({ route, navigation }) {
 
     return (
         <ScrollView style={styles.rootContainer}>
+            <Button 
+                title="Tap me" 
+                onPress={() => console.log("pressed!")}
+            />
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
