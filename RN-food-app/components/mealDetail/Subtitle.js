@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 function Subtitle({ children }) {
     return (
     <View style={styles.subtitleContainer}>
-        <Text style={styles.subtitle}>{}</Text>
+        <Text style={styles.subtitle}>{children}</Text>
     </View>
     );
 }
