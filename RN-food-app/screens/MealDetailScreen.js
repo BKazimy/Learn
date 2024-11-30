@@ -14,9 +14,9 @@ function MealDetailScreen({ route }) {
             <Text>{selectedMeal.title}</Text>
             
             <MealDetails 
-                        duration={duration}
-                        complexity={complexity}
-                        affordability={affordability}
+                        duration={selectedMeal.duration}
+                        complexity={selectedMeal.complexity}
+                        affordability={selectedMeal.affordability}
                     />
         </View>
     );
