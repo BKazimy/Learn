@@ -11,16 +11,18 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
-import { useLayoutEffect } from "react";
+import { useCallback, useLayoutEffect } from "react";
 
 function MealDetailScreen({ route, navigation }) {
     const mealId = route.params.mealId;
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
-    function headerButtonPressHandler() {
-        console.log("pressed!");
-    }
+    const headerButtonPressHandler = useCallback(async () => {
+        console.log("Processing...");
+        await someAsyncFunction();
+        console.log("Done!");
+      }, []);
 
     useLayoutEffect(() => {
         console.log('tapped');
