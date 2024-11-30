@@ -26,6 +26,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
+                console.log("header touchable!")
                 return <TouchableOpacity onPress={() => console.log("header touchable!")}>
                     <Text style={{ padding: 10, color: 'blue' }}>Header touch</Text>
                 </TouchableOpacity>
