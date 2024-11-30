@@ -40,7 +40,7 @@ export default MealDetailScreen;
 
 const styles = StyleSheet.create({
     rootContainer: {
-        marginBottom: 12,
+        marginBottom: 32,
     },
 
     image: {
