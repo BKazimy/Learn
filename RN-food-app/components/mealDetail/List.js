@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
     },
 
     itemText: {
-        color: ''
+        color: '#351401'
     }
 })
