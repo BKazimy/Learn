@@ -42,9 +42,6 @@ export default function App() {
             component={MealDetailScreen}
             options={{
               title: "Meal Detail",
-              headerRight: () => {
-                return <Button title='Favorit'  />
-              }
             }}
           />
         </Stack.Navigator>
