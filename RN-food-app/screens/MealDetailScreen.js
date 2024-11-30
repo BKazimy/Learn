@@ -11,7 +11,9 @@ function MealDetailScreen({ route }) {
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
-    useLayoutEffect(() => {})
+    useLayoutEffect(() => {
+        navi
+    })
 
     return (
         <ScrollView style={styles.rootContainer}>
