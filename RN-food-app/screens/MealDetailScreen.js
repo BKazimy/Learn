@@ -16,16 +16,16 @@ function MealDetailScreen({ route, navigation }) {
         console.log('pressed');
     }
 
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            headerRight: () => {
-                return <Button 
-                    title="Tap me" 
-                    onPress={headerButtonPressHandler}
-                />
-            }
-        })
-    }, [navigation, headerButtonPressHandler])
+    // useLayoutEffect(() => {
+    //     navigation.setOptions({
+    //         headerRight: () => {
+    //             return <Button 
+    //                 title="Tap me" 
+    //                 onPress={headerButtonPressHandler}
+    //             />
+    //         }
+    //     })
+    // }, [navigation, headerButtonPressHandler])
 
     return (
         <ScrollView style={styles.rootContainer}>
