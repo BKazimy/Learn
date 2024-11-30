@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
     },
 
     itemText: {
-        color: '#351401'
+        color: '#351401',
+        textAlign: 'center',
     }
 })
