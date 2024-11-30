@@ -3,7 +3,10 @@ import { Pressable } from "react-native";
 import { StyleSheet } from "react-native";
 
 function IconButton({ onPress, icon, color }) {
-    return <Pressable onPress={onPress}>
+    return <Pressable 
+        onPress={onPress} 
+        style={({pressed})}
+    >
         <Ionicons name={icon} size={24} color={color} />
     </Pressable>
 }
