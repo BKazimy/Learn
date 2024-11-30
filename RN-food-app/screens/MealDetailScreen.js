@@ -18,7 +18,7 @@ function MealDetailScreen({ route }) {
                 affordability={selectedMeal.affordability}
             />
             <Text>ingredients:</Text>
-            
+            {selectedMeal.ingredients.map(ingredients => <Text></Text>)}
         </View>
     );
 }
