@@ -41,7 +41,9 @@ export default function App() {
             component={MealDetailScreen}
             options={{
               title: "Meal Detail",
-              header
+              headerRight: () => {
+                return
+              }
             }}
           />
         </Stack.Navigator>
