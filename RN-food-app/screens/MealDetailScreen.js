@@ -38,6 +38,6 @@ export default MealDetailScreen;
 const styles = StyleSheet.create({
     image: {
         width: "100%",
-        width: 350,
+        height: 350,
     }
 })
