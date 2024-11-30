@@ -4,6 +4,7 @@ import {
     StyleSheet, 
     Text, 
     View, 
+    Button 
 } from "react-native";
 import { Button } from 'react-native';
 
@@ -18,9 +19,9 @@ function MealDetailScreen({ route, navigation }) {
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
-    const headerButtonPressHandler = () => {
+    const headerButtonPressHandler = useCallback(() => {
         console.log("pressed!");
-    };
+    }, [])
 
     useLayoutEffect(() => {
         console.log('tapped');
@@ -28,18 +29,14 @@ function MealDetailScreen({ route, navigation }) {
             headerRight: () => {
                 return <Button 
                     title="Tap me" 
-                    onPress={() => console.log("pressed!")}
+                    onPress={headerButtonPressHandler}
                 />
             }
         });
-    }, []);
+    }, [navigation]);
 
     return (
         <ScrollView style={styles.rootContainer}>
-            <Button 
-                    title="Tap me" 
-                    onPress={() => console.log("pressed!")}
-            />
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
