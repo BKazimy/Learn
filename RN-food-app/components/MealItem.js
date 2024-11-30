@@ -3,7 +3,9 @@ import { useNavigation } from "@react-navigation/native";
 
 function MealItem({ title, imageURL, duration, complexity, affordability }) {
     const navigation = useNavigation;
-    navigation.navigate("Meal")
+    navigation.navigate("MealDetail", {
+        
+    })
     
     return (
         <View style={styles.mealItem}>
