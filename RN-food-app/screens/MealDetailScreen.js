@@ -24,11 +24,12 @@ function MealDetailScreen({ route }) {
                 textStyle={styles.detailText}
             />
 
-
-            <Subtitle>ingredients:</Subtitle>
-            <List data={selectedMeal.ingredients} />
-            <Subtitle>Steps:</Subtitle>
-            <List data={selectedMeal.steps} />
+            <View>
+                <Subtitle>ingredients:</Subtitle>
+                <List data={selectedMeal.ingredients} />
+                <Subtitle>Steps:</Subtitle>
+                <List data={selectedMeal.steps} />
+            </View>
         </View>
     );
 }
