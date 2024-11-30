@@ -64,6 +64,6 @@ const styles = StyleSheet.create({
 
     subtitleContainer: {
         padding: 6,
-        borderBo
+        borderBottomWidth: 2
     }
 })
