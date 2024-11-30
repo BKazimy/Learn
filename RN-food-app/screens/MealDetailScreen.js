@@ -23,7 +23,6 @@ function MealDetailScreen({ route, navigation }) {
     };
 
     useLayoutEffect(() => {
-        console.log('tapped');
         navigation.setOptions({
             headerRight: () => {
                 return <Button 
