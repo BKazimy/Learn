@@ -5,7 +5,6 @@ import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
 import { useLayoutEffect } from "react";
-import { Button } from "react-native";
 
 function MealDetailScreen({ route, navigation }) {
     const mealId = route.params.mealId;
