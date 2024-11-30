@@ -6,7 +6,7 @@ import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
 import { useLayoutEffect } from "react";
 
-function MealDetailScreen({ route }) {
+function MealDetailScreen({ route, navigation }) {
     const mealId = route.params.mealId;
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
