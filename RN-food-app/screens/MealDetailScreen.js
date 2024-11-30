@@ -22,7 +22,7 @@ function MealDetailScreen({ route, navigation }) {
         console.log("Processing...");
         await someAsyncFunction();
         console.log("Done!");
-      }, []);
+      }, []); 
 
     useLayoutEffect(() => {
         console.log('tapped');
