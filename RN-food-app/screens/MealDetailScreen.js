@@ -19,7 +19,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <Button title="Favorite" onPress={headerButtonPressHandler}/>
+                return <Button title="Tap me" onPress={headerButtonPressHandler}/>
             }
         })
     }, [navigation, headerButtonPressHandler])
