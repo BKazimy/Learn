@@ -9,7 +9,7 @@ function MealDetailScreen({ route }) {
 
     return (
         <View>
-            <Image  />
+            <Image source={{}} />
             <View>
                 <Text>ingredients:</Text>
                 <Text>Steps: </Text>
