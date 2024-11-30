@@ -12,10 +12,12 @@ function MealDetailScreen({ route, navigation }) {
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
+
+    
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <Button title="T" />
+                return <Button title="Favorite" onPress={headerButtonPressHandler}/>
             }
         })
     })
