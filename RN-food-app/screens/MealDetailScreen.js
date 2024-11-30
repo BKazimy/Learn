@@ -10,6 +10,7 @@ function MealDetailScreen({ route }) {
     return (
         <View>
             <Image source={{uri: selectedMeal.imageUrl}} />
+            <Text></Text>
             <View>
                 <Text>ingredients:</Text>
                 <Text>Steps: </Text>
