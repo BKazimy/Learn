@@ -3,6 +3,7 @@ import { Image, StyleSheet, Text, View } from "react-native";
 import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
+import List from "../components/mealDetail/List";
 
 function MealDetailScreen({ route }) {
     const mealId = route.params.mealId;
@@ -29,6 +30,7 @@ function MealDetailScreen({ route }) {
             ))}
 
             <Subtitle>Steps:</Subtitle>
+            <List data={selectedMeal.steps} />
         </View>
     );
 }
