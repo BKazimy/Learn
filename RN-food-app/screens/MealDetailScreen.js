@@ -52,5 +52,7 @@ const styles = StyleSheet.create({
 
     detailText: {
         color: 'white',
-    }
+    },
+
+    subtit
 })
