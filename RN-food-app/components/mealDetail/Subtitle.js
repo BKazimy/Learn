@@ -10,4 +10,4 @@ function Subtitle() {
 
 export default Subtitle;
 
-s
+const styles = StyleSheet.create
