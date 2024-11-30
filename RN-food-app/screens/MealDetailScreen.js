@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
 
     listContainer: {
-        flex: 1,
+        width: '80%',
     },
 
     detailText: {
