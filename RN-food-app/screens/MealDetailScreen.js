@@ -25,7 +25,7 @@ function MealDetailScreen({ route, navigation }) {
                     onPress={headerButtonPressHandler}
                 />
             }
-        })
+        });
     }, [navigation, headerButtonPressHandler])
 
     return (
