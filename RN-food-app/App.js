@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
+import { Button } from 'react-native-web';
 
 const Stack = createNativeStackNavigator();
 
@@ -42,7 +43,7 @@ export default function App() {
             options={{
               title: "Meal Detail",
               headerRight: () => {
-                return <Text>In the header.</Text>
+                return <Button title='' />
               }
             }}
           />
