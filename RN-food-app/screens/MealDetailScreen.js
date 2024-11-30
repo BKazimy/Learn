@@ -32,4 +32,8 @@ function MealDetailScreen({ route }) {
 
 export default MealDetailScreen;
 
-const styles = StyleSheet.create
+const styles = StyleSheet.create({
+    image: {
+        width: ""
+    }
+})
