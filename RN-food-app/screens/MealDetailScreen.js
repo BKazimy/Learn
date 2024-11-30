@@ -31,7 +31,7 @@ function MealDetailScreen({ route, navigation }) {
                 </TouchableOpacity>
             }
         });
-    }, []);
+    }, [navigation]);
 
     return (
         <ScrollView style={styles.rootContainer}>
