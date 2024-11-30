@@ -50,6 +50,10 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 
+    detailCoontainer: {
+        flex: 1,
+    },
+
     detailText: {
         color: 'white',
     },
