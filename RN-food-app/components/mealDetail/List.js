@@ -11,5 +11,8 @@ function List({ data }) {
 export default List;
 
 const styles = StyleSheet.create({
-
+    listItem: {
+        borderRadius: 6,
+        paddi
+    }
 })
