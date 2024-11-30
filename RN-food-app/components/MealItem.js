@@ -1,5 +1,6 @@
 import { View, Text, Pressable, Image, StyleSheet, Platform } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import MealDetails from "./mealDetails";
 
 function MealItem({ id, title, imageURL, duration, complexity, affordability }) {
     const navigation = useNavigation();
@@ -21,7 +22,7 @@ function MealItem({ id, title, imageURL, duration, complexity, affordability }) 
                         <Image source={{uri: imageURL}} style={styles.image} />
                         <Text style={styles.title}>{title}</Text>
                     </View>
-                    <Meal 
+                    <MealDetails 
                         duration={duration}
                         complexity={complexity}
                         affordability={affordability}
