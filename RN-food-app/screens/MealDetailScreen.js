@@ -24,6 +24,7 @@ function MealDetailScreen({ route }) {
 
             <View style={styles.subtitleContainer}>
                 <Text style={styles.subtitle}>ingredients:</Text>
+            </View>
                 {selectedMeal.ingredients.map(ingredient => (
                     <Text key={ingredient}>{ingredient}</Text>
                 ))}
@@ -32,7 +33,6 @@ function MealDetailScreen({ route }) {
                 {selectedMeal.steps.map(step => (
                     <Text key={step}>{step}</Text>
                 ))}
-            </View>
         </View>
     );
 }
