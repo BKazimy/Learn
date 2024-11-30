@@ -69,6 +69,6 @@ const styles = StyleSheet.create({
         marginHorizontal: 24,
         marginVertical: 4,
         borderBottomWidth: 1,
-        borderBottomColor: 'white',
+        // borderBottomColor: 'white',
     }
 })
