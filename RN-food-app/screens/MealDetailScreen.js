@@ -56,18 +56,4 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 
-    subtitle: {
-        color: '#e2b497',
-        fontSize: 18,
-        fontWeight: 'bold',
-        textAlign: 'center',
-    },
-
-    subtitleContainer: {
-        padding: 6,
-        marginHorizontal: 24,
-        marginVertical: 4,
-        borderBottomWidth: 2,
-        borderBottomColor: '#e2b497',
-    }
 })
