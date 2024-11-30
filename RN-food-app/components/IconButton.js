@@ -3,7 +3,7 @@ import { Pressable } from "react-native";
 
 function IconButton({ onPress, icon, color }) {
     return <Pressable onPress={onPress}>
-        <Ionicons name={icon} size={24} color="white" />
+        <Ionicons name={icon} size={24} color={color} /> 
     </Pressable>
 }
 
