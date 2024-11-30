@@ -26,10 +26,9 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <TouchableOpacity 
-                    title="header button" 
-                    onPress={() => console.log("header button!")}
-                />
+                return <TouchableOpacity onPress={() => console.log("header button!")}>
+                    <Text style={{ padding: 10, color: 'blue' }}>Header</Text>
+                </TouchableOpacity>
             }
         });
     }, []);
