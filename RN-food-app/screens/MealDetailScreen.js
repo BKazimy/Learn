@@ -56,6 +56,6 @@ const styles = StyleSheet.create({
 
     subtitle: {
         color: 'white',
-        font
+        fontSize: ''
     }
 })
