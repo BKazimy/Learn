@@ -1,5 +1,5 @@
 
 
 function MealDetailScreen() {
-    return <Text>This</Text>
+    return <Text>This is the Meal Detail screen (M</Text>
 }
