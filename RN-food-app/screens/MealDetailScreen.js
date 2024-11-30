@@ -29,7 +29,7 @@ function MealDetailScreen({ route, navigation }) {
                 return <IconButton 
                     onPress={headerButtonPressHandler} 
                     icon="start"
-                    
+                    color="white"
                 />
             }
         });
