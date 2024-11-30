@@ -54,5 +54,7 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 
-    subtit
+    subtitle: {
+        
+    }
 })
