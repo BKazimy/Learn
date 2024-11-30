@@ -42,7 +42,7 @@ export default function App() {
             options={{
               title: "Meal Detail",
               headerRight: () => {
-                return <Text>Th</Text>
+                return <Text>In the header.</Text>
               }
             }}
           />
