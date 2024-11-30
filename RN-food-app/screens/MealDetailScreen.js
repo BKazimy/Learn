@@ -16,7 +16,7 @@ function MealDetailScreen({ route, navigation }) {
         console.log('pressed');
     }
 
-    // useLayoutEffect(() => {
+    useLayoutEffect(() => {
     //     navigation.setOptions({
     //         headerRight: () => {
     //             return <Button 
@@ -25,7 +25,7 @@ function MealDetailScreen({ route, navigation }) {
     //             />
     //         }
     //     })
-    // }, [navigation, headerButtonPressHandler])
+    }, [navigation, headerButtonPressHandler])
 
     return (
         <ScrollView style={styles.rootContainer}>
