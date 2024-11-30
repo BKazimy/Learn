@@ -19,6 +19,7 @@ function MealDetailScreen({ route }) {
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
                 affordability={selectedMeal.affordability}
+                textStyle={styles.detailText}
             />
             <Text>ingredients:</Text>
             {selectedMeal.ingredients.map(ingredient => (
@@ -46,6 +47,10 @@ const styles = StyleSheet.create({
         fontSize: 24,
         margin: 8,
         textAlign: 'center',
+        color: 'white',
+    },
+
+    detailText: {
         color: 'white',
     }
 })
