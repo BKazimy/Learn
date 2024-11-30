@@ -3,7 +3,6 @@ import {
     ScrollView, 
     StyleSheet, 
     Text, 
-    TouchableOpacity, 
     View, 
 } from "react-native";
 import { Button } from 'react-native';
@@ -24,25 +23,23 @@ function MealDetailScreen({ route, navigation }) {
     };
 
     useLayoutEffect(() => {
+        console.log('tapped');
         navigation.setOptions({
             headerRight: () => {
-                console.log("header touchable rendered!")
-                return <TouchableOpacity onPress={() => console.log("header touchable!")}>
-                    <Text style={{ padding: 10, color: 'blue' }}>Header touch</Text>
-                </TouchableOpacity>
+                return <Button 
+                    title="Tap me" 
+                    onPress={() => console.log("pressed!")}
+                />
             }
         });
-    }, [navigation]);
+    }, []);
 
     return (
         <ScrollView style={styles.rootContainer}>
             <Button 
-                title="page button" 
-                onPress={() => console.log("page button!")}
+                    title="Tap me" 
+                    onPress={() => console.log("pressed!")}
             />
-            <TouchableOpacity onPress={() => console.log("header touchable!")}>
-                <Text style={{ padding: 10, color: 'blue' }}>Header touch</Text>
-            </TouchableOpacity>
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
