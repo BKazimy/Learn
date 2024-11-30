@@ -37,8 +37,8 @@ function MealDetailScreen({ route, navigation }) {
     return (
         <ScrollView style={styles.rootContainer}>
             <Button 
-                title="Tap me" 
-                onPress={() => console.log("page pressed!")}
+                title="page button" 
+                onPress={() => console.log("page button!")}
             />
             <Image 
                 style={styles.image}
