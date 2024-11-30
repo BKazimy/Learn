@@ -21,7 +21,7 @@ function MealItem({ id, title, imageURL, duration, complexity, affordability }) 
                         <Image source={{uri: imageURL}} style={styles.image} />
                         <Text style={styles.title}>{title}</Text>
                     </View>
-                    <MealDetails 
+                    <Meal 
                         duration={duration}
                         complexity={complexity}
                         affordability={affordability}
