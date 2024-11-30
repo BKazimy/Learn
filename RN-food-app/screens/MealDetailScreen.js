@@ -21,7 +21,7 @@ function MealDetailScreen({ route }) {
                 affordability={selectedMeal.affordability}
                 textStyle={styles.detailText}
             />
-            <Text>ingredients:</Text>
+            <Text style>ingredients:</Text>
             {selectedMeal.ingredients.map(ingredient => (
                 <Text key={ingredient}>{ingredient}</Text>
             ))}
