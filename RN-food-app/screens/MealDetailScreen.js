@@ -60,5 +60,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         margin: 4,
         textAlign: 'center',
+    },
+
+    subtitleContainer: {
+        padding: 6,
+        borderBo
     }
 })
