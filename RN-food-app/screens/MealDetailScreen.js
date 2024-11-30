@@ -27,7 +27,7 @@ function MealDetailScreen({ route, navigation }) {
             headerRight: () => {
                 return <Button 
                     title="header button" 
-                    onPress={() => console.log("pressed!")}
+                    onPress={() => console.log("header button!")}
                 />
             }
         });
