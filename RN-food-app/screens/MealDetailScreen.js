@@ -12,7 +12,6 @@ function MealDetailScreen({ route }) {
         <View>
             <Image source={{uri: selectedMeal.imageUrl}} />
             <Text>{selectedMeal.title}</Text>
-            
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
