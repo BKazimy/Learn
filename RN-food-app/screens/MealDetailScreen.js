@@ -17,7 +17,7 @@ function MealDetailScreen({ route }) {
                 complexity={selectedMeal.complexity}
                 affordability={selectedMeal.affordability}
             />
-            <Text>ingredients</Text>
+            <Text>ingredients:</Text>
         </View>
     );
 }
