@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        font
     }
 })
