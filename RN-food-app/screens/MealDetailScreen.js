@@ -1,6 +1,7 @@
 import { Image, Text, View } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
+import MealDetails from "../components/mealDetails";
 
 function MealDetailScreen({ route }) {
     const mealId = route.params.mealId;
@@ -11,7 +12,9 @@ function MealDetailScreen({ route }) {
         <View>
             <Image source={{uri: selectedMeal.imageUrl}} />
             <Text>{selectedMeal.title}</Text>
-            
+            <MealDetails 
+                
+            />
         </View>
     );
 }
