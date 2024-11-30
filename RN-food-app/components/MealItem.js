@@ -3,14 +3,16 @@ import { useNavigation } from "@react-navigation/native";
 
 function MealItem({ id, title, imageURL, duration, complexity, affordability }) {
     const navigation = useNavigation();
-    navigation.navigate("MealDetail", {
-        mealId:  id,
-    })
+    function pressHandler() {
+        navigation.navigate("MealDetail", {
+            mealId:  id,
+        })
+    };
     
     return (
         <View style={styles.mealItem}>
             <Pressable 
-                // onPress={}
+                onPress={pressHandler}
                 android_ripple={{ color: '#ccc' }}
                 style={({ pressed }) => (pressed ? styles.buttonPressed : null)}
             >
