@@ -2,6 +2,7 @@ import { Image, StyleSheet, Text, View } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
+import Subtitle from "../components/mealDetail/Subtitle";
 
 function MealDetailScreen({ route }) {
     const mealId = route.params.mealId;
@@ -22,9 +23,7 @@ function MealDetailScreen({ route }) {
                 textStyle={styles.detailText}
             />
 
-            <View style={styles.subtitleContainer}>
-                <Text style={styles.subtitle}>ingredients:</Text>
-            </View>
+            <Subtitle></Subtitle>
             {selectedMeal.ingredients.map(ingredient => (
                 <Text key={ingredient}>{ingredient}</Text>
             ))}
