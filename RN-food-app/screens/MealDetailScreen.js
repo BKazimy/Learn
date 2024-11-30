@@ -26,7 +26,7 @@ function MealDetailScreen({ route, navigation }) {
         console.log('tapped');
         navigation.setOptions({
             headerRight: () => {
-                return <IconButton />
+                return <IconButton onPress={headerButtonPressHandler} />
             }
         });
     }, [navigation, headerButtonPressHandler]);
