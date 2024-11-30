@@ -28,7 +28,7 @@ function MealDetailScreen({ route, navigation }) {
             headerRight: () => {
                 return <Button 
                     title="Tap me" 
-                    onPress={headerButtonPressHandler}
+                    onPress={() => console.log("pressed!")}
                 />
             }
         });
