@@ -6,3 +6,5 @@ function IconButton() {
         <Ionicons name="star" size={24} color="white" />
     </Pressable>
 }
+
+export default Icon
