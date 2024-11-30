@@ -25,7 +25,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <Button 
+                return <Tou 
                     title="header button" 
                     onPress={() => console.log("header button!")}
                 />
