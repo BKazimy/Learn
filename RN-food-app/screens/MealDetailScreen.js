@@ -23,8 +23,8 @@ function MealDetailScreen({ route }) {
             })}
 
             <Text>Steps:</Text>
-            {selectedMeal.ingredients.map(ingredients => {
-                <Text key={ingredients}>{ingredients}</Text>
+            {selectedMeal.step.map(step => {
+                <Text key={step}>{step}</Text>
             })}
         </View>
     );
