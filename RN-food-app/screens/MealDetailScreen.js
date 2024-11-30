@@ -17,6 +17,7 @@ function MealDetailScreen({ route, navigation }) {
     }
 
     useLayoutEffect(() => {
+        console.log('pressed');
         navigation.setOptions({
             headerRight: () => {
                 return <Button 
