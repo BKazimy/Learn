@@ -4,11 +4,14 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
+import { useLayoutEffect } from "react";
 
 function MealDetailScreen({ route }) {
     const mealId = route.params.mealId;
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
+
+    useLayoutEffect
 
     return (
         <ScrollView style={styles.rootContainer}>
