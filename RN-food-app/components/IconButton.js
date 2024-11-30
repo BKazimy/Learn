@@ -7,4 +7,4 @@ function IconButton() {
     </Pressable>
 }
 
-export default Icon
+export default IconButton;
