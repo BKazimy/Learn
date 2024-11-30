@@ -39,6 +39,9 @@ function MealDetailScreen({ route, navigation }) {
                 title="page button" 
                 onPress={() => console.log("page button!")}
             />
+            <TouchableOpacity onPress={() => console.log("header button!")}>
+                    <Text style={{ padding: 10, color: 'blue' }}>Header button</Text>
+                </TouchableOpacity>
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
