@@ -5,6 +5,9 @@ function MealDetailScreen({ route }) {
     return (
         <View>
             <Image  />
+            <View>
+                <Text></Text>
+            </View>
         </View>
     );
 }
