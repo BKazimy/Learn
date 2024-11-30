@@ -61,6 +61,5 @@ const styles = StyleSheet.create({
         margin: 4,
         padding: 6,
         textAlign: 'center',
-        border
     }
 })
