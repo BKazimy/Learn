@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         margin: 4,
         padding: 6,
-        
+        textAlign: 'center',
+        border
     }
 })
