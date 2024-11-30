@@ -6,7 +6,8 @@ function MealDetailScreen({ route }) {
         <View>
             <Image  />
             <View>
-                <Text></Text>
+                <Text>ingredients:</Text>
+                <Text>Steps</Text>
             </View>
         </View>
     );
