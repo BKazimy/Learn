@@ -14,7 +14,12 @@ const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
-  return <Drawer.Navigator>
+  return <Drawer.Navigator 
+    // screenOptions={{
+    // headerStyle: { backgroundColor: '#351401' },
+    // headerTintColor: 'white',
+    // contentStyle: { backgroundColor: '#3f2f25' },
+  >
     <Drawer.Screen 
       name='Categories'
       component={CategoriesScreen}
