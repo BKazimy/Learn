@@ -10,6 +10,7 @@ import MealDetailScreen from './screens/MealDetailScreen';
 import { Button } from 'react-native-web';
 
 const Stack = createNativeStackNavigator();
+const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
   return
