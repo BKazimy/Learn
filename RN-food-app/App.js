@@ -14,7 +14,7 @@ const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
   return <Drawer.Navigator>
-    <Drawer.screen />
+    <Drawer.Screen />
   </Drawer.Navigator>
 }
 
