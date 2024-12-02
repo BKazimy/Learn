@@ -19,7 +19,7 @@ export default function App() {
           drawerLabel: "Welcome screen",
           drawerActiveBackgroundColor: "#f0e1ff",
           drawerActiveTintColor: "#3c0a6b",
-          drawerStyle: { backgroundColor}
+          drawerStyle: { backgroundColor: "#ccc" },
         }}
       />
       <Drawer.Screen 
