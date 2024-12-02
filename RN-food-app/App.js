@@ -58,10 +58,6 @@ export default function App() {
             }}
           />
           <Stack.Screen 
-            name='FavoritesStack'
-            component={FavoritesScreen}
-          />
-          <Stack.Screen 
             name='MealOverview' 
             component={MealsOverviewScreen}
             // options={({ route, navigation }) => {
