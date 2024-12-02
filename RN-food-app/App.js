@@ -16,10 +16,7 @@ function DrawerNavigator() {
   return <Drawer.Navigator>
     <Drawer.Screen 
       name='Categories'
-      component={CategoriesScreen}
-    />
-    <Drawer.Screen 
-      name='Favorites'
+      comp
     />
   </Drawer.Navigator>
 }
