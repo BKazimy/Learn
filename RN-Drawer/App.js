@@ -24,7 +24,7 @@ export default function App() {
         name='Welcome'
         component={WelcomeScreen}
         options={{
-          tabBar
+          tabBarIcon: ({color, size})
         }}
       />
       <BottomTab.Screen 
