@@ -21,6 +21,7 @@ export default function App() {
       />
       <BottomTab.Screen 
         name='User'
+        component={UserScreen}
       />
     </BottomTab.Navigator>
   </NavigationContainer>
