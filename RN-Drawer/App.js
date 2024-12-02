@@ -9,6 +9,7 @@ export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator>
       <Drawer.Screen name='Welcome' component={WelcomeScreen} />
+      <Drawer.Screen name='Welcome' component={WelcomeScreen} />
     </Drawer.Navigator>
   </NavigationContainer>;
 }
