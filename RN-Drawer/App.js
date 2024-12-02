@@ -9,11 +9,11 @@ import { Ionicons } from '@expo/vector-icons';
 import WelcomeScreen from './screens/WelcomeScreen';
 import UserScreen from './screens/UserScreen';
 
-const BottomTab = createBottomTabNavigator();
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    <BottomTab.Navigator 
+    <Drawer.Navigator 
       screenOptions={{
         headerStyle: { backgroundColor: "#3c0a6b"},
         headerTintColor: 'white',
@@ -22,7 +22,7 @@ export default function App() {
         // drawerStyle: { backgroundColor: "#ccc" },
       }}
     >
-      <BottomTab.Screen 
+      <Drawer.Screen 
         name='Welcome' 
         component={WelcomeScreen} 
         options={{
@@ -34,7 +34,7 @@ export default function App() {
           />
         }}
       />
-      <BottomTab.Screen 
+      <Drawer.Screen 
         name='User' 
         component={UserScreen} 
         options={{
@@ -46,6 +46,6 @@ export default function App() {
           />
         }}
       />
-    </BottomTab.Navigator>
+    </Drawer.Navigator>
   </NavigationContainer>;
 }
