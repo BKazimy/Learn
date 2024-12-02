@@ -16,7 +16,7 @@ export default function App() {
         options={{
           headerStyle: { backgroundColor: "#3c0a6b"},
           headerTintColor: 'white',
-          drawerLabel: ""
+          drawerLabel: "Welcome screen"
         }}
       />
       <Drawer.Screen name='User' component={UserScreen} />
