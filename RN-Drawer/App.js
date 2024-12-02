@@ -22,7 +22,7 @@ export default function App() {
       <Drawer.Screen 
         name='User' 
         component={UserScreen} 
-        dra
+        drawerLabel
       />
     </Drawer.Navigator>
   </NavigationContainer>;
