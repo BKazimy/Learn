@@ -14,7 +14,11 @@ const BottomTab = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    
+    <BottomTab.Navigator>
+      <BottomTab.Screen 
+        
+      />
+    </BottomTab.Navigator>
   </NavigationContainer>
   
   // <NavigationContainer>
