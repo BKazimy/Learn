@@ -14,7 +14,9 @@ const BottomTab = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    <BottomTab.Navigator>
+    <BottomTab.Navigator
+    
+    >
       <BottomTab.Screen 
         name='Welcome'
         component={WelcomeScreen}
