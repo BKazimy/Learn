@@ -9,7 +9,7 @@ import { Ionicons } from '@expo/vector-icons';
 import WelcomeScreen from './screens/WelcomeScreen';
 import UserScreen from './screens/UserScreen';
 
-const Drawer = createDrawerNavigator();
+const Drawer = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
