@@ -15,7 +15,9 @@ const BottomTab = createBottomTabNavigator();
 export default function App() {
   return <NavigationContainer>
     <BottomTab.Navigator
-      screenop
+      screenOptions={{
+        headerStyle: {}
+      }}
     >
       <BottomTab.Screen 
         name='Welcome'
