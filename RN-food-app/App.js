@@ -8,6 +8,7 @@ import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
 import { Button } from 'react-native-web';
+import FavoritesScreen from './screens/FavoritesScreen';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -20,7 +21,7 @@ function DrawerNavigator() {
     />
     <Drawer.Screen 
       name='Favorites'
-      component={CategoriesScreen}
+      component={FavoritesScreen}
     />
   </Drawer.Navigator>
 }
