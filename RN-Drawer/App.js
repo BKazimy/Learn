@@ -15,8 +15,8 @@ export default function App() {
         component={WelcomeScreen} 
         options={{
           headerStyle: { backgroundColor: "#3c0a6b"},
-          headerTintColor
-          
+          headerTintColor: 'white',
+
         }}
       />
       <Drawer.Screen name='User' component={UserScreen} />
