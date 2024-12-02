@@ -37,7 +37,7 @@ export default function App() {
         options={{
           drawerLabel: "User Screen",
           drawerIcon: ({color, size}) => <Ionicons 
-            name='home' 
+            name='person' 
             color={color} 
             size={size} 
           />
