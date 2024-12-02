@@ -10,7 +10,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator 
-      droptions={{
+      drawerOptions={{
         headerStyle: { backgroundColor: "#3c0a6b"},
         headerTintColor: 'white',
       }}
