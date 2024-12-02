@@ -1,7 +1,7 @@
 import { Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 // import { createDrawerNavigator } from '@react-navigation/drawer';
-import { createBottomTabNavigator } from '@create'
+import { createBottomTabNavigator } from '@create-'
 
 import { Ionicons } from '@expo/vector-icons';
 
