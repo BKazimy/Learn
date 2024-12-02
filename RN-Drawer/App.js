@@ -14,7 +14,7 @@ export default function App() {
         name='Welcome' 
         component={WelcomeScreen} 
         options={{
-          header
+          headerbackg
         }}
       />
       <Drawer.Screen name='User' component={UserScreen} />
