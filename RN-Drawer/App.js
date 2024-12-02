@@ -24,10 +24,10 @@ export default function App() {
         component={WelcomeScreen} 
         options={{
           drawerLabel: "Welcome screen",
-          drawerIcon: ({color}) => <Ionicons 
+          drawerIcon: ({color, size}) => <Ionicons 
             name='home' 
             color={color} 
-            size={18} 
+            size={size} 
           />
         }}
       />
