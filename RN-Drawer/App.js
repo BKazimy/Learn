@@ -16,7 +16,8 @@ export default function App() {
   return <NavigationContainer>
     <BottomTab.Navigator>
       <BottomTab.Screen 
-        name=''
+        name='Welcome'
+        
       />
     </BottomTab.Navigator>
   </NavigationContainer>
