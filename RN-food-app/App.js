@@ -18,6 +18,10 @@ function DrawerNavigator() {
       name='Categories'
       component={CategoriesScreen}
     />
+    <Drawer.Screen 
+      name='Favorites'
+      component={CategoriesScreen}
+    />
   </Drawer.Navigator>
 }
 
