@@ -10,7 +10,7 @@ import WelcomeScreen from './screens/WelcomeScreen';
 import UserScreen from './screens/UserScreen';
 
 // const Drawer = createDrawerNavigator();
-const bottomTab = createBottomTabNavigator();
+const BottomTab = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
