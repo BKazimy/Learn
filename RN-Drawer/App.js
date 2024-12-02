@@ -35,7 +35,12 @@ export default function App() {
         name='User' 
         component={UserScreen} 
         options={{
-          drawerLabel: "User Screen"
+          drawerLabel: "User Screen",
+          drawerIcon: ({color, size}) => <Ionicons 
+            name='home' 
+            color={color} 
+            size={size} 
+          />
         }}
       />
     </Drawer.Navigator>
