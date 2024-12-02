@@ -32,7 +32,7 @@ export default function App() {
             name='MealCategories' 
             component={DrawerNavigator}
             options={{
-              title: "All Categories"
+              // title: "All Categories"
             }}
           />
           <Stack.Screen 
