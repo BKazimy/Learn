@@ -15,6 +15,9 @@ const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
   return <Drawer.Navigator 
+    screenOptions={{
+      header
+    }}
     // screenOptions={{
     // headerStyle: { backgroundColor: '#351401' },
     // headerTintColor: 'white',
