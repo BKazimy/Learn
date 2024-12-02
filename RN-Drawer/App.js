@@ -7,7 +7,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator>
-      <Drawer.Screen name='Welcome' />
+      <Drawer.Screen name='Welcome' component={Welcome} />
     </Drawer.Navigator>
   </NavigationContainer>;
 }
