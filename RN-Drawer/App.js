@@ -10,7 +10,11 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator 
-      
+      screenOptions={{
+        drawerActiveBackgroundColor: "#f0e1ff",
+        drawerActiveTintColor: "#3c0a6b",
+        drawerStyle: { backgroundColor: "#ccc" },
+      }}
     >
       <Drawer.Screen 
         name='Welcome' 
