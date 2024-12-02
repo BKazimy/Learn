@@ -1,1 +1,5 @@
-import { Text } from "react-native-web";
+import { Text } from "react-native";
+
+function FavoritesScreen() {
+    reu
+}
