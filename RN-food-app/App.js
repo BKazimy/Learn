@@ -13,12 +13,7 @@ const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
-  return <Drawer.Navigator>
-    <Drawer.Screen 
-      name='Categories'
-      comp
-    />
-  </Drawer.Navigator>
+  return <Drawer.Navigator></Drawer.Navigator>
 }
 
 export default function App() {
@@ -33,9 +28,9 @@ export default function App() {
         }} >
           <Stack.Screen 
             name='MealCategories' 
-            component={DrawerNavigator}
+            component={CategoriesScreen}
             options={{
-              // title: "All Categories"
+              title: "All Categories"
             }}
           />
           <Stack.Screen 
