@@ -34,7 +34,7 @@ export default function App() {
         component={UserScreen}
         options={{
           tabBarIcon: ({color, size}) => (
-            <Ionicons name='people' color={color} size={size} />
+            <Ionicons name='person' color={color} size={size} />
           )
         }}
       />
