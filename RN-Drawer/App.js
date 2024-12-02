@@ -11,7 +11,8 @@ export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator 
       options={{
-        
+        headerStyle: { backgroundColor: "#3c0a6b"},
+        headerTintColor: 'white',
       }}
     >
       <Drawer.Screen 
