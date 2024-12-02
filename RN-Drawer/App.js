@@ -23,7 +23,7 @@ export default function App() {
         name='User' 
         component={UserScreen} 
         options={{
-          drawerLabel: ""
+          drawerLabel: "User Screen"
         }}
       />
     </Drawer.Navigator>
