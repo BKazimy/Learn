@@ -32,7 +32,11 @@ export default function App() {
       <BottomTab.Screen 
         name='User'
         component={UserScreen}
-        
+        options={{
+          tabBarIcon: ({color, size}) => (
+            <Ionicons name='people' color={color} size={size} />
+          )
+        }}
       />
     </BottomTab.Navigator>
   </NavigationContainer>
