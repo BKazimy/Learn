@@ -22,6 +22,7 @@ export default function App() {
       <Drawer.Screen 
         name='User' 
         component={UserScreen} 
+        dra
       />
     </Drawer.Navigator>
   </NavigationContainer>;
