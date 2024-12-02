@@ -18,6 +18,9 @@ function DrawerNavigator() {
       name='Categories'
       component={CategoriesScreen}
     />
+    <Drawer.Screen 
+      
+    />
   </Drawer.Navigator>
 }
 
