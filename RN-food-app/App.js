@@ -8,34 +8,18 @@ import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
 import { Button } from 'react-native-web';
-import FavoritesScreen from './screens/FavoritesScreen';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
-  return <Drawer.Navigator
-    screenListeners={{
-      headerStyle: { backgroundColor: '#351401' },
-        headerTintColor: 'white',
-      contentStyle: { backgroundColor: '#3f2f25' },
-    }}
-  >
-    <Drawer.Screen 
-      name='Categories'
-      component={CategoriesScreen}
-    />
-    <Drawer.Screen 
-      name='Favorites'
-      component={FavoritesScreen}
-    />
-  </Drawer.Navigator>
+  return <Drawer.Navigator></Drawer.Navigator>
 }
 
 export default function App() {
   return (
     <>
-      <StatusBar style='dark' />
+      <StatusBar style='light' />
       <NavigationContainer>
         <Stack.Navigator screenOptions={{
           headerStyle: { backgroundColor: '#351401' },
@@ -44,10 +28,9 @@ export default function App() {
         }} >
           <Stack.Screen 
             name='MealCategories' 
-            component={DrawerNavigator}
+            component={CategoriesScreen}
             options={{
-              // title: "All Categories"
-              headerShown: false,
+              title: "All Categories"
             }}
           />
           <Stack.Screen 
