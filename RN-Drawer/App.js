@@ -20,7 +20,7 @@ export default function App() {
         component={WelcomeScreen}
       />
       <BottomTab.Screen 
-        
+        name='User'
       />
     </BottomTab.Navigator>
   </NavigationContainer>
