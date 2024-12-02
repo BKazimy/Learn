@@ -10,6 +10,10 @@ import { Button } from 'react-native-web';
 
 const Stack = createNativeStackNavigator();
 
+function DrawerNavigator() {
+  
+}
+
 export default function App() {
   return (
     <>
