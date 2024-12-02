@@ -41,6 +41,7 @@ export default function App() {
             component={DrawerNavigator}
             options={{
               // title: "All Categories"
+              headerShown: false,
             }}
           />
           <Stack.Screen 
