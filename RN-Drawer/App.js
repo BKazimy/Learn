@@ -14,7 +14,7 @@ const BottomTab = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    {/* <Drawer.Navigator 
+    <Drawer.Navigator 
       screenOptions={{
         headerStyle: { backgroundColor: "#3c0a6b"},
         headerTintColor: 'white',
@@ -47,6 +47,6 @@ export default function App() {
           />
         }}
       />
-    </Drawer.Navigator> */}
+    </Drawer.Navigator>
   </NavigationContainer>;
 }
