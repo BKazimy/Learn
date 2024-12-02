@@ -11,6 +11,8 @@ export default function App() {
   return <NavigationContainer>
     <Drawer.Navigator 
       screenOptions={{
+        headerStyle: { backgroundColor: "#3c0a6b"},
+        headerTintColor: 'white',
         drawerActiveBackgroundColor: "#f0e1ff",
         drawerActiveTintColor: "#3c0a6b",
         // drawerStyle: { backgroundColor: "#ccc" },
@@ -20,8 +22,6 @@ export default function App() {
         name='Welcome' 
         component={WelcomeScreen} 
         options={{
-          headerStyle: { backgroundColor: "#3c0a6b"},
-          headerTintColor: 'white',
           drawerLabel: "Welcome screen",
         }}
       />
