@@ -1,6 +1,7 @@
 import { Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { Ionicons } from '@expo/vector-icons';
 
 import WelcomeScreen from './screens/WelcomeScreen';
 import UserScreen from './screens/UserScreen';
@@ -23,6 +24,7 @@ export default function App() {
         component={WelcomeScreen} 
         options={{
           drawerLabel: "Welcome screen",
+          drawerIcon: ({color}) => <Ionicons name='home' color={color} size={18} />
         }}
       />
       <Drawer.Screen 
