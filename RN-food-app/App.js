@@ -57,6 +57,7 @@ export default function App() {
               headerShown: false,
             }}
           />
+          <Stack.screen />
           <Stack.Screen 
             name='MealOverview' 
             component={MealsOverviewScreen}
