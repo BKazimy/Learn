@@ -16,7 +16,7 @@ const Drawer = createDrawerNavigator();
 function DrawerNavigator() {
   return <Drawer.Navigator
     screenListeners={{
-      headerStyle: {}
+      headerStyle: {backgroundColor: '#351401'},
     }}
   >
     <Drawer.Screen 
