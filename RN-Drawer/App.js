@@ -25,7 +25,10 @@ export default function App() {
         options={{
           drawerLabel: "Welcome screen",
           drawerIcon: ({color}) => <Ionicons 
-            name='home' color={color} size={18} />
+            name='home' 
+            color={color} 
+            size={18} 
+          />
         }}
       />
       <Drawer.Screen 
