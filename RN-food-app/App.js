@@ -16,7 +16,7 @@ const Drawer = createDrawerNavigator();
 function DrawerNavigator() {
   return <Drawer.Navigator
     screenListeners={{
-      headerStyle: { backgroundColor: '#3c0a6b'},
+      headerStyle: { backgroundColor: '#351401'},
       headerTintColor: 'white',
       tabBarActiveTintColor: '#3c0a6b'
 
@@ -41,7 +41,7 @@ export default function App() {
         <Stack.Navigator screenOptions={{
           headerStyle: { backgroundColor: '#351401' },
           headerTintColor: 'white',
-          contentStyle: { backgroundColor: '#3f2f25' },
+          contentStyle: { backgroundColor: '#351401' },
         }} >
           <Stack.Screen 
             name='MealCategories' 
