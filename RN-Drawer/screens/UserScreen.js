@@ -6,6 +6,7 @@ function UserScreen() {
       <Text>
         This is the <Text style={styles.highlight}>"User"</Text> screen!
       </Text>
+      <Button title='Open Drawer' onPress={openDrawer} />
     </View>
   );
 }
