@@ -19,6 +19,9 @@ export default function App() {
         name='Welcome'
         component={WelcomeScreen}
       />
+      <BottomTab.Screen 
+        
+      />
     </BottomTab.Navigator>
   </NavigationContainer>
   
