@@ -1,7 +1,7 @@
 import { Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { WelcomeScreen } from './screens/'
+import { WelcomeScreen } from './screens/WelcomeScreen';
 
 const Drawer = createDrawerNavigator();
 
