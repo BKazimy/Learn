@@ -23,6 +23,9 @@ export default function App() {
       <BottomTab.Screen 
         name='Welcome'
         component={WelcomeScreen}
+        options={{
+          
+        }}
       />
       <BottomTab.Screen 
         name='User'
