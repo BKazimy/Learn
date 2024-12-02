@@ -12,7 +12,11 @@ export default function App() {
     <Drawer.Navigator >
       <Drawer.Screen 
         name='Welcome' 
-        component={WelcomeScreen} />
+        component={WelcomeScreen} 
+        options={{
+          header
+        }}
+      />
       <Drawer.Screen name='User' component={UserScreen} />
     </Drawer.Navigator>
   </NavigationContainer>;
