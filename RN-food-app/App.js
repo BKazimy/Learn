@@ -19,7 +19,7 @@ function DrawerNavigator() {
       component={CategoriesScreen}
     />
     <Drawer.Screen 
-      
+      name='Favorites'
     />
   </Drawer.Navigator>
 }
