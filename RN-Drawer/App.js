@@ -13,7 +13,9 @@ import UserScreen from './screens/UserScreen';
 const BottomTab = createBottomTabNavigator();
 
 export default function App() {
-  return <NavigationContainer>
+  return 
+  
+  <NavigationContainer>
     <Drawer.Navigator 
       screenOptions={{
         headerStyle: { backgroundColor: "#3c0a6b"},
