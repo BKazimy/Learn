@@ -9,13 +9,13 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    <Drawer.Navigator >
+    <Drawer.Navigator 
+      
+    >
       <Drawer.Screen 
         name='Welcome' 
         component={WelcomeScreen} 
         options={{
-          headerStyle: { backgroundColor: "#3c0a6b"},
-          headerTintColor: 'white',
           drawerLabel: "Welcome screen"
         }}
       />
