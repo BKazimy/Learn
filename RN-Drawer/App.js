@@ -19,7 +19,10 @@ export default function App() {
           drawerLabel: "Welcome screen"
         }}
       />
-      <Drawer.Screen name='User' component={UserScreen} />
+      <Drawer.Screen 
+        name='User' 
+        component={UserScreen} 
+      />
     </Drawer.Navigator>
   </NavigationContainer>;
 }
