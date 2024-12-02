@@ -16,8 +16,10 @@ const Drawer = createDrawerNavigator();
 function DrawerNavigator() {
   return <Drawer.Navigator
     screenListeners={{
-      headerStyle: {backgroundColor: '#351401'},
-      
+      headerStyle: { backgroundColor: '#3c0a6b'},
+      headerTintColor: 'white',
+      tabBarActiveTintColor: '#3c0a6b'
+
     }}
   >
     <Drawer.Screen 
