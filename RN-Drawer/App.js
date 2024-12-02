@@ -16,7 +16,7 @@ export default function App() {
   return <NavigationContainer>
     <BottomTab.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: '#3c0'}
+        headerStyle: { backgroundColor: '#3c0a6b'}
       }}
     >
       <BottomTab.Screen 
