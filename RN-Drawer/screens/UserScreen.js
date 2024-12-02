@@ -1,6 +1,10 @@
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 function UserScreen() {
+  function openDrawer() {
+    
+  }
+
   return (
     <View style={styles.rootContainer}>
       <Text>
