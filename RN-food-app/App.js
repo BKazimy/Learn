@@ -15,7 +15,8 @@ const Drawer = createDrawerNavigator();
 function DrawerNavigator() {
   return <Drawer.Navigator>
     <Drawer.Screen 
-      name=''
+      name='Categories'
+      component={CategoriesScreen}
     />
   </Drawer.Navigator>
 }
