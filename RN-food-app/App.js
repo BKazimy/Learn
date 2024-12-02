@@ -14,7 +14,11 @@ const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
-  return <Drawer.Navigator >
+  return <Drawer.Navigator
+    screenListeners={{
+      
+    }}
+  >
     <Drawer.Screen 
       name='Categories'
       component={CategoriesScreen}
