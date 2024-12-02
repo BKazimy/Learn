@@ -13,7 +13,7 @@ const BottomTab = createBottomTabNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    <Drawer.Navigator 
+    <BottomTab.Navigator 
       screenOptions={{
         headerStyle: { backgroundColor: "#3c0a6b"},
         headerTintColor: 'white',
@@ -22,7 +22,7 @@ export default function App() {
         // drawerStyle: { backgroundColor: "#ccc" },
       }}
     >
-      <Drawer.Screen 
+      <BottomTab.Screen 
         name='Welcome' 
         component={WelcomeScreen} 
         options={{
@@ -34,7 +34,7 @@ export default function App() {
           />
         }}
       />
-      <Drawer.Screen 
+      <BottomTab.Screen 
         name='User' 
         component={UserScreen} 
         options={{
@@ -46,6 +46,6 @@ export default function App() {
           />
         }}
       />
-    </Drawer.Navigator>
+    </BottomTab.Navigator>
   </NavigationContainer>;
 }
