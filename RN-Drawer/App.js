@@ -6,6 +6,8 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return <NavigationContainer>
-    
+    <Drawer.Navigator>
+      <Drawer.Screen  />
+    </Drawer.Navigator>
   </NavigationContainer>;
 }
