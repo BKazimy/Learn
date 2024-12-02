@@ -1,8 +1,8 @@
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-function UserScreen() {
+function UserScreen({navigation}) {
   function openDrawer() {
-    
+
   }
 
   return (
