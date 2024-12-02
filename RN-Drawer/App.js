@@ -24,7 +24,9 @@ export default function App() {
         name='Welcome'
         component={WelcomeScreen}
         options={{
-          tabBarIcon: ({color, size})
+          tabBarIcon: ({color, size}) => {
+            <Ionicons name='home' color={color} size={size} />
+          }
         }}
       />
       <BottomTab.Screen 
