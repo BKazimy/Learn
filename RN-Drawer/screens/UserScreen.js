@@ -2,7 +2,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 
 function UserScreen({navigation}) {
   function openDrawer() {
-    
+    navigation.toggleDrawer
   }
 
   return (
