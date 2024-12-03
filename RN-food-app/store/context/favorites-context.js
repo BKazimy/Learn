@@ -3,5 +3,9 @@ import { createContext } from "react";
 const FavoritesContext = createContext({
     ids: [],
     addFavorite: (id) => {},
-    remove
+    removeFavorite: (id) => {},
 });
+
+function FavoritesContextProvider({childeren}) {
+    return
+}
