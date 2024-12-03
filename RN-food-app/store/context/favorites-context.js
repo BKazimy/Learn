@@ -27,3 +27,4 @@ function FavoritesContextProvider({children}) {
 }
 
 export default FavoritesContextProvider;
+// export FavoritesContext;
