@@ -25,10 +25,3 @@ function MealsOverviewScreen({ route, navigation }) {
 }
 
 export default MealsOverviewScreen;
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 16,
-    },
-})
