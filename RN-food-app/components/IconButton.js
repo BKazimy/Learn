@@ -4,10 +4,7 @@ import { StyleSheet } from "react-native";
 
 function IconButton({ onPress, icon, color }) {
     return <Pressable 
-        onPress={() => {
-            console.log("button pressed!");
-            onPress();
-        }} 
+        onPress={onPress} 
         style={({pressed}) => [
             pressed && styles.pressed,
             { borderWidth: 2, borderColor: 'blue', padding: 10 },
