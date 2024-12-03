@@ -24,6 +24,7 @@ export default FavoritesScreen;
 const styles = StyleSheet.create({
     rootContainer: {
         flex: 1,
-        justifyContent: ''
+        justifyContent: 'center',
+        alignContent
     }
 })
