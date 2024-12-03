@@ -37,14 +37,7 @@ function MealsOverviewScreen({ route, navigation }) {
         );
     }
 
-    return <View style={styles.container}>
-        <FlatList 
-            data={displayedMeals}
-            keyExtractor={(item) => item.id}
-            renderItem={renderMealItem}
-
-        />
-    </View>
+    return 
 }
 
 export default MealsOverviewScreen;
