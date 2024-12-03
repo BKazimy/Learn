@@ -14,7 +14,7 @@ function FavoritesContextProvider({childeren}) {
     }
 
     function removeFavorite(id) {
-        setFavoriteMealIds((currentFavIds) => {})
+        setFavoriteMealIds((currentFavIds) => currentFavIds.filter())
     }
 
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
