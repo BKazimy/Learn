@@ -34,6 +34,7 @@ function MealDetailScreen({ route }) {
     }, []);
  
     useEffect(() => {
+        
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
