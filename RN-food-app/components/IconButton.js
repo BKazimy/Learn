@@ -5,10 +5,11 @@ import { StyleSheet } from "react-native";
 function IconButton({ onPress, icon, color }) {
     return <Pressable 
         onPress={onPress} 
-        style={({pressed}) => [
-            pressed && styles.pressed,
-            { borderWidth: 2, borderColor: 'blue', padding: 10 },
-        ]}
+        style={{ padding: 20, backgroundColor: 'red' }}
+        // style={({pressed}) => [
+        //     pressed && styles.pressed,
+        //     { borderWidth: 2, borderColor: 'blue', padding: 10 },
+        // ]}
     >
         <Ionicons name={icon} size={24} color={color} />
     </Pressable>
