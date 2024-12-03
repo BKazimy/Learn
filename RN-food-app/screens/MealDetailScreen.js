@@ -40,6 +40,7 @@ function MealDetailScreen({ route, navigation }) {
             headerRight: () => (
                 <Button 
                     onPress={() => console.log('tapped!')}
+                    title="tap"
                     // icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
