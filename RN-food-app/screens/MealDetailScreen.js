@@ -33,7 +33,7 @@ function MealDetailScreen({ route }) {
         }
     }, []);
  
-    useEffect(() => {
+    useFocuseEffect(() => {
         console.log("Setting header options!");
         navigation.setOptions({
             headerRight: () => (
