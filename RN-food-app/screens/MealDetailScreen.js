@@ -52,7 +52,7 @@ function MealDetailScreen({ route }) {
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
             />
-            <Text style={styles.title}>{selectedMeal.title}</Text>
+            <Text style={styles.title}>{selectedMeal.title} {mealIdsFavorite ? 'True' : 'False'}-</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
