@@ -10,7 +10,7 @@ import MealDetailScreen from './screens/MealDetailScreen';
 import { Button } from 'react-native-web';
 import FavoritesScreen from './screens/FavoritesScreen';
 import { Ionicons } from '@expo/vector-icons';
-import { FavoritesContextProvider } from './store/'
+import { FavoritesContextProvider } from './store/context/favorites-context';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
