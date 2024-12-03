@@ -18,7 +18,8 @@ function FavoritesContextProvider({childeren}) {
     }
 
     const value = {
-        ids: favoritMealIds
+        ids: favoritMealIds,
+        addFavorite: addFavorite
     }
 
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
