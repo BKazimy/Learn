@@ -14,7 +14,7 @@ import { useContext, useLayoutEffect } from "react";
 import IconButton from "../components/IconButton";
 
 function MealDetailScreen({ route, navigation }) {
-    useContext();
+    const favoriteMealCtx = useContext();
 
     const mealId = route.params.mealId;
 
