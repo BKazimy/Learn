@@ -27,6 +27,8 @@ function MealDetailScreen({ route, navigation }) {
     function changeGavoriteStatusHandler() {
         if (mealIsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
+        } else {
+            favoriteMealCtx.addFavorite
         }
     }
 
