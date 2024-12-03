@@ -29,7 +29,6 @@ function MealDetailScreen({ route }) {
     }
 
     useEffect(() => {
-        console.log('button added!');
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
