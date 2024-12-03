@@ -1,7 +1,8 @@
 import { Text } from "react-native";
+import MealsList from "../components/MealsList/MealsList";
 
 function FavoritesScreen() {
-    return <Text>The favorites screen!</Text>;
+    return <MealsList items />
 }
 
 export default FavoritesScreen;
