@@ -6,7 +6,7 @@ const FavoritesContext = createContext({
     removeFavorite: (id) => {},
 });
 
-function FavoritesContextProvider({childeren}) {
+function FavoritesContextProvider({child}) {
     const [favoritMealIds, setFavoriteMealIds] = useState([]);
 
     function addFavorite(id) {
@@ -23,7 +23,7 @@ function FavoritesContextProvider({childeren}) {
         removeFavorite: removeFavorite,
     }
 
-    return <FavoritesContext.Provider value={value}>{childeren}</FavoritesContext.Provider>;
+    return <FavoritesContext.Provider value={value}>{}</FavoritesContext.Provider>;
 }
 
 export default FavoritesContextProvider;
