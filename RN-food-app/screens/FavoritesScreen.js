@@ -7,11 +7,14 @@ import { MEALS } from "../data/dummy-data";
 function FavoritesScreen() {
     const favoriteMealCtx = useContext(FavoritesContext);
     const favoriteMeals = MEALS.filter(meal => favoriteMealCtx.ids.includes(meal.id));
+    
+    if (favoriteMealCtx)
+    
     return <MealsList items={favoriteMeals} />
 }
 
 export default FavoritesScreen;
 
 const styles = StyleSheet.create({
-    
+
 })
