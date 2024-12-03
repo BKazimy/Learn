@@ -9,6 +9,7 @@ import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
 import { Button } from 'react-native-web';
 import FavoritesScreen from './screens/FavoritesScreen';
+import { Ionicons } from '@expo/vector-icons';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -34,7 +35,9 @@ function DrawerNavigator() {
       component={CategoriesScreen}
       options={{
         title: 'All Categories',
-        drawerIcon: ({color, size})
+        drawerIcon: ({color, size}) => (
+          <Ionicons name='list' color={color} size={size} />
+        )
       }}
     />
     <Drawer.Screen 
