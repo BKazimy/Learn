@@ -17,11 +17,8 @@ import { FavoritesContext } from '../store/context/favorites-context';
 
 function MealDetailScreen({ route, navigation }) {
     const favoriteMealCtx = useContext(FavoritesContext);
-
     const mealId = route.params.mealId;
-
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
-
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     function changeGavoriteStatusHandler() {
