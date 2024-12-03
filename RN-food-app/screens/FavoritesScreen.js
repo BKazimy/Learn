@@ -8,7 +8,9 @@ function FavoritesScreen() {
     const favoriteMealCtx = useContext(FavoritesContext);
     const favoriteMeals = MEALS.filter(meal => favoriteMealCtx.ids.includes(meal.id));
     
-    if (favoriteMealCtx)
+    if (favoriteMeals.length === 0) {
+        
+    }
     
     return <MealsList items={favoriteMeals} />
 }
