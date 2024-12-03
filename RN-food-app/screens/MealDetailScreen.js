@@ -34,7 +34,7 @@ function MealDetailScreen({ route }) {
     }, []);
  
     useEffect(() => {
-        console.log("")
+        console.log("Setting header options!");
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
