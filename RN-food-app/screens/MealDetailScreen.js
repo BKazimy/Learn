@@ -24,7 +24,7 @@ function MealDetailScreen({ route, navigation }) {
 
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    function headerButtonPressHandler() {
+    function change() {
         console.log("pressed!");
     }
 
