@@ -24,7 +24,7 @@ function MealDetailScreen({ route, navigation }) {
 
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    function change() {
+    function changeGavoriteStatusHandler() {
         console.log("pressed!");
     }
 
@@ -32,7 +32,7 @@ function MealDetailScreen({ route, navigation }) {
         navigation.setOptions({
             headerRight: () => {
                 return <IconButton 
-                    onPress={headerButtonPressHandler} 
+                    onPress={changeGavoriteStatusHandler} 
                     icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
