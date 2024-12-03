@@ -13,7 +13,7 @@ import List from "../components/mealDetail/List";
 import { useContext, useLayoutEffect } from "react";
 import IconButton from "../components/IconButton";
 
-import { FavoritesContext } from '../st'
+import { FavoritesContext } from '../store/context/favorites-context'
 
 function MealDetailScreen({ route, navigation }) {
     const favoriteMealCtx = useContext(FavoritesContext);
