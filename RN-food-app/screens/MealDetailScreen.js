@@ -22,18 +22,18 @@ function MealDetailScreen({ route }) {
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
-    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? true : false;
+    const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     const changeGavoriteStatusHandler = (() => {
         console.log("pressed!");
-    }, [])
+    })
 
     useEffect(() => {
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
                     onPress={changeGavoriteStatusHandler} 
-                    icon={mealIdsFavorite ? 'star' : 'star-outline'}
+                    icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
             ),
@@ -46,7 +46,7 @@ function MealDetailScreen({ route }) {
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
             />
-            <Text style={styles.title}>{selectedMeal.title}{mealIdsFavorite}-</Text>
+            <Text style={styles.title}>{selectedMeal.title}</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
