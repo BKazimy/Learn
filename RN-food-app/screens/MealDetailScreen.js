@@ -22,7 +22,7 @@ function MealDetailScreen({ route }) {
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
-    const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
+    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     const changeGavoriteStatusHandler = (() => {
         console.log("pressed!");
@@ -33,7 +33,7 @@ function MealDetailScreen({ route }) {
             headerRight: () => (
                 <IconButton 
                     onPress={changeGavoriteStatusHandler} 
-                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    icon={mealIdsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
             ),
