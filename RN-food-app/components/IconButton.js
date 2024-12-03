@@ -10,7 +10,7 @@ function IconButton({ onPress, icon, color }) {
         //     pressed && styles.pressed,
         //     { borderWidth: 2, borderColor: 'blue', padding: 10 },
         // ]}
-        title=""
+        title="Add"
     />
         {/* <Ionicons name={icon} size={24} color={color} />
     </Button> */}
