@@ -45,7 +45,7 @@ function MealDetailScreen({ route }) {
                 </View>
             ),
         });
-    }, [navigation, changeFavoriteStatusHandler, mealIdsFavorite]);
+    }, [navigation, changeFavoriteStatusHandler]);
 
     return (
         <ScrollView style={styles.rootContainer}>
