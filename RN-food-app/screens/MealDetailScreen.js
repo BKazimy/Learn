@@ -46,7 +46,7 @@ function MealDetailScreen({ route, navigation }) {
 
     return (
         <ScrollView style={styles.rootContainer}>
-            {favoriteMealCtx}
+            {favoriteMealCtx.ids}
             <Image 
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
