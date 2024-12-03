@@ -42,7 +42,7 @@ function MealDetailScreen({ route, navigation }) {
                     icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
-            )
+            ),
         });
     }, [navigation]);
 
