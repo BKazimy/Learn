@@ -42,7 +42,7 @@ function MealDetailScreen({ route, navigation }) {
                     onPress={() => console.log('tapped!')}
                     title="tap"
                     // icon={mealIsFavorite ? 'star' : 'star-outline'}
-                    color="white"
+                    color="brown"
                 />
             ),
         });
