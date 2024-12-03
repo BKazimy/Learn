@@ -23,7 +23,7 @@ function FavoritesContextProvider({childeren}) {
         removeFavorite: removeFavorite,
     }
 
-    return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
+    return <FavoritesContext.Provider value={value}>{childeren}</FavoritesContext.Provider>;
 }
 
 export default FavoritesContextProvider;
