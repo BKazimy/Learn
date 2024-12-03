@@ -24,14 +24,14 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    const changeFavoriteStatusHandler = useCallback(() => {
+    function changeFavoriteStatusHandler() {
         console.log("pressed!")
         if (mealIdsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
         } else {
             favoriteMealCtx.addFavorite(mealId);
         }
-    }, []);
+    }
 
     useEffect(() => {
         console.log("Setting header options!");
