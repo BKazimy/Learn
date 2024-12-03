@@ -26,11 +26,6 @@ function MealDetailScreen({ route }) {
 
     function changeGavoriteStatusHandler() {
         console.log("pressed!")
-        if (mealIsFavorite) {
-            favoriteMealCtx.removeFavorite(mealId);
-        } else {
-            favoriteMealCtx.addFavorite(mealId);
-        }
     }
 
     useEffect(() => {
