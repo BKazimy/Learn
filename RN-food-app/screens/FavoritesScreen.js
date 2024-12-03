@@ -22,5 +22,5 @@ function FavoritesScreen() {
 export default FavoritesScreen;
 
 const styles = StyleSheet.create({
-    
+    rootC
 })
