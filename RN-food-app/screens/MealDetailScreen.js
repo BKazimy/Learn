@@ -69,7 +69,7 @@ function MealDetailScreen({ route, navigation }) {
         </ScrollView>
     );
 }
-
+headerButtonPressHandler
 export default MealDetailScreen;
 
 const styles = StyleSheet.create({
