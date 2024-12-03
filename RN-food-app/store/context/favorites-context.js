@@ -1,13 +1,13 @@
 import { createContext, useState } from "react";
 
 export const FavoritesContext = createContext({
-    ids: ['m1', 'm2', 'm3'],
+    ids: [],
     addFavorite: (id) => {},
     removeFavorite: (id) => {},
 });
 
 function FavoritesContextProvider({children}) {
-    const [favoritMealIds, setFavoriteMealIds] = useState([]);
+    const [favoritMealIds, setFavoriteMealIds] = useState(['m1', 'm2', 'm3']);
 
     function addFavorite(id) {
         setFavoriteMealIds((currentFavIds) => [...currentFavIds, id]);
