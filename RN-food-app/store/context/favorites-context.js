@@ -7,7 +7,11 @@ const FavoritesContext = createContext({
 });
 
 function FavoritesContextProvider({childeren}) {
-    const [favoritMealIds, setFavoriteMealIds] = useState([])
+    const [favoritMealIds, setFavoriteMealIds] = useState([]);
+
+    function addFavorite(id) {
+        setFavoriteMealIds
+    }
 
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
 }
