@@ -24,9 +24,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    function changeGavoriteStatusHandler() {
-        console.log("pressed!")
-    }
+    const changeGavoriteStatusHandler = ({})
 
     useEffect(() => {
         navigation.setOptions({
