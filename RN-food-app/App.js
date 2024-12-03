@@ -56,6 +56,7 @@ export default function App() {
   return (
     <>
       <StatusBar style='light' />
+      <FavoritesContextProvider>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{
           headerStyle: { backgroundColor: '#351401' },
@@ -89,6 +90,7 @@ export default function App() {
           />
         </Stack.Navigator>
       </NavigationContainer>
+      </FavoritesContextProvider>
     </>
   );
 }
