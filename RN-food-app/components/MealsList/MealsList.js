@@ -25,7 +25,7 @@ function MealsList() {
     </View>
 }
 
-
+export default MealsList;
 
 const styles = StyleSheet.create({
     container: {
