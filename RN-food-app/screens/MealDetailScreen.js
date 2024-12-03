@@ -38,7 +38,7 @@ function MealDetailScreen({ route, navigation }) {
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
-                    onPress={() => console.log("lets goo")} 
+                    onPress={changeGavoriteStatusHandler} 
                     icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
