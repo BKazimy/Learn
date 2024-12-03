@@ -23,7 +23,7 @@ function MealsOverviewScreen({ route, navigation }) {
         })
     }, [catId, navigation]);
 
-    return <MealsList  />
+    return <MealsList items={displayedMeals} />
 }
 
 export default MealsOverviewScreen;
