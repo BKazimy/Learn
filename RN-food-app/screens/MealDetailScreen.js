@@ -34,9 +34,13 @@ function MealDetailScreen({ route, navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            headerRight: () => {
-                
-            }
+            headerRight: () => (
+                <IconButton 
+                    onPress={changeGavoriteStatusHandler} 
+                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    color="white"
+                />
+            )
         });
     }, [navigation, changeGavoriteStatusHandler]);
 
