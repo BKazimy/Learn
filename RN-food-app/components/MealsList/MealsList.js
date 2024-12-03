@@ -21,7 +21,7 @@ function MealsList() {
 
     return <View style={styles.container}>
         <FlatList 
-            data={displayedMeals}
+            data={items}
             keyExtractor={(item) => item.id}
             renderItem={renderMealItem}
 
