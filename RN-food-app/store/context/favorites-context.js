@@ -7,5 +7,5 @@ const FavoritesContext = createContext({
 });
 
 function FavoritesContextProvider({childeren}) {
-    return
+    return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
 }
