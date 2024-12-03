@@ -24,7 +24,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    const changeGavoriteStatusHandler = useCallback(() => {
+    const changeFavoriteStatusHandler = useCallback(() => {
         console.log("pressed!")
         if (mealIdsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
@@ -37,13 +37,13 @@ function MealDetailScreen({ route }) {
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
-                    onPress={changeGavoriteStatusHandler} 
+                    onPress={changeFavoriteStatusHandler} 
                     icon={mealIdsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
             ),
         });
-    }, [navigation, changeGavoriteStatusHandler, mealIdsFavorite]);
+    }, [navigation, changeFavoriteStatusHandler, mealIdsFavorite]);
 
     return (
         <ScrollView style={styles.rootContainer}>
