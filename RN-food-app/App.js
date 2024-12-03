@@ -88,9 +88,8 @@ export default function App() {
             options={{
               title: "Meal Detail",
               headerRight: () => (
-                <IconButton 
-                    onPress={changeGavoriteStatusHandler} 
-                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                <IconButton  
+                    icon='star'
                     color="white"
                 />
               )
