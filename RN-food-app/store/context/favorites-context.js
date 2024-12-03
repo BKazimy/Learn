@@ -7,6 +7,8 @@ const FavoritesContext = createContext({
 });
 
 function FavoritesContextProvider({childeren}) {
-    
+
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
 }
+
+export default FavoritesContextProvider;
