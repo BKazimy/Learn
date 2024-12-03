@@ -1,4 +1,5 @@
 import { 
+    Button,
     Image, 
     ScrollView, 
     StyleSheet, 
@@ -37,7 +38,7 @@ function MealDetailScreen({ route, navigation }) {
         console.log('button added!');
         navigation.setOptions({
             headerRight: () => (
-                <IconButton 
+                <Button 
                     onPress={changeGavoriteStatusHandler} 
                     // icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
