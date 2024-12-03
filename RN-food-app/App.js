@@ -87,7 +87,13 @@ export default function App() {
             component={MealDetailScreen}
             options={{
               title: "Meal Detail",
-              headerRight
+              headerRight: () => (
+                <IconButton 
+                    onPress={changeGavoriteStatusHandler} 
+                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    color="white"
+                />
+              )
             }}
           />
         </Stack.Navigator>
