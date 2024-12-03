@@ -1,5 +1,4 @@
 import { 
-    Button,
     Image, 
     ScrollView, 
     StyleSheet, 
@@ -38,11 +37,10 @@ function MealDetailScreen({ route, navigation }) {
         console.log('button added!');
         navigation.setOptions({
             headerRight: () => (
-                <Button 
-                    onPress={() => console.log('tapped!')}
-                    title="tap"
-                    // icon={mealIsFavorite ? 'star' : 'star-outline'}
-                    color="brown"
+                <IconButton 
+                    onPress={changeGavoriteStatusHandler} 
+                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    color="white"
                 />
             ),
         });
