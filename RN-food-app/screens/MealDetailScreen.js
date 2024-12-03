@@ -10,7 +10,7 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
-import { useCallback, useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
 import IconButton from "../components/IconButton";
 
 import { FavoritesContext } from '../store/context/favorites-context';
@@ -24,11 +24,8 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? true : false;
 
-    const changeGavoriteStatusHandler = useCallback(() => {
+    const changeGavoriteStatusHandler = (() => {
         console.log("pressed!");
-        if (mealIdsFavorite) {
-            
-        }
     }, [])
 
     useEffect(() => {
@@ -41,7 +38,7 @@ function MealDetailScreen({ route }) {
                 />
             ),
         });
-    }, [navigation, changeGavoriteStatusHandler, mealIdsFavorite]);
+    }, [navigation, changeGavoriteStatusHandler]);
 
     return (
         <ScrollView style={styles.rootContainer}>
@@ -49,7 +46,7 @@ function MealDetailScreen({ route }) {
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
             />
-            <Text style={styles.title}>{selectedMeal.title} {mealIdsFavorite ? 'Favorite' : 'Not Favorite'}-</Text>
+            <Text style={styles.title}>{selectedMeal.title}{mealIdsFavorite}-</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
