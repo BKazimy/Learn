@@ -33,7 +33,7 @@ function MealDetailScreen({ route, navigation }) {
         }
     }
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
