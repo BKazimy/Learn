@@ -44,7 +44,7 @@ function MealDetailScreen({ route, navigation }) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => (
-                <Button onPress={() => console.log("")}>Info</Button>
+                <Button onPress={() => console.log("this is button")}>Info</Button>
             )
         });
     }, [navigation, changeGavoriteStatusHandler]);
