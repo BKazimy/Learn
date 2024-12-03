@@ -24,11 +24,17 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
-    const changeGavoriteStatusHandler = (() => {
-        console.log("pressed!");
-    })
+    function changeGavoriteStatusHandler() {
+        console.log("pressed!")
+        if (mealIsFavorite) {
+            favoriteMealCtx.removeFavorite(mealId);
+        } else {
+            favoriteMealCtx.addFavorite(mealId);
+        }
+    }
 
     useEffect(() => {
+        console.log('button added!');
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
