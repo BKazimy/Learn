@@ -10,8 +10,7 @@ function IconButton({ onPress, icon, color }) {
             { borderWidth: 2, borderColor: 'blue', padding: 10 },
         ]}
     >
-        <Text>add</Text>
-        {/* <Ionicons name={icon} size={24} color={color} /> */}
+        <Ionicons name={icon} size={24} color={color} />
     </Pressable>
 }
 
