@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
 export const FavoritesContext = createContext({
-    ids: ['m1', ],
+    ids: ['m1', 'm2', ],
     addFavorite: (id) => {},
     removeFavorite: (id) => {},
 });
