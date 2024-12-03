@@ -22,7 +22,7 @@ function MealDetailScreen({ route }) {
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
-    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? 'ture' : 'false';
+    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? ture : false;
 
     const changeGavoriteStatusHandler = useCallback(() => {
         console.log("pressed!");
