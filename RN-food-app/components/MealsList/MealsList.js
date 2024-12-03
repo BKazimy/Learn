@@ -1,4 +1,4 @@
-import { StyleSheet, FlatList, View, } from "react-native";
+import { StyleSheet, FlatList, View } from "react-native";
 import MealItem from "./MealItem";
 
 
