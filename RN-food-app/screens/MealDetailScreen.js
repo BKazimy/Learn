@@ -26,6 +26,9 @@ function MealDetailScreen({ route }) {
 
     const changeGavoriteStatusHandler = useCallback(() => {
         console.log("pressed!");
+        if (mealIdsFavorite) {
+            
+        }
     }, [])
 
     useEffect(() => {
