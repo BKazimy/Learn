@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, FlatList } from "react-native";
 
 import { MEALS, CATEGORIES } from "../data/dummy-data";
 import MealItem from "../components/MealsList/MealItem";
+import MealsList from "../components/MealsList/MealsList";
 
 
 function MealsOverviewScreen({ route, navigation }) {
@@ -22,6 +23,7 @@ function MealsOverviewScreen({ route, navigation }) {
         })
     }, [catId, navigation]);
 
+    return <MealsList  />
 }
 
 export default MealsOverviewScreen;
