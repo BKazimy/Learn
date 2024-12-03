@@ -19,6 +19,7 @@ function DrawerNavigator() {
       headerStyle:{ backgroundColor: '#351401'},
       headerTintColor: 'white',
       contentStyle: { backgroundColor: '#3f2f25'},
+      drawerconta
     }}
     // screenOptions={{
     // headerStyle: { backgroundColor: '#351401' },
