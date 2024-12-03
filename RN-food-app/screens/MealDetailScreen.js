@@ -39,7 +39,7 @@ function MealDetailScreen({ route, navigation }) {
             headerRight: () => (
                 <IconButton 
                     onPress={changeGavoriteStatusHandler} 
-                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    // icon={mealIsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
             ),
