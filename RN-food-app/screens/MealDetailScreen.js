@@ -25,7 +25,9 @@ function MealDetailScreen({ route, navigation }) {
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     function changeGavoriteStatusHandler() {
-        console.log("pressed!");
+        if (mealIsFavorite) {
+            favorite
+        }
     }
 
     useLayoutEffect(() => {
