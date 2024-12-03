@@ -11,3 +11,5 @@ function FavoritesScreen() {
 }
 
 export default FavoritesScreen;
+
+const styles = Style
