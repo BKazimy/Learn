@@ -10,10 +10,12 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
-import { useLayoutEffect } from "react";
+import { useContext, useLayoutEffect } from "react";
 import IconButton from "../components/IconButton";
 
 function MealDetailScreen({ route, navigation }) {
+    useContext();
+
     const mealId = route.params.mealId;
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
