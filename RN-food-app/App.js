@@ -22,7 +22,7 @@ function DrawerNavigator() {
       drawerContentStyle: { backgroundColor: '#351401'},
       drawerInactiveTintColor: 'white',
       drawerActiveTintColor: '#351401',
-      drawerActiveba
+      drawerActiveBackgroundColor: '#e4baa1',
     }}
     // screenOptions={{
     // headerStyle: { backgroundColor: '#351401' },
