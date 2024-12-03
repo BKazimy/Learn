@@ -33,8 +33,8 @@ function DrawerNavigator() {
       name='Categories'
       component={CategoriesScreen}
       options={{
-        title: 'All Categories'
-        
+        title: 'All Categories',
+        drawerIcon: ({})
       }}
     />
     <Drawer.Screen 
