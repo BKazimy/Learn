@@ -1,3 +1,6 @@
+import { StyleSheet } from "react-native";
+
+
 function MealsList() {
     
     function renderMealItem(itemData) {
