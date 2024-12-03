@@ -17,6 +17,10 @@ function FavoritesContextProvider({childeren}) {
         setFavoriteMealIds((currentFavIds) => currentFavIds.filter((mealId) => mealId !== id));
     }
 
+    const value = {
+        ids: favoritMealIds
+    }
+
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
 }
 
