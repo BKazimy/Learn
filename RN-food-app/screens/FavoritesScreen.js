@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { StyleSheet, Text } from "react-native";
 import MealsList from "../components/MealsList/MealsList";
 import { useContext } from "react";
 import { FavoritesContext } from "../store/context/favorites-context";
@@ -12,4 +12,6 @@ function FavoritesScreen() {
 
 export default FavoritesScreen;
 
-const styles = Style
+const styles = StyleSheet.create({
+    
+})
