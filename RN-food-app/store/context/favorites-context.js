@@ -10,7 +10,7 @@ function FavoritesContextProvider({childeren}) {
     const [favoritMealIds, setFavoriteMealIds] = useState([]);
 
     function addFavorite(id) {
-        setFavoriteMealIds
+        setFavoriteMealIds((current))
     }
 
     return <FavoritesContext.Provider>{childeren}</FavoritesContext.Provider>;
