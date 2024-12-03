@@ -10,7 +10,7 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/mealDetails";
 import Subtitle from "../components/mealDetail/Subtitle";
 import List from "../components/mealDetail/List";
-import { useContext, useEffect } from "react";
+import { useCallback, useContext, useEffect } from "react";
 import IconButton from "../components/IconButton";
 
 import { FavoritesContext } from '../store/context/favorites-context';
@@ -24,7 +24,7 @@ function MealDetailScreen({ route }) {
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? 'ture' : 'false';
 
-    const changeGavoriteStatusHandler = (() => {
+    const changeGavoriteStatusHandler = useCallback(() => {
         console.log("pressed!");
     }, [])
 
