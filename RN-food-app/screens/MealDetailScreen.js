@@ -14,8 +14,11 @@ import { useContext, useEffect } from "react";
 import IconButton from "../components/IconButton";
 
 import { FavoritesContext } from '../store/context/favorites-context';
+import { useNavigation } from "@react-navigation/native";
 
 function MealDetailScreen({ route, navigation }) {
+    const navigation = useNavigation
+
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
