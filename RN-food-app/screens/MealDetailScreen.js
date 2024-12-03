@@ -22,7 +22,7 @@ function MealDetailScreen({ route }) {
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
-    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
+    const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId) ? 'ture' : 'false';
 
     const changeGavoriteStatusHandler = (() => {
         console.log("pressed!");
@@ -46,7 +46,7 @@ function MealDetailScreen({ route }) {
                 style={styles.image}
                 source={{uri: selectedMeal.imageUrl}} 
             />
-            <Text style={styles.title}>{selectedMeal.title}</Text>
+            <Text style={styles.title}>{selectedMeal.title}{mealIdsFavorite}-</Text>
             <MealDetails 
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
