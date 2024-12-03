@@ -34,6 +34,7 @@ function DrawerNavigator() {
       component={CategoriesScreen}
       options={{
         title: 'All Categories'
+        
       }}
     />
     <Drawer.Screen 
