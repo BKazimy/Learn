@@ -20,8 +20,8 @@ function DrawerNavigator() {
     screenOptions={{
       headerStyle:{ backgroundColor: '#351401'},
       headerTintColor: 'white',
-      sceneContainerStyle: { backgroundColor: 'white'},
-      drawerContentStyle: { backgroundColor: '#351401'},
+      sceneContainerStyle: { backgroundColor: '#3f2f25'},
+      drawerContentStyle: { backgroundColor: 'white'},
       drawerInactiveTintColor: 'white',
       drawerActiveTintColor: '#351401',
       drawerActiveBackgroundColor: '#e4baa1',
