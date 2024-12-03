@@ -32,7 +32,7 @@ function MealDetailScreen({ route }) {
             favoriteMealCtx.addFavorite(mealId);
         }
     }, []);
- 
+
     useFocuseEffect(() => {
         console.log("Setting header options!");
         navigation.setOptions({
