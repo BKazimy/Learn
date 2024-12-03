@@ -37,11 +37,13 @@ function MealDetailScreen({ route }) {
         console.log("Setting header options!");
         navigation.setOptions({
             headerRight: () => (
+                <View>
                 <IconButton 
                     onPress={changeFavoriteStatusHandler} 
                     icon={mealIdsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
+                </View>
             ),
         });
     }, [navigation, changeFavoriteStatusHandler, mealIdsFavorite]);
