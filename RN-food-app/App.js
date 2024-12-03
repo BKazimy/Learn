@@ -43,6 +43,7 @@ function DrawerNavigator() {
     <Drawer.Screen 
       name='Favorites'
       component={FavoritesScreen}
+      op
     />
   </Drawer.Navigator>
 }
