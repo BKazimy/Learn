@@ -26,7 +26,7 @@ function MealDetailScreen({ route }) {
 
     function changeGavoriteStatusHandler() {
         console.log("pressed!")
-        if (mealIsFavorite) {
+        if (mealIdsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
         } else {
             favoriteMealCtx.addFavorite(mealId);
@@ -39,7 +39,7 @@ function MealDetailScreen({ route }) {
             headerRight: () => (
                 <IconButton 
                     onPress={changeGavoriteStatusHandler} 
-                    icon={mealIsFavorite ? 'star' : 'star-outline'}
+                    icon={mealIdsFavorite ? 'star' : 'star-outline'}
                     color="white"
                 />
             ),
