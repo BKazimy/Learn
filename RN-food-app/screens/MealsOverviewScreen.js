@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList } from "react-native";
 // import { useRoute } from "@react-navigation/native";
 
 import { MEALS, CATEGORIES } from "../data/dummy-data";
-import MealItem from "../components/";
+import MealItem from "../components/MealsList/MealItem";
 
 
 function MealsOverviewScreen({ route, navigation }) {
