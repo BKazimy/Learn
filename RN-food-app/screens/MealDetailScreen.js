@@ -22,7 +22,7 @@ function MealDetailScreen({ route, navigation }) {
 
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
 
-    const mealIsFavorite = favoriteMealCtx
+    const mealIsFavorite = favoriteMealCtx.ids
 
     function headerButtonPressHandler() {
         console.log("pressed!");
