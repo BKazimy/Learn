@@ -87,12 +87,12 @@ export default function App() {
             component={MealDetailScreen}
             options={{
               title: "Meal Detail",
-              headerRight: () => (
-                <IconButton  
-                    icon='star'
-                    color="white"
-                />
-              )
+              // headerRight: () => (
+              //   <IconButton  
+              //       icon='star'
+              //       color="white"
+              //   />
+              // )
             }}
           />
         </Stack.Navigator>
