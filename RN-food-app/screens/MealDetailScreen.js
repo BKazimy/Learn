@@ -25,7 +25,7 @@ function MealDetailScreen({ route, navigation }) {
     const mealIsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     function changeGavoriteStatusHandler() {
-        console.log("pressed!");
+        console.log("pressed!")
         if (mealIsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
         } else {
@@ -33,7 +33,7 @@ function MealDetailScreen({ route, navigation }) {
         }
     }
 
-    // useLayoutEffect(() => {
+    useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => (
                 <IconButton 
@@ -43,7 +43,7 @@ function MealDetailScreen({ route, navigation }) {
                 />
             )
         });
-    // }, [navigation, changeGavoriteStatusHandler]);
+    }, [navigation, changeGavoriteStatusHandler]);
 
     return (
         <ScrollView style={styles.rootContainer}>
