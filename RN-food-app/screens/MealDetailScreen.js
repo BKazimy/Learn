@@ -1,4 +1,6 @@
 import { 
+    Alert,
+    Button,
     Image, 
     ScrollView, 
     StyleSheet, 
@@ -33,14 +35,16 @@ function MealDetailScreen({ route, navigation }) {
         }
     }
 
+    // <IconButton 
+    // onPress={changeGavoriteStatusHandler} 
+    // icon={mealIsFavorite ? 'star' : 'star-outline'}
+    // color="white"
+    // />
+
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => (
-                <IconButton 
-                    onPress={changeGavoriteStatusHandler} 
-                    icon={mealIsFavorite ? 'star' : 'star-outline'}
-                    color="white"
-                />
+                <Button onPress={() => Alert('Thihs is a button')}>button</Button>
             )
         });
     }, [navigation, changeGavoriteStatusHandler]);
