@@ -32,7 +32,7 @@ function MealDetailScreen({ route }) {
             favoriteMealCtx.addFavorite(mealId);
         }
     }
-
+ 
     useEffect(() => {
         navigation.setOptions({
             headerRight: () => (
