@@ -25,7 +25,7 @@ function FavoritesScreen() {
         )
     }
     
-    return <MealsList items={favoriteMeals} />
+    return <MealsList items={favoriteMealIds} />
 }
 
 export default FavoritesScreen;
