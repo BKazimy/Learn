@@ -4,5 +4,8 @@ favoritesSlice = createSlice({
     name: 'favorites',
     initialState: {
         ids: []
+    },
+    reducers: {
+        
     }
 });
