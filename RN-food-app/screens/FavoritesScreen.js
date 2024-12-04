@@ -24,7 +24,7 @@ function FavoritesScreen() {
             </View>
         )
     }
-    
+    console.log('it was not empty!');
     return <MealsList items={favoriteMealIds} />
 }
 
