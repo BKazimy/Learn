@@ -11,7 +11,7 @@ import { Button } from 'react-native-web';
 import FavoritesScreen from './screens/FavoritesScreen';
 import { Ionicons } from '@expo/vector-icons';
 // import FavoritesContextProvider from './store/context/favorites-context';
-import { Provider } from '@react'
+import { Provider } from '@react-redux';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
