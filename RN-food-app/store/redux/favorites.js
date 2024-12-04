@@ -15,3 +15,4 @@ favoritesSlice = createSlice({
     }
 });
 
+export default favoritesSlice.reducers
