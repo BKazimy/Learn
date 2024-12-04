@@ -60,7 +60,7 @@ export default function App() {
     <>
       <StatusBar style='light' />
       {/* <FavoritesContextProvider> */}
-      <Provider>
+      <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{
           headerStyle: { backgroundColor: '#351401' },
