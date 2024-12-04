@@ -25,7 +25,6 @@ function MealDetailScreen({ route }) {
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
 
     function changeFavoriteStatusHandler() {
-        console.log("pressed!")
         if (mealIdsFavorite) {
             favoriteMealCtx.removeFavorite(mealId);
         } else {
