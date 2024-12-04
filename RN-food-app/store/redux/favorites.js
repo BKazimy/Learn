@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const favoritesSlice = createSlice({
     name: 'favorites',
     initialState: {
-        ids: ['m1', 'm2', 'm3']
+        ids: []
     },
     reducers: {
         addFavorite: (state, action) => {
