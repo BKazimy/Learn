@@ -12,8 +12,8 @@ function FavoritesScreen() {
     const favoriteMealIds = useSelector((state) => 
         state.favoriteMeals.ids
     );
-    
-    const favoriteMeals = MEALS.filter((meal) => 
+
+    const favoriteMeals = MEALS.filter(meal => 
         favoriteMealIds.includes(meal.id)
     );
     
