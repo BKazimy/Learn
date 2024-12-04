@@ -30,7 +30,7 @@ function MealDetailScreen({ route, navigation }) {
     function changeFavoriteStatusHandler() {
         if (mealIdsFavorite) {
             // favoriteMealCtx.removeFavorite(mealId);
-            dispatch(removeFavorite());
+            dispatch(removeFavorite({id: mealId}));
         } else {
             // favoriteMealCtx.addFavorite(mealId);
             dispatch(addFavorite);
