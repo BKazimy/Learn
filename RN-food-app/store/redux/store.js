@@ -1,0 +1,1 @@
+import { vonfigureStore } from '@redux'
