@@ -9,8 +9,9 @@ function FavoritesScreen() {
     // const favoriteMealCtx = useContext(FavoritesContext);
     // const favoriteMeals = MEALS.filter(meal => favoriteMealCtx.ids.includes(meal.id));
     
-    const favoriteMeals = useSelector((state) => state.favoriteMeals.ids)
-
+    const favoriteMealIds = useSelector((state) => state.favoriteMeals.ids)
+    const favoriteMeals = MEALS.filter
+    
     if (favoriteMeals.length === 0) {
         return (
             <View style={styles.rootContainer}>
