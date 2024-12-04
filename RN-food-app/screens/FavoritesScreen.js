@@ -14,7 +14,6 @@ function FavoritesScreen() {
     );
 
         const favoriteMeals = MEALS.filter(meal => favoriteMealCtx.ids.includes(meal.id));
-
     
     if (favoriteMeals.length === 0) {
         return (
