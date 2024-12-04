@@ -11,7 +11,7 @@ import { Button } from 'react-native-web';
 import FavoritesScreen from './screens/FavoritesScreen';
 import { Ionicons } from '@expo/vector-icons';
 // import FavoritesContextProvider from './store/context/favorites-context';
-import { Provider } from '@react-redux';
+import { Provider } from 'react-redux';
 import { store } from './store/redux/store';
 
 // const Stack = createNativeStackNavigator();
