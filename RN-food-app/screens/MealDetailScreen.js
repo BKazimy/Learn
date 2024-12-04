@@ -16,8 +16,7 @@ import IconButton from "../components/IconButton";
 // import { FavoritesContext } from '../store/context/favorites-context';
 import { useNavigation } from "@react-navigation/native";
 
-function MealDetailScreen({ route }) {
-    const navigation = useNavigation();
+function MealDetailScreen({ route, navigation }) {
 
     const favoriteMealCtx = useContext(FavoritesContext);
     const mealId = route.params.mealId;
