@@ -18,7 +18,7 @@ import { useSelector } from "react-redux";
 
 function MealDetailScreen({ route, navigation }) {
     // const favoriteMealCtx = useContext(FavoritesContext);
-    useSelector();
+    const favoriteMealIds = useSelector();
 
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
