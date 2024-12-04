@@ -9,6 +9,9 @@ favoritesSlice = createSlice({
         addFavorite: (state, action) => {
             state.ids.push(action.payload.id);
         },
-        removeFavorite: (state) => {},
+        removeFavorite: (state, action) => {
+            state.ids.splice(state.ids.indexOf(action.payload.id), 1);
+        },
     }
 });
+
