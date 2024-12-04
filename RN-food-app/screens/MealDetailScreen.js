@@ -14,7 +14,6 @@ import { useContext, useEffect } from "react";
 import IconButton from "../components/IconButton";
 
 // import { FavoritesContext } from '../store/context/favorites-context';
-import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
 
 function MealDetailScreen({ route, navigation }) {
