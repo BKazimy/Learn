@@ -15,9 +15,12 @@ import IconButton from "../components/IconButton";
 
 // import { FavoritesContext } from '../store/context/favorites-context';
 import { useNavigation } from "@react-navigation/native";
+import { useSelector } from "react-redux";
 
 function MealDetailScreen({ route, navigation }) {
     // const favoriteMealCtx = useContext(FavoritesContext);
+    useSelector();
+
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
     const mealIdsFavorite = favoriteMealCtx.ids.includes(mealId);
