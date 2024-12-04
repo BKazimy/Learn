@@ -25,7 +25,7 @@ function FavoritesScreen() {
         )
     }
     console.log('it was not empty!');
-    return <MealsList items={favoriteMealIds} />
+    return <MealsList items={favoriteMeals} />
 }
 
 export default FavoritesScreen;
