@@ -15,6 +15,7 @@ import IconButton from "../components/IconButton";
 
 // import { FavoritesContext } from '../store/context/favorites-context';
 import { useDispatch, useSelector } from "react-redux";
+import { removeFavorite } from "../store/redux/favorites";
 
 function MealDetailScreen({ route, navigation }) {
     // const favoriteMealCtx = useContext(FavoritesContext);
@@ -29,7 +30,7 @@ function MealDetailScreen({ route, navigation }) {
     function changeFavoriteStatusHandler() {
         if (mealIdsFavorite) {
             // favoriteMealCtx.removeFavorite(mealId);
-            dispatch()
+            dispatch(removeFavorite);
         } else {
             favoriteMealCtx.addFavorite(mealId);
         }
