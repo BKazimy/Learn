@@ -6,7 +6,7 @@ favoritesSlice = createSlice({
         ids: []
     },
     reducers: {
-        addFavorite: (state, ) => {
+        addFavorite: (state, action) => {
             state.ids.push();
         },
         removeFavorite: (state) => {},
