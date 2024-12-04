@@ -14,7 +14,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Provider } from 'react-redux';
 import { store } from './store/redux/store';
 
-// const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 // const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
