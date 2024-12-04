@@ -14,12 +14,12 @@ import { useContext, useEffect } from "react";
 import IconButton from "../components/IconButton";
 
 // import { FavoritesContext } from '../store/context/favorites-context';
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 function MealDetailScreen({ route, navigation }) {
     // const favoriteMealCtx = useContext(FavoritesContext);
     const favoriteMealIds = useSelector((state) => state.favoriteMeals.ids);
-    
+    const dispatch = useDispatch();
 
     const mealId = route.params.mealId;
     const selectedMeal = MEALS.find((meal) => meal.id == mealId);
