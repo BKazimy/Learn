@@ -10,3 +10,5 @@ export default function App() {
         </View>
     );
 }
+
+const styles = Styleshee
