@@ -11,6 +11,7 @@ const BottomTabs = createBottomTabNavigator();
 function ExpensesOverview() {
     return <BottomTabs.Navigator>
         <BottomTabs.Screen name="RecentExpenses" component={RecentExpense} />
+        <BottomTabs.Screen name="RecentExpenses" component={RecentExpense} />
     </BottomTabs.Navigator>
 }
 
