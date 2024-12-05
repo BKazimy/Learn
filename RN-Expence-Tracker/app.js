@@ -3,12 +3,15 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ManageExpense from "./screens/ManageExpense";
+import RecentExpense from "./screens/RecentExpense";
 
 const Stack = createNativeStackNavigator();
-const BottomTab = createBottomTabNavigator();
+const BottomTabs = createBottomTabNavigator();
 
 function ExpensesOverview() {
-    return 
+    return <BottomTabs.Navigator>
+        <BottomTabs.Screen name="RecentExpenses" component={RecentExpense} />
+    </BottomTabs.Navigator>
 }
 
 export default function App() {
