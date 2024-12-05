@@ -7,7 +7,9 @@ import ManageExpense from "./screens/ManageExpense";
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
 
-
+function ExpensesOverview() {
+    return 
+}
 
 export default function App() {
     return (
