@@ -2,9 +2,9 @@ import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import ManageExpense from "./constants/screens/ManageExpense";
-import RecentExpense from "./constants/screens/RecentExpense";
-import AllExpences from "./constants/screens/AllExpenses";
+import ManageExpense from "./screens/ManageExpense";
+import RecentExpense from "./screens/RecentExpense";
+import AllExpences from "./screens/AllExpenses";
 
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
