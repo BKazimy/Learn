@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ManageExpense from "./screens/ManageExpense";
 import RecentExpense from "./screens/RecentExpense";
+import AllExpences from "./screens/AllExpenses";
 
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
@@ -11,7 +12,7 @@ const BottomTabs = createBottomTabNavigator();
 function ExpensesOverview() {
     return <BottomTabs.Navigator>
         <BottomTabs.Screen name="RecentExpenses" component={RecentExpense} />
-        <BottomTabs.Screen name="RecentExpenses" component={RecentExpense} />
+        <BottomTabs.Screen name="AllExpenses" component={AllExpences} />
     </BottomTabs.Navigator>
 }
 
