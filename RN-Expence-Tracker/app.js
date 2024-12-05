@@ -13,7 +13,9 @@ export default function App() {
         <>
             <StatusBar style="auto" />
             <NavigationContainer>
-
+                <Stack.Navigator>
+                    
+                </Stack.Navigator>
             </NavigationContainer>
         </>
     );
