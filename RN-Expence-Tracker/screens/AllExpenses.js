@@ -1,5 +1,5 @@
 function AllExpences() {
-    return <Text
+    return <Text>All Expences Screen</Text>
 }
 
 export default AllExpences;
