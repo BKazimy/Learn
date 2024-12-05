@@ -20,7 +20,7 @@ export default function App() {
     return (
         <>
             <StatusBar style="auto" />
-            <NavigationContainer initialRouteName>
+            <NavigationContainer>
                 <Stack.Navigator>
                     <Stack.Screen name="ExpensesOverview" component={ExpensesOverview} />
                     <Stack.Screen name="ManageExpense" component={ManageExpense} />
