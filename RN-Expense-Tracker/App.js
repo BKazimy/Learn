@@ -16,6 +16,7 @@ function ExpensesOverview() {
     </BottomTabs.Navigator>
 }
 
+
 export default function App() {
     return (
         <>
