@@ -10,7 +10,7 @@
     },
     "preview": {
       "distribution": "internal",
-      "anndroid": "apk"
+      "android": "apk"
     },
     "production": {
       "autoIncrement": true
