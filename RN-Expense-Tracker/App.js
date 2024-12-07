@@ -17,6 +17,7 @@ function ExpensesOverview() {
 }
 
 export default function App() {
+    return <Text>all is ok!</Text>
     // return (
     //     <>
     //         <StatusBar style="auto" />
