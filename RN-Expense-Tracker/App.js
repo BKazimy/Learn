@@ -17,17 +17,17 @@ function ExpensesOverview() {
 }
 
 export default function App() {
-    return (
-        <>
-            <StatusBar style="auto" />
-            <NavigationContainer>
-                <Stack.Navigator>
-                    <Stack.Screen name="ExpensesOverview" component={ExpensesOverview} />
-                    <Stack.Screen name="ManageExpense" component={ManageExpense} />
-                </Stack.Navigator>
-            </NavigationContainer>
-        </>
-    );
+    // return (
+    //     <>
+    //         <StatusBar style="auto" />
+    //         <NavigationContainer>
+    //             <Stack.Navigator>
+    //                 <Stack.Screen name="ExpensesOverview" component={ExpensesOverview} />
+    //                 <Stack.Screen name="ManageExpense" component={ManageExpense} />
+    //             </Stack.Navigator>
+    //         </NavigationContainer>
+    //     </>
+    // );
 }
 
 const styles = StyleSheet.create({
