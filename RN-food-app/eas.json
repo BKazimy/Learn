@@ -9,7 +9,8 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "anndroid": "apk"
     },
     "production": {
       "autoIncrement": true
