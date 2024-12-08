@@ -20,7 +20,9 @@ function NewQuote({ edit }) {
   }
 
   function onCancel() {
-    
+    setAuthorValue(edit.author);
+    setStoryValue(edit.story);
+    setQuoteValue(edit.quote);
   }
 
   // If you type something in the text box that is a color,
