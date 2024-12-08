@@ -21,8 +21,7 @@ function Home({ navigation }) {
                     <View>
                         <CompButton 
                         title="Schedule Notification"
-                        // onPress={() => navigation.navigate('schedule')}
-                        
+                        onPress={() => navigation.navigate('schedule')}
                         />
                     </View>
                     <View>
