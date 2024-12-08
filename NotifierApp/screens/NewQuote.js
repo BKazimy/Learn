@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   },
   textInput: {
     padding: 10,
-    backgroundColor: colors
+    backgroundColor: colors.khaki
   },
 });
 
