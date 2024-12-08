@@ -20,7 +20,7 @@ function NewQuote() {
         ]}>
         <TextInput
           onChangeText={text => setQuoteValue(text)}
-          value={quoteValue}
+          value={quote}
           style={styles.textInput}
           placeholder='Quote:'
           autoFocus
@@ -30,7 +30,7 @@ function NewQuote() {
           multiline
           numberOfLines={20}
           maxLength={500}
-          onChangeText={text => onChangeText(text, 1)}
+          onChangeText={text => setStory(text, 1)}
           value={storyValue}
           style={styles.textInput}
           placeholder='Example Story:'
