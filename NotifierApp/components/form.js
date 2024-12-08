@@ -34,8 +34,7 @@ function Form({ navigation, edit }) {
     // the background will change to that color.
     return (
       <SafeAreaProvider>
-        <SafeAreaView
-          style={styles.container}>
+        <SafeAreaView style={styles.container}>
           <TextInput
             onChangeText={text => setQuoteValue(text)}
             value={quoteValue}
