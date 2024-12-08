@@ -59,7 +59,7 @@ function Form({ navigation, edit }) {
             placeholder='Author:'
           />
   
-            <View style>
+            <View style={styles.buttons}>
                 <Submission
                     onCancel={onCancel}
                     onSave={onSave}
