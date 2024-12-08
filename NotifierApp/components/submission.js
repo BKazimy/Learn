@@ -1,3 +1,5 @@
+import { StyleSheet } from "react-native";
+
 function Submission({ onCancel, onSave }) {
     return (
         <View>
@@ -15,4 +17,6 @@ function Submission({ onCancel, onSave }) {
 
 export default Submission;
 
-const styles = Styleshee
+const styles = StyleSheet.create({
+    
+})
