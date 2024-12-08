@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
   container: {
     // alignItems: 'center',
     width: '80%',
+    maxWidth: 720,
   },
 
   textInput: {
