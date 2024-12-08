@@ -67,7 +67,7 @@ function NewQuote({ navigation, edit }) {
         />
 
         <Submission
-        
+            
         />
 
       </SafeAreaView>
