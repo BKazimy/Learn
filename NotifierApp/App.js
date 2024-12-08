@@ -22,7 +22,7 @@ function App() {
         name="AllQuotes" 
         component={AllQuote} 
         options={{
-          title: 'A'
+          title: 'All Quotes',
         }}
       />
       <Stack.Screen name="NewQuote" component={NewQuote} />
