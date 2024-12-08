@@ -68,7 +68,7 @@ function NewQuote({ navigation, edit }) {
         <View>
             <CompButton 
                 title="Cancel"
-                onPress={can}
+                onPress={onCancel}
             />
         </View>
       </SafeAreaView>
