@@ -37,6 +37,7 @@ function NewQuote({ navigation }) {
     // the background will change to that color.
     return (
       <Form 
+      
       />
     );
 };
