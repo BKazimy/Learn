@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function AllQuote() {
+function AllQuote({}) {
     return <View>
         <Text>All Quotes Screen!</Text>
     </View>
