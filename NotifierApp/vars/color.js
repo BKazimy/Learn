@@ -5,7 +5,7 @@ colors = {
     darkSeaGreen: "DarkSeaGreen",
     seaShell: 'SeaShell',
     khaki: "Khaki",
-    darkKhaki: "DarkKhaki",
+    darkKhaki: "#BDB76B",
     dark: "#262425",
 }
 
