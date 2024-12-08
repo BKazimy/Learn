@@ -25,7 +25,7 @@ function NewQuote() {
           placeholder='Quote:'
           autoFocus
         />
-        <TextInput
+        {/* <TextInput
           editable
           multiline
           numberOfLines={20}
@@ -40,7 +40,7 @@ function NewQuote() {
           value={authorValue}
           style={styles.textInput}
           placeholder='Author:'
-        />
+        /> */}
       </SafeAreaView>
     </SafeAreaProvider>
   );
