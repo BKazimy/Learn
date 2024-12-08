@@ -71,7 +71,9 @@ function Form({ navigation, edit }) {
 const styles = StyleSheet.create({
     rootContainer: {
         flex: 1,
-        // alignItems: 'center',
+        padding: 24,
+        paddingBottom: 0,
+        alignItems: 'center',
     },
 
   container: {
