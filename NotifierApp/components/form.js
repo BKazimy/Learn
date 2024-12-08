@@ -93,6 +93,9 @@ const styles = StyleSheet.create({
 
   buttons: {
     height: 20,
+
+    borderColor: 'red',
+    borderWidth: 1,
   }
 });
 
