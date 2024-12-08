@@ -1,0 +1,3 @@
+function Submission({ onPress }) {
+    return
+}
