@@ -25,7 +25,7 @@ function NewQuote() {
         <TextInput
           editable
           multiline
-          numberOfLines={4}
+          numberOfLines={20}
           maxLength={40}
           onChangeText={text => onChangeText(text)}
           value={value}
