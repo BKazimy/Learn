@@ -15,7 +15,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen 
-          name="Home" 
+          name="home" 
           component={Home} 
           options={{
             title: 'Home',
