@@ -44,13 +44,11 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        justifyContent: 'center',
-        alignItems: 'center',
+        width: "%80",
+        maxWidth: 720,
     },
 
     innerContainer: {
         flex:1,
-        width: "%80",
-        maxWidth: 720,
     }    
 })
