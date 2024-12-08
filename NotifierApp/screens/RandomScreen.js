@@ -6,4 +6,4 @@ function Random() {
     </View>
 }
 
-export default Random
+export default Random;

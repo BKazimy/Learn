@@ -6,4 +6,4 @@ function Schedule() {
     </View>
 }
 
-export default Schedule
+export default Schedule;
