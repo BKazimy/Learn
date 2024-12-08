@@ -5,3 +5,5 @@ function AllQuoteScreen() {
         <Text>All Quotes Screen!</Text>
     </View>
 }
+
+export default AllQuote;
