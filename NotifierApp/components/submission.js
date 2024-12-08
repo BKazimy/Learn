@@ -1,4 +1,5 @@
 import { StyleSheet, View } from "react-native";
+import CompButton from "./compButton";
 
 function Submission({ onCancel, onSave }) {
     return (
