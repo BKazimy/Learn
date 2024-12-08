@@ -19,7 +19,7 @@ function NewQuote() {
           },
         ]}>
         <TextInput
-          onChangeText={text => onChangeText(text, 0)}
+          onChangeText={text => setQuoteValue(text)}
           value={quoteValue}
           style={styles.textInput}
           placeholder='Quote:'
