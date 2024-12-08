@@ -27,13 +27,13 @@ function Home({ navigation }) {
                     <View>
                         <CompButton 
                         title="Random Quote"
-                        onPress={() => navigation.navigate('Random')}
+                        onPress={() => navigation.navigate('random')}
                         />
                     </View>
                     <View>
                         <CompButton 
                         title="Today's Quote"
-                        onPress={() => navigation.navigate('Todays')}
+                        onPress={() => navigation.navigate('todays')}
                         />
                     </View>
                 </View>
