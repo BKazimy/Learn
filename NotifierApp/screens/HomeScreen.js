@@ -4,7 +4,7 @@ import CompButton from "../components/compButton";
 function Home({ navigation }) {
     return (
         <View style={styles.outerContainer}>
-            <View>
+            <View style>
                 <CompButton 
                 title="All Quotes"
                 onPress={() => navigation.navigate('AllQuotes')}
@@ -51,6 +51,6 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        
+        flex:1,
     }    
 })
