@@ -21,5 +21,6 @@ export default Submission;
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row'
+        
     }
 })
