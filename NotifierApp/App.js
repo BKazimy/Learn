@@ -32,7 +32,10 @@ function App() {
           title: 'Save New Quote',
         }}
       />
-      <Stack.Screen name="Schedule" component={Schedule} />
+      <Stack.Screen 
+        name="Schedule" 
+        component={Schedule} 
+        />
       <Stack.Screen name="Randome" component={Random} />
       <Stack.Screen name="Todays" component={Todays} />
     </Stack.Navigator>
