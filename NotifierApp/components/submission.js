@@ -1,6 +1,5 @@
 function Submission({ onPress }) {
     return (
-        
         <View>
             <CompButton 
                 title="Cancel"
