@@ -26,7 +26,7 @@ function NewQuote({ navigation, edit }) {
     setStoryValue();
     setQuoteValue();
 
-    navigation.navigate('home')
+    navigation.navigate('home');
   }
 
   // If you type something in the text box that is a color,
