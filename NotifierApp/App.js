@@ -18,7 +18,10 @@ function App() {
           title: 'Home',
         }}
       />
-      <Stack.Screen name="AllQuotes" component={AllQuote} />
+      <Stack.Screen 
+        name="AllQuotes" 
+        component={AllQuote} 
+      />
       <Stack.Screen name="NewQuote" component={NewQuote} />
       <Stack.Screen name="Schedule" component={Schedule} />
       <Stack.Screen name="Randome" component={Random} />
