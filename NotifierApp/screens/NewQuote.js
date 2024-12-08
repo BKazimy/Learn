@@ -25,6 +25,15 @@ function NewQuote() {
           value={value}
           style={styles.textInput}
         />
+        <TextInput
+          editable
+          multiline
+          numberOfLines={4}
+          maxLength={40}
+          onChangeText={text => onChangeText(text)}
+          value={value}
+          style={styles.textInput}
+        />
       </SafeAreaView>
     </SafeAreaProvider>
   );
