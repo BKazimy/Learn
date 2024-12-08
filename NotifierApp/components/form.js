@@ -2,6 +2,7 @@ import React from 'react';
 import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 import Submission from '../components/submission';
+import { View } from 'react-native-web';
 
 function Form({ navigation, edit }) {
     const [quoteValue, setQuoteValue] = React.useState();
@@ -58,11 +59,12 @@ function Form({ navigation, edit }) {
             placeholder='Author:'
           />
   
+            <View>
           <Submission
               onCancel={onCancel}
               onSave={onSave}
           />
-  
+  </View>
         </SafeAreaView>
       </SafeAreaProvider>
     );
