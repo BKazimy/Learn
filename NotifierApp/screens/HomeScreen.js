@@ -54,8 +54,4 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 720,
     },
-
-    innerContainer: {
-        
-    }    
 })
