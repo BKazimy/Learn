@@ -66,7 +66,9 @@ function NewQuote({ navigation, edit }) {
           placeholder='Author:'
         />
 
-        <Submission ></Submission>
+        <Submission
+        
+        />
 
       </SafeAreaView>
     </SafeAreaProvider>
