@@ -8,8 +8,7 @@ import Form from '../components/form';
 
 function NewQuote({ navigation }) {
     return (
-      <Form 
-        navigation={navigation}/>
+      <Form navigation={navigation}/>
     );
 };
 
