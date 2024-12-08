@@ -15,3 +15,4 @@ function Submission({ onCancel, onSave }) {
 
 export default Submission;
 
+const styles = Styleshee
