@@ -50,7 +50,7 @@ function App() {
         name="Todays" 
         component={Todays} 
         options={{
-          title
+          title: "Todays Quote"
         }}
       />
     </Stack.Navigator>
