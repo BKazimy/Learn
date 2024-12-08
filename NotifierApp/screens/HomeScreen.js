@@ -46,5 +46,6 @@ const styles = StyleSheet.create({
         padding: 25,
         width: "%80",
         maxWidth: 720,
+        alin
     }
 })
