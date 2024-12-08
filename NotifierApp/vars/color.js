@@ -6,5 +6,5 @@ Color = {
     SeaShell: 'SeaShell',
     Khaki: "Khaki",
     DarkKhaki: "DarkKhaki",
-    
+    dark: "#262425"
 }
