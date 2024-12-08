@@ -1,4 +1,4 @@
-Color = {
+colors = {
     YellowGreen: "YellowGreen ",
     OliveDrab: "OliveDrab",
     DarkOliveGreen: "DarkOliveGreen",
