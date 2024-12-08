@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 
 function Schedule() {
     return <View>
-        <Text>Schedule Quotes Screen!</Text>
+        <Text>Schedule Notification Screen!</Text>
     </View>
 }
 
