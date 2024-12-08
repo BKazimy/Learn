@@ -3,9 +3,9 @@ import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 function NewQuote() {
-  const [quoteValue, setQuoteValue] = React.useState();
+  const [value, onChangeText] = React.useState();
   const [StoryValue, setStoryValue] = React.useState();
-  const [authorValue, setAuthorValue] = React.useState();
+  const [authorVal, setAuthorValue] = React.useState();
 
   // If you type something in the text box that is a color,
   // the background will change to that color.
@@ -19,8 +19,8 @@ function NewQuote() {
           },
         ]}>
         <TextInput
-          onChangeText={text => setQuoteValue(text)}
-          value={quoteValue}
+          onChangeText={text => onChangeText(text)}
+          value={value}
           style={styles.textInput}
           placeholder='Quote:'
         />
