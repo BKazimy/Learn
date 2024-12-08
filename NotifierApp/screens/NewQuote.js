@@ -7,24 +7,6 @@ import Submission from '../components/submission';
 import Form from '../components/form';
 
 function NewQuote({ navigation }) {
-    const [quoteValue, setQuoteValue] = React.useState();
-    const [storyValue, setStoryValue] = React.useState();
-    const [authorValue, setAuthorValue] = React.useState();
-  
-    if (edit) {
-      setAuthorValue(edit.author);
-      setStoryValue(edit.story);
-      setQuoteValue(edit.quote);
-    }
-  
-    function onSave() {
-      console.log(quoteValue);
-      console.log(authorValue);
-      console.log(storyValue);
-  
-      navigation.navigate('home');
-    }
-  
     return (
       <Form 
 
