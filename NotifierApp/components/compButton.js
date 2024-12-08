@@ -39,6 +39,11 @@ const styles = StyleSheet.create({
 
     button: {
         flex: 1,
+        shadowColor: 'black',
+        shadowOpacity: 0.25,
+        shadowOffset: { width: 0, height: 2},
+        shadowRadius: 8,
+        overflow: Platform.OS === 'android' ? 'hidden' : 'visible',
     },
 
     buttonPress: {
