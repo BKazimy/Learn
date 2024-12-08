@@ -19,6 +19,10 @@ function NewQuote({ edit }) {
     console.log(storyValue)
   }
 
+  function onCancel() {
+    
+  }
+
   // If you type something in the text box that is a color,
   // the background will change to that color.
   return (
