@@ -48,7 +48,11 @@ function App() {
       />
       <Stack.Screen 
         name="Todays" 
-        component={Todays} />
+        component={Todays} 
+        options={{
+          title
+        }}
+      />
     </Stack.Navigator>
   );
 }
