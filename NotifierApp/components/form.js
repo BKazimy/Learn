@@ -64,7 +64,7 @@ function Form({ navigation, edit }) {
               onCancel={onCancel}
               onSave={onSave}
           />
-  </View>
+            </View>
         </SafeAreaView>
       </SafeAreaProvider>
     );
