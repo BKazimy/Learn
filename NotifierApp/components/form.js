@@ -48,7 +48,7 @@ function Form({ navigation, edit }) {
             maxLength={500}
             onChangeText={text => setStoryValue(text)}
             value={storyValue}
-            style={styles.inputArea}
+            style={styles.put}
             placeholder='Example Story:'
           />
           <TextInput
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     rootContainer: {
         width: '%80',
     },
-    
+
   container: {
     borderBottomColor: '#000',
     borderBottomWidth: 1,
