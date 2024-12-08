@@ -17,7 +17,6 @@ function NewQuote() {
           },
         ]}>
         <TextInput
-            
           onChangeText={text => onChangeText(text)}
           value={value}
           style={styles.textInput}
