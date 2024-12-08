@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
 
   buttons: {
-    height: '2%'
+    height: '2%',
   }
 });
 
