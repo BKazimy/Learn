@@ -1,4 +1,4 @@
-const Color = {
+Color = {
     primary: "DarkOliveGreen",
-    
+
 }
