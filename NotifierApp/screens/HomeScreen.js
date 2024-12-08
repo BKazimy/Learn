@@ -47,19 +47,21 @@ const styles = StyleSheet.create({
         marginTop: 15,
         padding: 25,
         justifyContent: 'center',
-        // alignItems: 'center', 
+        alignItems: 'center', 
 
         borderColor: 'yellow',
         borderWidth: 1,
     },
 
+    outerContainer: {
+        flex: 1,
+    },
+
     innerContainer: {
-        // flex:1,
         borderColor: 'red',
         borderWidth: 1,
         width: "%80",
         maxWidth: 720,
         minWidth: "%50",
-        // minWidth: 
     }    
 })
