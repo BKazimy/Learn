@@ -91,7 +91,9 @@ const styles = StyleSheet.create({
     backgroundColor: colors.khaki
   },
 
-  
+  buttons: {
+    height: '2%'
+  }
 });
 
 export default Form;
