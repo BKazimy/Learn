@@ -1,7 +1,7 @@
 colors = {
     yellowGreen: "YellowGreen ",
-    OliveDrab: "OliveDrab",
-    DarkOliveGreen: "DarkOliveGreen",
+    oliveDrab: "OliveDrab",
+    darkOliveGreen: "DarkOliveGreen",
     DarkSeaGreen: "DarkSeaGreen",
     SeaShell: 'SeaShell',
     Khaki: "Khaki",
