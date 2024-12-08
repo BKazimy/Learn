@@ -1,8 +1,8 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
 
 function Home({ navigation }) {
     return <View>
-        <Text>Home Screen!</Text>
+        <Pressable></Pressable>
     </View>
 }
 
