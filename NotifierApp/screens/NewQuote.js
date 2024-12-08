@@ -67,6 +67,7 @@ function NewQuote({ navigation, edit }) {
 
         <View>
             <CompButton 
+                title="Cancel"
                 
             />
         </View>
