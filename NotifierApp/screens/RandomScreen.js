@@ -5,3 +5,5 @@ function Random() {
         <Text>Random Quotes Screen!</Text>
     </View>
 }
+
+export default Random
