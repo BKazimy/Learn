@@ -22,14 +22,14 @@ function App() {
           }}
         />
         <Stack.Screen 
-          name="AllQuotes" 
+          name="allquotes" 
           component={AllQuote} 
           options={{
             title: 'All Quotes',
           }}
         />
         <Stack.Screen 
-          name="NewQuote" 
+          name="newQuote" 
           component={NewQuote} 
           options={{
             title: 'Write New Quote',
