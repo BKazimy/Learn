@@ -65,16 +65,6 @@ function NewQuote({ navigation, edit }) {
           placeholder='Author:'
         />
 
-        <View>
-            <CompButton 
-                title="Cancel"
-                onPress={onCancel}
-            />
-            <CompButton 
-                title="Save"
-                onPress={onSave}
-            />
-        </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
