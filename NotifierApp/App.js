@@ -21,6 +21,9 @@ function App() {
       <Stack.Screen 
         name="AllQuotes" 
         component={AllQuote} 
+        options={{
+          
+        }}
       />
       <Stack.Screen name="NewQuote" component={NewQuote} />
       <Stack.Screen name="Schedule" component={Schedule} />
