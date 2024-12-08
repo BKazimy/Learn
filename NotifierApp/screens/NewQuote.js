@@ -20,6 +20,7 @@ function NewQuote() {
           onChangeText={text => onChangeText(text)}
           value={value}
           style={styles.textInput}
+          placeholder='Quote'
         />
         <TextInput
           editable
