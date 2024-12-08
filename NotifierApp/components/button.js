@@ -4,9 +4,7 @@ function CompButton ({ children, onPress }) {
     return (
         <Pressable
             onPress={onPress}
-        >
-            {children}
-        </Pressable>
+        />
     );
 }
 
