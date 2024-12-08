@@ -6,10 +6,12 @@ function Home({ navigation }) {
         navigation.navigate()
     }
     return <View>
-        <CompButton 
-        title="All Quotes"
-        onPress={() => navigation.navigate('AllQuotes')}
-        />
+        <View>
+            <CompButton 
+            title="All Quotes"
+            onPress={() => navigation.navigate('AllQuotes')}
+            />
+        </View>
     </View>
 }
 
