@@ -14,7 +14,7 @@ function Home({ navigation }) {
         </View>
         <View>
             <CompButton 
-            title="Save New Quotes"
+            title="Save New Quote"
             onPress={() => navigation.navigate('NewQuote')}
             />
         </View>
