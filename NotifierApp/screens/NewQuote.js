@@ -4,7 +4,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 function NewQuote({ edit }) {
   const [quoteValue, setQuoteValue] = React.useState();
-  const [StoryValue, setStoryValue] = React.useState();
+  const [storyValue, setStoryValue] = React.useState();
   const [authorValue, setAuthorValue] = React.useState();
 
   if (edit) {
@@ -16,7 +16,7 @@ function NewQuote({ edit }) {
   function onSave() {
     console.log(quoteValue);
     console.log(authorValue);
-    console.log(StoryValue)
+    console.log(storyValue)
   }
 
   // If you type something in the text box that is a color,
