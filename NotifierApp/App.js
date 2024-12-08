@@ -13,7 +13,11 @@ function App() {
     <Stack.Navigator>
       <Stack.Screen 
         name="Home" 
-        component={Home} />
+        component={Home} 
+        options={
+          title
+        }
+      />
       <Stack.Screen name="AllQuotes" component={AllQuote} />
       <Stack.Screen name="NewQuote" component={NewQuote} />
       <Stack.Screen name="Schedule" component={Schedule} />
