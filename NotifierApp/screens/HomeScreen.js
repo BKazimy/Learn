@@ -20,7 +20,7 @@ function Home({ navigation }) {
         </View>
         <View>
             <CompButton 
-            title="All Quotes"
+            title="Schedule "
             onPress={() => navigation.navigate('Schedule')}
             />
         </View>
