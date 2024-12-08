@@ -1,1 +1,3 @@
-Col
+const Color = {
+    
+}
