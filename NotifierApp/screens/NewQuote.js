@@ -13,6 +13,10 @@ function NewQuote({ edit }) {
     setQuoteValue(edit.quote);
   }
 
+  function onSave() {
+    console.log()
+  }
+
   // If you type something in the text box that is a color,
   // the background will change to that color.
   return (
