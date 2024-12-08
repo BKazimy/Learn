@@ -54,12 +54,6 @@ const styles = StyleSheet.create({
         marginTop: 15,
         padding: 25,
         flex: 1,
-        // justifyContent: 'center',
-        // alignItems: 'center', 
-        // width: "%80",
-        // maxWidth: 720,
-        // minWidth: "%50",
-
     },
 
     innerContainer: {
