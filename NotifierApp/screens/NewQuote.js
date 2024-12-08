@@ -15,7 +15,7 @@ function NewQuote() {
         style={[
           styles.container,
           {
-            backgroundColor: value,
+            backgroundColor: quoteValue,
           },
         ]}>
         <TextInput
