@@ -8,7 +8,7 @@ function Home({ navigation }) {
     return <View>
         <CompButton 
         title="All Quotes"
-        onPress={() => navigation.navigate('')}
+        onPress={() => navigation.navigate('AllQuotes')}
         />
     </View>
 }
