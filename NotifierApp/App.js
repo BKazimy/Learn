@@ -46,7 +46,9 @@ function App() {
           title: "Random Quote"
         }}
       />
-      <Stack.Screen name="Todays" component={Todays} />
+      <Stack.Screen 
+        name="Todays" 
+        component={Todays} />
     </Stack.Navigator>
   );
 }
