@@ -1,5 +1,5 @@
 Color = {
-    primary01: "",
+    primary01: "YellowGreen ",
     primary02: "OliveDarb",
     primary03: "DarkOliveGreen",
 }
