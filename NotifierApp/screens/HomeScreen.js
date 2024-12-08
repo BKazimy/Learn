@@ -45,6 +45,6 @@ const styles = StyleSheet.create({
         marginTop: 15,
         padding: 25,
         width: "%80",
-        
+        maxWidth: ""
     }
 })
