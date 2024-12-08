@@ -58,7 +58,8 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderWidth: 1,
         width: "%80",
-        Width: 720,
+        maxWidth: 720,
+        minWidth
         // minWidth: 
     }    
 })
