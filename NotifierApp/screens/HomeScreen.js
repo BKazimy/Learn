@@ -43,6 +43,10 @@ function Home({ navigation }) {
 export default Home;
 
 const styles = StyleSheet.create({
+    rootContainer: {
+        alignItems: 'center',
+    },
+    
     outerContainer: {
         marginTop: 15,
         padding: 25,
