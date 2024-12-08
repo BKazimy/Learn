@@ -29,14 +29,14 @@ function App() {
           }}
         />
         <Stack.Screen 
-          name="newQuote" 
+          name="newquote" 
           component={NewQuote} 
           options={{
             title: 'Write New Quote',
           }}
         />
         <Stack.Screen 
-          name="Schedule" 
+          name="schedule" 
           component={Schedule} 
           options={{
             title: "Schedule Quote Notification",
