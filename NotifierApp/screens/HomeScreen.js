@@ -47,7 +47,7 @@ export default Home;
 const styles = StyleSheet.create({
     rootContainer: {
         alignItems: 'center',
-        ali
+        justifyContent: 'center',
     },
 
     outerContainer: {
