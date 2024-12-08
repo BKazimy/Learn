@@ -17,25 +17,25 @@ function NewQuote() {
           },
         ]}>
         <TextInput
-          onChangeText={text => onChangeText(text, 0)}
-          value={quoteValue}
+            
+          onChangeText={text => onChangeText(text)}
+          value={value}
           style={styles.textInput}
           placeholder='Quote:'
-          autoFocus
         />
         <TextInput
           editable
           multiline
           numberOfLines={20}
           maxLength={500}
-          onChangeText={text => onChangeText(text, 1)}
-          value={storyValue}
+          onChangeText={text => onChangeText(text)}
+          value={value}
           style={styles.textInput}
           placeholder='Example Story:'
         />
         <TextInput
-          onChangeText={text => onChangeText(text, 2)}
-          value={alue}
+          onChangeText={text => onChangeText(text)}
+          value={value}
           style={styles.textInput}
           placeholder='Author:'
         />
