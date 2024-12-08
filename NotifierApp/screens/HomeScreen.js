@@ -61,6 +61,6 @@ const styles = StyleSheet.create({
         maxWidth: 720,
         minWidth: "%50",
         // minWidth: 
-        alignItems: 'center',
+        
     }    
 })
