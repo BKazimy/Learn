@@ -5,5 +5,6 @@ Color = {
     secondary01: "DarkSeaGreen",
     secondary02: 'SeaShell',
     Khaki: "Khaki",
-    
+    Khaki: "Khaki",
+
 }
