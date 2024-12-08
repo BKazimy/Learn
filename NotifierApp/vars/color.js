@@ -1,5 +1,5 @@
 colors = {
-    YellowGreen: "YellowGreen ",
+    yellowgreen: "YellowGreen ",
     OliveDrab: "OliveDrab",
     DarkOliveGreen: "DarkOliveGreen",
     DarkSeaGreen: "DarkSeaGreen",
