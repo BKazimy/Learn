@@ -60,10 +60,10 @@ function Form({ navigation, edit }) {
           />
   
             <View>
-          <Submission
-              onCancel={onCancel}
-              onSave={onSave}
-          />
+                <Submission
+                    onCancel={onCancel}
+                    onSave={onSave}
+                />
             </View>
         </SafeAreaView>
       </SafeAreaProvider>
