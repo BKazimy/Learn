@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-function AllQuote() {
+function Home() {
     return <View>
-        <Text>All Quotes Screen!</Text>
+        <Text>Home Screen!</Text>
     </View>
 }
 
-export default AllQuote;
+export default Home;
