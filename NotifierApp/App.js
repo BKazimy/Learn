@@ -11,7 +11,9 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} t />
+      <Stack.Screen 
+        name="Home" 
+        component={Home} />
       <Stack.Screen name="AllQuotes" component={AllQuote} />
       <Stack.Screen name="NewQuote" component={NewQuote} />
       <Stack.Screen name="Schedule" component={Schedule} />
