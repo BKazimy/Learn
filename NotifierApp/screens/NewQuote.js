@@ -23,6 +23,8 @@ function NewQuote({ navigation, edit }) {
     setAuthorValue();
     setStoryValue();
     setQuoteValue();
+
+    navigation.navigate()
   }
 
   // If you type something in the text box that is a color,
