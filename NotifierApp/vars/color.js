@@ -8,3 +8,5 @@ colors = {
     DarkKhaki: "DarkKhaki",
     dark: "#262425",
 }
+
+export default colors;
