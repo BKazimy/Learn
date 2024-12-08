@@ -1,4 +1,4 @@
-import { TextInput,  } from "react-native";
+import { TextInput, SafeAreaView } from "react-native";
 
 function Form({ edit }) {
     
