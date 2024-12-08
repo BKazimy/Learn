@@ -1,9 +1,9 @@
 import { Pressable } from "react-native"
 
-function CompButton ({ children }) {
+function CompButton ({ children, onPress }) {
     return (
         <Pressable
-            onPress
+            onPress={onPress}
         >
             {children}
         </Pressable>
