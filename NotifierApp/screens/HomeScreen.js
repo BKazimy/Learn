@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        flex: 1,
+        width: '80'
     },
 
     innerContainer: {
