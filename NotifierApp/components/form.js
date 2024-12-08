@@ -90,6 +90,8 @@ const styles = StyleSheet.create({
     margin: 15,
     backgroundColor: colors.khaki
   },
+
+  
 });
 
 export default Form;
