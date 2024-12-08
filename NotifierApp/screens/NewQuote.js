@@ -3,7 +3,7 @@ import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 function NewQuote() {
-  const [value, onChangeText] = React.useState();
+  const [quoteValue, setQuoteValue] = React.useState();
   const [StoryValue, setStoryValue] = React.useState();
   const [authorValue, setAuthorValue] = React.useState();
 
@@ -19,8 +19,8 @@ function NewQuote() {
           },
         ]}>
         <TextInput
-          onChangeText={text => onChangeText(text)}
-          value={value}
+          onChangeText={text => setQuoteValue(text)}
+          value={quoteValue}
           style={styles.textInput}
           placeholder='Quote:'
         />
