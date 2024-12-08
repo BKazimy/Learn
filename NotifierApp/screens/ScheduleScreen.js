@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-function Random() {
+function Schedule() {
     return <View>
-        <Text>Random Quotes Screen!</Text>
+        <Text>Schedule Quotes Screen!</Text>
     </View>
 }
 
-export default Random
+export default Schedule
