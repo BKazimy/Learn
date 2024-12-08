@@ -1,6 +1,8 @@
 import React from 'react';
 import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
+import { View } from 'react-native-web';
+import CompButton from '../components/compButton';
 
 function NewQuote({ navigation, edit }) {
   const [quoteValue, setQuoteValue] = React.useState();
@@ -63,7 +65,11 @@ function NewQuote({ navigation, edit }) {
           placeholder='Author:'
         />
 
-        
+        <View>
+            <CompButton 
+                
+            />
+        </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
