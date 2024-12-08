@@ -7,7 +7,7 @@ function App() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen name="AllQuotes" component={ProfileScreen} />
     </Stack.Navigator>
   );
 }
