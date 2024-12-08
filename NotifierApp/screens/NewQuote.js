@@ -62,6 +62,8 @@ function NewQuote({ navigation, edit }) {
           style={styles.textInput}
           placeholder='Author:'
         />
+
+        
       </SafeAreaView>
     </SafeAreaProvider>
   );
