@@ -88,7 +88,13 @@ const styles = StyleSheet.create({
   textInput: {
     padding: 10,
     margin: 15,
-    backgroundColor: colors.khaki
+    backgroundColor: colors.khaki,
+    borderRadius: 8,
+    
+    shadowColor: 'black',
+    shadowOpacity: 0.25,
+    shadowOffset: { width: 0, height: 2},
+    shadowRadius: 8,
   },
 
   buttons: {
