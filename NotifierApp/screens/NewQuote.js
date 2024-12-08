@@ -5,3 +5,5 @@ function NewQuote() {
         <Text>New Quotes Screen!</Text>
     </View>
 }
+
+export default NewQuote;
