@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 function Submission({ onCancel, onSave }) {
     return (
-        <View style>
+        <View style={styles.container}>
             <CompButton 
                 title="Cancel"
                 onPress={onCancel}
