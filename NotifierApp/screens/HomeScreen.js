@@ -54,11 +54,11 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        justifyContent: 'center',
+        // justifyContent: 'center',
         // alignItems: 'center', 
-        width: "%80",
-        maxWidth: 720,
-        minWidth: "%50",
+        // width: "%80",
+        // maxWidth: 720,
+        // minWidth: "%50",
 
         borderColor: 'yellow',
         borderWidth: 1,
