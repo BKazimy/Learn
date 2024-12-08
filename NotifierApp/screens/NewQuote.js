@@ -18,7 +18,7 @@ function NewQuote() {
         ]}>
         <TextInput
           onChangeText={text => onChangeText(text)}
-          value={value}
+          value={quoteValue}
           style={styles.textInput}
           placeholder='Quote:'
           autoFocus
