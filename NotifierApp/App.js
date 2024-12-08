@@ -36,7 +36,7 @@ function App() {
         name="Schedule" 
         component={Schedule} 
         options={{
-          title
+          title: ""
         }}
       />
       <Stack.Screen name="Randome" component={Random} />
