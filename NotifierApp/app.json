@@ -23,7 +23,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-        "backgroundColor": "#F0E68C"
+      "backgroundColor": "#F0E68C"
     }
   }
 }
