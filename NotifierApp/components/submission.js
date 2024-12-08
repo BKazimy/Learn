@@ -1,4 +1,4 @@
-function Submission({ onPress }) {
+function Submission({ onCancel, onSave }) {
     return (
         <View>
             <CompButton 
