@@ -1,6 +1,6 @@
 import { Pressable } from "react-native"
 
-function CompButton ({ children, onPress }) {
+function CompButton ({ onPress }) {
     return (
         <Pressable
             onPress={onPress}
