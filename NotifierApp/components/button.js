@@ -10,4 +10,4 @@ function CompButton ({ children, onPress }) {
     );
 }
 
-export default com
+export default CompButton;
