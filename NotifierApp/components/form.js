@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         paddingBottom: 0,
         alignItems: 'center',
 
-        border
+        borderColor: 'red'
     },
 
   container: {
