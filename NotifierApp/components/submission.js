@@ -20,7 +20,8 @@ export default Submission;
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: 'row'
-        
+        flexDirection: 'row',
+        height: 20,
+        w
     }
 })
