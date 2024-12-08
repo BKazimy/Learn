@@ -1,5 +1,5 @@
 import { View, Text, Pressable } from "react-native";
-import CompButton from "../components/button";
+import CompButton from "../components/compButton";
 
 function Home({ navigation }) {
     return <View>
