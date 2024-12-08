@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
 
   buttons: {
-    flex: 1,
+    // flex: 1,
     height: 20,
 
     borderColor: 'red',
