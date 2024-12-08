@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        // justifyContent: 'center',
-        alignItems: 'center', 
+        justifyContent: 'center',
+        // alignItems: 'center', 
 
         borderColor: 'yellow',
         borderWidth: 1,
