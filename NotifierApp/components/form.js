@@ -48,7 +48,7 @@ function Form({ navigation, edit }) {
             maxLength={500}
             onChangeText={text => setStoryValue(text)}
             value={storyValue}
-            style={styles.put}
+            style={styles.textInput}
             placeholder='Example Story:'
           />
           <TextInput
