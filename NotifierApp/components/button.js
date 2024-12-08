@@ -2,7 +2,7 @@ import { Pressable } from "react-native"
 
 function CompButton ({ onPress }) {
     return (
-        <View style={styles.gridItem}>
+        <View >
             <Pressable 
                 android_ripple={{color: '#ccc'}}
                 style={({ pressed }) => [
