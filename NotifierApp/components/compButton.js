@@ -1,4 +1,5 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
+import colors from "../vars/color";
 
 function CompButton({ title, onPress }) {
 
@@ -12,7 +13,7 @@ function CompButton({ title, onPress }) {
                 ]}
                 onPress={onPress}
             >
-                <View style={[styles.innerContainer, {backgroundColor: color}]}>
+                <View style={[styles.innerContainer, {backgroundColor: colors.dark}]}>
                     <Text style={styles.title}>{title}</Text>
                 </View>
             </Pressable>
