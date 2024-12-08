@@ -25,19 +25,9 @@ function NewQuote({ navigation }) {
       navigation.navigate('home');
     }
   
-    function onCancel() {
-      setAuthorValue();
-      setStoryValue();
-      setQuoteValue();
-  
-      navigation.navigate('home');
-    }
-  
-    // If you type something in the text box that is a color,
-    // the background will change to that color.
     return (
       <Form 
-      
+
       />
     );
 };
