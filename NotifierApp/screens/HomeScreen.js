@@ -3,7 +3,7 @@ import CompButton from "../components/compButton";
 
 function Home({ navigation }) {
     return (
-        <View>
+        <View style>
             <View>
                 <CompButton 
                 title="All Quotes"
