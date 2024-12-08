@@ -1,3 +1,3 @@
 const Color = {
-    primary: ""
+    primary: "DarkOliveGreen"
 }
