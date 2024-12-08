@@ -14,4 +14,4 @@ function Submission({ onPress }) {
     );
 }
 
-expo
+export default Submission;
