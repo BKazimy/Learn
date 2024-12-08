@@ -36,7 +36,7 @@ function App() {
         name="Schedule" 
         component={Schedule} 
         options={{
-          title: "Reschedule"
+          title: "Reschedule Quote Notification"
         }}
       />
       <Stack.Screen name="Randome" component={Random} />
