@@ -44,32 +44,32 @@ function Home({ navigation }) {
 
 export default Home;
 
-// const styles = StyleSheet.create({
-//     rootContainer: {
-//         alignItems: 'center',
-//         borderColor: 'green',
-//         borderWidth: 1,
-//     },
+const styles = StyleSheet.create({
+    rootContainer: {
+        alignItems: 'center',
+        borderColor: 'green',
+        borderWidth: 1,
+    },
 
-//     outerContainer: {
-//         marginTop: 15,
-//         padding: 25,
-//         flex: 1,
-//         // justifyContent: 'center',
-//         // alignItems: 'center', 
-//         // width: "%80",
-//         // maxWidth: 720,
-//         // minWidth: "%50",
+    outerContainer: {
+        marginTop: 15,
+        padding: 25,
+        flex: 1,
+        // justifyContent: 'center',
+        // alignItems: 'center', 
+        // width: "%80",
+        // maxWidth: 720,
+        // minWidth: "%50",
 
-//         borderColor: 'yellow',
-//         borderWidth: 1,
-//     },
+        borderColor: 'yellow',
+        borderWidth: 1,
+    },
 
-//     innerContainer: {
-//         flex:1,
-//         borderColor: 'red',
-//         borderWidth: 1,
-//         // minWidth: 
+    innerContainer: {
+        // flex:1,
+        // borderColor: 'red',
+        // borderWidth: 1,
+        // // minWidth: 
         
-//     }    
-// })
+    }    
+})
