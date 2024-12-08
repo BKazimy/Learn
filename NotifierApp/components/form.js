@@ -102,9 +102,6 @@ const styles = StyleSheet.create({
     // height: 20,
     width: '100%',
     height: 10,
-
-    borderColor: 'red',
-    borderWidth: 1,
   }
 });
 
