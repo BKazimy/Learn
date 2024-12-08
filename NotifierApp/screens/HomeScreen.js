@@ -18,12 +18,12 @@ function Home({ navigation }) {
                         onPress={() => navigation.navigate('newquote')}
                         />
                     </View>
-                    <View>
+                    {/* <View>
                         <CompButton 
                         title="Schedule Notification"
                         onPress={() => navigation.navigate('schedule')}
                         />
-                    </View>
+                    </View> */}
                     <View>
                         <CompButton 
                         title="Random Quote"
