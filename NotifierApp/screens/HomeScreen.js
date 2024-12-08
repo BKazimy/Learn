@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        width: "%"
+        width: "%80",
+        
     }
 })
