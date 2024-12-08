@@ -30,13 +30,13 @@ function NewQuote() {
           multiline
           numberOfLines={20}
           maxLength={500}
-          onChangeText={text => setStory(text, 1)}
+          onChangeText={text => setStory(text)}
           value={story}
           style={styles.textInput}
           placeholder='Example Story:'
         />
         <TextInput
-          onChangeText={text => onChangeText(text, 2)}
+          onChangeText={text => setAuthor(text, 2)}
           value={authorValue}
           style={styles.textInput}
           placeholder='Author:'
