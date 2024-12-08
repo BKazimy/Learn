@@ -14,9 +14,9 @@ function App() {
       <Stack.Screen 
         name="Home" 
         component={Home} 
-        options={
-          title
-        }
+        options={{
+          title: 'Home',
+        }}
       />
       <Stack.Screen name="AllQuotes" component={AllQuote} />
       <Stack.Screen name="NewQuote" component={NewQuote} />
