@@ -5,7 +5,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 function NewQuote() {
   const [value, onChangeText] = React.useState();
   const [StoryValue, setStoryValue] = React.useState();
-  const [author, setAu] = React.useState();
+  const [author, setAuthorValue] = React.useState();
 
   // If you type something in the text box that is a color,
   // the background will change to that color.
@@ -35,7 +35,7 @@ function NewQuote() {
           placeholder='Example Story:'
         />
         <TextInput
-          onChangeText={text => onChangeText(text)}
+          onChangeText={text => setAuthorValue(text)}
           value={value}
           style={styles.textInput}
           placeholder='Author:'
