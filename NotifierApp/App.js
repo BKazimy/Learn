@@ -43,7 +43,7 @@ function App() {
         name="Randome" 
         component={Random} 
         options={{
-          title: ""
+          title: "Random Quote"
         }}
       />
       <Stack.Screen name="Todays" component={Todays} />
