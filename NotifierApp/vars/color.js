@@ -4,5 +4,6 @@ Color = {
     primary03: "DarkOliveGreen",
     secondary01: "DarkSeaGreen",
     secondary02: 'SeaShell',
-    Khaki: "Khaki"
+    Khaki: "Khaki",
+    
 }
