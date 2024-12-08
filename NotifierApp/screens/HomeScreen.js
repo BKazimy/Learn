@@ -57,10 +57,6 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        // flex:1,
-        // borderColor: 'red',
-        // borderWidth: 1,
-        // // minWidth: 
         
     }    
 })
