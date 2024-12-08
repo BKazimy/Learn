@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
 
   buttons: {
     height: 20,
+    overflow: 'hidden',
 
     borderColor: 'red',
     borderWidth: 1,
