@@ -4,7 +4,7 @@ import CompButton from "../components/compButton";
 function Home({ navigation }) {
     return (
         <View style={styles.outerContainer}>
-            <View style>
+            <View style={styles.innerContainer}>
                 <CompButton 
                 title="All Quotes"
                 onPress={() => navigation.navigate('AllQuotes')}
