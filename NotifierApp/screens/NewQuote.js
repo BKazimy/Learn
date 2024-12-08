@@ -10,7 +10,7 @@ function NewQuote({ edit }) {
   if (edit) {
     setAuthorValue(edit.author);
     setStoryValue(edit.story);
-    set
+    setQuoteValue(edit.quote)
   }
 
   // If you type something in the text box that is a color,
