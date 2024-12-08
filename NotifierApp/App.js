@@ -4,6 +4,7 @@ import AllQuote from './screens/AllQuotaScreen';
 import NewQuote from './screens/NewQuote';
 import Schedule from './screens/ScheduleScreen';
 import Random from './screens/RandomScreen';
+import Todays from './screens/TodayQuoteScreen';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +16,7 @@ function App() {
       <Stack.Screen name="NewQuote" component={NewQuote} />
       <Stack.Screen name="Schedule" component={Schedule} />
       <Stack.Screen name="Randome" component={Random} />
-      <Stack.Screen name="Todays" component={Random} />
+      <Stack.Screen name="Todays" component={Todays} />
     </Stack.Navigator>
   );
 }
