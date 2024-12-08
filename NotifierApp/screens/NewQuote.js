@@ -8,7 +8,8 @@ function NewQuote({ edit }) {
   const [authorValue, setAuthorValue] = React.useState();
 
   if (edit) {
-    setAuthorValue(edit.author)
+    setAuthorValue(edit.author);
+    setStoryValue()
   }
 
   // If you type something in the text box that is a color,
