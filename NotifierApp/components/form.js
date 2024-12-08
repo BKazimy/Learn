@@ -77,8 +77,10 @@ const styles = StyleSheet.create({
     borderBottomColor: '#000',
     borderBottomWidth: 1,
   },
+  
   textInput: {
     padding: 10,
+    margin: 15,
     backgroundColor: colors.khaki
   },
 });
