@@ -11,53 +11,55 @@ const Stack = createStackNavigator();
 
 function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen 
-          name="Home" 
-          component={Home} 
-          options={{
-            title: 'Home',
-          }}
-        />
-        <Stack.Screen 
-          name="AllQuotes" 
-          component={AllQuote} 
-          options={{
-            title: 'All Quotes',
-          }}
-        />
-        <Stack.Screen 
-          name="NewQuote" 
-          component={NewQuote} 
-          options={{
-            title: 'Save New Quote',
-          }}
-        />
-        <Stack.Screen 
-          name="Schedule" 
-          component={Schedule} 
-          options={{
-            title: "Schedule Quote Notification",
-          }}
-        />
-        <Stack.Screen 
-          name="Random" 
-          component={Random} 
-          options={{
-            title: "Random Quote",
-          }}
-        />
-        <Stack.Screen 
-          name="Todays" 
-          component={Todays} 
-          options={{
-            title: "Today's Quote",
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Text>app!</Text>
   );
+  //   <NavigationContainer>
+  //     <Stack.Navigator>
+  //       <Stack.Screen 
+  //         name="Home" 
+  //         component={Home} 
+  //         options={{
+  //           title: 'Home',
+  //         }}
+  //       />
+  //       <Stack.Screen 
+  //         name="AllQuotes" 
+  //         component={AllQuote} 
+  //         options={{
+  //           title: 'All Quotes',
+  //         }}
+  //       />
+  //       <Stack.Screen 
+  //         name="NewQuote" 
+  //         component={NewQuote} 
+  //         options={{
+  //           title: 'Save New Quote',
+  //         }}
+  //       />
+  //       <Stack.Screen 
+  //         name="Schedule" 
+  //         component={Schedule} 
+  //         options={{
+  //           title: "Schedule Quote Notification",
+  //         }}
+  //       />
+  //       <Stack.Screen 
+  //         name="Random" 
+  //         component={Random} 
+  //         options={{
+  //           title: "Random Quote",
+  //         }}
+  //       />
+  //       <Stack.Screen 
+  //         name="Todays" 
+  //         component={Todays} 
+  //         options={{
+  //           title: "Today's Quote",
+  //         }}
+  //       />
+  //     </Stack.Navigator>
+  //   </NavigationContainer>
+  // );
 }
 
 export default App;
