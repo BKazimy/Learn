@@ -68,6 +68,7 @@ function NewQuote({ navigation, edit }) {
 
         <Submission
             onCancel={onCancel}
+            onSave={onSave}
         />
 
       </SafeAreaView>
