@@ -32,8 +32,8 @@ function Home({ navigation }) {
         </View>
         <View>
             <CompButton 
-            title="Random Quote"
-            onPress={() => navigation.navigate('Random')}
+            title="Today Quote"
+            onPress={() => navigation.navigate('Todays')}
             />
         </View>
     </View>
