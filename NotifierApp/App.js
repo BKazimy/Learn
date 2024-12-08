@@ -29,7 +29,7 @@ function App() {
         name="NewQuote" 
         component={NewQuote} 
         options={{
-          title: 'New Quotes'
+          title: 'New Quote'
         }}
       />
       <Stack.Screen name="Schedule" component={Schedule} />
