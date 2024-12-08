@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 
 function App() {
   return (
-    <Stack.Navigator screenOptions={{}}>
+    <Stack.Navigator>
       <Stack.Screen 
         name="Home" 
         component={Home} 
