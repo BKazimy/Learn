@@ -71,7 +71,7 @@ function Form({ navigation, edit }) {
 const styles = StyleSheet.create({
     rootContainer: {
         flex: 1,
-        alignItems: 'center',
+        // alignItems: 'center',
     },
 
   container: {
