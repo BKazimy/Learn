@@ -15,13 +15,13 @@ function Home({ navigation }) {
                     <View>
                         <CompButton 
                         title="Write New Quote"
-                        onPress={() => navigation.navigate('NewQuote')}
+                        onPress={() => navigation.navigate('newquote')}
                         />
                     </View>
                     <View>
                         <CompButton 
                         title="Schedule Notification"
-                        onPress={() => navigation.navigate('Schedule')}
+                        onPress={() => navigation.navigate('schedule')}
                         />
                     </View>
                     <View>
