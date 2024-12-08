@@ -35,9 +35,7 @@ function Form({ navigation, edit }) {
     return (
       <SafeAreaProvider>
         <SafeAreaView
-          style={[
-            styles.container,
-          ]}>
+          style={styles.container}>
           <TextInput
             onChangeText={text => setQuoteValue(text)}
             value={quoteValue}
