@@ -42,7 +42,7 @@ function NewQuote({ edit }) {
           numberOfLines={20}
           maxLength={500}
           onChangeText={text => setStoryValue(text)}
-          value={StoryValue}
+          value={storyValue}
           style={styles.textInput}
           placeholder='Example Story:'
         />
