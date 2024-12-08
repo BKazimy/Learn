@@ -35,7 +35,10 @@ function App() {
       <Stack.Screen 
         name="Schedule" 
         component={Schedule} 
-        />
+        options={{
+          title
+        }}
+      />
       <Stack.Screen name="Randome" component={Random} />
       <Stack.Screen name="Todays" component={Todays} />
     </Stack.Navigator>
