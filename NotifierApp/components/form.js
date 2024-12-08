@@ -37,9 +37,6 @@ function Form({ navigation, edit }) {
         <SafeAreaView
           style={[
             styles.container,
-            {
-              backgroundColor: quoteValue,
-            },
           ]}>
           <TextInput
             onChangeText={text => setQuoteValue(text)}
