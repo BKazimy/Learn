@@ -44,7 +44,7 @@ function Form({ navigation, edit }) {
           <TextInput
             editable
             multiline
-            numberOfLines={20}
+            numberOfLines={10}
             maxLength={500}
             onChangeText={text => setStoryValue(text)}
             value={storyValue}
