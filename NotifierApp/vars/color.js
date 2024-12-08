@@ -4,7 +4,7 @@ colors = {
     darkOliveGreen: "#556B2F",
     darkSeaGreen: "#8FBC8F",
     seaShell: 'SeaShell',
-    khaki: "Khaki",
+    khaki: "#F0E68C",
     darkKhaki: "#BDB76B",
     dark: "#262425",
 }
