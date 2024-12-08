@@ -29,7 +29,7 @@ function NewQuote() {
           numberOfLines={20}
           maxLength={500}
           onChangeText={text => onChangeText(text, 1)}
-          value={value}
+          value={storyValue}
           style={styles.textInput}
           placeholder='Example Story:'
         />
