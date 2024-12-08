@@ -3,7 +3,7 @@ import CompButton from "../components/compButton";
 
 function Home({ navigation }) {
     return (
-        <View >
+        <View style={styles.rootContainer}>
             <View style={styles.outerContainer}>
                 <View style={styles.innerContainer}>
                     <View>
