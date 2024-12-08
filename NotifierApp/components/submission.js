@@ -22,6 +22,6 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         height: 20,
-        w
+        flex: 1,
     }
 })
