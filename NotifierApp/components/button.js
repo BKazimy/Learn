@@ -1,5 +1,5 @@
 import { Pressable } from "react-native"
 
-function compButton ({ children }) {
+function CompButton ({ children }) {
     return <Pressable></Pressable>
 }
