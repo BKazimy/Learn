@@ -5,7 +5,7 @@ import { View } from 'react-native-web';
 import CompButton from '../components/compButton';
 import Submission from '../components/submission';
 
-function NewQuote({ navigation, edit }) {
+function NewQuote({ navigation }) {
   const [quoteValue, setQuoteValue] = React.useState();
   const [storyValue, setStoryValue] = React.useState();
   const [authorValue, setAuthorValue] = React.useState();
