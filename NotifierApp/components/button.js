@@ -12,7 +12,7 @@ function CategoryGridTile({ title, onPress }) {
                 ]}
                 onPress={onPress}
             >
-                <View style={[styles.innerContainer, {backgroundColor: color}]}>
+                <View style={[styles.innerContainer, {backgroundColor: "DarkOliveGreen"}]}>
                     <Text style={styles.title}>{title}</Text>
                 </View>
             </Pressable>
