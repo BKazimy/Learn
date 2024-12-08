@@ -48,6 +48,9 @@ const styles = StyleSheet.create({
         padding: 25,
         justifyContent: 'center',
         // alignItems: 'center', 
+        width: "%80",
+        maxWidth: 720,
+        minWidth: "%50",
 
         borderColor: 'yellow',
         borderWidth: 1,
@@ -57,9 +60,6 @@ const styles = StyleSheet.create({
         // flex:1,
         borderColor: 'red',
         borderWidth: 1,
-        width: "%80",
-        maxWidth: 720,
-        minWidth: "%50",
         // minWidth: 
         
     }    
