@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         width: "%80",
         maxWidth: 720,
-        minWidth
+        minWidth: 320,
         // minWidth: 
     }    
 })
