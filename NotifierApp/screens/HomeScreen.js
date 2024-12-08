@@ -30,6 +30,12 @@ function Home({ navigation }) {
             onPress={() => navigation.navigate('Random')}
             />
         </View>
+        <View>
+            <CompButton 
+            title="Random Quote"
+            onPress={() => navigation.navigate('Random')}
+            />
+        </View>
     </View>
 }
 
