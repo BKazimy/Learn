@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
 
   container: {
     // alignItems: 'center',
-    width: '80%',
+    width: '70%',
     maxWidth: 720,
   },
 
