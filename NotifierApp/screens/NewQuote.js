@@ -16,8 +16,9 @@ function NewQuote({ navigation, edit }) {
   function onSave() {
     console.log(quoteValue);
     console.log(authorValue);
-    console.log(storyValue)
-    navigation.navigate('home')
+    console.log(storyValue);
+
+    navigation.navigate('home');
   }
 
   function onCancel() {
