@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     rootContainer: {
         alignItems: 'center',
         justifyContent: 'center',
-        
+        width: '80%',
     },
 
     outerContainer: {
