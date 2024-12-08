@@ -3,6 +3,8 @@ import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 function NewQuote() {
+  const [quote, setQuoteValue] = React.useState();
+  const [story, setStory] = React.useState();
   const [value, onChangeText] = React.useState();
 
   // If you type something in the text box that is a color,
