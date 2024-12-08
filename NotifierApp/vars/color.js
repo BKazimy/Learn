@@ -1,4 +1,4 @@
 Color = {
     primary01: "DarkOliveGreen",
-    primary
+    primary02: ""
 }
