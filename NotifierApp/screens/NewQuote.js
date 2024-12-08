@@ -31,6 +31,12 @@ function NewQuote() {
           value={value}
           style={styles.textInput}
         />
+        <TextInput
+          onChangeText={text => onChangeText(text)}
+          value={value}
+          style={styles.textInput}
+          placeholder='Author:'
+        />
       </SafeAreaView>
     </SafeAreaProvider>
   );
