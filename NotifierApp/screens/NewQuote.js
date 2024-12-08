@@ -15,7 +15,7 @@ function NewQuote({ edit }) {
 
   function onSave() {
     console.log(quoteValue);
-    console.log()
+    console.log(authorValue)
   }
 
   // If you type something in the text box that is a color,
