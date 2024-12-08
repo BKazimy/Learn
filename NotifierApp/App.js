@@ -42,6 +42,9 @@ function App() {
       <Stack.Screen 
         name="Randome" 
         component={Random} 
+        options={{
+          title: ""
+        }}
       />
       <Stack.Screen name="Todays" component={Todays} />
     </Stack.Navigator>
