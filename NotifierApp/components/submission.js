@@ -1,4 +1,4 @@
-function Submission({ onPress }) {
+function Confirma({ onPress }) {
     return (
         <View>
             <CompButton 
