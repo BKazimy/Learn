@@ -28,8 +28,8 @@ function NewQuote() {
           multiline
           numberOfLines={20}
           maxLength={500}
-          onChangeText={text => onChangeText(text)}
-          value={value}
+          onChangeText={text => setStoryValue(text)}
+          value={StoryValue}
           style={styles.textInput}
           placeholder='Example Story:'
         />
