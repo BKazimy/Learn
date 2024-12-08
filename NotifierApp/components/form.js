@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
 
         borderColor: 'red',
-        border
+        borderWidth: 1,
     },
 
   container: {
