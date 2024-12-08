@@ -39,7 +39,10 @@ function App() {
           title: "Schedule Quote Notification",
         }}
       />
-      <Stack.Screen name="Randome" component={Random} />
+      <Stack.Screen 
+        name="Randome" 
+        component={Random} 
+      />
       <Stack.Screen name="Todays" component={Todays} />
     </Stack.Navigator>
   );
