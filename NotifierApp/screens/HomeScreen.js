@@ -46,9 +46,9 @@ export default Home;
 
 const styles = StyleSheet.create({
     rootContainer: {
-        // alignItems: 'center',
-        // borderColor: 'green',
-        // borderWidth: 1,
+        alignItems: 'center',
+        borderColor: 'green',
+        borderWidth: 1,
     },
 
     outerContainer: {
