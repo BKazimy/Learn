@@ -1,6 +1,6 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
 
-function CategoryGridTile({ title, onPress }) {
+function CompButton({ title, onPress }) {
 
     return (
         <View style={styles.gridItem}>
@@ -20,7 +20,7 @@ function CategoryGridTile({ title, onPress }) {
     );
 }
 
-export default CategoryGridTile;
+export default CompButton;
 
 const styles = StyleSheet.create({
     gridItem: {
