@@ -2,8 +2,8 @@ Color = {
     YellowGreen: "YellowGreen ",
     OliveDrab: "OliveDrab",
     DarkOliveGreen: "DarkOliveGreen",
-    secondaDarkSeaGreenry01: "DarkSeaGreen",
-    secondary02: 'SeaShell',
+    DarkSeaGreen: "DarkSeaGreen",
+    SeaShell: 'SeaShell',
     Khaki: "Khaki",
     DarkKhaki: "DarkKhaki",
 
