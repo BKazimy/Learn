@@ -3,6 +3,7 @@ import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 import { View } from 'react-native-web';
 import CompButton from '../components/compButton';
+import Submission from '../components/submission';
 
 function NewQuote({ navigation, edit }) {
   const [quoteValue, setQuoteValue] = React.useState();
@@ -64,6 +65,8 @@ function NewQuote({ navigation, edit }) {
           style={styles.textInput}
           placeholder='Author:'
         />
+
+        <Submission ></Submission>
 
       </SafeAreaView>
     </SafeAreaProvider>
