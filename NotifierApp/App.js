@@ -6,6 +6,7 @@ import Schedule from './screens/ScheduleScreen';
 import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import { NavigationContainer } from '@react-navigation/native';
+import { Text } from 'react-native';
 
 const Stack = createStackNavigator();
 
