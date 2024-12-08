@@ -21,7 +21,7 @@ function NewQuote() {
           value={value}
           style={styles.textInput}
           placeholder='Quote:'
-          foc
+          autoFocus
         />
         <TextInput
           editable
