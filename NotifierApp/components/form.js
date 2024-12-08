@@ -1,4 +1,4 @@
-import 
+import { TextInput } from "react-native";
 
 function Form({ edit }) {
     
