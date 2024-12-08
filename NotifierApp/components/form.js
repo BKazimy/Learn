@@ -1,4 +1,4 @@
-function Form() {
+function Form({ edit}) {
     
   const [quoteValue, setQuoteValue] = React.useState();
   const [storyValue, setStoryValue] = React.useState();
