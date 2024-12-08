@@ -43,7 +43,7 @@ function Home({ navigation }) {
 export default Home;
 
 const styles = StyleSheet.create({
-    outerContainer: {
+    rootContainer: {
         marginTop: 15,
         padding: 25,
         justifyContent: 'center',
