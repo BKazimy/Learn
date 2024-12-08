@@ -33,7 +33,7 @@ function Form({ navigation, edit }) {
     // If you type something in the text box that is a color,
     // the background will change to that color.
     return (
-      <SafeAreaProvider>
+      <SafeAreaProvider style={styles.rootContainer}>
         <SafeAreaView style={styles.container}>
           <TextInput
             onChangeText={text => setQuoteValue(text)}
