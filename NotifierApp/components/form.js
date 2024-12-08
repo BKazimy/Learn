@@ -70,14 +70,14 @@ function Form({ navigation, edit }) {
 
 const styles = StyleSheet.create({
     rootContainer: {
-        width: '%80',
+        
     },
 
   container: {
     borderBottomColor: '#000',
     borderBottomWidth: 1,
   },
-  
+
   textInput: {
     padding: 10,
     margin: 15,
