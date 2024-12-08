@@ -9,3 +9,5 @@ function CompButton ({ children, onPress }) {
         </Pressable>
     );
 }
+
+export default com
