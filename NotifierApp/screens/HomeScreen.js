@@ -4,7 +4,7 @@ import CompButton from "../components/button";
 function Home({ navigation }) {
     return <View>
         <CompButton 
-        title=""
+        title="A"
         />
     </View>
 }
