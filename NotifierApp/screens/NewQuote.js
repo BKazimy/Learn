@@ -2,7 +2,7 @@ import React from 'react';
 import {TextInput, StyleSheet} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
-function NewQuote({  }) {
+function NewQuote({ edit }) {
   const [quoteValue, setQuoteValue] = React.useState();
   const [StoryValue, setStoryValue] = React.useState();
   const [authorValue, setAuthorValue] = React.useState();
