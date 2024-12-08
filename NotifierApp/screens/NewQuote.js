@@ -36,8 +36,8 @@ function NewQuote() {
           placeholder='Example Story:'
         />
         <TextInput
-          onChangeText={text => setAuthor(text, 2)}
-          value={authorValue}
+          onChangeText={text => setAuthor(text)}
+          value={author}
           style={styles.textInput}
           placeholder='Author:'
         />
