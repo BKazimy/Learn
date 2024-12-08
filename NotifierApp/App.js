@@ -27,7 +27,8 @@ function App() {
       />
       <Stack.Screen 
         name="NewQuote" 
-        component={NewQuote} />
+        component={NewQuote} 
+      />
       <Stack.Screen name="Schedule" component={Schedule} />
       <Stack.Screen name="Randome" component={Random} />
       <Stack.Screen name="Todays" component={Todays} />
