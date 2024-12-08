@@ -4,8 +4,8 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 function NewQuote() {
   const [quoteValue, setQuoteValue] = React.useState();
-  const [storyValue, setStoryValue] = React.useState();
-  const [authorValue, setAuthorValue] = React.useState();
+//   const [storyValue, setStoryValue] = React.useState();
+//   const [authorValue, setAuthorValue] = React.useState();
 
   // If you type something in the text box that is a color,
   // the background will change to that color.
