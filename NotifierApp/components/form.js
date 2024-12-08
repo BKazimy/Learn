@@ -5,7 +5,7 @@ import { View } from 'react-native-web';
 import CompButton from '../components/compButton';
 import Submission from '../components/submission';
 
-function NewQuote({ navigation }) {
+function Form({ navigation }) {
     const [quoteValue, setQuoteValue] = React.useState();
     const [storyValue, setStoryValue] = React.useState();
     const [authorValue, setAuthorValue] = React.useState();
@@ -87,4 +87,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default NewQuote;
+export default Form;
