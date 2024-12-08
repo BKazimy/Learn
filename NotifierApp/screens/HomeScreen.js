@@ -46,23 +46,23 @@ export default Home;
 
 const styles = StyleSheet.create({
     rootContainer: {
-        alignItems: 'center',
-        borderColor: 'green',
-        borderWidth: 1,
+        // alignItems: 'center',
+        // borderColor: 'green',
+        // borderWidth: 1,
     },
 
     outerContainer: {
-        marginTop: 15,
-        padding: 25,
-        flex: 1,
-        // justifyContent: 'center',
-        // alignItems: 'center', 
-        // width: "%80",
-        // maxWidth: 720,
-        // minWidth: "%50",
+        // marginTop: 15,
+        // padding: 25,
+        // flex: 1,
+        // // justifyContent: 'center',
+        // // alignItems: 'center', 
+        // // width: "%80",
+        // // maxWidth: 720,
+        // // minWidth: "%50",
 
-        borderColor: 'yellow',
-        borderWidth: 1,
+        // borderColor: 'yellow',
+        // borderWidth: 1,
     },
 
     innerContainer: {
