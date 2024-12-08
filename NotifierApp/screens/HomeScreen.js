@@ -44,8 +44,8 @@ const styles = StyleSheet.create({
     outerContainer: {
         marginTop: 15,
         padding: 25,
-        width: "%80",
-        maxWidth: 720,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 
     innerContainer: {
