@@ -1,9 +1,9 @@
-import { View, Text, Pressable } from "react-native";
+import { View, StyleSheet } from "react-native";
 import CompButton from "../components/compButton";
 
 function Home({ navigation }) {
     return (
-        <View style>
+        <View style={styles.outerContainer}>
             <View>
                 <CompButton 
                 title="All Quotes"
@@ -39,3 +39,10 @@ function Home({ navigation }) {
 }
 
 export default Home;
+
+const styles = StyleSheet.create({
+    outerContainer: {
+        marginTop: 15,
+        padding: 25,
+    }
+})
