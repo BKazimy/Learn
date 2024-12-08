@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-function Today() {
+function Todays() {
     return <View>
-        <Text>Today Quotes Screen!</Text>
+        <Text>Todays Quotes Screen!</Text>
     </View>
 }
 
-export default Today
+export default Todays;
