@@ -37,6 +37,8 @@ const styles = StyleSheet.create({
         color: colors.khaki,
     },
 
-    
+    quoteText: {
+        font
+    }
 
 })
