@@ -1,4 +1,5 @@
 import { View, Text } from "react-native";
+import { useState } from "react";
 
 function AllQuote({ navigation }) {
     return <View>
