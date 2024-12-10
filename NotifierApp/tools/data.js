@@ -13,7 +13,7 @@ class Data {
   }
 
 
-entries = [
+export const Entries = [
     {
         id: 1,
         quote: "Never eat the pitza with pinapple!",
