@@ -28,7 +28,7 @@ function App() {
 
     const handleAddQuote = (quoteData) => {
         addQuote(quoteData.quote, quoteData.author, quoteData.story);
-        alert('Quote added!');
+        alert('Quote added successfuly!');
     };
 
     const handleShowQuote = () => {
