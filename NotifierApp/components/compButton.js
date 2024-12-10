@@ -13,7 +13,7 @@ function CompButton({ title, onPress }) {
                 ]}
                 onPress={onPress}
             >
-                <View style={[styles.innerContainer, {backgroundColor: colors.oliveDrab}]}>
+                <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
                     <Text style={styles.title}>{title}</Text>
                 </View>
             </Pressable>
