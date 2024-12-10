@@ -6,7 +6,9 @@ function QuotePage({ route, navigation }) {
     const quoteData = route.params;
 
     useLayoutEffect(() => {
-        navigation.setOption
+        navigation.setOptions({
+            
+        })
     })
 
     return <View>
