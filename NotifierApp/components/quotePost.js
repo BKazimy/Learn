@@ -2,10 +2,10 @@ import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 
 function QuotePost({ route, navigation }) {
-    console.log("all done!");
+    console.log("lets go");
     const quoteData = route.params;
 
-    console.log("all done!");
+    console.log("ready");
     useLayoutEffect(() => {
         // navigation.setOptions({
         //     title: quoteData.title
