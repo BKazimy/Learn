@@ -82,7 +82,7 @@ function App() {
           }}
         />
         <Stack.Screen 
-          name="todays" 
+          name="FullQuote" 
           component={Todays} 
           options={{
             title: "Today's Quote",
