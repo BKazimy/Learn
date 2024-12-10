@@ -7,9 +7,10 @@ function QuotePost({ route, navigation }) {
 
 
     useLayoutEffect(() => {
-        navigation.setOptions({
-            title: quoteData.title
-        })
+        // navigation.setOptions({
+        //     title: quoteData.title
+        // })
+        
     }, [])
 
     return <View>
