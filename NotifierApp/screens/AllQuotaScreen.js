@@ -9,22 +9,22 @@ function AllQuote({ navigation }) {
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
-            id: 1,
+            id: 2,
             quote: "blah blah blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
-            id: 1,
+            id: 3,
             quote: "blah blah blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
-            id: 1,
+            id: 4,
             quote: "blah blah blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
-            id: 1,
+            id: 5,
             quote: "blah blah blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
