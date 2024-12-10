@@ -50,7 +50,7 @@ function AllQuote({ navigation }) {
         }
     
         return <CompButton
-            title={itemData.quote}
+            title={itemData.item.quote}
             subtitle={itemData.author}
             onPress={pressHandler} 
         />;
