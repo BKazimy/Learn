@@ -7,6 +7,7 @@ import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import QuotePage from './screens/quotePage';
+import colors from './vars/color';
 
 // import { initDB, addQuote, getRandomQuote } from './tools/db';
 // import { scheduleNotification } from './tools/Notification';
@@ -41,7 +42,7 @@ function App() {
       <Stack.Navigator
         screenOptions={{
           headerStyle: {
-            
+            backgroundColor: colors
           }
         }}
       >
