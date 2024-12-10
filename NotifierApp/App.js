@@ -82,6 +82,7 @@ function App() {
             title: "Today's Quote",
           }}
         />
+        
         <Stack.Screen 
           name="quotePage" 
           component={QuotePage} 
