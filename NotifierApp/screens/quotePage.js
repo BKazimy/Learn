@@ -7,9 +7,9 @@ function QuotePage({ route, navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: quoteData
+            title: quoteData.author
         })
-    })
+    }, []);
 
     return <View>
         <Text>{id}</Text>
