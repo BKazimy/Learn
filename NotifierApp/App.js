@@ -11,6 +11,28 @@ import { Text } from 'react-native';
 const Stack = createStackNavigator();
 
 function App() {
+  const [quote, setQuote] = useState(null);
+
+    useEffect(() => {
+        initDB();
+        scheduleNotification();
+
+        const subscription = Notifications.addNotificationResponseReceivedListener(response => {
+            if (quote) alert(`"${quote.quote}"\n\n— ${quote.author}\n\nStory: ${quote.story}`);
+        });
+
+        return () => subscription.remove();
+    }, [quote]);
+
+    const handleAddQuote = () => {
+        addQuote('Your time is limited, so don’t waste it living someone else’s life.', 'Steve Jobs', 'Story about time management.');
+        alert('Quote added!');
+    };
+
+    const handleShowQuote = () => {
+        getRandomQuote(setQuote);
+    };
+    
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='home'>
