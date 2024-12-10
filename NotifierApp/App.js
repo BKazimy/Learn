@@ -40,7 +40,9 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerStyle
+          headerStyle: {
+            
+          }
         }}
       >
         <Stack.Screen 
