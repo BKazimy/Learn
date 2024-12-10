@@ -1,28 +1,12 @@
-import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 
-function QuotePost({ route, navigation }) {
-    // console.log("lets go");
-    // const quoteData = route.params;
-
-    console.log("ready");
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            title: "Quote Post Page"
-        })
-    }, []);
-
-    console.log("good to go");
-
-    return (
-        <View>
-            {/* <Text>{route.params}</Text>
-            <Text>{quoteData.id}</Text> */}
-            <Text>quote</Text>
-            {/* <Text>{quoteData.author}</Text>
-            <Text>{quoteData.story}</Text> */}
-        </View>
-    );
+function QuotePost({ quote, author, story }) {
+    return <View>
+        <Text>{quote}</Text>
+        <Text>{quote}</Text>
+        <Text>{author}</Text>
+        <Text>{story}</Text>
+    </View>
 }
 
 export default QuotePost;
