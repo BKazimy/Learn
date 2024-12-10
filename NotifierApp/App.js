@@ -9,6 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import { initDB, addQuote, getRandomQuote } from './db';
 import { scheduleNotification } from './notifications';
+import { initDB } from './tools/db';
 
 const Stack = createStackNavigator();
 
