@@ -39,7 +39,9 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        se
+        screenOptions={{
+          hea
+        }}
       >
         <Stack.Screen 
           name="home" 
