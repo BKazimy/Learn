@@ -4,7 +4,8 @@ import { useState } from "react";
 function AllQuote({ navigation }) {
     const [quoteList, setQuoteList] = useState([
         {
-            
+            id: 1,
+            tile, 
         }
     ])
     return <View>
