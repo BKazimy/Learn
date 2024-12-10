@@ -1,5 +1,4 @@
 import { View, StyleSheet } from "react-native";
-import CompButton from "../components/compButton";
 
 function Display({ children }) {
     return (
