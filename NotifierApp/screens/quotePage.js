@@ -26,5 +26,5 @@ function QuotePage({ route, navigation }) {
 export default QuotePage;
 
 const styles = StyleSheet.create({
-
+    
 })
