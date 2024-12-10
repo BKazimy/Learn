@@ -11,16 +11,18 @@ function QuotePost({ route, navigation }) {
         console.log(quoteData.quote);
         console.log("all done!");
     }, [navigation, quoteData]);
-    
+
     console.log("all done!");
 
-    return <View>
-        {/* <Text>{route.params}</Text>
-        <Text>{quoteData.id}</Text> */}
-        <Text>{quoteData.quote}</Text>
-        {/* <Text>{quoteData.author}</Text>
-        <Text>{quoteData.story}</Text> */}
-    </View>
+    return (
+        <View>
+            {/* <Text>{route.params}</Text>
+            <Text>{quoteData.id}</Text> */}
+            <Text>{quoteData.quote}</Text>
+            {/* <Text>{quoteData.author}</Text>
+            <Text>{quoteData.story}</Text> */}
+        </View>
+    );
 }
 
 export default QuotePost;
