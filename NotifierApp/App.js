@@ -59,7 +59,6 @@ function App() {
           options={{
             title: 'Write New Quote',
           }}
-          initialParams={{ handleAddQuote }}
         />
         <Stack.Screen 
           name="schedule" 
@@ -82,7 +81,7 @@ function App() {
             title: "Today's Quote",
           }}
         />
-        
+
         <Stack.Screen 
           name="quotePage" 
           component={QuotePage} 
