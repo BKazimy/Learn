@@ -2,8 +2,8 @@ import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 
 function QuotePost({ route, navigation }) {
-    console.log("lets go");
-    const quoteData = route.params;
+    // console.log("lets go");
+    // const quoteData = route.params;
 
     console.log("ready");
     useLayoutEffect(() => {
