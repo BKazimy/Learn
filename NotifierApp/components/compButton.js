@@ -61,6 +61,6 @@ const styles = StyleSheet.create({
     title: {
         fontWeight: 'bold',
         fontSize: 18,
-        color: colors.dark,
+        color: colors.khaki,
     }
 })
