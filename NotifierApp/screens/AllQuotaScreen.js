@@ -6,7 +6,7 @@ function AllQuote({ navigation }) {
         {
             id: 1,
             quote: "blah blah blah",
-            story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah '
+            story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         }
     ])
     return <View>
