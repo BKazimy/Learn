@@ -43,8 +43,10 @@ function AllQuote({ navigation }) {
         }
     
         return <QuotePage 
-            title={itemData.item.title} 
-            color={itemData.item.color}
+            id={itemData.id}
+            quote={itemData.quote}
+            author={itemData.author}
+            story={itemData.story}
             onPress={pressHandler} 
         />;
     }
