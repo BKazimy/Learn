@@ -7,9 +7,8 @@ import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import { NavigationContainer } from '@react-navigation/native';
 
-import { initDB, addQuote, getRandomQuote } from './db';
+import { initDB, addQuote, getRandomQuote } from './tools';
 import { scheduleNotification } from './notifications';
-import { initDB } from './tools/db';
 
 const Stack = createStackNavigator();
 
