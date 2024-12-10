@@ -31,6 +31,7 @@ function AllQuote({ navigation }) {
     ])
     
     function renderCategoryItem(itemData) {
+        
         function pressHandler() {
             navigation.navigate('MealOverview', {
                 categoryId: itemData.id,
