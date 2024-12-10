@@ -1,6 +1,6 @@
 import { View, StyleSheet } from "react-native";
 
-function Display({ children }) {
+function Display({ children, cus }) {
     return (
         <View style={styles.rootContainer}>
             <View style={styles.outerContainer}>
