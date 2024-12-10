@@ -20,6 +20,30 @@ export const Entries = [
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
     ),
+    new Data (
+        1,
+        "Never eat the pitza with pinapple!",
+        "Arthor Hill",
+        'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+    ),
+    new Data (
+        1,
+        "Never eat the pitza with pinapple!",
+        "Arthor Hill",
+        'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+    ),
+    new Data (
+        1,
+        "Never eat the pitza with pinapple!",
+        "Arthor Hill",
+        'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+    ),
+    new Data (
+        1,
+        "Never eat the pitza with pinapple!",
+        "Arthor Hill",
+        'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+    ),
 ]
 
 export default Data;
