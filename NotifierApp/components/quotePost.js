@@ -41,13 +41,13 @@ const styles = StyleSheet.create({
     },
 
     authorText: {
-        fontSize: 26,
+        fontSize: 20,
         opacity: 0.9,
         fontStyle: 'italic',
     },
 
     storyText: {
-        fontSize: 24,
+        fontSize: 18,
     },
 
 })
