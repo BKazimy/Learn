@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function QuotePost({}) {
+function QuotePost({ navigation, }) {
     return <View>
         <Text>Quote Post Page!</Text>
     </View>
