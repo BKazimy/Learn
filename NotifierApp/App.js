@@ -85,7 +85,7 @@ function App() {
           name="completQuote" 
           component={completQuote} 
           options={{
-            title: "Quote Expla",
+            title: "Quote Page",
           }}
         />
       </Stack.Navigator>
