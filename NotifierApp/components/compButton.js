@@ -1,7 +1,7 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
 import colors from "../vars/color";
 
-function CompButton({ title, subtitle, onPress }) {
+function CompButton({ title, onPress }) {
 
     return (
         <View style={styles.gridItem}>
