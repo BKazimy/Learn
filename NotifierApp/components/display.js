@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1,
         
-        backgroundColor: colors.darkOliveGreen,
+        backgroundColor: 'gray',
         
         elevation: 4,
         shadowColor: 'black',
