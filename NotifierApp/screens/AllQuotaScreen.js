@@ -8,7 +8,7 @@ function AllQuote({ navigation }) {
     const [data, setdata] = useState([
         {
             id: 1,
-            quote: "blah blah blah",
+            quote: "Never eat ",
             author: "Arthor Hill",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
