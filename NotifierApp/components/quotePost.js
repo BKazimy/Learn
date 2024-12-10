@@ -10,3 +10,4 @@ function QuotePost({ quote, author, story }) {
 
 export default QuotePost;
 
+const styles = styles
