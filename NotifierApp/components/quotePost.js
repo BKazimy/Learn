@@ -10,7 +10,7 @@ function QuotePost({ route, navigation }) {
         // navigation.setOptions({
         //     title: quoteData.title
         // })
-        console.log(quoteData);
+        console.log(quoteData.quote);
         console.log("all done!");
     }, [])
 
