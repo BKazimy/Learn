@@ -21,13 +21,13 @@ export const Entries = [
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
     ),
     new Data (
-        1,
+        2,
         "Never eat the pitza with pinapple!",
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
     ),
     new Data (
-        1,
+        3,
         "Never eat the pitza with pinapple!",
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
