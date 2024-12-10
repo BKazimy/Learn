@@ -5,7 +5,7 @@ function QuotePost({ route, navigation }) {
     const data = route.params
 
     useLayoutEffect(() => {
-        
+        navigation.set
     })
 
     return <View>
