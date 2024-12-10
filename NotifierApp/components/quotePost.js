@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 function QuotePost({ quote, author, story }) {
     return <View>
@@ -10,4 +10,6 @@ function QuotePost({ quote, author, story }) {
 
 export default QuotePost;
 
-const styles = styles
+const styles = StyleSheet.create({
+    
+})
