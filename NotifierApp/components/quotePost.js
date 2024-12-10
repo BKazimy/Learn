@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
     
     text: {
         color: colors.khaki,
-        fontFamily
     },
+
+    
 
 })
