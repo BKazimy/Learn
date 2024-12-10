@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        margin: 4,
+        marginVertical: 4,
     },
     
     text: {
