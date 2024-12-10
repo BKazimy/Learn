@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
 
         borderColor: 'red',
         borderWidth: 1,
+        flex: 1,
     },
 
     innerContainer: {
