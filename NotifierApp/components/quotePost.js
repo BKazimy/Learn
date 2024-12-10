@@ -11,10 +11,10 @@ function QuotePost({ route, navigation }) {
     })
 
     return <View>
-        <Text>{id}</Text>
-        <Text>{quote}</Text>
-        <Text>{author}</Text>
-        <Text>{story}</Text>
+        <Text>{data.id}</Text>
+        <Text>{data.quote}</Text>
+        <Text>{data.author}</Text>
+        <Text>{data.story}</Text>
     </View>
 }
 
