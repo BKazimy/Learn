@@ -14,7 +14,7 @@ function QuotePage({ route, navigation }) {
         })
     }, []);
 
-    return <Display style={StyleSheet}>
+    return <Display style={styles.quotePost}>
         <QuotePost 
             id={quoteData.id}
             quote={quoteData.quote}
