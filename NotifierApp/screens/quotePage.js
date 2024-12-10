@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react";
-import { View, Text } from "react-native";
+import { View, Text,sty } from "react-native";
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 
@@ -25,5 +25,5 @@ function QuotePage({ route, navigation }) {
 export default QuotePage;
 
 const styles = StyleSheet.create({
-    
+
 })
