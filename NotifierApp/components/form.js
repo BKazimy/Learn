@@ -66,19 +66,6 @@ function Form({ navigation, newQuoteHandler, edit }) {
 };
 
 const styles = StyleSheet.create({
-    // rootContainer: {
-    //     flex: 1,
-    //     padding: 24,
-    //     paddingBottom: 0,
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    // },
-
-  // container: {
-  //   // alignItems: 'center',
-  //   width: '70%',
-  //   maxWidth: 720,
-  // },
 
   textInput: {
     padding: 10,
@@ -94,7 +81,6 @@ const styles = StyleSheet.create({
 
   buttons: {
     flex: 1,
-    // height: 20,
     width: '100%',
     height: 10,
   }
