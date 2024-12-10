@@ -1,5 +1,6 @@
 import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
+import Display from "../components/display";
 
 function QuotePage({ route, navigation }) {
     const quoteData = route.params;
@@ -10,12 +11,7 @@ function QuotePage({ route, navigation }) {
         })
     }, []);
 
-    return <View>
-        <Text>{quoteData.id}</Text>
-        <Text>{quoteData.quote}</Text>
-        <Text>{quoteData.author}</Text>
-        <Text>{quoteData.story}</Text>
-    </View>
+    return <Display></Display>
 }
 
 export default QuotePage;
