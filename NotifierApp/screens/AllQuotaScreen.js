@@ -34,7 +34,7 @@ function AllQuote({ navigation }) {
         data={CATEGORIES} 
         keyExtractor={(item) => item.id} 
         renderItem={renderCategoryItem}
-        numColumns={2}
+        numColumns={1}
     />;
 }
 
