@@ -11,7 +11,8 @@ import Form from '../components/form';
 function NewQuote({ navigation }) {
   function newQuoteHandler(quote, author, story) {
     // addQuote(quote, author, story);
-    console.log("")
+    console.log(quote);
+    console.log(a)
   }
 
     return (
