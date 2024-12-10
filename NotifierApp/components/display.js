@@ -28,13 +28,5 @@ const styles = StyleSheet.create({
         maxWidth: 520,
         minWidth: 300,
         
-        backgroundColor: 'gray',
-        
-        elevation: 4,
-        shadowColor: 'black',
-        shadowOpacity: 0.25,
-        shadowOffset: { width: 0, height: 2},
-        shadowRadius: 8,
-        overflow: 'hidden',
     },
 })
