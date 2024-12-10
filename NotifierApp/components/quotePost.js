@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 
 function QuotePost() {
     return <View>
-        <Text>Quote Post Screen!</Text>
+        <Text>Quote Post Page!</Text>
     </View>
 }
 
