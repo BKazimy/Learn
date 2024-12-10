@@ -11,6 +11,7 @@ function QuotePost({ route, navigation }) {
     })
 
     return <View>
+        <Text>{route.params}</Text>
         <Text>{quoteData.id}</Text>
         <Text>{quoteData.quote}</Text>
         <Text>{quoteData.author}</Text>
