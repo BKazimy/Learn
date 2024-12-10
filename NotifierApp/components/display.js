@@ -20,13 +20,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         flex: 1,
-        
     },
 
     outerContainer: {
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-        
     },
 })
