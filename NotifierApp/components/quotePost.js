@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     },
 
     authorText: {
-        fontSize: 24,
+        fontSize: 28,
         opacity: 0.9,
     },
 
