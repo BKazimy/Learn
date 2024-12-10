@@ -27,15 +27,15 @@ function QuotePage({ route, navigation }) {
 export default QuotePage;
 
 const styles = StyleSheet.create({
-    quotePost: {
-        backgroundColor: colors.darkOliveGreen,
+    // quotePost: {
+    //     backgroundColor: colors.darkOliveGreen,
         
-        elevation: 4,
-        shadowColor: 'black',
-        shadowOpacity: 0.25,
-        shadowOffset: { width: 0, height: 2},
-        shadowRadius: 8,
-        overflow: 'hidden',
+    //     elevation: 4,
+    //     shadowColor: 'black',
+    //     shadowOpacity: 0.25,
+    //     shadowOffset: { width: 0, height: 2},
+    //     shadowRadius: 8,
+    //     overflow: 'hidden',
         
-    }
+    // }
 })
