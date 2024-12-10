@@ -28,8 +28,6 @@ function Form({ navigation, newQuoteHandler, edit }) {
       navigation.navigate('home');
     }
   
-    // If you type something in the text box that is a color,
-    // the background will change to that color.
     return (
       <SafeAreaProvider>
         <SafeAreaView>
