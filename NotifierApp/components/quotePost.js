@@ -7,12 +7,12 @@ function QuotePost({ route, navigation }) {
 
     console.log("ready");
     useLayoutEffect(() => {
-        // navigation.setOptions({
-        //     title: quoteData.title
-        // })
+        navigation.setOptions({
+            title: quoteData.title
+        })
         console.log(quoteData.quote);
         console.log("all done!");
-    }, [navigation, quoteData]);
+    }, []);
 
     console.log("good to go");
 
