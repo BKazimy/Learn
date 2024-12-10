@@ -68,13 +68,13 @@ function Form({ navigation, newQuoteHandler, edit }) {
 };
 
 const styles = StyleSheet.create({
-    rootContainer: {
-        flex: 1,
-        padding: 24,
-        paddingBottom: 0,
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
+    // rootContainer: {
+    //     flex: 1,
+    //     padding: 24,
+    //     paddingBottom: 0,
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    // },
 
   // container: {
   //   // alignItems: 'center',
