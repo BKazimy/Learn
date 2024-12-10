@@ -31,8 +31,8 @@ function Form({ navigation, newQuoteHandler, edit }) {
     // If you type something in the text box that is a color,
     // the background will change to that color.
     return (
-      <SafeAreaProvider style={styles.rootContainer}>
-        <SafeAreaView style={styles.container}>
+      <SafeAreaProvider>
+        <SafeAreaView>
           <TextInput
             onChangeText={text => setQuoteValue(text)}
             value={quoteValue}
