@@ -10,8 +10,6 @@ function QuotePost({ route, navigation }) {
         navigation.setOptions({
             title: "Quote Post Page"
         })
-        console.log(quoteData.quote);
-        console.log("all done!");
     }, []);
 
     console.log("good to go");
