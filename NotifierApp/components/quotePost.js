@@ -22,15 +22,10 @@ const styles = StyleSheet.create({
         padding: 6,
         paddingHorizontal: 10,
         flex: 1,
-
-        borderColor: 'red',
-        borderWidth: 1,
     },
 
     innerContainer: {
         marginVertical: 4,
-        borderColor: 'yellow',
-        borderWidth: 1,
     },
     
     text: {
