@@ -13,7 +13,7 @@ export default QuotePost;
 
 const styles = StyleSheet.create({
     outerContainer:{
-        margin: 8,
+        padding: 8,
 
         borderColor: 'red',
         borderWidth: 1,
