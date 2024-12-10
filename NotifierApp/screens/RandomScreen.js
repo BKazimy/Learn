@@ -1,8 +1,9 @@
+import { View, Text } from "react-native";
 
-<Stack.Screen 
-name="todays" 
-component={Todays} 
-options={{
-  title: "Today's Quote",
-}}
-/>
+function Random() {
+    return <View>
+        <Text>Random Quotes Screen!</Text>
+    </View>
+}
+
+export default Random;
