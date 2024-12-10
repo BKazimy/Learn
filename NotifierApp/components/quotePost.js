@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
 
     authorText: {
         fontSize: 20,
-        opacity: 0.9,
+        color: colors.darkKhaki,
         fontStyle: 'italic',
     },
 
