@@ -4,9 +4,10 @@ import colors from "../vars/color";
 function QuotePost({ quote, author, story }) {
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}></View>
-        <Text style={[styles.text]}>{quote}</Text>
+            <Text style={[styles.text]}>{quote}</Text>
+        <View style={styles.innerContainer}></View>
         <Text style={[styles.text]}>{author}</Text>
-        <Text style={[styles.text]}>{story}</Text>
+            <Text style={[styles.text]}>{story}</Text>
     </View>
 }
 
