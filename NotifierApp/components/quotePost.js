@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     authorText: {
         fontSize: 28,
         opacity: 0.9,
+        te
     },
 
     storyText: {
