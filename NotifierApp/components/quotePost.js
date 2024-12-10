@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
 
     storyContainer: {
-        marginTop: 4,
+        marginTop: 6,
     },
     
     text: {
