@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function QuotePost({ quote, author, story }) {
+function QuotePost({ id, quote, author, story }) {
     return <View>
         <Text>{id}</Text>
         <Text>{quote}</Text>
