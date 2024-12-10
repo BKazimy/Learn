@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function Random() {
+function QuotePage() {
     return <View>
         <Text>Random Quotes Screen!</Text>
     </View>
