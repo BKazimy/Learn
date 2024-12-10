@@ -9,3 +9,4 @@ function QuotePost({ quote, author, story }) {
 }
 
 export default QuotePost;
+
