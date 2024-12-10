@@ -13,6 +13,6 @@ export default QuotePost;
 
 const styles = StyleSheet.create({
     title: {
-        color: colors.k
+        color: colors.khaki,
     }
 })
