@@ -4,7 +4,7 @@ import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 import Submission from '../components/submission';
 import { View } from 'react-native-web';
 
-function Form({ navigation, edit }) {
+function Form({ navigation, newQuoteHandler, edit }) {
     const [quoteValue, setQuoteValue] = React.useState();
     const [storyValue, setStoryValue] = React.useState();
     const [authorValue, setAuthorValue] = React.useState();
@@ -16,10 +16,7 @@ function Form({ navigation, edit }) {
     }
   
     function onSave() {
-      console.log(quoteValue);
-      console.log(authorValue);
-      console.log(storyValue);
-  
+      newQuoteHandler(quoteValue, authorValue, storyValue);
       navigation.navigate('home');
     }
   

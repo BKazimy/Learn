@@ -6,9 +6,15 @@ import CompButton from '../components/compButton';
 import Submission from '../components/submission';
 import Form from '../components/form';
 
+import { addQuote } from '../tools/db';
+
 function NewQuote({ navigation }) {
+  function newQuoteHandler(quote, author, story) {
+    addQuote(quote, author, story);
+  }
+
     return (
-      <Form navigation={navigation}/>
+      <Form navigation={navigation} newQuoteHandler={newQuoteHandler}/>
     );
 };
 
