@@ -38,7 +38,9 @@ function App() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        se
+      >
         <Stack.Screen 
           name="home" 
           component={Home} 
