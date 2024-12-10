@@ -35,7 +35,8 @@ function AllQuote({ navigation }) {
         function pressHandler() {
             navigation.navigate('MealOverview', {
                 id: itemData.id,
-                
+                quote: itemData.quote,
+                author: item
             });
         }
     
