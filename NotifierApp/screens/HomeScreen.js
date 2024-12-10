@@ -35,7 +35,7 @@ function Home({ navigation }) {
                     onPress={() => navigation.navigate('todays')}
                     />
                 </View>
-            </Display>
+        </Display>
     );
 }
 
