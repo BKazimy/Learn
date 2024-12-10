@@ -43,9 +43,9 @@ function AllQuote({ navigation }) {
         function pressHandler() {
             navigation.navigate('quotePage', {
                 id: itemData.item.id,
-                quote: itemData.quote,
-                author: itemData.author,
-                story: itemData.story
+                quote: itemData.item.quote,
+                author: itemData.item.author,
+                story: itemData.item.story
             });
         }
     
