@@ -18,7 +18,7 @@ function QuotePost({ route, navigation }) {
         <View>
             {/* <Text>{route.params}</Text>
             <Text>{quoteData.id}</Text> */}
-            <Text>{quoteData.quote}</Text>
+            <Text>quote</Text>
             {/* <Text>{quoteData.author}</Text>
             <Text>{quoteData.story}</Text> */}
         </View>
