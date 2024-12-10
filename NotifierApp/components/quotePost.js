@@ -27,6 +27,9 @@ const styles = StyleSheet.create({
 
     innerContainer: {
         margin: 4,
+
+        borderColor: 'yellow',
+        borderWidth: 1,
     },
     
     text: {
