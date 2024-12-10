@@ -12,7 +12,8 @@ function NewQuote({ navigation }) {
   function newQuoteHandler(quote, author, story) {
     // addQuote(quote, author, story);
     console.log(quote);
-    console.log(author)
+    console.log(author);
+    console.log(story);
   }
 
     return (
