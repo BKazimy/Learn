@@ -7,7 +7,7 @@ function QuotePage({ route, navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            
+            title: quoteData
         })
     })
 
