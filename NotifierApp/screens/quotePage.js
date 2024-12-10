@@ -16,7 +16,8 @@ function QuotePage({ route, navigation }) {
         <QuotePost 
             id={quoteData.id}
             quote={quoteData.quote}
-            
+            author={quoteData.author}
+            story
         />
     </Display>
 }
