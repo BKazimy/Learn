@@ -6,8 +6,7 @@ function AllQuote({ navigation }) {
         {
             
         }
-    ]);
-
+    ])
     return <View>
         <Text>All Quotes Screen!</Text>
     </View>
