@@ -14,7 +14,6 @@ function NewQuote({ navigation }) {
     console.log(quote);
     console.log(author);
     console.log(story);
-    
   }
 
     return (
