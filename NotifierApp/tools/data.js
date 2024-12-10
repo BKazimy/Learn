@@ -2,7 +2,7 @@ class Meal {
     constructor(
       id,
       quote, 
-      title,
+      author,
       affordability,
     ) {
       this.id = id;
