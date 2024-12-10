@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
 
     authorText: {
-        fontSize: 30,
+        fontSize: 28,
         opacity: 0.9,
         fontStyle: 'italic',
     },
