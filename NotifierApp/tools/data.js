@@ -15,7 +15,7 @@ class Meal {
       isLactoseFree
     ) {
       this.id = id;
-      this.categoryIds = categoryIds;
+      this.quote = quote;
       this.title = title;
     }
   }
