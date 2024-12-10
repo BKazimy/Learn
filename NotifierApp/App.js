@@ -47,7 +47,7 @@ function App() {
           headerTintColor: colors.khaki,
           headerTitleStyle: {
             fontWeight: 'bold',
-          }
+          },
         }}
       >
         <Stack.Screen 
