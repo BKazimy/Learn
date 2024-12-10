@@ -11,6 +11,7 @@ function QuotePost({ route, navigation }) {
         //     title: quoteData.title
         // })
         console.log(quoteData);
+        console.log("all done!");
     }, [])
 
     return <View>
