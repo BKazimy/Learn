@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from '../components/form';
+import Display from '../components/display';
 
 // import { addQuote } from '../tools/db';
 
@@ -12,7 +13,9 @@ function NewQuote({ navigation }) {
   }
 
     return (
-      <Form navigation={navigation} newQuoteHandler={newQuoteHandler}/>
+      <Display>
+        <Form navigation={navigation} newQuoteHandler={newQuoteHandler}/>
+      </Display>
     );
 };
 
