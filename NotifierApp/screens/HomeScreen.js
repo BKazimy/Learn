@@ -1,10 +1,10 @@
 import { View, StyleSheet } from "react-native";
 import CompButton from "../components/compButton";
+import Display from "../components/display";
 
 function Home({ navigation }) {
     return (
-        <View style={styles.rootContainer}>
-            <View style={styles.outerContainer}>
+        <Display>
                 <View>
                     <CompButton 
                     title="All Quotes"
@@ -35,8 +35,7 @@ function Home({ navigation }) {
                     onPress={() => navigation.navigate('todays')}
                     />
                 </View>
-            </View>
-        </View>
+            </Display>
     );
 }
 
