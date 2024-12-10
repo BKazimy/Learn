@@ -8,7 +8,7 @@ function QuotePost({ route, navigation }) {
     console.log("ready");
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: "Quote Pa"
+            title: "Quote Post Page"
         })
         console.log(quoteData.quote);
         console.log("all done!");
