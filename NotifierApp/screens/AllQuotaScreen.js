@@ -1,6 +1,7 @@
 import { View, Text } from "react-native";
 import { useState } from "react";
 import QuotePage from "./quotePage";
+import Display from "../components/display";
 
 function AllQuote({ navigation }) {
     const [data, setdata] = useState([
@@ -49,13 +50,16 @@ function AllQuote({ navigation }) {
         />;
     }
     
-    return 
-        <FlatList 
-        data={data} 
-        keyExtractor={(item) => item.id} 
-        renderItem={renderCategoryItem}
-        numColumns={1}
-    />;
+    return ( 
+        <Display>
+            <FlatList 
+                data={data} 
+                keyExtractor={(item) => item.id} 
+                renderItem={renderCategoryItem}
+                numColumns={1}
+            />
+        </Display>
+    );
 }
 
 export default AllQuote;
