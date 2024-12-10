@@ -1,5 +1,6 @@
 import { View, Text } from "react-native";
 import { useState } from "react";
+import QuotePage from "./quotePage";
 
 function AllQuote({ navigation }) {
     const [data, setdata] = useState([
@@ -41,7 +42,7 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <quote 
+        return <QuotePage 
             title={itemData.item.title} 
             color={itemData.item.color}
             onPress={pressHandler} 
