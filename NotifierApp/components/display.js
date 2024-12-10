@@ -3,10 +3,7 @@ import { View, StyleSheet } from "react-native";
 function Display({ children, customStyle }) {
     return (
         <View style={styles.rootContainer}>
-            <View style={[
-                styles.outerContainer,
-                customStyle,
-            ]}>
+            <View style={styles.outerContainer}>
                 <View style={customStyle}>
                     {children}
                 </View>
