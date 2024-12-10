@@ -7,6 +7,7 @@ function Display({ children, customStyle }) {
                 styles.outerContainer,
                 customStyle,
             ]}>
+                <View></View>
                 {children}
             </View>
         </View>
