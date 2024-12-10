@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     quotePost: {
         maxheight: '70%',
         minHeight: '70%',
-
+        borderRadius: 8,
         backgroundColor: colors.darkOliveGreen,
         elevation: 4,
         shadowColor: 'black',
