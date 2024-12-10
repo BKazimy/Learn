@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
 
     quoteText: {
-        fontSize: 16,
+        fontSize: 24,
     },
 
     authorText: {
