@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 
 function QuotePage() {
     return <View>
-        <Text>Random Quotes Screen!</Text>
+        <Text>Quotes Screen!</Text>
     </View>
 }
 
