@@ -27,7 +27,7 @@ function App() {
     }, [quote]);
 
     const handleAddQuote = (quoteData) => {
-        addQuote(quoteData.quote, 'Steve Jobs', 'Story about time management.');
+        addQuote(quoteData.quote, quoteData.author, 'Story about time management.');
         alert('Quote added!');
     };
 
