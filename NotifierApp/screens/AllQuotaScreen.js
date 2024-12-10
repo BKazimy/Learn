@@ -34,7 +34,7 @@ function AllQuote({ navigation }) {
     function renderCategoryItem(itemData) {
 
         function pressHandler() {
-            navigation.navigate('MealOverview', {
+            navigation.navigate('quotePage', {
                 id: itemData.id,
                 quote: itemData.quote,
                 author: itemData.author,
