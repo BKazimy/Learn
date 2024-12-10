@@ -45,7 +45,7 @@ function AllQuote({ navigation }) {
                 id: itemData.item.id,
                 quote: itemData.item.quote,
                 author: itemData.item.author,
-                story: itemData.item.story
+                story: itemData.item.story,
             });
         }
     
