@@ -1,4 +1,4 @@
-class Meal {
+class Data {
     constructor(
       id,
       quote, 
