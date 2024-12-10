@@ -27,6 +27,10 @@ const styles = StyleSheet.create({
     innerContainer: {
         marginVertical: 4,
     },
+
+    storyContainer: {
+        marginTop: 4,
+    },
     
     text: {
         color: colors.khaki,
