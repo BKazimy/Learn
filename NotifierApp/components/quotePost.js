@@ -19,18 +19,13 @@ export default QuotePost;
 
 const styles = StyleSheet.create({
     outerContainer:{
-        padding: 8,
-
-        borderColor: 'red',
-        borderWidth: 1,
+        padding: 6,
+        paddingVertical: 4,
         flex: 1,
     },
 
     innerContainer: {
         margin: 4,
-
-        borderColor: 'yellow',
-        borderWidth: 1,
     },
     
     text: {
