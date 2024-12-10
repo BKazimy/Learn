@@ -5,7 +5,7 @@ function AllQuote({ navigation }) {
     const [quoteList, setQuoteList] = useState([
         {
             id: 1,
-            Q
+            quote: "blal"
         }
     ])
     return <View>
