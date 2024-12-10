@@ -83,7 +83,7 @@ function App() {
         />
         <Stack.Screen 
           name="quotePage" 
-          component={quote} 
+          component={quotePage} 
           options={{
             title: "Quote Page",
           }}
