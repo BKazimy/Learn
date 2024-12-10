@@ -20,6 +20,15 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         flex: 1,
+        
+        backgroundColor: colors.darkOliveGreen,
+        
+        elevation: 4,
+        shadowColor: 'black',
+        shadowOpacity: 0.25,
+        shadowOffset: { width: 0, height: 2},
+        shadowRadius: 8,
+        overflow: 'hidden',
     },
 
     outerContainer: {
