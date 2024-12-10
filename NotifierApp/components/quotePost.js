@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-function Random() {
+function QuotePost() {
     return <View>
-        <Text>Random Quotes Screen!</Text>
+        <Text>QuotePost Quotes Screen!</Text>
     </View>
 }
 
-export default Random;
+export default QuotePost;
