@@ -29,9 +29,13 @@ function AllQuote({ navigation }) {
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
     ])
-    return <View>
-        <Text>All Quotes Screen!</Text>
-    </View>
+    
+    return <FlatList 
+        data={CATEGORIES} 
+        keyExtractor={(item) => item.id} 
+        renderItem={renderCategoryItem}
+        numColumns={2}
+    />;
 }
 
 export default AllQuote;
