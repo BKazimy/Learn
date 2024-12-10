@@ -10,7 +10,7 @@ function QuotePost({ route, navigation }) {
         // })
         console.log(quoteData.quote);
         console.log("all done!");
-    }, [navigation, quoteData])
+    }, [navigation, quoteData]);
     console.log("all done!");
 
     return <View>
