@@ -45,7 +45,9 @@ function App() {
             backgroundColor: colors.darkOliveGreen,
           },
           headerTintColor: colors.khaki,
-          headerTit
+          headerTitleStyle: {
+            
+          }
         }}
       >
         <Stack.Screen 
