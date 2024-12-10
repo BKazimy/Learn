@@ -14,12 +14,12 @@ class Data {
 
 
 export const Entries = [
-    {
-        id: 1,
-        quote: "Never eat the pitza with pinapple!",
-        author: "Arthor Hill",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-    },
+    new Data (
+        1,
+        "Never eat the pitza with pinapple!",
+        "Arthor Hill",
+        'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+    ),
     {
         id: 2,
         quote: "blah blah blah",
