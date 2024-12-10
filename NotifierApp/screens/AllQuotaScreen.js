@@ -49,7 +49,8 @@ function AllQuote({ navigation }) {
         />;
     }
     
-    return <FlatList 
+    return 
+        <FlatList 
         data={data} 
         keyExtractor={(item) => item.id} 
         renderItem={renderCategoryItem}
