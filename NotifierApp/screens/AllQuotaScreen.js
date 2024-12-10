@@ -1,6 +1,6 @@
 import { FlatList } from "react-native";
 import { useState } from "react";
-import QuotePage from "./quotePage";
+
 import Display from "../components/display";
 import CompButton from "../components/compButton";
 
