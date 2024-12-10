@@ -12,8 +12,10 @@ function QuotePost({ quote, author, story }) {
 export default QuotePost;
 
 const styles = StyleSheet.create({
+    
+    
     text: {
         color: colors.khaki,
     },
-    
+
 })
