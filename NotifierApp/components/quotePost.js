@@ -3,7 +3,7 @@ import colors from "../vars/color";
 
 function QuotePost({ quote, author, story }) {
     return <View>
-        <Text style={styles.title}>{quote}</Text>
+        <Text style={styles.text}>{quote}</Text>
         <Text>{author}</Text>
         <Text>{story}</Text>
     </View>
@@ -12,7 +12,7 @@ function QuotePost({ quote, author, story }) {
 export default QuotePost;
 
 const styles = StyleSheet.create({
-    title: {
+    text: {
         color: colors.khaki,
     }
 })
