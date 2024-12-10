@@ -24,11 +24,13 @@ function AllQuote({ navigation }) {
         {
             id: 4,
             quote: "blah blah blah",
+            author: "Blah Blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
             id: 5,
             quote: "blah blah blah",
+            author: "Blah Blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
     ])
