@@ -11,7 +11,7 @@ import { Text } from 'react-native';
 const Stack = createStackNavigator();
 
 function App() {
-  const [quote, setQuote] = useState(null);
+    const [quote, setQuote] = useState(null);
 
     useEffect(() => {
         initDB();
@@ -32,7 +32,7 @@ function App() {
     const handleShowQuote = () => {
         getRandomQuote(setQuote);
     };
-    
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='home'>
