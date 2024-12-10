@@ -12,7 +12,7 @@ function QuotePage({ route, navigation }) {
         })
     }, []);
 
-    return <Display>
+    return <Display style={{}}>
         <QuotePost 
             id={quoteData.id}
             quote={quoteData.quote}
