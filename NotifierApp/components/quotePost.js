@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        mar
+        margine
     },
     
     text: {
