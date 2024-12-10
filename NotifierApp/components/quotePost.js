@@ -13,13 +13,15 @@ export default QuotePost;
 
 const styles = StyleSheet.create({
     outerContainer:{
+        
+
         borderColor: 'red',
         borderWidth: 1,
     },
     
     text: {
         color: colors.khaki,
-        
+
     },
 
 })
