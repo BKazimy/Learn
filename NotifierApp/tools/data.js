@@ -3,7 +3,7 @@ class Meal {
       id,
       quote, 
       author,
-      affordability,
+      story,
     ) {
       this.id = id;
       this.quote = quote;
