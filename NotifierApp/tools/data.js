@@ -20,30 +20,6 @@ export const Entries = [
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
     ),
-    {
-        id: 2,
-        quote: "blah blah blah",
-        author: "Blah Blah",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-    },
-    {
-        id: 3,
-        quote: "blah blah blah",
-        author: "Blah Blah",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-    },
-    {
-        id: 4,
-        quote: "blah blah blah",
-        author: "Blah Blah",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-    },
-    {
-        id: 5,
-        quote: "blah blah blah",
-        author: "Blah Blah",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-    },
 ]
 
 export default Data;
