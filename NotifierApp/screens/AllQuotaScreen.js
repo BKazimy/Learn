@@ -42,8 +42,7 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <QuotePage 
-            id={itemData.id}
+        return <QuotePage
             quote={itemData.quote}
             author={itemData.author}
             onPress={pressHandler} 
