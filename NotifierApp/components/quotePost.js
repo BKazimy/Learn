@@ -10,7 +10,7 @@ function QuotePost({ quote, author, story }) {
             <Text style={[styles.text]}>{author}</Text>
         </View> */}
         <View style={styles.innerContainer}>
-            <Text style={[styles.text]}>{story}</Text>
+            <Text style={[styles.text, styles.storyText]}>{story}</Text>
         </View>
     </View>
 }
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         opacity: 0.9,
     },
 
-    story: {
+    storyText: {
         fontSize: 12,
     },
 
