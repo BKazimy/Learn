@@ -13,7 +13,7 @@ function QuotePage({ route, navigation }) {
     }, []);
 
     return <Display style={{
-        background
+        backgroundco
     }}>
         <QuotePost 
             id={quoteData.id}
