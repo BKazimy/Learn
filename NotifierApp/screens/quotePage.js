@@ -12,10 +12,10 @@ function QuotePage({ route, navigation }) {
     }, []);
 
     return <View>
-        <Text>{id}</Text>
-        <Text>{quote}</Text>
-        <Text>{author}</Text>
-        <Text>{story}</Text>
+        <Text>{quoteData.id}</Text>
+        <Text>{quoteData.quote}</Text>
+        <Text>{quoteData.author}</Text>
+        <Text>{quoteData.story}</Text>
     </View>
 }
 
