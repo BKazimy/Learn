@@ -41,16 +41,3 @@ function Home({ navigation }) {
 }
 
 export default Home;
-
-const styles = StyleSheet.create({
-    rootContainer: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        flex: 1,
-    },
-
-    outerContainer: {
-        width: '80%',
-        maxWidth: 720,
-    },
-})
