@@ -28,7 +28,7 @@ export default QuotePage;
 
 const styles = StyleSheet.create({
     quotePost: {
-        height: '70%',
+        maxheight: '70%',
         minHeight: '70%',
 
         backgroundColor: colors.darkOliveGreen,
