@@ -3,7 +3,7 @@ import colors from "../vars/color";
 
 function QuotePost({ quote, author, story }) {
     return <View>
-        <Text style={styles.text}>{quote}</Text>
+        <Text style={[styles.text]}>{quote}</Text>
         <Text>{author}</Text>
         <Text>{story}</Text>
     </View>
