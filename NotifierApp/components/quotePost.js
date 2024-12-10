@@ -20,7 +20,7 @@ export default QuotePost;
 const styles = StyleSheet.create({
     outerContainer:{
         padding: 6,
-        paddingHorizontal: 4,
+        paddingHorizontal: 8,
         flex: 1,
 
         borderColor: 'red',
