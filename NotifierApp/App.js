@@ -27,7 +27,7 @@ function App() {
     }, [quote]);
 
     const handleAddQuote = (quoteData) => {
-        addQuote('Your time is limited, so don’t waste it living someone else’s life.', 'Steve Jobs', 'Story about time management.');
+        addQuote(quoteData.quote, 'Steve Jobs', 'Story about time management.');
         alert('Quote added!');
     };
 
