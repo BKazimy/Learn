@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function QuotePage({ route,  }) {
+function QuotePage({ route, navigation }) {
     return <View>
         <Text>{id}</Text>
         <Text>{quote}</Text>
