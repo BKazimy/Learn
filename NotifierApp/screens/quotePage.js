@@ -1,6 +1,7 @@
 import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 import Display from "../components/display";
+import QuotePost from "../components/quotePost";
 
 function QuotePage({ route, navigation }) {
     const quoteData = route.params;
@@ -11,7 +12,11 @@ function QuotePage({ route, navigation }) {
         })
     }, []);
 
-    return <Display></Display>
+    return <Display>
+        <QuotePost 
+            
+        />
+    </Display>
 }
 
 export default QuotePage;
