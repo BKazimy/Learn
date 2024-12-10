@@ -4,8 +4,8 @@ function QuotePage({ id, quote, author, story }) {
     return <View>
         <Text>{id}</Text>
         <Text>{quote}</Text>
-        <Text>{id}</Text>
-        <Text>{id}</Text>
+        <Text>{author}</Text>
+        <Text>{story}</Text>
     </View>
 }
 
