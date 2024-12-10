@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderWidth: 1,
     },
+
+    innerContainer: {
+        
+    },
     
     text: {
         color: colors.khaki,
