@@ -21,6 +21,13 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1,
         
+    },
+
+    outerContainer: {
+        width: '80%',
+        maxWidth: 520,
+        minWidth: 300,
+        
         backgroundColor: 'gray',
         
         elevation: 4,
@@ -29,11 +36,5 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 2},
         shadowRadius: 8,
         overflow: 'hidden',
-    },
-
-    outerContainer: {
-        width: '80%',
-        maxWidth: 520,
-        minWidth: 300,
     },
 })
