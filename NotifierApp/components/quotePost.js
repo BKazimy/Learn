@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     },
 
     story: {
-        font
+        fontSize: 12
     }
 
 })
