@@ -82,8 +82,8 @@ function App() {
           }}
         />
         <Stack.Screen 
-          name="completQuote" 
-          component={completQuote} 
+          name="quotePage" 
+          component={quote} 
           options={{
             title: "Quote Page",
           }}
