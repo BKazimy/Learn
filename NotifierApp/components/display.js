@@ -22,5 +22,6 @@ const styles = StyleSheet.create({
     outerContainer: {
         width: '80%',
         maxWidth: 720,
+        minWidth: 320
     },
 })
