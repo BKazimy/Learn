@@ -1,6 +1,8 @@
 import { View, Text } from "react-native";
 
 function QuotePost({ route, navigation }) {
+    const data = route.params
+
     return <View>
         <Text>{id}</Text>
         <Text>{quote}</Text>
