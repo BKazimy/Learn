@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
     
     text: {
-        color: colors.seaShell,
+        color: colors.darkKhaki,
     },
 
     quoteText: {
