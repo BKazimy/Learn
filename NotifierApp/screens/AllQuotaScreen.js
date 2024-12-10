@@ -42,7 +42,7 @@ function AllQuote({ navigation }) {
 
         function pressHandler() {
             navigation.navigate('quotePage', {
-                id: itemData.id,
+                id: itemData.item.id,
                 quote: itemData.quote,
                 author: itemData.author,
                 story: itemData.story
@@ -51,7 +51,7 @@ function AllQuote({ navigation }) {
     
         return <CompButton
             title={itemData.item.quote}
-            subtitle={itemData.author}
+            subtitle={itemData.item.author}
             onPress={pressHandler} 
         />;
     }
