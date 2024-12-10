@@ -41,7 +41,7 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <CategoryGridTile 
+        return <quote 
             title={itemData.item.title} 
             color={itemData.item.color}
             onPress={pressHandler} 
