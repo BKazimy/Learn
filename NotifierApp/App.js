@@ -6,6 +6,7 @@ import Schedule from './screens/ScheduleScreen';
 import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import { NavigationContainer } from '@react-navigation/native';
+import QuotePage from './screens/quotePage';
 
 // import { initDB, addQuote, getRandomQuote } from './tools/db';
 // import { scheduleNotification } from './tools/Notification';
@@ -83,7 +84,7 @@ function App() {
         />
         <Stack.Screen 
           name="quotePage" 
-          component={quotePa} 
+          component={QuotePage} 
           options={{
             title: "Quote Page",
           }}
