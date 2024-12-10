@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
+import colors from "../vars/color";
 
 function QuotePage({ route, navigation }) {
     const quoteData = route.params;
@@ -27,6 +28,6 @@ export default QuotePage;
 
 const styles = StyleSheet.create({
     quotePost: {
-        back
+        backgroundColor: colors
     }
 })
