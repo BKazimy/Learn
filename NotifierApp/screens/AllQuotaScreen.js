@@ -9,16 +9,19 @@ function AllQuote({ navigation }) {
         {
             id: 1,
             quote: "blah blah blah",
+            author: "Blah Blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
             id: 2,
             quote: "blah blah blah",
+            author: "Blah Blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
             id: 3,
             quote: "blah blah blah",
+            author: "Blah Blah",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
