@@ -48,7 +48,6 @@ function AllQuote({ navigation }) {
     
         return <CompButton
             title={itemData.item.quote}
-            subtitle={itemData.item.author}
             onPress={pressHandler} 
         />;
     }
