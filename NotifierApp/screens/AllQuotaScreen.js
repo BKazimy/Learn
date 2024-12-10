@@ -37,7 +37,7 @@ function AllQuote({ navigation }) {
                 id: itemData.id,
                 quote: itemData.quote,
                 author: itemData.author,
-                story
+                story: itemData.story
             });
         }
     
