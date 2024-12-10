@@ -1,4 +1,4 @@
-data = [
+Data = [
     {
         id: 1,
         quote: "Never eat the pitza with pinapple!",
@@ -31,4 +31,4 @@ data = [
     },
 ]
 
-export default DataTransfer;
+export default Data;
