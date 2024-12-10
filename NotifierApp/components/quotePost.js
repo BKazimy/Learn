@@ -7,7 +7,7 @@ function QuotePost({ quote, author, story }) {
             <Text style={[styles.text, styles.quoteText]}>{quote}</Text>
         </View>
         <View style={styles.innerContainer}>
-            <Text style={[styles.text]}> - {author}</Text>
+            <Text style={[styles.text]}>- {author}</Text>
         </View>
         <View style={styles.innerContainer}>
             <Text style={[styles.text, styles.storyText]}>{story}</Text>
