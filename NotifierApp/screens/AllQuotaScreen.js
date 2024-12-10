@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 import { useState } from "react";
 
 function AllQuote({ navigation }) {
-    const [data, setQuoteList] = useState([
+    const [data, setdata] = useState([
         {
             id: 1,
             quote: "blah blah blah",
