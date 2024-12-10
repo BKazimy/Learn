@@ -6,10 +6,12 @@ function QuotePost({ quote, author, story }) {
         <View style={styles.innerContainer}>
             <Text style={[styles.text]}>{quote}</Text>
         </View>
-        <View style={styles.innerContainer}></View>
+        <View style={styles.innerContainer}>
             <Text style={[styles.text]}>{author}</Text>
-        <View style={styles.innerContainer}></View>
+        </View>
+        <View style={styles.innerContainer}>
             <Text style={[styles.text]}>{story}</Text>
+        </View>
     </View>
 }
 
