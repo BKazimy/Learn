@@ -9,7 +9,7 @@ function AllQuote({ navigation }) {
         {
             id: 1,
             quote: "blah blah blah",
-            author: "Blah Blah",
+            author: "Arthor Hill",
             story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         },
         {
