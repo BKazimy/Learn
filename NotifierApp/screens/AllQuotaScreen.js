@@ -46,7 +46,6 @@ function AllQuote({ navigation }) {
             id={itemData.id}
             quote={itemData.quote}
             author={itemData.author}
-            story={itemData.story}
             onPress={pressHandler} 
         />;
     }
