@@ -2,19 +2,19 @@ import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 
 function QuotePost({ route, navigation }) {
-    const quotedata = route.params
+    const quoteData = route.params
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: quotedata.title
+            title: quoteData.title
         })
     })
 
     return <View>
-        <Text>{quotedata.id}</Text>
-        <Text>{quotedata.quote}</Text>
-        <Text>{quotedata.author}</Text>
-        <Text>{quotedata.story}</Text>
+        <Text>{quoteData.id}</Text>
+        <Text>{quoteData.quote}</Text>
+        <Text>{quoteData.author}</Text>
+        <Text>{quoteData.story}</Text>
     </View>
 }
 
