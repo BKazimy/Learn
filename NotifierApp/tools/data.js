@@ -16,7 +16,7 @@ class Meal {
     ) {
       this.id = id;
       this.quote = quote;
-      this.title = title;
+      this.story = title;
     }
   }
 
