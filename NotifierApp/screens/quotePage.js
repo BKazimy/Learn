@@ -1,4 +1,3 @@
-import { useLastNotificationResponse } from "expo-notifications";
 import { useLayoutEffect } from "react";
 import { View, Text } from "react-native";
 
