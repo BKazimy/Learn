@@ -10,7 +10,7 @@ function CompButton({ title, onPress }) {
                 style={({ pressed }) => [
                     styles.button,
                     pressed ? styles.buttonPress : null,
-                ]}
+                ]}  
                 onPress={onPress}
             >
                 <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
