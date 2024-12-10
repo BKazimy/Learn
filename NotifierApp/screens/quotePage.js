@@ -28,6 +28,7 @@ export default QuotePage;
 
 const styles = StyleSheet.create({
     quotePost: {
-        backgroundColor: colors.olive
+        backgroundColor: colors.darkOliveGreen,
+        
     }
 })
