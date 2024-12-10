@@ -24,4 +24,6 @@ function QuotePage({ route, navigation }) {
 
 export default QuotePage;
 
-const styles = StyleSheet.crea
+const styles = StyleSheet.create({
+    
+})
