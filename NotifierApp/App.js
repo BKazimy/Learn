@@ -44,6 +44,7 @@ function App() {
           headerStyle: {
             backgroundColor: colors.darkOliveGreen,
           },
+          headerTintColor: colors.khaki,
           
         }}
       >
