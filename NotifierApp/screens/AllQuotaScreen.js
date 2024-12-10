@@ -2,6 +2,7 @@ import { FlatList } from "react-native";
 import { useState } from "react";
 import QuotePage from "./quotePage";
 import Display from "../components/display";
+import CompButton from "../components/compButton";
 
 function AllQuote({ navigation }) {
     const [data, setdata] = useState([
@@ -43,7 +44,7 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <QuotePage
+        return <CompButton
             quote={itemData.quote}
             author={itemData.author}
             onPress={pressHandler} 
