@@ -6,4 +6,4 @@ function QuotePage() {
     </View>
 }
 
-export default Random;
+export default QuotePage;
