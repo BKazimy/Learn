@@ -76,11 +76,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
-  container: {
-    // alignItems: 'center',
-    width: '70%',
-    maxWidth: 720,
-  },
+  // container: {
+  //   // alignItems: 'center',
+  //   width: '70%',
+  //   maxWidth: 720,
+  // },
 
   textInput: {
     padding: 10,
