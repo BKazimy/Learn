@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        marginVertical: 4,
+        marginVertical: 2,
     },
 
     storyContainer: {
