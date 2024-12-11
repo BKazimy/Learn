@@ -13,7 +13,7 @@ function NewQuote({ navigation }) {
     console.log(story);
 
     try {
-      let newe
+      let newquote
     } catch (error) {
       console.log('Error using QuoteDatabase:', error);
     }
