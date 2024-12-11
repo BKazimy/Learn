@@ -35,7 +35,7 @@ function AllQuote({ navigation }) {
                 renderItem={renderCategoryItem}
                 numColumns={1}
                 contentContainerStyle={{
-                    paddingBottom: 4,
+                    paddingBottom: 10,
                     
                 }}
             />
