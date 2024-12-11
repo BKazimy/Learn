@@ -4,16 +4,8 @@ import { StyleSheet } from "react-native";
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 import { useLayoutEffect } from "react";
-// import Entries from "../tools/data";
 
 function RandomQuote({ navigation }) {
-    const quoteData = {
-        id: 1,
-        quote: "Never eat the pitza with pinapple!",
-        author: "Arthor Hill",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-        source: 'abc',
-    }
 
     useLayoutEffect(() => {
         navigation.setOptions({
