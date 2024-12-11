@@ -33,13 +33,7 @@ function AllQuote({ navigation }) {
                 keyExtractor={(item) => item.id} 
                 renderItem={renderCategoryItem}
                 numColumns={1}
-                contentContainerStyle={{
-                    paddingBottom: 10,
-
-                    borderColor: 'black',
-                    borderWidth: 2,
-                    flex: 1,
-                }}
+                contentContainerStyle={styles.contentContainerStyle}
                 style={styles.flatlist}
                 scrollEnabled={true}
             />
