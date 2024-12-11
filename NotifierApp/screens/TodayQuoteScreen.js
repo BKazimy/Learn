@@ -11,7 +11,7 @@ function Todays() {
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
-                    id={quoteData.id}
+                    id={1}
                 />
             </Display>
     )
