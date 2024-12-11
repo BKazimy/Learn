@@ -15,7 +15,7 @@ function QuotePost({ id, navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            
+            title: quoteData.author
         })
     })
 
