@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
-import colors from "../vars/color";
+import colors from "../utility/color";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;

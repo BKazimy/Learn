@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
-import colors from "../vars/color";
+import colors from "../utility/color";
 
 function QuotePost({ quote, author, story, source }) {
     return <View style={styles.outerContainer}>

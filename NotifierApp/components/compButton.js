@@ -1,5 +1,5 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
-import colors from "../vars/color";
+import colors from "../utility/color";
 
 function CompButton({ title, onPress, subtitle }) {
 
