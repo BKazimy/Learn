@@ -12,7 +12,11 @@ function NewQuote({ navigation }) {
     console.log(author);
     console.log(story);
 
-    let newquote = db.add
+    try {
+      let newe
+    } catch (error) {
+      console.log('Error using QuoteDatabase:', error);
+    }
   }
 
     return (
