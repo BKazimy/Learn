@@ -13,7 +13,7 @@ export const scheduleNotification = async (navigation) => {
 
         // Define the trigger time for the daily notification
         const trigger = {
-            hour: 10,
+            hour: 2,
             minute: 0,
             repeats: true,  // Repeats every day
         };
