@@ -2,6 +2,7 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
+// Screens
 import Home from './screens/HomeScreen';
 import AllQuote from './screens/AllQuotaScreen';
 import NewQuote from './screens/NewQuote';
@@ -9,13 +10,16 @@ import Schedule from './screens/ScheduleScreen';
 import QuotePage from './screens/quotePage';
 
 import QuoteDatabase from './utility/db';
-import colors from './vars/color';
+import colors from './utility/color';
 
-// Import the context provider
+// Utilities
 import { QuoteOfDay } from './utility/quoteOfDay';
+import { sendImmediateNotification } from './utility/Notification';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
+
+sendImmediateNotification
 
 function App() {
   return (
