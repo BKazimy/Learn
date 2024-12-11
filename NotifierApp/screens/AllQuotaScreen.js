@@ -1,7 +1,6 @@
 import { FlatList, StyleSheet } from "react-native";
 
 import CompButton from "../components/compButton";
-// import QuoteDatabase from "../tools/db";
 import { View } from "react-native-web";
 
 function AllQuote({ navigation }) {
