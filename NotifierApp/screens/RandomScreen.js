@@ -6,7 +6,7 @@ import QuotePost from "../components/quotePost";
 import { useLayoutEffect } from "react";
 // import Entries from "../tools/data";
 
-function Todays({ navigation }) {
+function RandomQuote({ navigation }) {
     const quoteData = {
         id: 1,
         quote: "Never eat the pitza with pinapple!",
@@ -34,7 +34,7 @@ function Todays({ navigation }) {
     )
 }
 
-export default Todays;
+export default RandomQuote;
 
 const styles = StyleSheet.create({
     quotePost: {
