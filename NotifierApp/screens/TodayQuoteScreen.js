@@ -15,12 +15,6 @@ function Todays({ navigation }) {
         source: 'abc',
     }
 
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            title: quoteData.author,
-        })
-    })
-
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
