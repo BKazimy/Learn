@@ -9,6 +9,8 @@ import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import QuotePage from './screens/quotePage';
 
+import QuoteDatabase from ''
+
 import colors from './vars/color';
 
 // import { initDB, addQuote, getRandomQuote } from './tools/db';
