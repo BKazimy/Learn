@@ -1,7 +1,7 @@
 import React, { createContext, useState, useContext } from 'react';
 
 // Create a context to hold the ID
-const IdContext = createContext();
+const QuoteContext = createContext();
 
 // Create a provider component that will wrap the app or part of it
 export const QuoteOfDay = ({ children }) => {
