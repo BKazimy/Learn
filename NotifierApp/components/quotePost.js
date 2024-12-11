@@ -12,6 +12,8 @@ function QuotePost({ id, navigation }) {
         source: 'abc',
     }
 
+    us
+
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
             <Text style={[styles.text, styles.quoteText]}>{quoteData.quote}</Text>
