@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet } from "react-native";
 
 import CompButton from "../components/compButton";
-import db from "../tools/db";
+import quo from "../tools/db";
 import { View } from "react-native-web";
 
 function AllQuote({ navigation }) {
