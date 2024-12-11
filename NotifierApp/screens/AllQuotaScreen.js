@@ -47,3 +47,15 @@ function AllQuote({ navigation }) {
 }
 
 export default AllQuote;
+
+const styles = StyleSheet.create({
+    flatlistContentContainer: {
+        paddingBottom: 10,
+        // No flex: 1 needed here as it conflicts with the scrolling.
+        borderColor: 'black',
+        borderWidth: 2,
+    },
+    flatlist: {
+        flex: 1, // This makes sure the FlatList fills up the space in its parent container
+    },
+});
