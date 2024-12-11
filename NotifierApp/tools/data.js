@@ -53,4 +53,4 @@ export const Entries = [
     ),
 ]
 
-export default Data;
+export default Entries;
