@@ -5,7 +5,7 @@ import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 import colors from "../vars/color";
 
-function QuotePage({ route, navigation }) {
+function QuotePage({ route, navigation, id }) {
     const quoteData = route.params;
 
     useLayoutEffect(() => {
