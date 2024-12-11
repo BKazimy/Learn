@@ -20,7 +20,7 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <Text>
+        return <Text>"
             <CompButton
                 title={itemData.item.quote}
                 subtitle={[itemData.item.author, itemData.item.source]}
