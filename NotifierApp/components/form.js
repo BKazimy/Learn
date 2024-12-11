@@ -8,6 +8,7 @@ function Form({ navigation, newQuoteHandler, edit }) {
     const [quoteValue, setQuoteValue] = React.useState();
     const [storyValue, setStoryValue] = React.useState();
     const [authorValue, setAuthorValue] = React.useState();
+    const [sourceValue, setSourceValue] = React.useState();
   
     if (edit) {
       setAuthorValue(edit.author);
