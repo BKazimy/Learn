@@ -18,7 +18,7 @@ function Form({ navigation, newQuoteHandler, edit }) {
   
     function onSave() {
       newQuoteHandler(quoteValue, authorValue, storyValue, sourceValue);
-      navigation.navigate('home');
+      navigation.navigate('quotePage', );
     }
   
     function onCancel() {
