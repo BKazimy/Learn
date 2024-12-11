@@ -8,6 +8,7 @@ async function AllQuote({ navigation, route }) {
     const { db } = route.params;
     const data = await db.getAll();
     console.log(data);
+    console.log(data.ty);
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
