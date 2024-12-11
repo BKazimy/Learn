@@ -18,7 +18,7 @@ function NewQuote({ navigation }) {
         author: author,
         story: story,
       });
-      console.log('Added Quote:', newQuote);
+      console.log('Added Quote:', newentry);
 
     } catch (error) {
       console.log('Error using QuoteDatabase:', error);
