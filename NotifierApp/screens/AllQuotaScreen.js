@@ -41,7 +41,8 @@ function AllQuote({ navigation }) {
                     borderColor: 'black',
                     borderWidth: 2,
                 }}
-                style={{}}
+                style={{ flex: 1 }}
+                scrollEnabled={true}
             />
         </Display>
     );
