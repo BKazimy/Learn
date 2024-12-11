@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         maxHeight: '90%',
         overflow: 'hidden',
+        marginVertical: 8,
     },
 
     outerContainer: {
@@ -29,7 +30,6 @@ const styles = StyleSheet.create({
         maxWidth: 520,
         minWidth: 300,
         maxHeight: '100%',
-        marginVertical: 8,
 
         borderColor: 'red',
         borderWidth: 1,
