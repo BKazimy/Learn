@@ -1,4 +1,6 @@
 import { View, Text } from "react-native";
+
+// components
 import CompButton from "../components/compButton";
 import Display from "../components/display";
 
