@@ -3,7 +3,7 @@ import { FlatList, StyleSheet } from "react-native";
 import CompButton from "../components/compButton";
 import { View } from "react-native-web";
 
-function AllQuote({ navigation, route }) {
+async function AllQuote({ navigation, route }) {
     
     const { db } = route.params;
     const ab = async () => {
