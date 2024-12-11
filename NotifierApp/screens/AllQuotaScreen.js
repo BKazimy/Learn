@@ -10,7 +10,7 @@ function AllQuote({ navigation, route }) {
         const data = await db.getAll();
         console.log(data);
     }
-    // const data = [];
+    const data = [];
     console.log(data);
 
     function renderCategoryItem(itemData) {
