@@ -106,6 +106,96 @@ export const Entries = [
           story: "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smoulders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit.",
           source: "The 48 Laws of Power",
         },
+        {
+    quote: "LAW 16: USE ABSENCE TO INCREASE RESPECT AND HONOR",
+    author: "Robert Greene",
+    story: "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear. If you are already established in a group, temporary withdrawal from it will make you more talked about, even more admired. You must learn when to leave. Create value through scarcity.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 17: KEEP OTHERS IN SUSPENDED TERROR: CULTIVATE AN AIR OF UNPREDICTABILITY",
+    author: "Robert Greene",
+    story: "Humans are creatures of habit with an insatiable need to see familiarity in other people’s actions. Your predictability gives them a sense of control. Turn the tables: Be deliberately unpredictable. Behaviour that seems to have no consistency or purpose will keep them off balance, and they will wear themselves out trying to explain your moves. Taken to an extreme, this strategy can intimidate and terrorize.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 18: DO NOT BUILD FORTRESSES TO PROTECT YOURSELF—ISOLATION IS DANGEROUS",
+    author: "Robert Greene",
+    story: "The world is dangerous and enemies are everywhere—everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it protects you from—it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people, find allies, and mingle. You are shielded from your enemies by the crowd.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 19: KNOW WHO YOU’RE DEALING WITH—DO NOT OFFEND THE WRONG PERSON",
+    author: "Robert Greene",
+    story: "There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs’ clothing. Choose your victims and opponents carefully, then—never offend or deceive the wrong person.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 20: DO NOT COMMIT TO ANYONE",
+    author: "Robert Greene",
+    story: "It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others—playing people against one another, making them pursue you.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 21: PLAY A SUCKER TO CATCH A SUCKER—SEEM DUMBER THAN YOUR MARK",
+    author: "Robert Greene",
+    story: "No one likes feeling stupider than the next person. The trick, then, is to make your victims feel smart—and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 22: USE THE SURRENDER TACTIC: TRANSFORM WEAKNESS INTO POWER",
+    author: "Robert Greene",
+    story: "When you are weaker, never fight for honour’s sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you — surrender first. By turning the other cheek you infuriate and unsettle him. Make surrender a tool of power.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 23: CONCENTRATE YOUR FORCES",
+    author: "Robert Greene",
+    story: "Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another—intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 24: PLAY THE PERFECT COURTIER",
+    author: "Robert Greene",
+    story: "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the most oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 25: RE-CREATE YOURSELF",
+    author: "Robert Greene",
+    story: "Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define it for you. Incorporate dramatic devices into your public gestures and actions—your power will be enhanced and your character will seem larger than life.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 26: KEEP YOUR HANDS CLEAN",
+    author: "Robert Greene",
+    story: "You must seem a paragon of civility and efficiency: Your hands are never soiled by mistakes and nasty deeds. Maintain such a spotless appearance by using others as scapegoats and cat’s-paws to disguise your involvement.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 27: PLAY ON PEOPLE’S NEED TO BELIEVE TO CREATE A CULTLIKE FOLLOWING",
+    author: "Robert Greene",
+    story: "People have an overwhelming desire to believe in something. Become the focal point of such desire by offering them a cause, a new faith to follow. Keep your words vague but full of promise; emphasize enthusiasm over rationality and clear thinking. Give your new disciples rituals to perform, ask them to make sacrifices on your behalf. In the absence of organized religion and grand causes, your new belief system will bring you untold power.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 28: ENTER ACTION WITH BOLDNESS",
+    author: "Robert Greene",
+    story: "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution. Timidity is dangerous: Better to enter with boldness. Any mistakes you commit through audacity are easily corrected with more audacity. Everyone admires the bold; no one honours the timid.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 29: PLAN ALL THE WAY TO THE END",
+    author: "Robert Greene",
+    story: "The ending is everything. Plan all the way to it, taking into account all the possible consequences, obstacles, and twists of fortune that might reverse your hard work and give the glory to others. By planning to the end you will not be overwhelmed by circumstances and you will know when to stop. Gently guide fortune and help determine the future by thinking far ahead.",
+    source: "The 48 Laws of Power",
+  },
+  {
+    quote: "LAW 30: MAKE YOUR ACCOMPLISHMENTS SEEM EFFORTLESS",
+    author: "Robert Greene",
+    story: "Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work— it only raises questions. Teach no one your tricks or they will be used against you.",
+    source: "The 48 Laws of Power",
+  },
 ]
 
 export default Entries;
