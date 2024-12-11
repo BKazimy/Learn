@@ -7,9 +7,12 @@ import Entries from "../tools/data";
 
 function Todays({ navigation }) {
 
-    const quoteData = async () => {
-        const { id, updateId } = useQuoteContext();
-        return Entries.find((entry) => entry.id === id);
+    const quoteData = {
+        id: 1,
+        quote: "Never eat the pitza with pinapple!",
+        author: "Arthor Hill",
+        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+        source: 'abc',
     }
 
     console.log(quoteData);
