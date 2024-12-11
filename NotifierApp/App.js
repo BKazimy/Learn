@@ -72,6 +72,7 @@ function App() {
         <Stack.Screen 
           name="newquote" 
           component={NewQuote} 
+          initialParams={{ db }}
           options={{
             title: 'Write New Quote',
           }}
