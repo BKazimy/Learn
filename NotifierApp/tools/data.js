@@ -46,6 +46,66 @@ export const Entries = [
           story: "Reputation is the cornerstone of power. Through reputation alone you can intimidate and win; once it slips, however, you are vulnerable, and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile, learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them.",
           source: "The 48 Laws of Power",
         },
+        {
+          quote: "LAW 6: COURT ATTENTION AT ALL COST",
+          author: "Robert Greene",
+          story: "Everything is judged by its appearance; what is unseen counts for nothing. Never let yourself get lost in the crowd, then, or buried in oblivion. Stand out. Be conspicuous, at all cost. Make yourself a magnet of attention by appearing larger, more colourful, more mysterious than the bland and timid masses.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 7: GET OTHERS TO DO THE WORK FOR YOU, BUT ALWAYS TAKE THE CREDIT",
+          author: "Robert Greene",
+          story: "Use the wisdom, knowledge, and legwork of other people to further your own cause. Not only will such assistance save you valuable time and energy, it will give you a godlike aura of efficiency and speed. In the end your helpers will be forgotten and you will be remembered. Never do yourself what others can do for you.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 8: MAKE OTHER PEOPLE COME TO YOU—USE BAIT IF NECESSARY",
+          author: "Robert Greene",
+          story: "When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains—then attack. You hold the cards.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 9: WIN THROUGH YOUR ACTIONS, NEVER THROUGH ARGUMENT",
+          author: "Robert Greene",
+          story: "Any momentary triumph you think you have gained through argument is really a Pyrrhic victory: The resentment and ill will you stir up is stronger and lasts longer than any momentary change of opinion. It is much more powerful to get others to agree with you through your actions, without saying a word. Demonstrate, do not explicate.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 10: INFECTION: AVOID THE UNHAPPY AND UNLUCKY",
+          author: "Robert Greene",
+          story: "You can die from someone else’s misery—emotional states are as infectious as diseases. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 11: LEARN TO KEEP PEOPLE DEPENDENT ON YOU",
+          author: "Robert Greene",
+          story: "To maintain your independence you must always be needed and wanted. The more you are relied on, the more freedom you have. Make people depend on you for their happiness and prosperity and you have nothing to fear. Never teach them enough so that they can do without you.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 12: USE SELECTIVE HONESTY AND GENEROSITY TO DISARM YOUR VICTIM",
+          author: "Robert Greene",
+          story: "One sincere and honest move will cover over dozens of dishonest ones. Open-hearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armour, you can deceive and manipulate them at will. A timely gift—a Trojan horse—will serve the same purpose.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 13: WHEN ASKING FOR HELP, APPEAL TO PEOPLE’S SELF-INTEREST, NEVER TO THEIR MERCY OR GRATITUDE",
+          author: "Robert Greene",
+          story: "If you need to turn to an ally for help, do not bother to remind him of your past assistance and good deeds. He will find a way to ignore you. Instead, uncover something in your request, or in your alliance with him, that will benefit him, and emphasize it out of all proportion. He will respond enthusiastically when he sees something to be gained for himself.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 14: POSE AS A FRIEND, WORK AS A SPY",
+          author: "Robert Greene",
+          story: "Knowing about your rival is critical. Use spies to gather valuable information that will keep you a step ahead. Better still: Play the spy yourself. In polite social encounters, learn to probe. Ask indirect questions to get people to reveal their weaknesses and intentions. There is no occasion that is not an opportunity for artful spying.",
+          source: "The 48 Laws of Power",
+        },
+        {
+          quote: "LAW 15: CRUSH YOUR ENEMY TOTALLY",
+          author: "Robert Greene",
+          story: "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smoulders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit.",
+          source: "The 48 Laws of Power",
+        },
 ]
 
 export default Entries;
