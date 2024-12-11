@@ -7,7 +7,7 @@ import { useQuoteContext } from './quoteOfDay'; // Import context to access id
 export const sendImmediateNotification = async () => {
     const { id } = useQuoteContext();  // Access id from context
     const navigation = useNavigation(); // Access the navigation instance
-
+    console.log('id')
     // Fetch the quote data by ID
     const quoteData = await db.getById(id);
     if (!quoteData) {
