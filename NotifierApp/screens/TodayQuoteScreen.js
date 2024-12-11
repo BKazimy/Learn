@@ -21,10 +21,6 @@ function Todays({ navigation }) {
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
                     id={quoteData.id}
-                    quote={quoteData.quote}
-                    author={quoteData.author}
-                    story={quoteData.story}
-                    source={quoteData.source}
                 />
             </Display>
     )
