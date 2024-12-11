@@ -16,7 +16,7 @@ function CompButton({ title, onPress, subtitle }) {
                 <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
                     <Text style={styles.title}>{title}</Text>
                     {() => {
-                        <Text style={styles.authorText}> -{subtitle}</Text>
+                        subtitle ? <Text style={styles.authorText}> -{subtitle}</Text> : <></>
                     }}
                 </View>
             </Pressable>
