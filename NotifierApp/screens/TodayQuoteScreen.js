@@ -3,9 +3,12 @@ import { StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
+import { useLayoutEffect } from "react";
 // import Entries from "../tools/data";
 
 function Todays({ navigation }) {
+
+    useLayoutEffect
 
     const quoteData = {
         id: 1,
