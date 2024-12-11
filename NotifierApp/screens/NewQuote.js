@@ -14,6 +14,7 @@ function NewQuote({ navigation }) {
         quote: quote,
         author: author,
         story: story ? story : '',
+        source
       });
       console.log('Added Quote:', newentry);
 
