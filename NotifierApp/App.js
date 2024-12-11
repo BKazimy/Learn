@@ -87,6 +87,7 @@ function App() {
         <Stack.Screen 
           name="random" 
           component={Random} 
+          initialParams={{ db }}
           options={{
             title: "Random Quote",
           }}
@@ -94,6 +95,7 @@ function App() {
         <Stack.Screen 
           name="todays" 
           component={Todays} 
+          initialParams={{ db }}
           options={{
             title: "Today's Quote",
           }}
