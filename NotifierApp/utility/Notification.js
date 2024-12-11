@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native'; // Use navigation hook
 import db from './db'; // Import the QuoteDatabase instance
 import { useQuoteContext } from './quoteOfDay'; // Import context to access id
 
-export const scheduleNotification = async () => {
+export const sendImmediateNotification = async () => {
     const { id } = useQuoteContext();  // Access id from context
     const navigation = useNavigation(); // Access the navigation instance
 
@@ -21,13 +21,8 @@ export const scheduleNotification = async () => {
     if (Platform.OS === 'ios' || Platform.OS === 'android') {
         const { status } = await Notifications.requestPermissionsAsync();
         if (status === 'granted') {
+            // Send the notification immediately
             await Notifications.cancelAllScheduledNotificationsAsync();
-
-            const trigger = {
-                hour: 10,
-                minute: 0,
-                repeats: true,
-            };
 
             await Notifications.scheduleNotificationAsync({
                 content: {
@@ -35,7 +30,7 @@ export const scheduleNotification = async () => {
                     body: author,   // Use the author as the body
                     data: { id },   // Pass the id in the notification's data
                 },
-                trigger,
+                trigger: null, // No trigger, just immediate notification
             });
 
             // Handle notification tap
@@ -57,11 +52,12 @@ export const scheduleNotification = async () => {
                 if (permission === "granted") {
                     const notificationOptions = {
                         body: author,  // Use the author as the body
+                        title: quote,   // Pass the quote as the title
                         data: { id },   // Pass the id in the notification's data
                         requireInteraction: true,
                     };
 
-                    // Create and show the notification
+                    // Create and show the notification immediately
                     const notification = new Notification(quote, notificationOptions);  // Use the quote as the title
 
                     // Handle notification click
