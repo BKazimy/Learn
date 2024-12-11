@@ -13,7 +13,9 @@ function QuotePost({ id, navigation }) {
         source: 'abc',
     }
 
-    useLayoutEffect
+    useLayoutEffect(() => {
+        
+    })
 
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
