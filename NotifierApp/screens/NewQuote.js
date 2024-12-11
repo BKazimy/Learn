@@ -12,7 +12,7 @@ function NewQuote({ navigation }) {
     console.log(author);
     console.log(story);
 
-    let db
+    let newquote = db.add
   }
 
     return (
