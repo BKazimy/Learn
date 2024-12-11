@@ -17,6 +17,8 @@ import colors from './utility/color';
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
+
+
 function App() {
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
