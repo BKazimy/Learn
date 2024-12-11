@@ -59,7 +59,7 @@ function Form({ navigation, newQuoteHandler, edit }) {
             onChangeText={text => setSourceValue(text)}
             value={sourceValue}
             style={styles.textInput}
-            placeholder='Author:'
+            placeholder='Source:'
           />
   
             <View style={styles.buttons}>
