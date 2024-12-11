@@ -1,6 +1,5 @@
 import { FlatList, StyleSheet } from "react-native";
 
-import Display from "../components/display";
 import CompButton from "../components/compButton";
 // import db from "../tools/db";
 import Entries from "../tools/data";
