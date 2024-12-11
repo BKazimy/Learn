@@ -32,7 +32,7 @@ function Home({ navigation }) {
                 <View>
                     <CompButton 
                     title="Today's Quote"
-                    onPress={() => navigation.navigate('quotePage')}
+                    onPress={() => navigation.navigate('quotePage', {id: 6})}
                     />
                 </View>
         </Display>
