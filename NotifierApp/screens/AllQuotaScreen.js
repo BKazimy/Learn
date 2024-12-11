@@ -29,7 +29,7 @@ function AllQuote({ navigation }) {
     }
     
     return ( 
-        <View style={styles.flatlist}>
+        <View style={{ flex: 1 }}>
             <FlatList 
                 data={Entries} 
                 keyExtractor={(item) => item.id} 
@@ -53,5 +53,6 @@ const styles = StyleSheet.create({
     },
     flatlist: {
         flex: 1,
+        height: 500,
     },
 });
