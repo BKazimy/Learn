@@ -30,12 +30,12 @@ const styles = StyleSheet.create({
         minWidth: 300,
 
         borderColor: 'red',
-        borderWidth: 1,
+        borderWidth2,
     },
 
     innerContainer: {
         flex: 1,
         borderColor: 'yellow',
-        borderWidth: 1,
+        borderWidth: 2,
     },
 })
