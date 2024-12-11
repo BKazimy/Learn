@@ -10,6 +10,7 @@ function QuotePage({ route, navigation }) {
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
     if (id){
+                // const data = await id ? db.getById(id) : db.getRandom(); // Fetch quote data
         console.log('id:', id);
     } else {
         console.log('no id');
@@ -19,7 +20,6 @@ function QuotePage({ route, navigation }) {
         const fetchData = async () => {
             try {
                 const data = await db.getById(0); // Fetch quote data
-                // const data = await id ? db.getById(id) : db.getRandom(); // Fetch quote data
                 setQuoteData(data); // Update state with fetched data
                 
                 // Set navigation options after fetching data
