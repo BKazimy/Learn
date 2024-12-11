@@ -18,7 +18,7 @@ import colors from './utility/color';
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
-sendImmediateNotification
+sendImmediateNotification();
 
 function App() {
   return (
