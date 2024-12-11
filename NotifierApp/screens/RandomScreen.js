@@ -6,7 +6,7 @@ import QuotePost from "../components/quotePost";
 
 function RandomQuote({ navigation }) {
 
-    navigation.navigate('')
+    navigation.navigate('quotePage', {})
 }
 
 export default RandomQuote;
