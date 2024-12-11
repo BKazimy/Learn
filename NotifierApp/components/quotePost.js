@@ -19,7 +19,7 @@ function QuotePost({ id }) {
             <Text style={[styles.text, styles.authorText]}>- {quoteData.author}: {quoteData.source}</Text>
         </View>
         <View style={[styles.innerContainer, styles.storyContainer]}>
-            <Text style={[styles.text, styles.storyText]}>{story}</Text>
+            <Text style={[styles.text, styles.storyText]}>{quoteData.story}</Text>
         </View>
     </View>
 }
