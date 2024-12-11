@@ -6,7 +6,9 @@ import CompButton from "../components/compButton";
 
 function AllQuote({ navigation }) {
     
-    const data = async (db)
+    const data = async (db) => {
+        
+    }
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
