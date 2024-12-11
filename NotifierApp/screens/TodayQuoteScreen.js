@@ -8,6 +8,7 @@ function Todays() {
 
     const quoteData = async () => {
         const { id, updateId } = useQuoteContext();
+        
         return Entries.find((entry) => entry.id === id);
     }
 
