@@ -4,6 +4,29 @@ class QuoteDatabase {
   constructor() {
     this.storageKey = 'quotes';
     this.autoIncrementKey = 'quote_auto_id';
+    this.initialQuotes = [
+      { quote: "The only limit to our realization of tomorrow is our doubts of today.", author: "Franklin D. Roosevelt", story: "" },
+      { quote: "In the middle of difficulty lies opportunity.", author: "Albert Einstein", story: "" },
+      { quote: "Do not go where the path may lead, go instead where there is no path and leave a trail.", author: "Ralph Waldo Emerson", story: "" },
+    ];
+    this.initializeDatabase();
+  }
+
+  /**
+   * Initialize the database with some default quotes if empty
+   */
+  async initializeDatabase() {
+    try {
+      const quotes = await this.getAll();
+      if (quotes.length === 0) {
+        // If the database is empty, add the initial quotes
+        for (const quoteData of this.initialQuotes) {
+          await this.add(quoteData);
+        }
+      }
+    } catch (error) {
+      console.error('Error initializing database:', error);
+    }
   }
 
   /**
