@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
 
     innerContainer: {
         flex: 1,
+        margin: 2,
         borderColor: 'yellow',
         borderWidth: 2,
     },
