@@ -1,5 +1,4 @@
 import { FlatList } from "react-native";
-import { useState } from "react";
 
 import Display from "../components/display";
 import CompButton from "../components/compButton";
