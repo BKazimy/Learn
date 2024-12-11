@@ -6,15 +6,25 @@ import QuotePost from "../components/quotePost";
 // import Entries from "../tools/data";
 
 function Todays({ navigation }) {
-    const id = 1;
+
+    const quoteData = {
+        id: 1,
+        quote: "Never eat the pitza with pinapple!",
+        author: "Arthor Hill",
+        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+        source: 'abc',
+    }
 
     console.log(quoteData);
 
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
-                    id={id}
-                    navigation={navigation}
+                    id={quoteData.id}
+                    quote={quoteData.quote}
+                    author={quoteData.author}
+                    story={quoteData.story}
+                    source={quoteData.source}
                 />
             </Display>
     )
