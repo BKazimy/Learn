@@ -4,7 +4,9 @@ import Display from "../components/display";
 
 function Todays() {
 
-    
+    const quoteData = async () => {
+        
+    }
 
     return (
         <QuoteContext>
