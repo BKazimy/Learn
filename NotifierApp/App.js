@@ -9,7 +9,7 @@ import Random from './screens/RandomScreen';
 import Todays from './screens/TodayQuoteScreen';
 import QuotePage from './screens/quotePage';
 
-import QuoteDatabase from ''
+import QuoteDatabase from './tools/'
 
 import colors from './vars/color';
 
