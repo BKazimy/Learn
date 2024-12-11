@@ -6,7 +6,7 @@ import CompButton from "../components/compButton";
 
 function AllQuote({ navigation }) {
     
-    
+    async ()
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
