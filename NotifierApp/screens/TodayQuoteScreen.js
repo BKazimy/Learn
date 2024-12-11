@@ -6,14 +6,14 @@ import QuotePost from "../components/quotePost";
 // import Entries from "../tools/data";
 
 function Todays({ navigation }) {
-    const id = 1
+    const id = 1;
 
     console.log(quoteData);
 
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
-                    id={quoteData.id}
+                    id={id}
                 />
             </Display>
     )
