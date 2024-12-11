@@ -26,7 +26,7 @@ export default CompButton;
 
 const styles = StyleSheet.create({
     gridItem: {
-        height: '100%',
+        flex: 1,
         margin: 16,
         borderRadius: 8,
         elevation: 4,
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        height: '100%',
+        flex: 1,
         shadowColor: 'black',
         shadowOpacity: 0.25,
         shadowOffset: { width: 0, height: 2},
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        height: '100%',
+        flex: 1,
         padding: 16,
         borderRadius: 8,
         justifyContent: 'center',
