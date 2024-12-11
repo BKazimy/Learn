@@ -41,6 +41,7 @@ function AllQuote({ navigation }) {
                     borderColor: 'black',
                     borderWidth: 2,
                 }}
+                style={{}}
             />
         </Display>
     );
