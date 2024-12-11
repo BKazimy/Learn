@@ -8,6 +8,15 @@ export const scheduleNotification = async () => {
     const { id } = useQuoteContext();  // Access id from context
     const navigation = useNavigation(); // Access the navigation instance
 
+    // Fetch the quote data by ID
+    const quoteData = await db.getById(id);
+    if (!quoteData) {
+        console.error('Quote not found');
+        return;
+    }
+
+    const { quote, author } = quoteData;  // Destructure the quote and author
+
     // Mobile Notification (iOS/Android)
     if (Platform.OS === 'ios' || Platform.OS === 'android') {
         const { status } = await Notifications.requestPermissionsAsync();
@@ -22,9 +31,9 @@ export const scheduleNotification = async () => {
 
             await Notifications.scheduleNotificationAsync({
                 content: {
-                    title: 'Daily Quote',
-                    body: 'Tap to read today\'s inspiration!',
-                    data: { id }, // Pass the id in the notification's data
+                    title: quote,  // Use the quote text as the title
+                    body: author,   // Use the author as the body
+                    data: { id },   // Pass the id in the notification's data
                 },
                 trigger,
             });
@@ -33,13 +42,9 @@ export const scheduleNotification = async () => {
             Notifications.addNotificationResponseReceivedListener(async (response) => {
                 if (response.notification.request.content.data.id) {
                     // Get the quote by id when notification is tapped
-                    const quoteData = await db.getById(response.notification.request.content.data.id);
-                    if (quoteData) {
-                        // Navigate to the QuotePage with the quote data
-                        navigation.navigate('quotePage', { quote: quoteData });
-                    } else {
-                        console.error('Quote not found.');
-                    }
+                    const quoteId = response.notification.request.content.data.id;
+                    // Navigate to the QuotePage with the id
+                    navigation.navigate('quotePage', { id: quoteId });
                 }
             });
         }
@@ -51,25 +56,19 @@ export const scheduleNotification = async () => {
             Notification.requestPermission().then(async (permission) => {
                 if (permission === "granted") {
                     const notificationOptions = {
-                        body: 'Tap to read today\'s inspiration!',
-                        data: { id }, // Pass the id in the notification's data
+                        body: author,  // Use the author as the body
+                        data: { id },   // Pass the id in the notification's data
                         requireInteraction: true,
                     };
 
                     // Create and show the notification
-                    const notification = new Notification('Daily Quote', notificationOptions);
+                    const notification = new Notification(quote, notificationOptions);  // Use the quote as the title
 
                     // Handle notification click
-                    notification.onclick = async (event) => {
+                    notification.onclick = (event) => {
                         event.preventDefault();  // Prevent default behavior
-                        // Fetch the quote by id
-                        const quoteData = await db.getById(notification.data.id);
-                        if (quoteData) {
-                            // Navigate to the QuotePage with the quote data
-                            navigation.navigate('quotePage', { quote: quoteData });
-                        } else {
-                            console.error('Quote not found.');
-                        }
+                        // Navigate to the QuotePage with the id
+                        navigation.navigate('quotePage', { id: notification.data.id });
                     };
                 }
             });
