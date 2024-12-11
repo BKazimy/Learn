@@ -104,6 +104,7 @@ function App() {
         <Stack.Screen 
           name="quotePage" 
           component={QuotePage} 
+          initialParams={{ db }}
           options={{
             title: "Quote Page",
           }}
