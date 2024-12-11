@@ -8,11 +8,7 @@ function Home({ navigation }) {
 
     // Handle the case where id might be undefined
     if (id === undefined) {
-        return (
-            <Display>
-                <Text>Error: No quote ID found</Text>
-            </Display>
-        );
+        console.log('no id found')
     }
 
     return (
