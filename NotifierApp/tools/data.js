@@ -221,7 +221,7 @@ export const Entries = [
     ),
     new Data (
         5,
-        "Never eat the pitza with pinapple!",
+        "blha blha blah blah",
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
         'abc',
