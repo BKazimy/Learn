@@ -9,7 +9,7 @@ function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
-    
+    console.log(id);
     // Fetch data when the component mounts
     useEffect(() => {
         const fetchData = async () => {
