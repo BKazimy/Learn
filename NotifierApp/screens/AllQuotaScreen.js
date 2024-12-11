@@ -1,4 +1,4 @@
-import { FlatList } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import CompButton from "../components/compButton";
