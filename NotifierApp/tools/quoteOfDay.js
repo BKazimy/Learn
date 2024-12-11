@@ -14,9 +14,9 @@ export const QuoteOfDay = ({ children }) => {
   };
 
   return (
-    <IdContext.Provider value={{ id, updateId }}>
+    <QuoteContext.Provider value={{ id, updateId }}>
       {children}
-    </IdContext.Provider>
+    </QuoteContext.Provider>
   );
 };
 
