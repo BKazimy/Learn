@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 import { QuoteContext, useQuoteContext } from './contexts/IdContext';
 import Display from "../components/display";
 
-impor 
+import Entries from "../tools/data";
 
 function Todays() {
 
