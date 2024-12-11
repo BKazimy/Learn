@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 
   textInput: {
     padding: 10,
-    margin: 15,
+    margin: 10,
     backgroundColor: colors.khaki,
     borderRadius: 8,
     elevation: 4,
