@@ -8,7 +8,9 @@ import { useLayoutEffect } from "react";
 
 function Todays({ navigation }) {
 
-    useLayoutEffect
+    useLayoutEffect({
+        
+    })
 
     const quoteData = {
         id: 1,
