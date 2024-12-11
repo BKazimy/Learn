@@ -6,14 +6,26 @@ import Display from '../components/display';
 import db from '../tools/db';
 
 function NewQuote({ navigation }) {
-  function newQuoteHandler(quote, author, story) {
+  async function newQuoteHandler(quote, author, story) {
     // addQuote(quote, author, story);
     console.log(quote);
     console.log(author);
     console.log(story);
 
     try {
-      let newquote
+      const newentry = await db.add({
+        quote: quote,
+        author: author,
+        story: story,
+      })
+      // Adding a new quote
+      const newQuote = await db.add({
+        quote: "The only limit to our realization of tomorrow is our doubts of today.",
+        author: "Franklin D. Roosevelt",
+        story: "A speech during challenging times, encouraging hope and action.",
+      });
+      console.log('Added Quote:', newQuote);
+
     } catch (error) {
       console.log('Error using QuoteDatabase:', error);
     }
