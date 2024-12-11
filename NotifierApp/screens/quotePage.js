@@ -7,8 +7,8 @@ import colors from "../vars/color";
 
 function QuotePage({ route, navigation, id }) {
 
-    const { db } = route.params
-    const quoteData = route.params;
+    const { db } = route.params;
+    
 
     useLayoutEffect(() => {
         navigation.setOptions({
