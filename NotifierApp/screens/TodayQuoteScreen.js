@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { useQuoteContext, QuoteContext } from "../tools/quoteOfDay";
+
 import Display from "../components/display";
 
 import Entries from "../tools/data";
