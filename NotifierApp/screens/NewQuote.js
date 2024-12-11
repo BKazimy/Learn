@@ -2,33 +2,30 @@ import React from 'react';
 import Form from '../components/form';
 import Display from '../components/display';
 
-// import { addQuote } from '../tools/db';
-// import db from '../tools/db';
-
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  async function newQuoteHandler(quote, author, story, source) {
+  async function newQuoteHandler(quote, author, story = '', source) {
     try {
-      const newentry = await db.add({
-        quote: quote,
-        author: author,
-        story: story ? story : '',
-        source: source
+      const newEntry = await db.add({
+        quote,
+        author,
+        story,
+        source,
       });
-      console.log('Added Quote:', newentry);
-      navigation.navgate('quotePage', { id: newentry.id })
-
+      console.log('Added Quote:', newEntry);
+      navigation.navigate('quotePage', { id: newEntry.id }); // Fixed typo
     } catch (error) {
-      console.log('Error using QuoteDatabase:', error);
+      console.error('Error using QuoteDatabase:', error);
+      alert('Failed to save the quote. Please try again.'); // Optional user feedback
     }
   }
 
-    return (
-      <Display>
-        <Form navigation={navigation} newQuoteHandler={newQuoteHandler}/>
-      </Display>
-    );
-};
+  return (
+    <Display>
+      <Form navigation={navigation} newQuoteHandler={newQuoteHandler} />
+    </Display>
+  );
+}
 
 export default NewQuote;
