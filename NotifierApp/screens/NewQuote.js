@@ -5,7 +5,7 @@ import Display from '../components/display';
 // import { addQuote } from '../tools/db';
 // import db from '../tools/db';
 
-function NewQuote({ navigation }) {
+function NewQuote({ navigation, route }) {
   async function newQuoteHandler(quote, author, story, source) {
     console.log(quote, author, story, source)
   
