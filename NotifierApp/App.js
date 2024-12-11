@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -17,7 +17,9 @@ import colors from './utility/color';
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
-
+useEffect(() => {
+  
+})
 
 function App() {
   return (
