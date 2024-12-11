@@ -18,7 +18,6 @@ function Todays({ navigation }) {
     console.log(quoteData);
 
     return (
-        <QuoteContext>
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
                     id={quoteData.id}
@@ -28,7 +27,6 @@ function Todays({ navigation }) {
                     source={quoteData.source}
                 />
             </Display>
-        </QuoteContext>
     )
 }
 
