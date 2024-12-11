@@ -3,7 +3,14 @@ import colors from "../vars/color";
 
 function QuotePost({ id }) {
 
-    
+    const quoteData = {
+        id: 1,
+        quote: "Never eat the pitza with pinapple!",
+        author: "Arthor Hill",
+        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
+        source: 'abc',
+    }
+
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
             <Text style={[styles.text, styles.quoteText]}>{quote}</Text>
