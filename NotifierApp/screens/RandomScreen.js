@@ -6,6 +6,8 @@ import QuotePost from "../components/quotePost";
 
 function RandomQuote() {
 
+    
+
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
