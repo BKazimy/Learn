@@ -76,6 +76,8 @@ function Form({ navigation, newQuoteHandler, edit }) {
 const styles = StyleSheet.create({
 
   textInput: {
+    color: colors.dark,
+    fontSize: 16,
     padding: 10,
     margin: 10,
     backgroundColor: colors.khaki,
