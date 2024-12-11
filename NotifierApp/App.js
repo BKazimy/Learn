@@ -9,11 +9,9 @@ import NewQuote from './screens/NewQuote';
 import Schedule from './screens/ScheduleScreen';
 import QuotePage from './screens/quotePage';
 
-
 // Utilities
 import { QuoteOfDay } from './utility/quoteOfDay';
 import { sendImmediateNotification } from './utility/Notification';
-
 import QuoteDatabase from './utility/db';
 import colors from './utility/color';
 
