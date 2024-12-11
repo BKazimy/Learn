@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         maxHeight: '90%',
+        overflow: 'hidden',
     },
 
     outerContainer: {
