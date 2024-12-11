@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     },
 
     outerContainer: {
-        // flex: 1,
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
