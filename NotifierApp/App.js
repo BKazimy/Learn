@@ -14,28 +14,6 @@ const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
 function App() {
-    // const [quote, setQuote] = useState(null);
-
-    // useEffect(() => {
-    //     initDB();
-    //     scheduleNotification();
-
-    //     const subscription = Notifications.addNotificationResponseReceivedListener(response => {
-    //         if (quote) alert(`"${quote.quote}"\n\n— ${quote.author}\n\nStory: ${quote.story}`);
-    //     });
-
-    //     return () => subscription.remove();
-    // }, [quote]);
-
-    // const handleAddQuote = (quoteData) => {
-    //     addQuote(quoteData.quote, quoteData.author, quoteData.story);
-    //     alert('Quote added successfuly!');
-    // };
-
-    // const handleShowQuote = () => {
-    //     getRandomQuote(setQuote);
-    // };
-
   return (
     <NavigationContainer>
       <Stack.Navigator
