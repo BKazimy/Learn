@@ -38,7 +38,8 @@ function AllQuote({ navigation }) {
                     paddingBottom: 10,
                     height: '90%',
 
-                    borderColor: 'black'
+                    borderColor: 'black',
+                    borderWidth: 2,
                 }}
             />
         </Display>
