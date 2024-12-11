@@ -6,6 +6,8 @@ import { useQuoteContext } from "../utility/quoteOfDay";
 function Home({ navigation }) {
     const { id } = useQuoteContext();
 
+    
+
     // Handle the case where id might be undefined
     if (id === undefined) {
         console.log('id undefined!');
