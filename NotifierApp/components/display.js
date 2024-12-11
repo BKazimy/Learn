@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-        maxHeight: '100%',
+        maxHeight: '90%',
 
         borderColor: 'red',
         borderWidth: 1,
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
 
     innerContainer: {
         flex: 1,
-        maxHeight: '100%',
+        maxHeight: '90%',
         borderColor: 'yellow',
         borderWidth: 1,
     },
