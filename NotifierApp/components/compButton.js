@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     gridItem: {
         flex: 1,
         margin: 16,
-        margin,
+        marginVertical: 8,
         borderRadius: 8,
         elevation: 4,
         backgroundColor: 'white',
