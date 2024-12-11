@@ -4,7 +4,7 @@ function Display({ children, customStyle }) {
     return (
         <View style={styles.rootContainer}>
             <View style={styles.outerContainer}>
-                <View style={[innerContainer, customStyle]}>
+                <View style={[styles.innerContainer, customStyle]}>
                     {children}
                 </View>
             </View>
