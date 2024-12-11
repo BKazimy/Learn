@@ -8,7 +8,7 @@ function Home({ navigation }) {
 
     // Handle the case where id might be undefined
     if (id === undefined) {
-        console.log('no id found')
+        console.log('id undefined')
     }
 
     return (
