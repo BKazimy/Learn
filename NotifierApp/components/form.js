@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
   textInput: {
     color: colors.dark,
     fontSize: 16,
+    fontWeight: 'bold',
     padding: 10,
     margin: 10,
     backgroundColor: colors.khaki,
