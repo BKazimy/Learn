@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import CompButton from "../components/compButton";
 import Display from "../components/display";
-import { useQuoteContext } from "../tools/quoteOfDay";
+import { useQuoteContext } from "../utility/quoteOfDay";
 
 function Home({ navigation }) {
     const { id } = useQuoteContext();

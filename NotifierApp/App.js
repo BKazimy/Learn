@@ -8,11 +8,11 @@ import NewQuote from './screens/NewQuote';
 import Schedule from './screens/ScheduleScreen';
 import QuotePage from './screens/quotePage';
 
-import QuoteDatabase from './tools/db';
+import QuoteDatabase from './utility/db';
 import colors from './vars/color';
 
 // Import the context provider
-import { QuoteOfDay } from './tools/quoteOfDay';
+import { QuoteOfDay } from './utility/quoteOfDay';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;

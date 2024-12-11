@@ -1,5 +1,5 @@
 import * as Notifications from 'expo-notifications';
-import { useQuoteContext } from '../tools/quoteOfDay';  // Import the context to access the id
+import { useQuoteContext } from './quoteOfDay';  // Import the context to access the id
 
 export const scheduleNotification = async (navigation) => {
     // Access the id from context
