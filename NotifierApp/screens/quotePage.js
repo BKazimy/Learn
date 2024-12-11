@@ -20,7 +20,7 @@ function QuotePage({ route, navigation }) {
             quote={quoteData.quote}
             author={quoteData.author}
             story={quoteData.story}
-            
+            source={quoteD}
         />
     </Display>
 }
