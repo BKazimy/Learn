@@ -6,15 +6,7 @@ import QuotePost from "../components/quotePost";
 
 function RandomQuote({ navigation }) {
 
-    
-
-    return (
-            <Display customStyle={styles.quotePost}>
-                <QuotePost 
-                    id={1}
-                />
-            </Display>
-    )
+    navigation.navigate('')
 }
 
 export default RandomQuote;
