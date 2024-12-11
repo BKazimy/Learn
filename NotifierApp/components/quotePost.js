@@ -4,21 +4,6 @@ import { useLayoutEffect } from "react";
 
 function QuotePost({ id, navigation }) {
 
-    // change with propper id fetcher function later
-    const quoteData = {
-        id: 1,
-        quote: "Never eat the pitza with pinapple!",
-        author: "Arthor Hill",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-        source: 'abc',
-    }
-
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            title: quoteData.author,
-        })
-    }, [quoteData, navigation]);
-
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
             <Text style={[styles.text, styles.quoteText]}>{quoteData.quote}</Text>
