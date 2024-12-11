@@ -11,14 +11,11 @@ import QuotePage from './screens/quotePage';
 
 // Utilities
 import { QuoteOfDay } from './utility/quoteOfDay';
-import { sendImmediateNotification } from './utility/Notification';
 import QuoteDatabase from './utility/db';
 import colors from './utility/color';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
-
-sendImmediateNotification();
 
 function App() {
   return (
