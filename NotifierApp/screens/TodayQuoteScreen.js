@@ -19,3 +19,19 @@ function Todays() {
 }
 
 export default Todays;
+
+const styles = StyleSheet.create({
+    quotePost: {
+        height: 500,
+        borderRadius: 12,
+        backgroundColor: colors.darkOliveGreen,
+        elevation: 4,
+        shadowColor: 'black',
+        shadowOpacity: 0.25,
+        shadowOffset: { width: 0, height: 2},
+        shadowRadius: 16,
+        overflow: 'hidden',
+        padding: 8,
+        
+    }
+})
