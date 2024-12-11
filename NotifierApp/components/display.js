@@ -20,9 +20,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         overflow: 'hidden',
-
-        borderColor: 'balck',
-        borderWidth: 2,
     },
 
     outerContainer: {
@@ -30,9 +27,6 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-
-        borderColor: 'red',
-        borderWidth: 2,
     },
 
     innerContainer: {
