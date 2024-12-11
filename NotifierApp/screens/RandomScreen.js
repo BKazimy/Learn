@@ -4,9 +4,9 @@ import { StyleSheet } from "react-native";
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 
-function RandomQuote() {
+function RandomQuote({ navigate}) {
 
-    
+
 
     return (
             <Display customStyle={styles.quotePost}>
