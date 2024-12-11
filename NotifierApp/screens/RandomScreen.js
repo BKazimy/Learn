@@ -3,14 +3,13 @@ import { StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
-import { useLayoutEffect } from "react";
 
 function RandomQuote() {
 
     return (
             <Display customStyle={styles.quotePost}>
                 <QuotePost 
-                    id={quoteData.id}
+                    id={1}
                 />
             </Display>
     )
