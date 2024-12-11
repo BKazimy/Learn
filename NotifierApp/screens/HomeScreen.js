@@ -2,11 +2,12 @@ import { View, Text } from "react-native";
 import CompButton from "../components/compButton";
 import Display from "../components/display";
 import { useQuoteContext } from "../utility/quoteOfDay";
+import { sendImmediateNotification } from "../utility/Notification";
 
 function Home({ navigation }) {
     const { id } = useQuoteContext();
 
-    
+    sendImmediateNotification
 
     // Handle the case where id might be undefined
     if (id === undefined) {
