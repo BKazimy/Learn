@@ -6,8 +6,7 @@ import QuotePost from "../components/quotePost";
 import colors from "../vars/color";
 
 function QuotePage({ route, navigation }) {
-    console.log('id:', id);
-    const { db } = route.params;
+    const { db, id } = route.params;
     const quoteData = async () => await db.getById(id);
 
     console.log(quoteData);
