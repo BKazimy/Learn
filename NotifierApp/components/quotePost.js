@@ -3,7 +3,7 @@ import colors from "../vars/color";
 
 function QuotePost({ id }) {
 
-        // change 
+        // change with propper id fetcher function later
     const quoteData = {
         id: 1,
         quote: "Never eat the pitza with pinapple!",
