@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet } from "react-native";
 
 import CompButton from "../components/compButton";
-// import db from "../tools/db";
+import db from "../tools/db";
 import Entries from "../tools/data";
 import { View } from "react-native-web";
 
