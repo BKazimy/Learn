@@ -7,11 +7,6 @@ import { useLayoutEffect } from "react";
 // import Entries from "../tools/data";
 
 function Todays({ navigation }) {
-
-    useLayoutEffect(() => {
-        
-    })
-
     const quoteData = {
         id: 1,
         quote: "Never eat the pitza with pinapple!",
