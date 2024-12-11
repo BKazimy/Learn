@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import colors from "../vars/color";
 
-function QuotePost({ id }) {
+function QuotePost({ id, navigation }) {
 
     // change with propper id fetcher function later
     const quoteData = {
