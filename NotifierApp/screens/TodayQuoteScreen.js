@@ -11,7 +11,7 @@ function Todays({ navigation }) {
         return Entries.find((entry) => entry.id === id);
     }
 
-    console.log(quo)
+    console.log(quoteData);
 
     return (
         <QuoteContext>
