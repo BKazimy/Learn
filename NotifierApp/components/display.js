@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        flex: 1,
+        
 
         borderColor: 'yellow',
         borderWidth: 1,
