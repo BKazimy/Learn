@@ -5,8 +5,8 @@ import { View } from "react-native-web";
 
 async function AllQuote({ navigation, route }) {
     
-    const { db } = route.params;
-    const ab = await db.getAll();
+    // const { db } = route.params;
+    // const ab = await db.getAll();
     // const ab = async () => {
     //     const data = await db.getAll();
     //     console.log(data);
@@ -15,7 +15,7 @@ async function AllQuote({ navigation, route }) {
     // }
     const data = [];
     console.log(data);
-    console.log(ab);
+    // console.log(ab);
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
