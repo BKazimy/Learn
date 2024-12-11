@@ -1,18 +1,16 @@
 import { View, Text, StyleSheet } from "react-native";
 import colors from "../vars/color";
-import { useLayoutEffect } from "react";
 
-function QuotePost({ id, navigation }) {
-
+function QuotePost({ quote, author, story, source }) {
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
-            <Text style={[styles.text, styles.quoteText]}>{quoteData.quote}</Text>
+            <Text style={[styles.text, styles.quoteText]}>{quote}</Text>
         </View>
         <View style={styles.innerContainer}>
-            <Text style={[styles.text, styles.authorText]}>- {quoteData.author}: {quoteData.source}</Text>
+            <Text style={[styles.text, styles.authorText]}>- {author}: {source}</Text>
         </View>
         <View style={[styles.innerContainer, styles.storyContainer]}>
-            <Text style={[styles.text, styles.storyText]}>{quoteData.story}</Text>
+            <Text style={[styles.text, styles.storyText]}>{story}</Text>
         </View>
     </View>
 }
