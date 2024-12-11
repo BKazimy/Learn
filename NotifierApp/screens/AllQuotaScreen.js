@@ -25,7 +25,7 @@ function AllQuote({ navigation }) {
                 title={itemData.item.quote}
                 subtitle={[itemData.item.author, itemData.item.source]}
                 onPress={pressHandler} 
-            />
+            />"
         </Text>;
     }
     
