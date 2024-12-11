@@ -17,6 +17,8 @@ export default Display;
 const styles = StyleSheet.create({
     rootContainer: {
         flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
         overflow: 'hidden',
 
         borderColor: 'balck',
@@ -24,12 +26,9 @@ const styles = StyleSheet.create({
     },
 
     outerContainer: {
-        flex: 1,
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-        alignItems: 'center',
-        justifyContent: 'center',
 
         borderColor: 'red',
         borderWidth: 2,
