@@ -4,7 +4,8 @@ import Display from "../components/display";
 
 function Todays() {
     return (
-        <QuoteContext><Display customStyle={styles.quotePost}>
+        <QuoteContext>
+            <Display customStyle={styles.quotePost}>
         <QuotePost 
             id={quoteData.id}
             quote={quoteData.quote}
