@@ -77,14 +77,13 @@ function App() {
             title: 'Write New Quote',
           }}
         />
-        <Stack.Screen 
+        {/* <Stack.Screen 
           name="schedule" 
           component={Schedule} 
           options={{
             title: "Schedule Quote Notification",
           }}
-        />
-
+        /> */}
         <Stack.Screen 
           name="quotePage" 
           component={QuotePage} 
