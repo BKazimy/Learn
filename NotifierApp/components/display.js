@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        maxHeight: '90%',
+        maxHeight: '80%',
         overflow: 'hidden',
         marginVertical: 8,
     },
