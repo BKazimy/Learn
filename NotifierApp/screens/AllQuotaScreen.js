@@ -28,7 +28,7 @@ function AllQuote({ navigation }) {
     }
     
     return ( 
-        <Display customStyle={{flex: 1}}>
+        // <Display customStyle={{flex: 1}}>
             <FlatList 
                 data={Entries} 
                 keyExtractor={(item) => item.id} 
@@ -44,7 +44,7 @@ function AllQuote({ navigation }) {
                 style={{ flex: 1 }}
                 scrollEnabled={true}
             />
-        </Display>
+        // </Display>
     );
 }
 
