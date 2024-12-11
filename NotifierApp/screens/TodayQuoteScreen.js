@@ -8,7 +8,7 @@ import { useLayoutEffect } from "react";
 
 function Todays({ navigation }) {
 
-    useLayoutEffect({
+    useLayoutEffect(() => {
         
     })
 
