@@ -6,7 +6,9 @@ import { View } from "react-native-web";
 function AllQuote({ navigation, route }) {
     
     const { db } = route.params;
-    const data = async () => await db.getAll();
+    const data = async () => {
+        return await db.getAll();
+    }
     // const data = [];
     console.log(data);
 
