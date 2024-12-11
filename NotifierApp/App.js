@@ -13,12 +13,13 @@ import QuotePage from './screens/quotePage';
 import { QuoteOfDay } from './utility/quoteOfDay';
 import QuoteDatabase from './utility/db';
 import colors from './utility/color';
+import { sendImmediateNotification } from './utility/Notification';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
 useEffect(() => {
-  
+  sendImmediateNotification
 }, [])
 
 function App() {
