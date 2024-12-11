@@ -18,11 +18,12 @@ import { sendImmediateNotification } from './utility/Notification';
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
-useEffect(() => {
-  sendImmediateNotification();
-}, []);
-
 function App() {
+
+  useEffect(() => {
+    sendImmediateNotification();
+  }, []);
+
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
     <QuoteOfDay>
