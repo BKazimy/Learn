@@ -19,8 +19,8 @@ const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
 useEffect(() => {
-  sendImmediateNotification
-}, [])
+  sendImmediateNotification();
+}, []);
 
 function App() {
   return (
