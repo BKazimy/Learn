@@ -9,9 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-community/cli": "latest",
     "@expo/metro-runtime": "~4.0.0",
     "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/cli": "latest",
     "@react-navigation/stack": "^7.0.18",
     "expo": "~52.0.17",
     "expo-modules-core": "~2.1.1",
