@@ -7,7 +7,7 @@ import db from '../tools/db';
 
 function NewQuote({ navigation }) {
   async function newQuoteHandler(quote, author, story) {
-    console.log(quote, )
+    console.log(quote, author, story, source)
   }
   //   try {
   //     const newentry = await db.add({
