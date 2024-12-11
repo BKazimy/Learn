@@ -36,6 +36,7 @@ function AllQuote({ navigation }) {
                 numColumns={1}
                 contentContainerStyle={{
                     paddingBottom: 4,
+                    
                 }}
             />
         </Display>
