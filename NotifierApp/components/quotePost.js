@@ -15,9 +15,9 @@ function QuotePost({ id, navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: quoteData.author
+            title: quoteData.author,
         })
-    })
+    }, )
 
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
