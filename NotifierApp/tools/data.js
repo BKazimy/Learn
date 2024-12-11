@@ -106,7 +106,7 @@ export const Entries = [
           story: "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smoulders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit.",
           source: "The 48 Laws of Power",
         },
-        {
+{
     quote: "LAW 16: USE ABSENCE TO INCREASE RESPECT AND HONOR",
     author: "Robert Greene",
     story: "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear. If you are already established in a group, temporary withdrawal from it will make you more talked about, even more admired. You must learn when to leave. Create value through scarcity.",
