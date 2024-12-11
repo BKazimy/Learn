@@ -7,8 +7,8 @@ import db from "../tools/db";
 
 function AllQuote({ navigation }) {
     
-    const data = async (db) => {
-        db.AllQuote();
+    const data = async () => {
+        await db.AllQuote();
     }
 
     function renderCategoryItem(itemData) {
