@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        flex: 1,
+        height: '100%',
         shadowColor: 'black',
         shadowOpacity: 0.25,
         shadowOffset: { width: 0, height: 2},
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        flex: 1,
+        height: '100%',
         padding: 16,
         borderRadius: 8,
         justifyContent: 'center',
