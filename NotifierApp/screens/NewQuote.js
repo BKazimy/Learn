@@ -3,6 +3,7 @@ import Form from '../components/form';
 import Display from '../components/display';
 
 // import { addQuote } from '../tools/db';
+import db from '../tools/db';
 
 function NewQuote({ navigation }) {
   function newQuoteHandler(quote, author, story) {
