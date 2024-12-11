@@ -10,7 +10,7 @@ function QuotePage({ route, navigation }) {
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
     if (!id) {
-        setQuoteData(db.get)
+        setQuoteData(db.getRandom())
     }
 
     // Fetch data when the component mounts
