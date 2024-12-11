@@ -20,11 +20,13 @@ function AllQuote({ navigation }) {
             });
         }
     
-        return <CompButton
-            title={itemData.item.quote}
-            subtitle={[itemData.item.author, itemData.item.source]}
-            onPress={pressHandler} 
-        />;
+        return <Text>
+                <CompButton
+                title={itemData.item.quote}
+                subtitle={[itemData.item.author, itemData.item.source]}
+                onPress={pressHandler} 
+            />
+        </Text>;
     }
     
     return ( 
