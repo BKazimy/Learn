@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function Home({ navigation }) {
     const { id } =  useQuoteContext();
-    const [quoteId, setQuoteID] = useState(id)
+    const [quoteId, setQuoteID] = useState(id);
     return (
         <Display>
                 <View>
