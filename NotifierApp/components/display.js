@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         overflow: 'hidden',
-        marginVertical: 8,
 
         borderColor: 'balck',
         borderWidth: 2,
