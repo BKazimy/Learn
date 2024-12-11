@@ -3,11 +3,12 @@ import { useState } from "react";
 
 import Display from "../components/display";
 import CompButton from "../components/compButton";
+import db from "../tools/db";
 
 function AllQuote({ navigation }) {
     
     const data = async (db) => {
-        db
+        db.AllQuote();
     }
 
     function renderCategoryItem(itemData) {
