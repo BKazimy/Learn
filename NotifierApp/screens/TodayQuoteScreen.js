@@ -15,7 +15,9 @@ function Todays({ navigation }) {
         source: 'abc',
     }
 
-    console.log(quoteData);
+    useLayoutEffect(() => {
+        v
+    })
 
     return (
             <Display customStyle={styles.quotePost}>
