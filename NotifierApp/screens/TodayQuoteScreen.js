@@ -7,7 +7,7 @@ import Entries from "../tools/data";
 function Todays() {
 
     const quoteData = async () => {
-        const { id } = useQuoteContext()
+        const { id } = useQuoteContext();
         return Entries.find((entry) => entry.id === id);
     }
 
