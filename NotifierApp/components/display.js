@@ -23,11 +23,11 @@ const styles = StyleSheet.create({
         marginVertical: 8,
 
         borderColor: 'balck',
-        
+        borderWidth: 2,
     },
 
     outerContainer: {
-        flex: 1,
+        // flex: 1,
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
