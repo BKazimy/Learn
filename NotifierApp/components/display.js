@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
+        maxHeight: '100%',
         marginVertical: 8,
 
         borderColor: 'red',
