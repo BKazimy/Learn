@@ -5,8 +5,8 @@ class QuoteDatabase {
     this.storageKey = 'quotes';
     this.autoIncrementKey = 'quote_auto_id';
     this.initialQuotes = [
-      { quote: "The only limit to our realization of tomorrow is our doubts of today.", author: "Franklin D. Roosevelt", story: "" },
-      { quote: "In the middle of difficulty lies opportunity.", author: "Albert Einstein", story: "" },
+      { quote: "The only limit to our realization of tomorrow is our doubts of today.", author: "Franklin D. Roosevelt", story: "", sorce: "" },
+      { quote: "In the middle of difficulty lies opportunity.", author: "Albert Einstein", story: "", sorce: "" },
       { quote: "Do not go where the path may lead, go instead where there is no path and leave a trail.", author: "Ralph Waldo Emerson", story: "", sorce: "" },
     ];
     this.initializeDatabase();
