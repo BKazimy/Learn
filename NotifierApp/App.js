@@ -87,7 +87,6 @@ function App() {
         <Stack.Screen 
           name="random" 
           component={Random} 
-          initialParams={{ db }}
           options={{
             title: "Random Quote",
           }}
