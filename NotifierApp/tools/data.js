@@ -1,4 +1,4 @@
-export const Entries = [
+const Entries = [
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
           author: "Robert Greene",
