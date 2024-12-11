@@ -17,7 +17,7 @@ function CompButton({ title, onPress, subtitle }) {
                     <Text style={styles.title}>{title}</Text>
                 </View>
                 <View>
-                    <Text>{subtitle}</Text>
+                    <Text style={styles}>- {subtitle}</Text>
                 </View>
             </Pressable>
         </View>
