@@ -17,7 +17,7 @@ function NewQuote({ navigation, route }) {
         source: source
       });
       console.log('Added Quote:', newentry);
-      navigation.navgate('quotePage')
+      navigation.navgate('quotePage', { id: newentry.id })
 
     } catch (error) {
       console.log('Error using QuoteDatabase:', error);
