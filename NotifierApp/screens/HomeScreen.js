@@ -2,7 +2,7 @@ import { View } from "react-native";
 import CompButton from "../components/compButton";
 import Display from "../components/display";
 
-
+import { useQuoteContext } from "../tools/quoteOfDay";
 
 function Home({ navigation }) {
     return (
