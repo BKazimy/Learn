@@ -17,7 +17,7 @@ function QuotePost({ id, navigation }) {
         navigation.setOptions({
             title: quoteData.author,
         })
-    }, [])
+    }, [quoteData, ])
 
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
