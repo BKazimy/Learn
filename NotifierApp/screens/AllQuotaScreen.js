@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
     },
     flatlist: {
         flex: 1,
-        height: 500,
+        
     },
 });
