@@ -34,6 +34,9 @@ function AllQuote({ navigation }) {
                 keyExtractor={(item) => item.id} 
                 renderItem={renderCategoryItem}
                 numColumns={1}
+                contentContainerStyle={{
+                    
+                }}
             />
         </Display>
     );
