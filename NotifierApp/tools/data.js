@@ -4,6 +4,7 @@ class Data {
       quote, 
       author,
       story,
+      source,
     ) {
       this.id = id;
       this.quote = quote;
