@@ -10,6 +10,7 @@ class Data {
       this.quote = quote;
       this.author = author;
       this.story = story;
+      this.source = source;
     }
   }
 
