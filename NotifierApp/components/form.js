@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     padding: 10,
     margin: 10,
     backgroundColor: colors.khaki,
-    
+
     borderRadius: 8,
     elevation: 4,
     shadowColor: 'black',
