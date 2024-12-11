@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
     innerContainer: {
         flex: 1,
 
-        borderColor: yellow
+        borderColor: 'yellow'
     },
 })
