@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         minWidth: 300,
 
         borderColor: 'red',
-        borderWidth2,
+        borderWidth: 2,
     },
 
     innerContainer: {
