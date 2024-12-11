@@ -21,7 +21,7 @@ function AllQuote({ navigation }) {
         }
     
         return <Text>
-                <CompButton
+            <CompButton
                 title={itemData.item.quote}
                 subtitle={[itemData.item.author, itemData.item.source]}
                 onPress={pressHandler} 
