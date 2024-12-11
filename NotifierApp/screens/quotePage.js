@@ -12,7 +12,7 @@ function QuotePage({ route, navigation, id }) {
         const quoteData = db.getById(id);
         console.log(quoteData);
     } catch (error) {
-        
+        return
     }
 
     useLayoutEffect(() => {
