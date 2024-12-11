@@ -7,7 +7,7 @@ import CompButton from "../components/compButton";
 function AllQuote({ navigation }) {
     
     const data = async (db) => {
-        
+        db
     }
 
     function renderCategoryItem(itemData) {
