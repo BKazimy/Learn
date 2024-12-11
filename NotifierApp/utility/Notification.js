@@ -1,38 +1,78 @@
+import { Platform } from 'react-native';
 import * as Notifications from 'expo-notifications';
-import { useQuoteContext } from './quoteOfDay';  // Import the context to access the id
+import { useNavigation } from '@react-navigation/native'; // Use navigation hook
+import db from './db'; // Import the QuoteDatabase instance
+import { useQuoteContext } from './quoteOfDay'; // Import context to access id
 
-export const scheduleNotification = async (navigation) => {
-    // Access the id from context
-    const { id } = useQuoteContext();
+export const scheduleNotification = async () => {
+    const { id } = useQuoteContext();  // Access id from context
+    const navigation = useNavigation(); // Access the navigation instance
 
-    // Request notification permissions
-    const { status } = await Notifications.requestPermissionsAsync();
-    if (status === 'granted') {
-        // Cancel all previous notifications (optional)
-        await Notifications.cancelAllScheduledNotificationsAsync();
+    // Mobile Notification (iOS/Android)
+    if (Platform.OS === 'ios' || Platform.OS === 'android') {
+        const { status } = await Notifications.requestPermissionsAsync();
+        if (status === 'granted') {
+            await Notifications.cancelAllScheduledNotificationsAsync();
 
-        // Define the trigger time for the daily notification
-        const trigger = {
-            hour: 2,
-            minute: 58,
-            repeats: true,  // Repeats every day
-        };
+            const trigger = {
+                hour: 10,
+                minute: 0,
+                repeats: true,
+            };
 
-        // Schedule the notification
-        await Notifications.scheduleNotificationAsync({
-            content: {
-                title: 'Daily Quote',
-                body: 'Tap to read today\'s inspiration!',
-                data: { id: id },  // Pass the id of the quote to the notification data
-            },
-            trigger,
-        });
+            await Notifications.scheduleNotificationAsync({
+                content: {
+                    title: 'Daily Quote',
+                    body: 'Tap to read today\'s inspiration!',
+                    data: { id }, // Pass the id in the notification's data
+                },
+                trigger,
+            });
+
+            // Handle notification tap
+            Notifications.addNotificationResponseReceivedListener(async (response) => {
+                if (response.notification.request.content.data.id) {
+                    // Get the quote by id when notification is tapped
+                    const quoteData = await db.getById(response.notification.request.content.data.id);
+                    if (quoteData) {
+                        // Navigate to the QuotePage with the quote data
+                        navigation.navigate('quotePage', { quote: quoteData });
+                    } else {
+                        console.error('Quote not found.');
+                    }
+                }
+            });
+        }
+    }
+    // Web Notification
+    else if (Platform.OS === 'web') {
+        // Request permission for notifications
+        if ('Notification' in window) {
+            Notification.requestPermission().then(async (permission) => {
+                if (permission === "granted") {
+                    const notificationOptions = {
+                        body: 'Tap to read today\'s inspiration!',
+                        data: { id }, // Pass the id in the notification's data
+                        requireInteraction: true,
+                    };
+
+                    // Create and show the notification
+                    const notification = new Notification('Daily Quote', notificationOptions);
+
+                    // Handle notification click
+                    notification.onclick = async (event) => {
+                        event.preventDefault();  // Prevent default behavior
+                        // Fetch the quote by id
+                        const quoteData = await db.getById(notification.data.id);
+                        if (quoteData) {
+                            // Navigate to the QuotePage with the quote data
+                            navigation.navigate('quotePage', { quote: quoteData });
+                        } else {
+                            console.error('Quote not found.');
+                        }
+                    };
+                }
+            });
+        }
     }
 };
-
-// Handle notification response
-Notifications.addNotificationResponseReceivedListener(response => {
-    const { id } = response.notification.request.content.data;  // Retrieve the id from the notification's data
-    // Navigate to the QuotePage screen and pass the id
-    navigation.navigate('quotePage', { id: id });
-});
