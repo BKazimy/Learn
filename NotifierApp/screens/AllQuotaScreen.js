@@ -40,6 +40,7 @@ function AllQuote({ navigation }) {
 
                     borderColor: 'black',
                     borderWidth: 2,
+                    flex: 1,
                 }}
                 style={{ flex: 1 }}
                 scrollEnabled={true}
