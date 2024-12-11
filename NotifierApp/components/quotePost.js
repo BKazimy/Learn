@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 import colors from "../vars/color";
+import { useLayoutEffect } from "react";
 
 function QuotePost({ id, navigation }) {
 
@@ -12,7 +13,7 @@ function QuotePost({ id, navigation }) {
         source: 'abc',
     }
 
-    us
+    useLayoutEffect
 
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
