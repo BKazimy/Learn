@@ -2,11 +2,11 @@ import { FlatList } from "react-native";
 
 import Display from "../components/display";
 import CompButton from "../components/compButton";
-import db from "../tools/db";
+// import db from "../tools/db";
 
 function AllQuote({ navigation }) {
     
-    const data = async () => await db.AllQuote();
+    // const data = async () => await db.AllQuote();
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
