@@ -11,7 +11,7 @@ import { sendImmediateNotification } from "../utility/Notification";
 function Home({ navigation }) {
     const { id } = useQuoteContext();
 
-    sendImmediateNotification
+    sendImmediateNotification();
 
     // Handle the case where id might be undefined
     if (id === undefined) {
