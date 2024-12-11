@@ -29,7 +29,7 @@ function AllQuote({ navigation }) {
     }
     
     return ( 
-        <View>
+        <View style={styles.flatlist}>
             <FlatList 
                 data={Entries} 
                 keyExtractor={(item) => item.id} 
