@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         maxWidth: 520,
         minWidth: 300,
         maxHeight: '100%',
-        marginHorizontal: 8,
+        marginVertical: 8,
 
         borderColor: 'red',
         borderWidth: 1,
