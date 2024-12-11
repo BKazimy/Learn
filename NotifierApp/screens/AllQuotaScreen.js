@@ -10,6 +10,7 @@ function AllQuote({ navigation, route }) {
         const data = await db.getAll();
         console.log(data);
         console.log('db');
+        return data;
     }
     const data = [];
     console.log(data);
