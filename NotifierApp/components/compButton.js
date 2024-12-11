@@ -1,7 +1,7 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
 import colors from "../vars/color";
 
-function CompButton({ title, onPress }) {
+function CompButton({ title, onPress, subtitle }) {
 
     return (
         <View style={styles.gridItem}>
@@ -16,7 +16,9 @@ function CompButton({ title, onPress }) {
                 <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
                     <Text style={styles.title}>{title}</Text>
                 </View>
-                <View></View>
+                <View>
+                    <Text>{subtitle}</Text>
+                </View>
             </Pressable>
         </View>
     );
