@@ -17,7 +17,7 @@ function Todays({ navigation }) {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            
+            title: quoteData.author,
         })
     })
 
