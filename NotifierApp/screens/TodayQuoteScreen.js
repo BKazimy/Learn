@@ -16,7 +16,7 @@ function Todays({ navigation }) {
     }
 
     useLayoutEffect(() => {
-        v
+        
     })
 
     return (
