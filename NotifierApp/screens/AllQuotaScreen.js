@@ -15,7 +15,7 @@ function AllQuote({ navigation }) {
                 quote: itemData.item.quote,
                 author: itemData.item.author,
                 story: itemData.item.story,
-                sourc
+                source: itemData.item.source
             });
         }
     
