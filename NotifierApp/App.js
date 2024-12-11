@@ -10,9 +10,6 @@ import QuotePage from './screens/quotePage';
 import QuoteDatabase from './tools/db';
 import colors from './vars/color';
 
-// import { initDB, addQuote, getRandomQuote } from './tools/db';
-// import { scheduleNotification } from './tools/Notification';
-
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
