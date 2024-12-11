@@ -84,13 +84,6 @@ function App() {
             title: "Schedule Quote Notification",
           }}
         />
-        <Stack.Screen 
-          name="random" 
-          component={Random} 
-          options={{
-            title: "Random Quote",
-          }}
-        />
 
         <Stack.Screen 
           name="quotePage" 
