@@ -6,14 +6,7 @@ import QuotePost from "../components/quotePost";
 import { useLayoutEffect } from "react";
 // import Entries from "../tools/data";
 
-function Todays({ navigation }) {
-    const quoteData = {
-        id: 1,
-        quote: "Never eat the pitza with pinapple!",
-        author: "Arthor Hill",
-        story: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
-        source: 'abc',
-    }
+function Todays() {
 
     return (
             <Display customStyle={styles.quotePost}>
