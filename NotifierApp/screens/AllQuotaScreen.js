@@ -8,7 +8,7 @@ function AllQuote({ navigation, route }) {
     const { db } = route.params;
     async () => {
         const data = await db.getAll();
-        
+        console.log(data);
     }
     // const data = [];
     console.log(data);
