@@ -25,6 +25,7 @@ function Form({ navigation, newQuoteHandler, edit }) {
       setAuthorValue();
       setStoryValue();
       setQuoteValue();
+      setSourceValue();
   
       navigation.navigate('home');
     }
