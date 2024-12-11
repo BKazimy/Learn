@@ -11,6 +11,8 @@ function QuotePage({ route, navigation }) {
 
     if (id){
         console.log('id:', id);
+    } else {
+        conso
     }
     // Fetch data when the component mounts
     useEffect(() => {
