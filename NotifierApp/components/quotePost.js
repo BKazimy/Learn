@@ -13,7 +13,7 @@ function QuotePost({ id, navigation }) {
         source: 'abc',
     }
 
-    useLayoutEffect((quoteData) => {
+    useLayoutEffect(() => {
         navigation.setOptions({
             title: quoteData.author,
         })
