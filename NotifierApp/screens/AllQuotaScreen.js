@@ -14,6 +14,7 @@ function AllQuote({ navigation, route }) {
     }
     const data = [];
     console.log(data);
+    console.log(ab);
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
