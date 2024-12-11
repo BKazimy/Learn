@@ -9,7 +9,7 @@ function QuotePage({ route, navigation, id }) {
 
     const { db } = route.params
     const quoteData = db.getById(id);
-    
+    console.log(quoteData)
 
     useLayoutEffect(() => {
         navigation.setOptions({
