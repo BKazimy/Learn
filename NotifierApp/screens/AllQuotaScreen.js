@@ -35,7 +35,7 @@ function AllQuote({ navigation }) {
                 renderItem={renderCategoryItem}
                 numColumns={1}
                 contentContainerStyle={{
-                    
+                    flex: 1,
                 }}
             />
         </Display>
