@@ -62,5 +62,11 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 18,
         color: colors.khaki,
-    }
+    },
+
+    authorText: {
+        fontSize: 20,
+        color: colors.darkKhaki,
+        fontStyle: 'italic',
+    },
 })
