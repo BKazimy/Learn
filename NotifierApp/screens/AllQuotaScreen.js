@@ -35,7 +35,7 @@ function AllQuote({ navigation }) {
                 keyExtractor={(item) => item.id} 
                 renderItem={renderCategoryItem}
                 numColumns={1}
-                contentContainerStyle={styles.contentContainerStyle}
+                contentContainerStyle={styles.flatlistContentContainer}
                 style={styles.flatlist}
                 scrollEnabled={true}
             />
