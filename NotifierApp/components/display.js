@@ -16,10 +16,10 @@ export default Display;
 
 const styles = StyleSheet.create({
     rootContainer: {
-        flex: 1,
+        // flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        maxHeight: '50%',
+        // maxHeight: '50%',
         overflow: 'hidden',
         marginVertical: 8,
     },
