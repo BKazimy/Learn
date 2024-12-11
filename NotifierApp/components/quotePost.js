@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import colors from "../vars/color";
 
-function QuotePost({ quote, author, story }) {
+function QuotePost({ quote, author, story, source }) {
     return <View style={styles.outerContainer}>
         <View style={styles.innerContainer}>
             <Text style={[styles.text, styles.quoteText]}>"{quote}"</Text>
