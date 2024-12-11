@@ -3,9 +3,11 @@ import CompButton from "../components/compButton";
 import Display from "../components/display";
 
 import { useQuoteContext } from "../tools/quoteOfDay";
+import { useState } from "react";
 
 function Home({ navigation }) {
     const { id } =  useQuoteContext();
+    const [quoteId, setQuoteID] = useState(id)
     return (
         <Display>
                 <View>
