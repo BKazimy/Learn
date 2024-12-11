@@ -80,7 +80,7 @@ export const Entries = [
         'abc',
     ),
     new Data (
-        5,
+        10,
         "Never eat the pitza with pinapple!",
         "Arthor Hill",
         'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ',
