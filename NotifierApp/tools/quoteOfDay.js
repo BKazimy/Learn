@@ -21,4 +21,4 @@ export const QuoteOfDay = ({ children }) => {
 };
 
 // Custom hook to use the context data
-export const useIdContext = () => useContext(QuoteContext);
+export const useQuoteContext = () => useContext(QuoteContext);
