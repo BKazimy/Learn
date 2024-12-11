@@ -5,8 +5,6 @@ import Home from './screens/HomeScreen';
 import AllQuote from './screens/AllQuotaScreen';
 import NewQuote from './screens/NewQuote';
 import Schedule from './screens/ScheduleScreen';
-import Random from './screens/RandomScreen';
-import Todays from './screens/TodayQuoteScreen';
 import QuotePage from './screens/quotePage';
 
 import QuoteDatabase from './tools/db';
