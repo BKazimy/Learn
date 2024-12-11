@@ -19,7 +19,7 @@ const db = QuoteDatabase;
 
 useEffect(() => {
   
-})
+}, [])
 
 function App() {
   return (
