@@ -6,6 +6,8 @@ import Display from '../components/display';
 // import db from '../tools/db';
 
 function NewQuote({ navigation, route }) {
+  const { db } = route.params;
+  
   async function newQuoteHandler(quote, author, story, source) {
     console.log(quote, author, story, source)
   
