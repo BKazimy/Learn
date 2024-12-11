@@ -48,8 +48,6 @@ export default AllQuote;
 const styles = StyleSheet.create({
     flatlistContentContainer: {
         paddingBottom: 10,
-        borderColor: 'black',
-        borderWidth: 2,
     },
     flatlist: {
         flex: 1,
