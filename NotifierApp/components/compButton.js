@@ -6,7 +6,7 @@ function CompButton({ title, onPress, subtitle }) {
     return (
         <View style={styles.gridItem}>
             <Pressable 
-                android_ripple={{color: '#ccc'}}
+                android_ripple={{color: colors.dark}}
                 style={({ pressed }) => [
                     styles.button,
                     pressed ? styles.buttonPress : null,
