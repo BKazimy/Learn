@@ -11,7 +11,7 @@ function NewQuote({ navigation }) {
       const newentry = await db.add({
         quote: quote,
         author: author,
-        story: story,
+        story: story ? story : '',
       });
       console.log('Added Quote:', newentry);
 
