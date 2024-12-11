@@ -3,8 +3,9 @@ import { FlatList, StyleSheet } from "react-native";
 import CompButton from "../components/compButton";
 import { View } from "react-native-web";
 
-function AllQuote({ navigation }) {
+function AllQuote({ navigation, route }) {
     
+    const { db } = route.params;
     const data = async () => await db.getAll();
 
     function renderCategoryItem(itemData) {
