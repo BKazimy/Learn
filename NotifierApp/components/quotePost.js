@@ -14,7 +14,9 @@ function QuotePost({ id, navigation }) {
     }
 
     useLayoutEffect(() => {
-        navigation.setOptions
+        navigation.setOptions({
+            
+        })
     })
 
     return <View style={styles.outerContainer}>
