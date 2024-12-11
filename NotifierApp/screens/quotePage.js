@@ -21,7 +21,7 @@ function QuotePage({ route, navigation }) {
                 if (id) {
                     const data = await db.getById(id); // Fetch quote data
                 } else {
-                    const data = await id ? db.getById(id) : db.getRandom(); // Fetch quote data
+                    const data = await db.getRandom(); // Fetch quote data
                 }
                 setQuoteData(data); // Update state with fetched data
                 
