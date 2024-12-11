@@ -7,10 +7,11 @@ import colors from "../vars/color";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
+    const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
+
     if (!id) {
         con
     }
-    const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
     // Fetch data when the component mounts
     useEffect(() => {
