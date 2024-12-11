@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
         // flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        // maxHeight: '50%',
         overflow: 'hidden',
         marginVertical: 8,
     },
@@ -29,7 +28,6 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-        // maxHeight: '90%',
 
         borderColor: 'red',
         borderWidth: 1,
@@ -37,7 +35,6 @@ const styles = StyleSheet.create({
 
     innerContainer: {
         flex: 1,
-        // maxHeight: '90%',
         borderColor: 'yellow',
         borderWidth: 1,
     },
