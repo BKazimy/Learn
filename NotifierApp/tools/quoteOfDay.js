@@ -1,0 +1,24 @@
+import React, { createContext, useState, useContext } from 'react';
+
+// Create a context to hold the ID
+const IdContext = createContext();
+
+// Create a provider component that will wrap the app or part of it
+export const IdProvider = ({ children }) => {
+  // State to hold the id
+  const [id, setId] = useState(null);
+
+  // Function to update the id
+  const updateId = (newId) => {
+    setId(newId);
+  };
+
+  return (
+    <IdContext.Provider value={{ id, updateId }}>
+      {children}
+    </IdContext.Provider>
+  );
+};
+
+// Custom hook to use the context data
+export const useIdContext = () => useContext(IdContext);
