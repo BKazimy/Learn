@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Entries from './data';
 
 class QuoteDatabase {
   constructor() {
@@ -20,7 +21,7 @@ class QuoteDatabase {
       const quotes = await this.getAll();
       if (quotes.length === 0) {
         // If the database is empty, add the initial quotes
-        for (const quoteData of this.initialQuotes) {
+        for (const quoteData of Entries) {
           await this.add(quoteData);
         }
       }
