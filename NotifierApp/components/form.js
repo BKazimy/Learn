@@ -55,7 +55,7 @@ function Form({ navigation, newQuoteHandler, edit }) {
           />
           <TextInput
             onChangeText={text => setsourceValue(text)}
-            value={authorValue}
+            value={sourceValue}
             style={styles.textInput}
             placeholder='Author:'
           />
