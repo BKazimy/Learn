@@ -6,7 +6,7 @@ function CompButton({ title, onPress, subtitle }) {
     return (
         <View style={styles.gridItem}>
             <Pressable 
-                android_ripple={{color: colors.dark}}
+                android_ripple={{color: colors}}
                 style={({ pressed }) => [
                     styles.button,
                     pressed ? styles.buttonPress : null,
@@ -26,7 +26,7 @@ export default CompButton;
 
 const styles = StyleSheet.create({
     gridItem: {
-        // flex: 1,
+        flex: 1,
         margin: 16,
         borderRadius: 8,
         elevation: 4,
