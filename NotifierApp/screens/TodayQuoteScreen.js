@@ -7,7 +7,7 @@ import Entries from "../tools/data";
 function Todays() {
 
     const quoteData = async () => {
-        return
+        return Entries.find((entry) => entry.id === id);
     }
 
     return (
