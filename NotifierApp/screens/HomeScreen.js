@@ -1,45 +1,46 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import CompButton from "../components/compButton";
 import Display from "../components/display";
-
 import { useQuoteContext } from "../tools/quoteOfDay";
-import { useState } from "react";
 
 function Home({ navigation }) {
-    const { id } =  useQuoteContext();
-    const [quoteId, setQuoteID] = useState(id);
+    const { id } = useQuoteContext();
+
+    // Handle the case where id might be undefined
+    if (id === undefined) {
+        return (
+            <Display>
+                <Text>Error: No quote ID found</Text>
+            </Display>
+        );
+    }
+
     return (
         <Display>
-                <View>
-                    <CompButton 
+            <View>
+                <CompButton 
                     title="All Quotes"
                     onPress={() => navigation.navigate('allquotes')}
-                    />
-                </View>
-                <View>
-                    <CompButton 
+                />
+            </View>
+            <View>
+                <CompButton 
                     title="Write New Quote"
                     onPress={() => navigation.navigate('newquote')}
-                    />
-                </View>
-                {/* <View>
-                    <CompButton 
-                    title="Schedule Notification"
-                    onPress={() => navigation.navigate('schedule')}
-                    />
-                </View> */}
-                <View>
-                    <CompButton 
+                />
+            </View>
+            <View>
+                <CompButton 
                     title="Random Quote"
                     onPress={() => navigation.navigate('quotePage')}
-                    />
-                </View>
-                <View>
-                    <CompButton 
+                />
+            </View>
+            <View>
+                <CompButton 
                     title="Today's Quote"
-                    onPress={() => navigation.navigate('quotePage', {id: quoteId})}
-                    />
-                </View>
+                    onPress={() => navigation.navigate('quotePage', { id })}
+                />
+            </View>
         </Display>
     );
 }
