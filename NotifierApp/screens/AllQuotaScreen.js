@@ -4,6 +4,7 @@ import Display from "../components/display";
 import CompButton from "../components/compButton";
 // import db from "../tools/db";
 import Entries from "../tools/data";
+import { View } from "react-native-web";
 
 function AllQuote({ navigation }) {
     
@@ -28,6 +29,7 @@ function AllQuote({ navigation }) {
     }
     
     return ( 
+        <View>
             <FlatList 
                 data={Entries} 
                 keyExtractor={(item) => item.id} 
@@ -37,6 +39,7 @@ function AllQuote({ navigation }) {
                 style={styles.flatlist}
                 scrollEnabled={true}
             />
+        </View>
     );
 }
 
