@@ -7,6 +7,7 @@ import colors from "../vars/color";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
+    console.log('id:', id);
     const quoteData = async () => await db.getById(id);
 
     console.log(quoteData);
