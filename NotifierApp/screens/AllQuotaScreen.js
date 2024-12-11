@@ -37,6 +37,8 @@ function AllQuote({ navigation }) {
                 contentContainerStyle={{
                     paddingBottom: 10,
                     height: '90%',
+
+                    borderColor: 'black'
                 }}
             />
         </Display>
