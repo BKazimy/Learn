@@ -22,7 +22,7 @@ function QuotePage({ route, navigation }) {
                 if (id) {
                     data = await db.getById(id); // Fetch quote data
                 } else {
-                    const data = await db.getRandom(); // Fetch quote data
+                    data = await db.getRandom(); // Fetch quote data
                 }
                 setQuoteData(data); // Update state with fetched data
                 
