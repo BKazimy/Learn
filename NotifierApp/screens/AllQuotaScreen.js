@@ -49,6 +49,6 @@ const styles = StyleSheet.create({
         borderWidth: 2,
     },
     flatlist: {
-        flex: 1, // This makes sure the FlatList fills up the space in its parent container
+        flex: 1,
     },
 });
