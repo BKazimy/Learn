@@ -46,9 +46,6 @@ function AllQuote({ navigation }) {
 export default AllQuote;
 
 const styles = StyleSheet.create({
-    flatlistContentContainer: {
-        paddingBottom: 10,
-    },
     flatlist: {
         flex: 1,
         marginVertical: 8,
