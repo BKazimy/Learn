@@ -5,13 +5,7 @@ import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 import { useLayoutEffect } from "react";
 
-function RandomQuote({ navigation }) {
-
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            title: quoteData.author,
-        })
-    })
+function RandomQuote() {
 
     return (
             <Display customStyle={styles.quotePost}>
