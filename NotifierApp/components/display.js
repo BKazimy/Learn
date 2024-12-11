@@ -29,15 +29,15 @@ const styles = StyleSheet.create({
         width: '80%',
         maxWidth: 520,
         minWidth: 300,
-        maxHeight: '100%',
+        // maxHeight: '100%',
 
         borderColor: 'red',
         borderWidth: 1,
     },
 
     innerContainer: {
-        flex: 1,
-        maxHeight: '100%',
+        // flex: 1,
+        // maxHeight: '100%',
         borderColor: 'yellow',
         borderWidth: 1,
     },
