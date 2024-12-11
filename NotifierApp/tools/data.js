@@ -197,112 +197,112 @@ export const Entries = [
     source: "The 48 Laws of Power",
   },
   {
-    "quote": "LAW 31: CONTROL THE OPTIONS: GET OTHERS TO PLAY WITH THE CARDS YOU DEAL",
-    "author": "Robert Greene",
-    "story": "The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favour whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: they are gored wherever they turn.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 31: CONTROL THE OPTIONS: GET OTHERS TO PLAY WITH THE CARDS YOU DEAL",
+    author: "Robert Greene",
+    story: "The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favour whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: they are gored wherever they turn.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 32: PLAY TO PEOPLE’S FANTASIES",
-    "author": "Robert Greene",
-    "story": "The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes from disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 32: PLAY TO PEOPLE’S FANTASIES",
+    author: "Robert Greene",
+    story: "The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes from disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 33: DISCOVER EACH MAN’S THUMBSCREW",
-    "author": "Robert Greene",
-    "story": "Everyone has a weakness, a gap in the castle wall. That weakness is usually an insecurity, an uncontrollable emotion or need; it can also be a small secret pleasure. Either way, once found, it is a thumbscrew you can turn to your advantage.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 33: DISCOVER EACH MAN’S THUMBSCREW",
+    author: "Robert Greene",
+    story: "Everyone has a weakness, a gap in the castle wall. That weakness is usually an insecurity, an uncontrollable emotion or need; it can also be a small secret pleasure. Either way, once found, it is a thumbscrew you can turn to your advantage.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 34: BE ROYAL IN YOUR OWN FASHION: ACT LIKE A KING TO BE TREATED LIKE ONE",
-    "author": "Robert Greene",
-    "story": "The way you carry yourself will often determine how you are treated: In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 34: BE ROYAL IN YOUR OWN FASHION: ACT LIKE A KING TO BE TREATED LIKE ONE",
+    author: "Robert Greene",
+    story: "The way you carry yourself will often determine how you are treated: In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 35: MASTER THE ART OF TIMING",
-    "author": "Robert Greene",
-    "story": "Never seem to be in a hurry-hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 35: MASTER THE ART OF TIMING",
+    author: "Robert Greene",
+    story: "Never seem to be in a hurry-hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 36: DISDAIN THINGS YOU CANNOT HAVE: IGNORING THEM IS THE BEST REVENGE",
-    "author": "Robert Greene",
-    "story": "By acknowledging a petty problem you give it existence and credibility. The more attention you pay an enemy, the stronger you make him; and a small mistake is often made worse and more visible when you try to fix it. It is sometimes best to leave things alone. If there is something you want but cannot have, show contempt for it. The less interest you reveal, the more superior you seem.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 36: DISDAIN THINGS YOU CANNOT HAVE: IGNORING THEM IS THE BEST REVENGE",
+    author: "Robert Greene",
+    story: "By acknowledging a petty problem you give it existence and credibility. The more attention you pay an enemy, the stronger you make him; and a small mistake is often made worse and more visible when you try to fix it. It is sometimes best to leave things alone. If there is something you want but cannot have, show contempt for it. The less interest you reveal, the more superior you seem.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 37: CREATE COMPELLING SPECTACLES",
-    "author": "Robert Greene",
-    "story": "Striking imagery and grand symbolic gestures create the aura of power—everyone responds to them. Stage spectacles for those around you, then, full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 37: CREATE COMPELLING SPECTACLES",
+    author: "Robert Greene",
+    story: "Striking imagery and grand symbolic gestures create the aura of power—everyone responds to them. Stage spectacles for those around you, then, full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 38: THINK AS YOU LIKE BUT BEHAVE LIKE OTHERS",
-    "author": "Robert Greene",
-    "story": "If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 38: THINK AS YOU LIKE BUT BEHAVE LIKE OTHERS",
+    author: "Robert Greene",
+    story: "If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 39: STIR UP WATERS TO CATCH FISH",
-    "author": "Robert Greene",
-    "story": "Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies off-balance: Find the chink in their vanity through which you can rattle them and you hold the strings.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 39: STIR UP WATERS TO CATCH FISH",
+    author: "Robert Greene",
+    story: "Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies off-balance: Find the chink in their vanity through which you can rattle them and you hold the strings.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 40: DESPISE THE FREE LUNCH",
-    "author": "Robert Greene",
-    "story": "What is offered for free is dangerous-it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price—there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 40: DESPISE THE FREE LUNCH",
+    author: "Robert Greene",
+    story: "What is offered for free is dangerous-it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price—there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 41: AVOID STEPPING INTO A GREAT MAN’S SHOES",
-    "author": "Robert Greene",
-    "story": "What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 41: AVOID STEPPING INTO A GREAT MAN’S SHOES",
+    author: "Robert Greene",
+    story: "What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 42: STRIKE THE SHEPHERD AND THE SHEEP WILL SCATTER",
-    "author": "Robert Greene",
-    "story": "Trouble can often be traced to a single strong individual —the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them—they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 42: STRIKE THE SHEPHERD AND THE SHEEP WILL SCATTER",
+    author: "Robert Greene",
+    story: "Trouble can often be traced to a single strong individual —the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them—they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 43: WORK ON THE HEARTS AND MINDS OF OTHERS",
-    "author": "Robert Greene",
-    "story": "Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 43: WORK ON THE HEARTS AND MINDS OF OTHERS",
+    author: "Robert Greene",
+    story: "Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 44: DISARM AND INFURIATE WITH THE MIRROR EFFECT",
-    "author": "Robert Greene",
-    "story": "The mirror reflects reality, but it is also the perfect tool for deception: When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy. The Mirror Effect mocks and humiliates them, making them overreact. By holding up a mirror to their psyches, you seduce them with the illusion that you share their values; by holding up a mirror to their actions, you teach them a lesson. Few can resist the power of the Mirror Effect.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 44: DISARM AND INFURIATE WITH THE MIRROR EFFECT",
+    author: "Robert Greene",
+    story: "The mirror reflects reality, but it is also the perfect tool for deception: When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy. The Mirror Effect mocks and humiliates them, making them overreact. By holding up a mirror to their psyches, you seduce them with the illusion that you share their values; by holding up a mirror to their actions, you teach them a lesson. Few can resist the power of the Mirror Effect.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 45: PREACH THE NEED FOR CHANGE, BUT NEVER REFORM TOO MUCH AT ONCE",
-    "author": "Robert Greene",
-    "story": "Everyone understands the need for change in the abstract, but on the day-to-day level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 45: PREACH THE NEED FOR CHANGE, BUT NEVER REFORM TOO MUCH AT ONCE",
+    author: "Robert Greene",
+    story: "Everyone understands the need for change in the abstract, but on the day-to-day level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 46: NEVER APPEAR TOO PERFECT",
-    "author": "Robert Greene",
-    "story": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses. Envy creates silent enemies. It is smart to occasionally display defects, and admit to harmless vices, in order to deflect envy and appear more human and approachable. Only gods and the dead can seem perfect with impunity.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 46: NEVER APPEAR TOO PERFECT",
+    author: "Robert Greene",
+    story: "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses. Envy creates silent enemies. It is smart to occasionally display defects, and admit to harmless vices, in order to deflect envy and appear more human and approachable. Only gods and the dead can seem perfect with impunity.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 47: DO NOT GO PAST THE MARK YOU AIMED FOR; IN VICTORY, LEARN WHEN TO STOP",
-    "author": "Robert Greene",
-    "story": "The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 47: DO NOT GO PAST THE MARK YOU AIMED FOR; IN VICTORY, LEARN WHEN TO STOP",
+    author: "Robert Greene",
+    story: "The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop.",
+    source: "The 48 Laws of Power"
   },
   {
-    "quote": "LAW 48: ASSUME FORMLESSNESS",
-    "author": "Robert Greene",
-    "story": "By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form for your enemy to grasp, keep yourself adaptable and on the move. Accept the fact that nothing is certain and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet on stability or lasting order. Everything changes.",
-    "source": "The 48 Laws of Power"
+    quote: "LAW 48: ASSUME FORMLESSNESS",
+    author: "Robert Greene",
+    story: "By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form for your enemy to grasp, keep yourself adaptable and on the move. Accept the fact that nothing is certain and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet on stability or lasting order. Everything changes.",
+    source: "The 48 Laws of Power"
   }
 ]
 
