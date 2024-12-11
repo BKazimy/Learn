@@ -8,7 +8,7 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  async function newQuoteHandler(quote, author, story, source) {  
+  async function newQuoteHandler(quote, author, story, source) {
     try {
       const newentry = await db.add({
         quote: quote,
