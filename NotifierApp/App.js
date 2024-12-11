@@ -11,7 +11,7 @@ import QuotePage from './screens/quotePage';
 
 import QuoteDatabase from './tools/db';
 
-cosnt
+cosnt 
 
 import colors from './vars/color';
 
