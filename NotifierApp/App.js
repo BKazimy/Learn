@@ -1,3 +1,4 @@
+import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -10,56 +11,62 @@ import QuotePage from './screens/quotePage';
 import QuoteDatabase from './tools/db';
 import colors from './vars/color';
 
+// Import the context provider
+import { QuoteOfDay } from './tools/quoteOfDay';
+
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
 
 function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerStyle: {
-            backgroundColor: colors.darkOliveGreen,
-          },
-          headerTintColor: colors.khaki,
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-        }}
-      >
-        <Stack.Screen 
-          name="home" 
-          component={Home} 
-          options={{
-            title: 'Home',
+    // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
+    <QuoteOfDay>
+      <NavigationContainer>
+        <Stack.Navigator
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: colors.darkOliveGreen,
+            },
+            headerTintColor: colors.khaki,
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
           }}
-        />
-        <Stack.Screen 
-          name="allquotes" 
-          component={AllQuote} 
-          initialParams={{ db }}
-          options={{
-            title: 'All Quotes',
-          }}
-        />
-        <Stack.Screen 
-          name="newquote" 
-          component={NewQuote} 
-          initialParams={{ db }}
-          options={{
-            title: 'Write New Quote',
-          }}
-        />
-        <Stack.Screen 
-          name="quotePage" 
-          component={QuotePage} 
-          initialParams={{ db }}
-          options={{
-            title: "Quote Page",
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+        >
+          <Stack.Screen 
+            name="home" 
+            component={Home} 
+            options={{
+              title: 'Home',
+            }}
+          />
+          <Stack.Screen 
+            name="allquotes" 
+            component={AllQuote} 
+            initialParams={{ db }}
+            options={{
+              title: 'All Quotes',
+            }}
+          />
+          <Stack.Screen 
+            name="newquote" 
+            component={NewQuote} 
+            initialParams={{ db }}
+            options={{
+              title: 'Write New Quote',
+            }}
+          />
+          <Stack.Screen 
+            name="quotePage" 
+            component={QuotePage} 
+            initialParams={{ db }}
+            options={{
+              title: "Quote Page",
+            }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </QuoteOfDay>
   );
 }
 
