@@ -16,8 +16,6 @@ function CompButton({ title, onPress, subtitle }) {
                 <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
                     <Text style={styles.title}>{title}</Text>
                     <Text style={styles.authorText}> -{subtitle[0]} {subtitle[1]}</Text>
-                    </View>
-                <View>
                 </View>
             </Pressable>
         </View>
