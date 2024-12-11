@@ -6,8 +6,9 @@ import CompButton from "../components/compButton";
 
 function AllQuote({ navigation }) {
     
-    function renderCategoryItem(itemData) {
+    
 
+    function renderCategoryItem(itemData) {
         function pressHandler() {
             navigation.navigate('quotePage', {
                 id: itemData.item.id,
