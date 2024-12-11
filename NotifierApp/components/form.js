@@ -53,6 +53,12 @@ function Form({ navigation, newQuoteHandler, edit }) {
             style={styles.textInput}
             placeholder='Author:'
           />
+          <TextInput
+            onChangeText={text => setAuthorValue(text)}
+            value={authorValue}
+            style={styles.textInput}
+            placeholder='Author:'
+          />
   
             <View style={styles.buttons}>
                 <Submission
