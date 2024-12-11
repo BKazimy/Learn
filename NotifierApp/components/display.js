@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         overflow: 'hidden',
         marginVertical: 8,
+
+        borderColor: 'balck',
+        
     },
 
     outerContainer: {
