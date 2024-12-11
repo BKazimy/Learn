@@ -4,7 +4,7 @@ import Display from "../components/display";
 
 import Entries from "../tools/data";
 
-function Todays({}) {
+function Todays({ navigation }) {
 
     const quoteData = async () => {
         const { id, updateId } = useQuoteContext();
