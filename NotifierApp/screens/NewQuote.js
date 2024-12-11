@@ -7,18 +7,20 @@ import db from '../tools/db';
 
 function NewQuote({ navigation }) {
   async function newQuoteHandler(quote, author, story) {
-    try {
-      const newentry = await db.add({
-        quote: quote,
-        author: author,
-        story: story ? story : '',
-      });
-      console.log('Added Quote:', newentry);
-
-    } catch (error) {
-      console.log('Error using QuoteDatabase:', error);
-    }
+    
   }
+  //   try {
+  //     const newentry = await db.add({
+  //       quote: quote,
+  //       author: author,
+  //       story: story ? story : '',
+  //     });
+  //     console.log('Added Quote:', newentry);
+
+  //   } catch (error) {
+  //     console.log('Error using QuoteDatabase:', error);
+  //   }
+  // }
 
     return (
       <Display>
