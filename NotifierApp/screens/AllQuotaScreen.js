@@ -28,14 +28,14 @@ function AllQuote({ navigation }) {
     }
     
     return ( 
-        // <Display>
+        <Display>
             <FlatList 
                 data={Entries} 
                 keyExtractor={(item) => item.id} 
                 renderItem={renderCategoryItem}
                 numColumns={1}
             />
-        // {/* </Display> */}
+        </Display>
     );
 }
 
