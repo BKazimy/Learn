@@ -9,8 +9,8 @@ function QuotePage({ route, navigation, id }) {
 
     const { db } = route.params;
     const quoteData = async () => await db.getById(id);
-    
-    console.log(quoteData)
+
+    console.log(quoteData);
 
     useLayoutEffect(() => {
         navigation.setOptions({
