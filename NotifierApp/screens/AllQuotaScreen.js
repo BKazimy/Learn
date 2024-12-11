@@ -30,7 +30,7 @@ function AllQuote({ navigation }) {
     return ( 
         <Display>
             <FlatList 
-                data={data} 
+                data={Entries} 
                 keyExtractor={(item) => item.id} 
                 renderItem={renderCategoryItem}
                 numColumns={1}
