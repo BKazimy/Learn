@@ -1,32 +1,49 @@
-import { useLayoutEffect } from "react";
+import { useEffect, useState } from "react";
 import { StyleSheet } from "react-native";
 
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 import colors from "../vars/color";
 
-async function QuotePage({ route, navigation }) {
+function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
-    console.log('id:', id);
-    const quoteData = await db.getById(id);
+    const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
-    console.log(quoteData);
+    // Fetch data when the component mounts
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const data = await db.getById(id); // Fetch quote data
+                setQuoteData(data); // Update state with fetched data
+                
+                // Set navigation options after fetching data
+                navigation.setOptions({
+                    title: data.author || "Quote"
+                });
+            } catch (error) {
+                console.error("Error fetching quote data:", error);
+            }
+        };
 
-    useLayoutEffect(() => {
-        navigation.setOptions({
-            title: quoteData.author
-        })
-    }, []);
+        fetchData();
+    }, [db, id, navigation]); // Dependencies
 
-    return <Display customStyle={styles.quotePost}>
-        <QuotePost 
-            id={quoteData.id}
-            quote={quoteData.quote}
-            author={quoteData.author}
-            story={quoteData.story}
-            source={quoteData.source}
-        />
-    </Display>
+    // Show loading state until data is fetched
+    if (!quoteData) {
+        return <Display customStyle={styles.quotePost}>Loading...</Display>;
+    }
+
+    return (
+        <Display customStyle={styles.quotePost}>
+            <QuotePost
+                id={quoteData.id}
+                quote={quoteData.quote}
+                author={quoteData.author}
+                story={quoteData.story}
+                source={quoteData.source}
+            />
+        </Display>
+    );
 }
 
 export default QuotePage;
@@ -39,10 +56,9 @@ const styles = StyleSheet.create({
         elevation: 4,
         shadowColor: 'black',
         shadowOpacity: 0.25,
-        shadowOffset: { width: 0, height: 2},
+        shadowOffset: { width: 0, height: 2 },
         shadowRadius: 16,
         overflow: 'hidden',
         padding: 8,
-        
-    }
-})
+    },
+});
