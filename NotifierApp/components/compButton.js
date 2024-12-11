@@ -13,7 +13,7 @@ function CompButton({ title, onPress, subtitle }) {
                 ]}  
                 onPress={onPress}
             >
-                <View style={[styles.innerContainer, {backgroundColor: colors.darkOliveGreen}]}>
+                <View style={styles.innerContainer}>
                     <Text style={styles.title}>{title}</Text>
                     {subtitle && <Text style={styles.authorText}> -{subtitle}</Text>}
                 </View>
