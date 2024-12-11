@@ -1,10 +1,12 @@
 import { View, Text } from "react-native";
-import { IdProvider, useIdContext } from './contexts/IdContext';
+import { QuoteContext, useQuoteContext } from './contexts/IdContext';
 
 function Todays() {
-    return <View>
-        <Text>Todays Quotes Screen!</Text>
-    </View>
+    return (
+        <QuoteContext>
+            
+        </QuoteContext>
+    )
 }
 
 export default Todays;
