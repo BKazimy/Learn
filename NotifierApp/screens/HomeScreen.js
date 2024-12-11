@@ -5,6 +5,7 @@ import Display from "../components/display";
 import { useQuoteContext } from "../tools/quoteOfDay";
 
 function Home({ navigation }) {
+    const { id } =  useQuoteContext();
     return (
         <Display>
                 <View>
