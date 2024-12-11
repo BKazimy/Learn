@@ -9,8 +9,6 @@ function AllQuote({ navigation }) {
     
     // const data = async () => await db.AllQuote();
 
-    const data = 
-
     function renderCategoryItem(itemData) {
         function pressHandler() {
             navigation.navigate('quotePage', {
