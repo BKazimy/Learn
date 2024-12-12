@@ -17,6 +17,7 @@ const Stack = createStackNavigator();
 
 function App() {
   const navigation = useNavigation;
+  const id = 
 
   useEffect(() => {
     setNotificationResponseListener(navigation);
