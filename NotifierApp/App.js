@@ -16,7 +16,8 @@ import { ScheduleNotification, setNotificationResponseListener } from './utility
 const Stack = createStackNavigator();
 
 function App() {
-  const navigation = useNavigation;
+  const navigation = null;
+  const id = null;
 
   useLayoutEffect(() => {
     const id = db.SetQuoteOfDay();
