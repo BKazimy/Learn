@@ -17,12 +17,12 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = null;
+  id = db.SetQuoteOfDay();
+  console.log('appjs id:', id);
 
   useLayoutEffect(() => {
     navigation = useNavigation;
     // id = db.GetQuoteOfDay();
-    id = db.SetQuoteOfDay();
-    console.log('appjs id:', id);
 
     setNotificationResponseListener(navigation);
 
