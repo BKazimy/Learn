@@ -48,7 +48,7 @@ export const SendNotification = async (title, body, id, trigger = null) => {
  */
 export const ScheduleNotification = async () => {
     if (Platform.OS !== 'ios' && Platform.OS !== 'android') {
-        
+        c
     }
   try {
     // Cancel all existing notifications
