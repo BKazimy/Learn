@@ -21,7 +21,7 @@ const db = QuoteDatabase;
 function App() {
 
   useEffect(() => {
-    set
+    setNotification
   }, []);
 
   return (
