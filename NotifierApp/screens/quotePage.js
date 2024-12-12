@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 
-
+// Utility
 import colors from "../utility/color";
 
 function QuotePage({ route, navigation }) {
