@@ -80,6 +80,14 @@ function App() {
               title: "Quote Page",
             }}
           />
+          <Stack.Screen 
+            name="quotePage" 
+            component={QuotePage} 
+            initialParams={{ db }}
+            options={{
+              title: "Quote Page",
+            }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
   );
