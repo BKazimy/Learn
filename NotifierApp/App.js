@@ -21,7 +21,23 @@ const db = QuoteDatabase;
 function App() {
 
   useEffect(() => {
-    setNotificationResponseListener(Navigation)
+    setNotificationResponseListener(Navigation);
+
+    const checkAndScheduleNotification = async () => {
+      try {
+        const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
+        if (scheduledNotifications.length === 0) {
+          console.log('No notifications scheduled. Scheduling now...');
+          await scheduleDailyNotification(db);
+        } else {
+          console.log('Notifications are already scheduled:', scheduledNotifications);
+        }
+      } catch (error) {
+        console.error('Error checking scheduled notifications:', error);
+      }
+    };
+
+    checkAndScheduleNotification();
   }, []);
 
   return (
