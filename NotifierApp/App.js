@@ -22,7 +22,7 @@ function App() {
   useLayoutEffect(() => {
     navigation = useNavigation;
     id = db.SetQuoteOfDay();
-    console.log('id in app.js:', id);
+    
     setNotificationResponseListener(navigation);
 
     const checkAndScheduleNotification = async () => {
