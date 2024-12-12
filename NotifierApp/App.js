@@ -15,7 +15,7 @@ import { ScheduleNotification, setNotificationResponseListener } from './utility
 
 const Stack = createStackNavigator();
 db.SetQuoteOfDay();
-console.log('')
+console.log('quote of day:', )
 
 function App() {
   let navigation = null;
