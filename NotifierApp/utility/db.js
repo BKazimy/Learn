@@ -142,6 +142,7 @@ class QuoteDatabase {
       const idd = this.getRandom().id;
       const jsonValue = JSON.stringify(id);
       await AsyncStorage.setItem('quoteOfDay', jsonValue);
+      
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
     }
