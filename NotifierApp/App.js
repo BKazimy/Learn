@@ -30,7 +30,6 @@ function App() {
         }
       } catch (error) {
         console.error('Error checking scheduled notifications:', error);
-        
       }
     };
 
