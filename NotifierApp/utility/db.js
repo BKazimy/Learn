@@ -10,7 +10,9 @@ export async function SetQuoteOfDay() {
   }
 }
 
-const getData = async () => {
+export async function Quo(params) {
+  
+}{
   try {
     const jsonValue = await AsyncStorage.getItem('@storage_Key')
     return jsonValue != null ? JSON.parse(jsonValue) : null;
