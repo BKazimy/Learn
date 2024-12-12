@@ -36,7 +36,6 @@ export const scheduleNotification = async (title, body, id, trigger = null) => {
 /**
  * Set up a listener for notification responses.
  * When a notification is tapped, this function handles the navigation to the target screen.
- *
  * @param {object} navigation - The navigation object from React Navigation.
  */
 export const setNotificationResponseListener = (navigation) => {
