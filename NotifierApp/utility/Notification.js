@@ -40,7 +40,7 @@ export const sendImmediateNotification = async () => {
                     // Get the quote by id when notification is tapped
                     const quoteId = response.notification.request.content.data.id;
                     // Navigate to the QuotePage with the id
-                    navigation.navigate('quotePage', { id: quoteId });
+                    navigation.navigate('quotePage', { id: id });
                 }
             });
         }
