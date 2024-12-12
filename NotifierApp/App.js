@@ -21,9 +21,6 @@ function App() {
   console.log('appjs id:', id);
 
   useEffect(() => {
-    
-    // id = db.GetQuoteOfDay();
-
     setNotificationResponseListener(navigation);
 
     const checkAndScheduleNotification = async () => {
