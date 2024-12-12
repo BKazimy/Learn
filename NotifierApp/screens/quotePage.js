@@ -20,7 +20,7 @@ function QuotePage({ route, navigation }) {
                     data = await db.getRandom(); // Fetch quote data
                     async () => {
                         await scheduleNotification(data.quote, data.story, data.id);
-                      };
+                    };
 
                 }
                 setQuoteData(data); // Update state with fetched data
