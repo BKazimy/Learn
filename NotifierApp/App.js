@@ -19,7 +19,7 @@ console.log('quote of day:', id+1);
 
 function App() {
   let navigation = null;
-  let id = null;
+  // let id = null;
 
   useLayoutEffect(() => {
     navigation = useNavigation;
