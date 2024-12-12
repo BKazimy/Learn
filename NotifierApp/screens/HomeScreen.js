@@ -7,7 +7,7 @@ import Display from "../components/display";
 // utilities
 
 function Home({ navigation, route }) {
-
+    const { id } = route.
     return (
         <Display>
             <View>
