@@ -21,7 +21,7 @@ function App() {
   const navigation = useNavigation;
 
   useEffect(() => {
-    setNotificationResponseListener(Navigation);
+    setNotificationResponseListener(navigation);
 
     const checkAndScheduleNotification = async () => {
       try {
@@ -35,7 +35,7 @@ function App() {
     };
 
     checkAndScheduleNotification();
-  }, [Navigation]);
+  }, [navigation]);
 
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
