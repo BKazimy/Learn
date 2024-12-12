@@ -151,7 +151,6 @@ class QuoteDatabase {
       const jsonValue = await AsyncStorage.getItem('quoteOfDay')
       return jsonValue != null ? JSON.parse(jsonValue) : null;
     } catch(e) {
-      SetQuoteOfDay();
       return await GetQuoteOfDay();
     }
   }
