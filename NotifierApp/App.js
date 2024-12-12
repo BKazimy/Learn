@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 
@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 function App() {
   const navigation = useNavigation;
 
-  useLa(() => {
+  useLayoutEffect(() => {
     const id = db.SetQuoteOfDay();
     console.log('id in app.js:', id);
     setNotificationResponseListener(navigation);
