@@ -26,7 +26,7 @@ function App() {
     const checkAndScheduleNotification = async () => {
       try {
         const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
-        if (scheduledNotifications.length === 0) {
+        if (Platform.OS !== 'web' && scheduledNotifications.length === 0) {
           await ScheduleNotification(db);
         }
       } catch (error) {
