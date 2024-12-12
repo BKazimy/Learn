@@ -37,7 +37,6 @@ function App() {
 
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
-    <QuoteOfDay>
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
@@ -83,7 +82,6 @@ function App() {
           />
         </Stack.Navigator>
       </NavigationContainer>
-    </QuoteOfDay>
   );
 }
 
