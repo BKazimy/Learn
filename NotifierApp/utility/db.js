@@ -10,7 +10,7 @@ export async function SetQuoteOfDay() {
   }
 }
 
-export async function QuoteOfDay(params) {
+export async function GetQuoteOfDay(params) {
   
 }{
   try {
