@@ -5,7 +5,6 @@ import CompButton from "../components/compButton";
 import Display from "../components/display";
 
 // utilities
-import { useQuoteContext } from "../utility/quoteOfDay";
 
 function Home({ navigation }) {
 
