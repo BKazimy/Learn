@@ -147,14 +147,14 @@ class QuoteDatabase {
       console.log('Couldnt update quote of day!', e);
       return this.SetQuoteOfDay();
     }
-    try {
-      const quotes = await this.getAll();
-      quotes.push(newQuote);
-      await AsyncStorage.setItem(this.storageKey, JSON.stringify(quotes));
-      return newQuote;
-    } catch (error) {
-      console.error('Error adding data:', error);
-    }
+    // try {
+    //   const quotes = await this.getAll();
+    //   quotes.push(newQuote);
+    //   await AsyncStorage.setItem(this.storageKey, JSON.stringify(quotes));
+    //   return newQuote;
+    // } catch (error) {
+    //   console.error('Error adding data:', error);
+    // }
   }
 
   async GetQuoteOfDay() {
