@@ -143,7 +143,7 @@ class QuoteDatabase {
       id = id.id;
       console.log('setquote id:', id);
       await AsyncStorage.setItem('quoteOfDay', JSON.stringify(id));
-      return parseInt(id);
+      return id;
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
       return this.SetQuoteOfDay();
