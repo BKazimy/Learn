@@ -20,7 +20,7 @@ function App() {
   const id = db.SetQuoteOfDay();
   console.log('appjs id:', id);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     navigation = useNavigation;
     // id = db.GetQuoteOfDay();
 
