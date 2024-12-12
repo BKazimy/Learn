@@ -44,7 +44,7 @@ export const SendNotification = async (title, body, id, trigger = null) => {
  *
  * @param {object} db - The database object for fetching quotes.
  */
-export const scheduleDailyNotification = async (db) => {
+export const ScheduleNotification = async (db) => {
   try {
     // Cancel all existing notifications
     await Notifications.cancelAllScheduledNotificationsAsync();
