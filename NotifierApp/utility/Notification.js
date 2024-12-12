@@ -48,7 +48,8 @@ export const SendNotification = async (title, body, id, trigger = null) => {
  */
 export const ScheduleNotification = async () => {
     if (Platform.OS !== 'ios' && Platform.OS !== 'android') {
-        console.log("Unable to send notifications on web just yet.")
+        console.log("Unable to send notifications on web just yet.");
+        return ture
     }
   try {
     // Cancel all existing notifications
