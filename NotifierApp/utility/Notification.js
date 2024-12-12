@@ -54,7 +54,7 @@ export const scheduleDailyNotification = async () => {
       await Notifications.cancelAllScheduledNotificationsAsync();
   
       // Access the current quote ID from the context provider
-      db.set
+      db.SetQuoteOfDay();
       const { id } = db.GetQuoteOfDay();
       if (!id) {
         console.error('No ID found in context.');
