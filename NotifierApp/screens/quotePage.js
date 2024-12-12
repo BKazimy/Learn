@@ -4,8 +4,9 @@ import { StyleSheet } from "react-native";
 import Display from "../components/display";
 import QuotePost from "../components/quotePost";
 
-// Utilities
+// utilities
 import colors from "../utility/color";
+import { SendNotification } from "../utility/Notification";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
