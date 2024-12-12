@@ -21,8 +21,8 @@ function App() {
 
   useLayoutEffect(() => {
     navigation = useNavigation;
-    id = db.SetQuoteOfDay();
-    
+    id = db.GetQuoteOfDay();
+
     setNotificationResponseListener(navigation);
 
     const checkAndScheduleNotification = async () => {
