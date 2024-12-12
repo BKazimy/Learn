@@ -13,7 +13,7 @@ import QuotePage from './screens/quotePage';
 import { QuoteOfDay } from './utility/quoteOfDay';
 import QuoteDatabase from './utility/db';
 import colors from './utility/color';
-import { sendNotification } from './utility/Notification';
+import { sendNotification, setNotificationResponseListener } from './utility/Notification';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
@@ -21,7 +21,7 @@ const db = QuoteDatabase;
 function App() {
 
   useEffect(() => {
-    setNotification
+    setNotificationResponseListener()
   }, []);
 
   return (
