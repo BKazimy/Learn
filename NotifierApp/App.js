@@ -21,22 +21,22 @@ function App() {
   const id = db.SetQuoteOfDay();
   console.log('appjs id:', id);
 
-  useEffect(() => {
-    setNotificationResponseListener(navigation);
+  // useEffect(() => {
+  //   setNotificationResponseListener(navigation);
 
-    const checkAndScheduleNotification = async () => {
-      try {
-        const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
-        if (Platform.OS !== 'web' && scheduledNotifications.length === 0) {
-          await ScheduleNotification(db);
-        }
-      } catch (error) {
-        console.error('Error checking scheduled notifications:', error);
-      }
-    };
+  //   const checkAndScheduleNotification = async () => {
+  //     try {
+  //       const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
+  //       if (Platform.OS !== 'web' && scheduledNotifications.length === 0) {
+  //         await ScheduleNotification(db);
+  //       }
+  //     } catch (error) {
+  //       console.error('Error checking scheduled notifications:', error);
+  //     }
+  //   };
 
-    checkAndScheduleNotification();
-  }, []);
+  //   checkAndScheduleNotification();
+  // }, []);
 
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
