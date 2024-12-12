@@ -46,3 +46,40 @@ export const setNotificationResponseListener = (navigation) => {
     }
   });
 };
+
+export const scheduleDynamicDailyNotification = async () => {
+    try {
+      // Cancel all existing notifications
+      await Notifications.cancelAllScheduledNotificationsAsync();
+  
+      // Access the current quote ID from the context provider
+      const { id } = useQuoteContext();
+      if (!id) {
+        console.error('No ID found in context.');
+        return;
+      }
+  
+      // Fetch the quote details from the database
+      const quoteData = await QuoteDatabase.getById(id);
+      if (!quoteData) {
+        console.error('No quote found for the provided ID.');
+        return;
+      }
+  
+      const { quote: title, author: body } = quoteData;
+  
+      // Schedule the new notification
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title,
+          body,
+          data: { id },
+        },
+        trigger: { hour: 0, minute: 0, repeats: true }, // Trigger daily at midnight
+      });
+  
+      console.log('Dynamic daily notification scheduled!');
+    } catch (error) {
+      console.error('Error scheduling dynamic daily notification:', error);
+    }
+  };
