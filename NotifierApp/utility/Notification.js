@@ -1,74 +1,55 @@
-import { Platform } from 'react-native';
+// utility/Notification.js
 import * as Notifications from 'expo-notifications';
-import { useNavigation } from '@react-navigation/native'; // Use navigation hook
-import db from './db'; // Import the QuoteDatabase instance
-import { useQuoteContext } from './quoteOfDay'; // Import context to access id
 
-export const sendImmediateNotification = async () => {
-    const { id } = useQuoteContext();  // Access id from context
-    const navigation = useNavigation(); // Access the navigation instance
-    console.log('id:', id);
-    
-    // Fetch the quote data by ID
-    const quoteData = await db.getById(id);
-    if (!quoteData) {
-        console.error('Quote not found');
-        return;
+// Configure the notification handler to determine how notifications should behave
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
+
+/**
+ * Schedule a local notification with the provided content and trigger settings.
+ *
+ * @param {string} title - The title of the notification.
+ * @param {string} body - The body content of the notification.
+ * @param {string} id - The unique ID to identify the notification or associated data.
+ * @param {object|null} trigger - The trigger for the notification. Pass `null` for immediate notifications.
+ *
+ * Example `trigger` values:
+ * - `null` for immediate notification.
+ * - `{ seconds: 10 }` for a notification 10 seconds later.
+ * - `{ hour: 9, minute: 0, repeats: true }` for a daily notification at 9:00 AM.
+ */
+export const scheduleNotification = async (title, body, id, trigger = null) => {
+  try {
+    await Notifications.scheduleNotificationAsync({
+      content: {
+        title,
+        body,
+        data: { id }, // Attach the ID to the notification data
+      },
+      trigger,
+    });
+    console.log('Notification scheduled successfully!');
+  } catch (error) {
+    console.error('Error scheduling notification:', error);
+  }
+};
+
+/**
+ * Set up a listener for notification responses.
+ * When a notification is tapped, this function handles the navigation to the target screen.
+ *
+ * @param {object} navigation - The navigation object from React Navigation.
+ */
+export const setNotificationResponseListener = (navigation) => {
+  Notifications.addNotificationResponseReceivedListener((response) => {
+    const { id } = response.notification.request.content.data;
+    if (id) {
+      navigation.navigate('quotePage', { id }); // Navigate to the target screen with the ID
     }
-
-    const { quote, author } = quoteData;  // Destructure the quote and author
-
-    // Mobile Notification (iOS/Android)
-    if (Platform.OS === 'ios' || Platform.OS === 'android') {
-        const { status } = await Notifications.requestPermissionsAsync();
-        if (status === 'granted') {
-            // Send the notification immediately
-            await Notifications.cancelAllScheduledNotificationsAsync();
-
-            await Notifications.scheduleNotificationAsync({
-                content: {
-                    title: quote,  // Use the quote text as the title
-                    body: author,   // Use the author as the body
-                    data: { id },   // Pass the id in the notification's data
-                },
-                trigger: null, // No trigger, just immediate notification
-            });
-
-            // Handle notification tap
-            Notifications.addNotificationResponseReceivedListener(async (response) => {
-                if (response.notification.request.content.data.id) {
-                    // Get the quote by id when notification is tapped
-                    const quoteId = response.notification.request.content.data.id;
-                    // Navigate to the QuotePage with the id
-                    navigation.navigate('quotePage', { id: id });
-                }
-            });
-        }
-    }
-    // Web Notification
-    else if (Platform.OS === 'web') {
-        // Request permission for notifications
-        if ('Notification' in window) {
-            Notification.requestPermission().then(async (permission) => {
-                if (permission === "granted") {
-                    const notificationOptions = {
-                        body: author,  // Use the author as the body
-                        title: quote,   // Pass the quote as the title
-                        data: { id },   // Pass the id in the notification's data
-                        requireInteraction: true,
-                    };
-
-                    // Create and show the notification immediately
-                    const notification = new Notification(quote, notificationOptions);  // Use the quote as the title
-
-                    // Handle notification click
-                    notification.onclick = (event) => {
-                        event.preventDefault();  // Prevent default behavior
-                        // Navigate to the QuotePage with the id
-                        navigation.navigate('quotePage', { id: notification.data.id });
-                    };
-                }
-            });
-        }
-    }
+  });
 };
