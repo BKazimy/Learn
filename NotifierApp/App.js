@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 function App() {
   const navigation = useNavigation;
   const id = db.SetQuoteOfDay();
-  console
+  console.log('')
 
   useEffect(() => {
     setNotificationResponseListener(navigation);
