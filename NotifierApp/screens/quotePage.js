@@ -22,7 +22,7 @@ function QuotePage({ route, navigation }) {
                     data = await db.getById(id); // Fetch quote data
                 } else {
                     data = await db.getRandom(); // Fetch quote data
-                    console.log('id:', );
+                    console.log('id:', data.quote);
                     // send the notification for randome Quote
                     await SendNotification(data.quote, data.story, data.id);
                 }
