@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = null;
-  id = db.SetQuoteOfDay();
+  const id = db.SetQuoteOfDay();
   console.log('appjs id:', id);
 
   useLayoutEffect(() => {
