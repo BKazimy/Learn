@@ -12,12 +12,6 @@ Notifications.setNotificationHandler({
 
 /**
  * Schedule a local notification with the provided content and trigger settings.
- *
- * @param {string} title - The title of the notification.
- * @param {string} body - The body content of the notification.
- * @param {string} id - The unique ID to identify the notification or associated data.
- * @param {object|null} trigger - The trigger for the notification. Pass `null` for immediate notifications.
- *
  * Example `trigger` values:
  * - `null` for immediate notification.
  * - `{ seconds: 10 }` for a notification 10 seconds later.
