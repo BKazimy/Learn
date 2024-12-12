@@ -19,7 +19,7 @@ function QuotePage({ route, navigation }) {
                 } else {
                     data = await db.getRandom(); // Fetch quote data
                     async () => {
-                        await scheduleNotification(data.quote, data.story, data.id, { seconds: 10 });
+                        await scheduleNotification(data.quote, data.story, data.id);
                       };
 
                 }
