@@ -47,7 +47,9 @@ export const SendNotification = async (title, body, id, trigger = null) => {
  * @param {object} db - The database object for fetching quotes.
  */
 export const ScheduleNotification = async () => {
-    if (Platform === 'web')
+    if (Platform.OS !== 'ios' && Platform.OS !== 'android') {
+        
+    }
   try {
     // Cancel all existing notifications
     await Notifications.cancelAllScheduledNotificationsAsync();
