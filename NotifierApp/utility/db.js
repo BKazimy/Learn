@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Entries from './data';
 
-async function QuoteOfDay() {
+export async function QuoteOfDay() {
   try {
     const jsonValue = JSON.stringify(QuoteDatabase.getRandom());
     await AsyncStorage.setItem('@storage_Key', jsonValue);
