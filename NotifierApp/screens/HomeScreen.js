@@ -6,7 +6,7 @@ import Display from "../components/display";
 
 // utilities
 
-function Home({ navigation, route }) {
+function Home({ navigation, ro }) {
 
     return (
         <Display>
