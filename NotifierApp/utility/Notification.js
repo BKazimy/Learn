@@ -76,7 +76,7 @@ export const scheduleDailyNotification = async () => {
           body,
           data: { id },
         },
-        trigger: { hour: 9, minute: 0, repeats: true }, // Trigger daily at midnight
+        trigger: { hour: 8, minute: 0, repeats: true }, // Trigger daily at midnight
       });
   
       console.log('Dynamic daily notification scheduled!');
