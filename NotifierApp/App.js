@@ -6,7 +6,6 @@ import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import Home from './screens/HomeScreen';
 import AllQuote from './screens/AllQuotaScreen';
 import NewQuote from './screens/NewQuote';
-import Schedule from './screens/ScheduleScreen';
 import QuotePage from './screens/quotePage';
 
 // Utilities
