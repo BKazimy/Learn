@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
 
 // Screens
 import Home from './screens/HomeScreen';
@@ -17,7 +17,8 @@ import { ScheduleNotification, setNotificationResponseListener } from './utility
 
 const Stack = createStackNavigator();
 
-function App({ Navigation }) {
+function App() {
+  const navigation = useNavigation;
 
   useEffect(() => {
     setNotificationResponseListener(Navigation);
