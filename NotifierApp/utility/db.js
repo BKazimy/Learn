@@ -1,24 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Entries from './data';
 
-export async function SetQuoteOfDay() {
-  try {
-    const jsonValue = JSON.stringify(QuoteDatabase.getRandom());
-    await AsyncStorage.setItem('quoteOfDay', jsonValue);
-  } catch (e) {
-    console.log('Couldnt update quote of day!', e);
-  }
-}
-
-export async function GetQuoteOfDay() {
-  try {
-    const jsonValue = await AsyncStorage.getItem('quoteOfDay')
-    return jsonValue != null ? JSON.parse(jsonValue) : null;
-  } catch(e) {
-    // error reading value
-  }
-}
-
 class QuoteDatabase {
   constructor() {
     this.storageKey = 'quotes';
@@ -152,6 +134,25 @@ class QuoteDatabase {
     } catch (error) {
       console.error('Error fetching random quote:', error);
       return null;
+    }
+  }
+
+  async SetQuoteOfDay() {
+    try {
+      const jsonValue = JSON.stringify(this.getRandom().id);
+      await AsyncStorage.setItem('quoteOfDay', jsonValue);
+    } catch (e) {
+      console.log('Couldnt update quote of day!', e);
+    }
+  }
+
+  async GetQuoteOfDay() {
+    try {
+      const jsonValue = await AsyncStorage.getItem('quoteOfDay')
+      return jsonValue != null ? JSON.parse(jsonValue) : null;
+    } catch(e) {
+      SetQuoteOfDay();
+      return GetQuoteOfDay();
     }
   }
 }
