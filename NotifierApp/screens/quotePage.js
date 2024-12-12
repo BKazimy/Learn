@@ -18,6 +18,7 @@ function QuotePage({ route, navigation }) {
             try {
                 let data;
                 if (id) {
+                    
                     data = await db.getById(id); // Fetch quote data
                 } else {
                     data = await db.getRandom(); // Fetch quote data
