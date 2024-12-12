@@ -12,6 +12,7 @@ import QuotePage from './screens/quotePage';
 import db from './utility/db';
 import colors from './utility/color';
 import { ScheduleNotification, setNotificationResponseListener } from './utility/Notification';
+import { Platform } from 'react-native';
 
 const Stack = createStackNavigator();
 
