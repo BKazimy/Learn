@@ -13,7 +13,7 @@ import QuotePage from './screens/quotePage';
 import { QuoteOfDay } from './utility/quoteOfDay';
 import QuoteDatabase from './utility/db';
 import colors from './utility/color';
-import { sendNotification, setNotificationResponseListener } from './utility/Notification';
+import { ScheduleNotification, setNotificationResponseListener } from './utility/Notification';
 
 const Stack = createStackNavigator();
 const db = QuoteDatabase;
@@ -28,7 +28,7 @@ function App() {
         const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
         if (scheduledNotifications.length === 0) {
           console.log('No notifications scheduled. Scheduling now...');
-          await schedule(db);
+          await ScheduleNotification(db);
         } else {
           console.log('Notifications are already scheduled:', scheduledNotifications);
         }
