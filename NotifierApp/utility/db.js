@@ -149,10 +149,7 @@ class QuoteDatabase {
     }
     try {
       const quotes = await this.getAll();
-      const newQuote = {
-        id: await this._generateId(),
-        ...quoteData,
-      };
+      const newQuote = {};
       quotes.push(newQuote);
       await AsyncStorage.setItem(this.storageKey, JSON.stringify(quotes));
       return newQuote;
