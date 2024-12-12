@@ -27,8 +27,6 @@ function App() {
         const scheduledNotifications = await Notifications.getAllScheduledNotificationsAsync();
         if (scheduledNotifications.length === 0) {
           await ScheduleNotification(db);
-        } else {
-          console.log('Notifications are already scheduled:', scheduledNotifications);
         }
       } catch (error) {
         console.error('Error checking scheduled notifications:', error);
