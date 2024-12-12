@@ -6,7 +6,7 @@ async function QuoteOfDay() {
     const jsonValue = JSON.stringify(QuoteDatabase.getRandom());
     await AsyncStorage.setItem('@storage_Key', jsonValue);
   } catch (e) {
-    console.log('Couldnt update quote of day!', e)
+    console.log('Couldnt update quote of day!', e);
   }
 }
 
