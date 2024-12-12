@@ -10,9 +10,7 @@ export async function SetQuoteOfDay() {
   }
 }
 
-export async function GetQuoteOfDay(params) {
-  
-}{
+export async function GetQuoteOfDay() {
   try {
     const jsonValue = await AsyncStorage.getItem('@storage_Key')
     return jsonValue != null ? JSON.parse(jsonValue) : null;
