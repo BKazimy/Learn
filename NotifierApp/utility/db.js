@@ -146,7 +146,7 @@ class QuoteDatabase {
       return idobj.id;
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
-      return this.SetQuoteOfDay();
+      // return this.SetQuoteOfDay();
     }
   }
 
