@@ -61,7 +61,7 @@ export const scheduleDailyNotification = async () => {
       }
   
       // Fetch the quote details from the database
-      const quoteData = await QuoteDatabase.getById(id);
+      const quoteData = await db.getById(id);
       if (!quoteData) {
         console.error('No quote found for the provided ID.');
         return;
