@@ -48,7 +48,7 @@ export const setNotificationResponseListener = (navigation) => {
   });
 };
 
-export const scheduleDynamicDailyNotification = async () => {
+export const scheduleDailyNotification = async () => {
     try {
       // Cancel all existing notifications
       await Notifications.cancelAllScheduledNotificationsAsync();
