@@ -34,7 +34,7 @@ function App({ Navigation }) {
     };
 
     checkAndScheduleNotification();
-  }, []);
+  }, [Navigation]);
 
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
