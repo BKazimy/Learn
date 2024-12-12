@@ -145,7 +145,7 @@ class QuoteDatabase {
       return id;
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
-      
+      return this.SetQuoteOfDay();
     }
   }
 
@@ -154,7 +154,7 @@ class QuoteDatabase {
       const jsonValue = await AsyncStorage.getItem('quoteOfDay')
       return jsonValue != null ? JSON.parse(jsonValue) : null;
     } catch(e) {
-      return await GetQuoteOfDay();
+      return await this.GetQuoteOfDay();
     }
   }
 }
