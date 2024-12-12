@@ -4,7 +4,7 @@ import Entries from './data';
 export async function SetQuoteOfDay() {
   try {
     const jsonValue = JSON.stringify(QuoteDatabase.getRandom());
-    await AsyncStorage.setItem('quoteofDay', jsonValue);
+    await AsyncStorage.setItem('quoteOfDay', jsonValue);
   } catch (e) {
     console.log('Couldnt update quote of day!', e);
   }
