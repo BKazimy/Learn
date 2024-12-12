@@ -16,7 +16,6 @@ import colors from './utility/color';
 import { ScheduleNotification, setNotificationResponseListener } from './utility/Notification';
 
 const Stack = createStackNavigator();
-const db = QuoteDatabase;
 
 function App() {
 
