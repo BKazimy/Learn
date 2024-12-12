@@ -11,7 +11,7 @@ import QuotePage from './screens/quotePage';
 
 // Utilities
 import { QuoteOfDay } from './utility/quoteOfDay';
-import QuoteDatabase from './utility/db';
+import db from './utility/db';
 import colors from './utility/color';
 import { ScheduleNotification, setNotificationResponseListener } from './utility/Notification';
 
