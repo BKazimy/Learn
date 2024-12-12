@@ -1,12 +1,12 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Entries from './data';
 
-const storeData = async (value) => {
+async function QuoteOf() {
   try {
-    const jsonValue = JSON.stringify(value)
-    await AsyncStorage.setItem('@storage_Key', jsonValue)
+    const jsonValue = JSON.stringify(QuoteDatabase.getRandom());
+    await AsyncStorage.setItem('@storage_Key', jsonValue);
   } catch (e) {
-    // saving error
+    console.log('Couldnt update ')
   }
 }
 
