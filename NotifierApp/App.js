@@ -18,8 +18,8 @@ const Stack = createStackNavigator();
 function App() {
   let navigation = null;
   // let id = null;
-const id = db.SetQuoteOfDay();
-console.log('quote of day:', id+1);
+  const id = db.SetQuoteOfDay();
+  console.log('quote of day:', id+1);
 
   useLayoutEffect(() => {
     navigation = useNavigation;
