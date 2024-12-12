@@ -17,6 +17,7 @@ function QuotePage({ route, navigation }) {
         const fetchData = async () => {
             try {
                 let data;
+                console.log('id:', id);
                 if (id) {
                     console.log('id:', id);
                     data = await db.getById(id); // Fetch quote data
