@@ -14,6 +14,8 @@ import colors from './utility/color';
 import { ScheduleNotification, setNotificationResponseListener } from './utility/Notification';
 
 const Stack = createStackNavigator();
+db.SetQuoteOfDay();
+console.log('')
 
 function App() {
   let navigation = null;
