@@ -148,25 +148,24 @@ class QuoteDatabase {
       console.log('Couldnt update quote of day!', e);
       return this.SetQuoteOfDay();
     }
-    // try {
-    //   const quotes = await this.getAll();
-    //   quotes.push(newQuote);
-    //   await AsyncStorage.setItem(this.storageKey, JSON.stringify(quotes));
-    //   return newQuote;
-    // } catch (error) {
-    //   console.error('Error adding data:', error);
-    // }
   }
 
   async GetQuoteOfDay() {
     try {
-      const jsonValue = await AsyncStorage.getItem('quoteOfDay')
+      const jsonValue = await AsyncStorage.getItem('quoteOfDay');
       console.log('jsonvalue:', jsonValue);
-      return parseInt(jsonValue ? JSON.parse(jsonValue) : null); //this.SetQuoteOfDay();
+      return jsonValue != null ? JSON.parse(jsonValue) : null; //this.SetQuoteOfDay();
     } catch(e) {
       console.log("Error occured!", e);
     }
   }
+  // try {
+  //   const jsonValue = await AsyncStorage.getItem(this.storageKey);
+  //   return jsonValue != null ? JSON.parse(jsonValue) : [];
+  // } catch (error) {
+  //   console.error('Error fetching data:', error);
+  //   return [];
+  // }
 }
 
 // Export an instance of the database class
