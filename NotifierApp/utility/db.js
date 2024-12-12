@@ -145,6 +145,7 @@ class QuoteDatabase {
       return id;
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
+      
     }
   }
 
