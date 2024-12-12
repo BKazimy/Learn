@@ -8,6 +8,7 @@ import Display from "../components/display";
 
 function Home({ navigation, route }) {
     const { id } = route.params;
+    
     return (
         <Display>
             <View>
