@@ -77,7 +77,7 @@ function App() {
             component={QuotePage} 
             initialParams={{ db, id }}
             options={{
-              title: "Quote Page",
+              title: "Quote of day",
             }}
           />
           <Stack.Screen 
