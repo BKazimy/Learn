@@ -17,7 +17,6 @@ const Stack = createStackNavigator();
 
 function App() {
   const navigation = useNavigation;
-  const id = db.GetQuoteOfDay();
 
   useEffect(() => {
     setNotificationResponseListener(navigation);
@@ -71,14 +70,6 @@ function App() {
             initialParams={{ db }}
             options={{
               title: 'Write New Quote',
-            }}
-          />
-          <Stack.Screen 
-            name="quoteOfDay" 
-            component={QuotePage} 
-            initialParams={{ db, id }}
-            options={{
-              title: "Quote of day",
             }}
           />
           <Stack.Screen 
