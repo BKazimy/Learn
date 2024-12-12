@@ -58,8 +58,6 @@ export const scheduleDailyNotification = async () => {
       if (!id) {
         console.error('No ID found in context.');
         return;
-      } else {
-        
       }
   
       // Fetch the quote details from the database
