@@ -23,7 +23,7 @@ function App() {
 
   useLayoutEffect(() => {
     navigation = useNavigation;
-    id = db.GetQuoteOfDay();
+    // id = db.GetQuoteOfDay();
     console.log('appjs id:', id);
 
     setNotificationResponseListener(navigation);
