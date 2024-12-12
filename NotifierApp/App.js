@@ -73,7 +73,7 @@ function App() {
             }}
           />
           <Stack.Screen 
-            name="today" 
+            name="quoteOfDay" 
             component={QuotePage} 
             initialParams={{ db }}
             options={{
