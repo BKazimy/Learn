@@ -18,7 +18,7 @@ Notifications.setNotificationHandler({
  * - `{ seconds: 10 }` for a notification 10 seconds later.
  * - `{ hour: 9, minute: 0, repeats: true }` for a daily notification at 9:00 AM.
  */
-export const scheduleNotification = async (title, body, id, trigger = null) => {
+export const sendNotification = async (title, body, id, trigger = null) => {
   try {
     await Notifications.scheduleNotificationAsync({
       content: {
