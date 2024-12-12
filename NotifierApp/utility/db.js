@@ -152,7 +152,7 @@ class QuoteDatabase {
       return jsonValue != null ? JSON.parse(jsonValue) : null;
     } catch(e) {
       SetQuoteOfDay();
-      return GetQuoteOfDay();
+      return await GetQuoteOfDay();
     }
   }
 }
