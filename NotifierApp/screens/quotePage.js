@@ -18,7 +18,7 @@ function QuotePage({ route, navigation }) {
                     data = await db.getById(id); // Fetch quote data
                 } else {
                     data = await db.getRandom(); // Fetch quote data
-                    // send the notification for 
+                    // send the notification for randome Quote
                     await scheduleNotification(data.quote, data.story, data.id);
                 }
                 setQuoteData(data); // Update state with fetched data
