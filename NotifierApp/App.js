@@ -17,7 +17,7 @@ import { ScheduleNotification, setNotificationResponseListener } from './utility
 
 const Stack = createStackNavigator();
 
-function App() {
+function App({ Navigation }) {
 
   useEffect(() => {
     setNotificationResponseListener(Navigation);
