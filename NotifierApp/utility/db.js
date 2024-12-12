@@ -153,7 +153,7 @@ class QuoteDatabase {
     try {
       const jsonValue = await AsyncStorage.getItem('quoteOfDay')
       console.log('jsonvalue:', jsonValue);
-      return jsonValue ? JSON.parse(jsonValue) : null; //this.SetQuoteOfDay();
+      return parseInt(jsonValue ? JSON.parse(jsonValue) : null); //this.SetQuoteOfDay();
     } catch(e) {
       console.log("Error occured!", e);
     }
