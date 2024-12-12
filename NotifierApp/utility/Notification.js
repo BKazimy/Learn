@@ -1,6 +1,7 @@
 // utility/Notification.js
 import * as Notifications from 'expo-notifications';
 import db from './db';
+import { Platform } from 'react-native';
 
 // Configure the notification handler to determine how notifications should behave
 Notifications.setNotificationHandler({
@@ -46,6 +47,7 @@ export const SendNotification = async (title, body, id, trigger = null) => {
  * @param {object} db - The database object for fetching quotes.
  */
 export const ScheduleNotification = async () => {
+    if (Platform)
   try {
     // Cancel all existing notifications
     await Notifications.cancelAllScheduledNotificationsAsync();
