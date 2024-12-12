@@ -12,7 +12,7 @@ export async function SetQuoteOfDay() {
 
 export async function GetQuoteOfDay() {
   try {
-    const jsonValue = await AsyncStorage.getItem('@storage_Key')
+    const jsonValue = await AsyncStorage.getItem('quoteOfDay')
     return jsonValue != null ? JSON.parse(jsonValue) : null;
   } catch(e) {
     // error reading value
