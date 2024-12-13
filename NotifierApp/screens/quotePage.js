@@ -7,7 +7,7 @@ import QuotePost from "../components/quotePost";
 // utilities
 import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
-import { CommonActions } from "@react-navigation/native";
+import { CommonActions, StackActions } from "@react-navigation/native";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
