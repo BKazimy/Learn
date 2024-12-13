@@ -7,7 +7,7 @@ import QuotePost from "../components/quotePost";
 // utilities
 import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
-import { CommonActions, StackActions } from "@react-navigation/native";
+import { NavigationActions, StackActions } from 'react-navigation';
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
@@ -16,7 +16,7 @@ function QuotePage({ route, navigation }) {
 
     const resetAction = StackActions.reset({
         index: 0,
-        actions: [NavigationActions.navigate({ routeName: 'home' })],
+        actions: [NavigationAction.navigate({ routeName: 'home' })],
     });
 
     useEffect(() => {
