@@ -39,8 +39,9 @@ function QuotePage({ route, navigation }) {
             console.log('went home!');
           } else {
             console.log('Default goBack behavior triggered.');
-            navigation.dispatch(e.data.action); // Allow the default back action
-          }
+            // navigation.dispatch(e.data.action); // Allow the default back action
+            navigation.dispatch(StackActions.popToTop());
+        }
         });
     
         // Cleanup the listener when the component unmounts
