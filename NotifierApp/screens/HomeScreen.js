@@ -8,7 +8,8 @@ import Display from "../components/display";
 
 function Home({ navigation, route }) {
     const { today } = route.params;
-    
+    const id = today;
+    console.log()
 
     return (
         <Display>
