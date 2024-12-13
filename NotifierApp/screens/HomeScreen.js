@@ -11,7 +11,7 @@ function Home({ navigation, route }) {
     const [id, setid] = useState();
 
     const fetchId = async () => {
-        const { today } = route.
+        const { today } = route.p
         // const id = today;
         console.log('home today:', a);
         // console.log('home today:', today);
