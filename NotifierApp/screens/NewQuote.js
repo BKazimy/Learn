@@ -22,7 +22,7 @@ function NewQuote({ navigation, route }) {
       } else {
         console.log('No previous route. This might be the initial screen.');
       }
-    }, [navigation])
+    }, [])
   );
 
   async function newQuoteHandler(quote, author, story = '', source) {
