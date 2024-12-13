@@ -12,14 +12,7 @@ function Home({ navigation, route }) {
     const [id, setid] = useState();
 
     useLayoutEffect(() => {
-        navigation.dispatch(
-          CommonActions.reset({
-            index: 0, // Set the first screen to be home
-            routes: [
-              { name: 'home' }, // Your home screen name
-            ],
-          })
-        );
+        navigation.res
       }, []);
 
     const fetchId = async () => {
