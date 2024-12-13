@@ -13,6 +13,16 @@ function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
+
+    const navigateToHome = () => {
+        navigation.dispatch(
+          CommonActions.reset({
+            index: 0, // The index of the active screen in the new stack (0 for "Home")
+            routes: [{ name: 'Home' }], // Name of the home screen
+          })
+        );
+      };
+
     useEffect(() => {
         // Add a listener for the 'beforeRemove' event
         const unsubscribe = navigation.addListener('beforeRemove', (e) => {
