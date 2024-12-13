@@ -18,7 +18,8 @@ function QuotePage({ route, navigation }) {
         navigation.dispatch(
           CommonActions.navigate({
             name: 'home', // Name of the home screen
-          })
+          }),
+          CommonActions.reset()
         );
     };
 
