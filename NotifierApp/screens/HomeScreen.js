@@ -16,7 +16,7 @@ function Home({ navigation, route }) {
         console.log('home id:', a);
         // console.log('home today:', today);
     }
-    fetchId
+    fetchId(); 
 
     return (
         <Display>
