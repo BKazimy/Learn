@@ -156,7 +156,7 @@ class QuoteDatabase {
   async GetQuoteOfDay() {
     try {
       const jsonValue = await AsyncStorage.getItem('today');
-      // console.log('jsonvalue:', jsonValue);
+      console.log('jsonvalue:', jsonValue);
       const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value';
       // console.log('today:', today);
       return today;
