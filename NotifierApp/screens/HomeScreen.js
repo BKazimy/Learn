@@ -19,6 +19,7 @@ function Home({ navigation, route }) {
         setid(id);
     }
     fetchId(); 
+    console.log('home today:', id);
 
     return (
         <Display>
