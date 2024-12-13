@@ -14,33 +14,6 @@ function QuotePage({ route, navigation }) {
 
     // Fetch data when the component mounts
     useEffect(() => {
-
-        useEffect(() => {
-    // Add a listener for the 'beforeRemove' event
-    const unsubscribe = navigation.addListener('beforeRemove', (e) => {
-      // Get the navigation state
-      const state = navigation.getState();
-
-      // Check the previous route, if any
-      const previousRoute =
-        state.routes[state.index - 1] || null; // Check if there's a previous route
-
-      if (previousRoute?.name === 'newquote') {
-        // Prevent the default back action
-        e.preventDefault();
-
-        console.log('Came from newQuote, navigating to home.');
-        navigation.navigate('home'); // Navigate to home
-      } else {
-        console.log('Default goBack behavior triggered.');
-        navigation.dispatch(e.data.action); // Allow the default back action
-      }
-    });
-
-    // Cleanup the listener when the component unmounts
-    return unsubscribe;
-  }, [navigation]);
-
         const fetchData = async () => {
             try {
                 let data;
