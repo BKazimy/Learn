@@ -20,7 +20,7 @@ function App() {
   let navigation = useNavigation;
 
   useEffect(() => {
-    const id = db.GetQuoteOfDay();
+    id = db.GetQuoteOfDay();
     console.log('appjs id:', id);
   //   setNotificationResponseListener(navigation);
 
