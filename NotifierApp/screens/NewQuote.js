@@ -8,8 +8,7 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  useLayoutEffect(
-    useCallback(() => {
+  useLayoutEffect(() => {
       const state = navigation.getState();
       const currentRoute = state.routes[state.index];
       const previousRoute =
@@ -22,8 +21,7 @@ function NewQuote({ navigation, route }) {
       } else {
         console.log('No previous route. This might be the initial screen.');
       }
-    }, [])
-  );
+  }, [])
 
   async function newQuoteHandler(quote, author, story = '', source) {
     try {
