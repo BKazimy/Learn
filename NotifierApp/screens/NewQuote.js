@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useLayoutEffect } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
 
 // components
@@ -8,7 +8,7 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  use(
+  useLayoutEffect(
     useCallback(() => {
       const state = navigation.getState();
       const currentRoute = state.routes[state.index];
