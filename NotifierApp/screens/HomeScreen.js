@@ -54,6 +54,12 @@ function Home({ navigation, route }) {
                     onPress={() => navigation.navigate('allquotes')}
                 />
             </View>
+            <View>
+                <CompButton 
+                    title="All Quotes"
+                    onPress={() => navigation.navigate('allquotes')}
+                />
+            </View>
         </Display>
     );
 }
