@@ -140,6 +140,7 @@ class QuoteDatabase {
   async SetQuoteOfDay() {
     try {
       const data = await this.getRandom();
+      console.log('data:', today);
       const idObj = {id: data.id};
       // console.log('setquote id:', id);
       await AsyncStorage.setItem('today', JSON.stringify(idObj));
