@@ -19,7 +19,7 @@ function Home({ navigation, route }) {
             ],
           })
         );
-      });
+      }, []);
 
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
