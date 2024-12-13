@@ -24,7 +24,7 @@ function App() {
     await setId(db.GetQuoteOfDay());
     console.log('appjs id:', id);
   }
-  
+  fetchId();
 
   useEffect(() => {
   //   setNotificationResponseListener(navigation);
