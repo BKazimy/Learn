@@ -10,6 +10,7 @@ import { SendNotification } from "../utility/Notification";
 
 function QuotePage({ route, navigation }) {
     const db = route.params.db;
+    const id = route.params.id;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
     // Fetch data when the component mounts
