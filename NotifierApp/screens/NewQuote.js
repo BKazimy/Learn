@@ -12,6 +12,9 @@ function NewQuote({ navigation, route }) {
   useFocusEffect(
     useCallback(() => {
       const state = navigation.getState();
+      console.log('Navigation State:', state);
+  
+      // Ensure we safely access the previous route
       const previousRoute = state.routes[state.index - 1] || null;
 
       if (previousRoute) {
