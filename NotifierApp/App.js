@@ -23,9 +23,9 @@ function App() {
   const fetchId = async () => {
     let a = await db.GetQuoteOfDay();
     a = a.id
-    console.log('appjs a.id:', a);
+    // console.log('appjs a.id:', a);
     setToday(a);
-    console.log('appjs today:', today);
+    // console.log('appjs today:', today);
   }
   fetchId();
 
