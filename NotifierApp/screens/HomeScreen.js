@@ -11,6 +11,7 @@ function Home({ navigation, route }) {
     const { today } = route.params;
     const id = today;
     console.log('home id:', id);
+    console.log('home today:', id);
 
     return (
         <Display>
