@@ -16,7 +16,6 @@ function QuotePage({ route, navigation }) {
 
     const navigateToHome = () => {
         navigation.dispatch(
-            
           CommonActions.reset({
             index: 0,
             routes: [{name: 'home'}]
