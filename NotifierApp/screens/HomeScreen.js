@@ -57,7 +57,7 @@ function Home({ navigation, route }) {
             <View>
                 <CompButton 
                     title="Report an Issue"
-                    onPress={() => navigation.navigate('allquotes')}
+                    onPress={() => Linking.openURL('https://google.com')}
                 />
             </View>
         </Display>
