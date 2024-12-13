@@ -8,10 +8,10 @@ import { useLayoutEffect } from "react";
 // utilities
 
 function Home({ navigation, route }) {
-    const { today } = route.params;
-    const id = today;
+    const id = route.params.today;
+    // const id = today;
     console.log('home id:', id);
-    console.log('home today:', id);
+    // console.log('home today:', today);
 
     return (
         <Display>
