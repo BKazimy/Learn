@@ -1,19 +1,32 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 
 // components
 import CompButton from "../components/compButton";
 import Display from "../components/display";
+import { useLayoutEffect, useState } from "react";
+import { CommonActions } from "@react-navigation/native";
 
 // utilities
-import { useQuoteContext } from "../utility/quoteOfDay";
 
-function Home({ navigation }) {
-    const { id } = useQuoteContext();
+function Home({ navigation, route }) {
+    const [id, setid] = useState();
 
-    // Handle the case where id might be undefined
-    if (id === undefined) {
-        console.log('id undefined!');
+    // useLayoutEffect(() => {
+    //     const state = navigation.getState();
+    //     if (state.length > 1) {
+    //         navigation.reset({
+    //             index: 0,
+    //             routes: [{ name: 'home' }]
+    //         })
+    //     }
+    //   }, []);
+
+    const fetchId = async () => {
+        const data = await route.params.db.GetQuoteOfDay();
+        setid(data);
     }
+    fetchId(); 
+    console.log('home usestate id:', id);
 
     return (
         <Display>
@@ -38,7 +51,7 @@ function Home({ navigation }) {
             <View>
                 <CompButton 
                     title="Today's Quote"
-                    onPress={() => navigation.navigate('quotePage', { id })}
+                    onPress={() => navigation.navigate('quotePage', {id})}
                 />
             </View>
         </Display>
