@@ -7,6 +7,7 @@ import Display from "../components/display";
 // utilities
 
 function Home({ navigation, route }) {
+    use
     const { today } = route.params;
     const id = today;
     console.log('home id:', id);
