@@ -21,7 +21,7 @@ function App() {
   const id = db.GetQuoteOfDay();
   console.log('appjs id:', id);
 
-  // useEffect(() => {
+  useEffect(() => {
   //   setNotificationResponseListener(navigation);
 
   //   const checkAndScheduleNotification = async () => {
@@ -36,7 +36,7 @@ function App() {
   //   };
 
   //   checkAndScheduleNotification();
-  // }, []);
+  }, []);
 
   return (
     // Wrap your app in the QuoteOfDay provider to give access to the context throughout your app
