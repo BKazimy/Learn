@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = useNavigation;
-  const [todays, setId] = useState();
+  const [todays, setTodays] = useState();
 
   const fetchId = async () => {
     let a = await db.GetQuoteOfDay();
