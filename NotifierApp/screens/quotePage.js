@@ -12,7 +12,6 @@ function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
-
     useEffect(() => {
         // Add a listener for the 'beforeRemove' event
         const unsubscribe = navigation.addListener('beforeRemove', (e) => {
@@ -27,8 +26,8 @@ function QuotePage({ route, navigation }) {
             // Prevent the default back action
             e.preventDefault();
     
-            console.log('Came from', previousRoute.name, 'navigating to home.');
-            navigation.replace('home'); // Navigate to home
+            console.log('Came from newQuote, reloading quotePage.');
+            navigation.replace('quotePage'); // Reload the page
           } else {
             console.log('Default goBack behavior triggered.');
             navigation.dispatch(e.data.action); // Allow the default back action
@@ -37,7 +36,7 @@ function QuotePage({ route, navigation }) {
     
         // Cleanup the listener when the component unmounts
         return unsubscribe;
-    }, [navigation]);
+      }, [navigation]);
 
 
     // Fetch data when the component mounts
