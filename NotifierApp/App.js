@@ -18,13 +18,13 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = useNavigation;
-  const [todays, setTodays] = useState();
+  const [today, setToday] = useState();
 
   const fetchId = async () => {
     let a = await db.GetQuoteOfDay();
     console.log('appjs a.id:', a.id);
     setTodays(a);
-    console.log('appjs id:', todays);
+    console.log('appjs id:', today);
   }
 
   useEffect(() => {
