@@ -109,7 +109,7 @@ const resetAction = StackActions.reset({
   Notifications.addNotificationResponseReceivedListener((response) => {
     const { id } = response.notification.request.content.data;
     if (id) {
-      navigation.navigate('quotePage', { id }); // Navigate to the target screen with the ID
+        navigation.dispatch(resetAction); // Navigate to the target screen with the ID
     }
   });
 };
