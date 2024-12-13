@@ -97,7 +97,7 @@ export const setNotificationResponseListener = (navigation) => {
     
 const resetAction = StackActions.reset({
     index: 1,
-    actions: [NavigationActions.navigate({ routeName: 'home' }, { routeName: 'quotePage' })],
+    actions: [NavigationActions.navigate({ routeName: 'home' }, { routeName: 'quotePage', id: { id } })],
   });
 
   Notifications.addNotificationResponseReceivedListener((response) => {
