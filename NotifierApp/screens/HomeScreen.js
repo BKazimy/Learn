@@ -12,10 +12,6 @@ function Home({ navigation, route }) {
 
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
-        // const { today } = route.params;
-        // const data = today;
-        // console.log('home today:', a);
-        console.log('home data id:', data);
         setid(data);
     }
     fetchId(); 
