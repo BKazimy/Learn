@@ -23,7 +23,7 @@ function App() {
   const fetchId = async () => {
     let a = await db.GetQuoteOfDay();
     console.log('appjs id:', a);
-    setId(a);
+    setId(a.id);
   }
 
   useEffect(() => {
