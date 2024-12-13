@@ -3,11 +3,13 @@ import { View } from "react-native";
 // components
 import CompButton from "../components/compButton";
 import Display from "../components/display";
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useState } from "react";
 
 // utilities
 
 function Home({ navigation, route }) {
+    const [id, setid] = useState();
+    
     const fetchId = async () => {
         route.params.today;
         // const id = today;
