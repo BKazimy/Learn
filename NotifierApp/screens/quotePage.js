@@ -29,7 +29,7 @@ function QuotePage({ route, navigation }) {
     
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
-            navigation.dispatch(CommonActions.reset({index: 0, routes}))
+            navigation.dispatch(CommonActions.reset({index: 0, routes: []}))
           } else {
             console.log('Default goBack behavior triggered.');
             navigation.dispatch(e.data.action); // Allow the default back action
