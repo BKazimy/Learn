@@ -16,6 +16,7 @@ function Home({ navigation, route }) {
         // const id = today;
         // console.log('home today:', a);
         console.log('home today:', id);
+        
     }
     fetchId(); 
 
