@@ -25,9 +25,9 @@ function App() {
     a = a.id
     // console.log('appjs a.id:', a);
     setToday(a);
-    // console.log('appjs today:', today);
   }
   fetchId();
+  console.log('appjs today:', today);
 
   useEffect(() => {
 
