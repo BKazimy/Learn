@@ -8,7 +8,7 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  useFocusEffect(
+  use(
     useCallback(() => {
       const state = navigation.getState();
       const currentRoute = state.routes[state.index];
