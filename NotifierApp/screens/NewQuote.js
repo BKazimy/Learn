@@ -5,6 +5,22 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
+  useFocusEffect(
+    React.useCallback(() => {
+      const state = navigation.getState();
+      const currentRoute = state.routes[state.index];
+      const previousRoute =
+        state.routes[state.index - 1] || null; // Check if there's a previous route
+
+      console.log('Current Route:', currentRoute.name);
+      if (previousRoute) {
+        console.log('Came from Route:', previousRoute.name);
+      } else {
+        console.log('No previous route. This might be the initial screen.');
+      }
+    }, [navigation])
+  );
+
   async function newQuoteHandler(quote, author, story = '', source) {
     try {
       const newEntry = await db.add({
