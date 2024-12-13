@@ -18,10 +18,10 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = useNavigation;
-  const id = db.GetQuoteOfDay();
-  console.log('appjs id:', id);
 
   useEffect(() => {
+    const id = db.GetQuoteOfDay();
+    console.log('appjs id:', id);
   //   setNotificationResponseListener(navigation);
 
   //   const checkAndScheduleNotification = async () => {
