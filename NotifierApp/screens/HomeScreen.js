@@ -50,14 +50,14 @@ function Home({ navigation, route }) {
             </View>
             <View>
                 <CompButton 
-                    title="All Quotes"
-                    onPress={() => navigation.navigate('allquotes')}
+                    title="Report an Issue"
+                    onPress={() => Linking.openURL('https://www.instagram.com/b_kazimy_')}
                 />
             </View>
             <View>
                 <CompButton 
-                    title="Report an Issue"
-                    onPress={() => Linking.openURL('https://www.instagram.com/b_kazimy_')}
+                    title="All Quotes"
+                    onPress={() => navigation.navigate('allquotes')}
                 />
             </View>
         </Display>
