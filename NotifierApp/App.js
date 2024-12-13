@@ -21,7 +21,7 @@ function App() {
   const { id, setId } = useState();
 
   async () => {
-    db.GetQuoteOfDay();
+    await sedb.GetQuoteOfDay();
     console.log('appjs id:', id);
   }
 
