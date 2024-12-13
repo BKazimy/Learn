@@ -29,7 +29,7 @@ function QuotePage({ route, navigation }) {
                 // Prevent the default back action
                 e.preventDefault();
         
-                console.log('did not came from home, navigating to home.');
+                console.log('did not came from AllQuote, navigating to home.');
                 navigation.navigate('home'); // Navigate to home
               } else {
                 console.log('Default goBack behavior triggered.');
