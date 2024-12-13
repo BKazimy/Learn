@@ -35,10 +35,7 @@ function QuotePage({ route, navigation }) {
     
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
-            navigation.reset({
-                index: 0,
-                routes: [{ name: 'Dashboard' }]
-           });
+            navigation.na
             console.log('went home!');
           } else {
             console.log('Default goBack behavior triggered.');
