@@ -19,7 +19,7 @@ function Home({ navigation, route }) {
         setid(data);
     }
     fetchId(); 
-    console.log('home today:', id);
+    console.log('home usestate id:', id);
 
     return (
         <Display>
