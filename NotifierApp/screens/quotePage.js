@@ -9,7 +9,7 @@ import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
 
 function QuotePage({ route, navigation, id }) {
-    console.log('')
+    console.log('prop id:', id)
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
