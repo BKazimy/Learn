@@ -27,7 +27,9 @@ function QuotePage({ route, navigation }) {
             e.preventDefault();
     
             console.log('Came from newQuote, reloading quotePage.');
-            navigation.replace('quotePage'); // Reload the page
+    
+            // Replace to reload the screen, but only if it's not already replaced
+            navigation.replace('quotePage');
           } else {
             console.log('Default goBack behavior triggered.');
             navigation.dispatch(e.data.action); // Allow the default back action
