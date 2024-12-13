@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = useNavigation;
-  const id = async () => await db.SetQuoteOfDay();
+  const id = db.SetQuoteOfDay();
   console.log('appjs id:', id);
 
   // useEffect(() => {
