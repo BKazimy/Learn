@@ -21,7 +21,7 @@ function QuotePage({ route, navigation }) {
             routes: [{ name: 'Home' }], // Name of the home screen
           })
         );
-      };
+    };
 
     useEffect(() => {
         // Add a listener for the 'beforeRemove' event
