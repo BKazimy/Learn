@@ -12,6 +12,8 @@ function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
+  // Create a ref to track whether the replacement has already happened
+  const isReplacingRef = useRef(false);
     
   useEffect(() => {
     const unsubscribe = navigation.addListener('beforeRemove', (e) => {
