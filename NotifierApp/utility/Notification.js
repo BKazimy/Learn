@@ -100,7 +100,8 @@ const resetAction = StackActions.reset({
     actions: [
       NavigationActions.navigate({ routeName: 'home' }),
       NavigationActions.navigate({ 
-        routeName: 'quotePage' 
+        routeName: 'quotePage' ,
+        params: {}
       }),
     ],
   });
