@@ -57,7 +57,7 @@ function Home({ navigation, route }) {
             <View>
                 <CompButton 
                     title="Report an Issue"
-                    onPress={() => Linking.openURL('https://google.com')}
+                    onPress={() => Linking.openURL('https://www.instagram.com/b_kazimy_?igsh=OGQ5ZDc2ODk2ZA==')}
                 />
             </View>
         </Display>
