@@ -15,7 +15,7 @@ function Home({ navigation, route }) {
           CommonActions.reset({
             index: 0, // Set the first screen to be home
             routes: [
-              { name: 'Home' }, // Your home screen name
+              { name: 'home' }, // Your home screen name
             ],
           })
         );
