@@ -1,6 +1,3 @@
-import React, { useCallback } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
-
 // components
 import Form from '../components/form';
 import Display from '../components/display';
