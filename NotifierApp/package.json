@@ -13,7 +13,7 @@
     "@react-native-async-storage/async-storage": "^2.1.0",
     "@react-native-community/cli": "latest",
     "@react-navigation/stack": "^7.0.18",
-    "expo": "~52.0.17",
+    "expo": "~52.0.18",
     "expo-modules-core": "~2.1.1",
     "expo-notifications": "~0.29.11",
     "expo-sqlite": "~15.0.3",
