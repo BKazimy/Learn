@@ -9,9 +9,9 @@ import { useLayoutEffect, useState } from "react";
 
 function Home({ navigation, route }) {
     const [id, setid] = useState();
-    
+
     const fetchId = async () => {
-        route.params.today;
+        let a = route.params.today;
         // const id = today;
         console.log('home id:', id);
         // console.log('home today:', today);
