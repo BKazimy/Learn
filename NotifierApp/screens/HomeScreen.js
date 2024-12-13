@@ -8,7 +8,7 @@ import Display from "../components/display";
 
 function Home({ navigation, route }) {
     const { id } = route.params;
-    
+
     return (
         <Display>
             <View>
@@ -32,7 +32,7 @@ function Home({ navigation, route }) {
             <View>
                 <CompButton 
                     title="Today's Quote"
-                    onPress={() => navigation.navigate('quotePage', { id })}
+                    onPress={() => navigation.navigate('quotePage', {id})}
                 />
             </View>
         </Display>
