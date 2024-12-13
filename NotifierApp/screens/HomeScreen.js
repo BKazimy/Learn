@@ -10,7 +10,16 @@ import { useLayoutEffect, useState } from "react";
 function Home({ navigation, route }) {
     const [id, setid] = useState();
 
-    useLayoutEffect
+    useLayoutEffect(() => {
+        navigation.dispatch(
+          CommonActions.reset({
+            index: 0, // Set the first screen to be home
+            routes: [
+              { name: 'Home' }, // Your home screen name
+            ],
+          })
+        );
+      });
 
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
