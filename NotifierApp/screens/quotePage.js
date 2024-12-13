@@ -16,7 +16,7 @@ function QuotePage({ route, navigation }) {
 
     const resetAction = StackActions.reset({
         index: 0,
-        actions: [NavigationAction.navigate({ routeName: 'home' })],
+        actions: [NavigationActions.navigate({ routeName: 'home' })],
     });
 
     useEffect(() => {
@@ -35,7 +35,10 @@ function QuotePage({ route, navigation }) {
     
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
-            navigateToHome();
+            navigation.reset({
+                index: 0,
+                routes: [{ name: 'Dashboard' }]
+           });
             console.log('went home!');
           } else {
             console.log('Default goBack behavior triggered.');
