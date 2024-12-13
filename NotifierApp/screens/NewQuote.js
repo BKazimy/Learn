@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import Form from '../components/form';
 import Display from '../components/display';
+import { useFocusEffect } from '@react-navigation/native';
 
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
