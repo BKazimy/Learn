@@ -17,7 +17,7 @@ function QuotePage({ route, navigation }) {
     const navigateToHome = () => {
         navigation.dispatch(
           CommonActions.navigate({
-            name: 'SomeScreen', // Name of the home screen
+            name: 'home', // Name of the home screen
           })
         );
     };
