@@ -12,6 +12,7 @@ function Home({ navigation, route }) {
     const [id, setid] = useState();
 
     useLayoutEffect(() => {
+        if (navigation.getSt)
         navigation.reset({
             index: 0,
             routes: [{ name: 'home' }]
