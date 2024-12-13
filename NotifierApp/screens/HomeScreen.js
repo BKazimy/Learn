@@ -12,7 +12,7 @@ function Home({ navigation, route }) {
 
     const fetchId = async () => {
         const { db, id } = route.params;
-    const { today } = route.params;
+        // const { today } = route.params;
         // const id = today;
         // console.log('home today:', a);
         console.log('home today:', today);
