@@ -20,14 +20,14 @@ function App() {
   let navigation = useNavigation;
   // const [today, setToday] = useState(null);
 
-  const fetchId = async () => {
-    let a = await db.GetQuoteOfDay();
-    // a = a.id
-    console.log('appjs a:', a);
-    setToday(a);
-  }
-  fetchId();
-  console.log('appjs today:', today);
+  // const fetchId = async () => {
+  //   let a = await db.GetQuoteOfDay();
+  //   // a = a.id
+  //   console.log('appjs a:', a);
+  //   setToday(a);
+  // }
+  // fetchId();
+  // console.log('appjs today:', today);
 
   useEffect(() => {
 
