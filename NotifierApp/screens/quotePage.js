@@ -37,7 +37,7 @@ function QuotePage({ route, navigation }) {
     
         // Cleanup the listener when the component unmounts
         return unsubscribe;
-      }, [navigation]);
+    }, [navigation]);
 
 
     // Fetch data when the component mounts
