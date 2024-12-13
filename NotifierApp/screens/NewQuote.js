@@ -15,7 +15,7 @@ function NewQuote({ navigation, route }) {
       const previousRoute =
         state.routes[state.index - 1] || null; // Check if there's a previous route
 
-      console.log('Current Route:', currentRoute.name);
+      console.log('Current Route:', previousRoute.name);
       if (previousRoute.name === 'quotePage') {
         console.log('Came from Route:', previousRoute.name);
         navigation.navigate('home');
