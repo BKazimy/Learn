@@ -20,10 +20,11 @@ function App() {
   let navigation = useNavigation;
   const { id, setId } = useState();
 
-  async () => {
+  const fetchId = async () => {
     await setId(db.GetQuoteOfDay());
     console.log('appjs id:', id);
   }
+  
 
   useEffect(() => {
   //   setNotificationResponseListener(navigation);
