@@ -8,16 +8,6 @@ import { useState } from "react";
 function Home({ navigation, route }) {
     const [id, setid] = useState();
 
-    // useLayoutEffect(() => {
-    //     const state = navigation.getState();
-    //     if (state.length > 1) {
-    //         navigation.reset({
-    //             index: 0,
-    //             routes: [{ name: 'home' }]
-    //         })
-    //     }
-    //   }, []);
-
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
         setid(data);
