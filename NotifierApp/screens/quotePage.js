@@ -14,11 +14,10 @@ function QuotePage({ route, navigation }) {
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
 
-    const navigateToHome = () => {
-        navigation.dispatch(
-          CommonActions.replace('home')
-        );
-    };
+    const resetAction = StackActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({ routeName: 'home' })],
+    });
 
     useEffect(() => {
         // Add a listener for the 'beforeRemove' event
