@@ -7,17 +7,17 @@ import QuotePost from "../components/quotePost";
 // utilities
 import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
-import { NavigationActions, StackActions } from 'react-navigation';
+// import { NavigationActions, StackActions } from 'react-navigation';
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
     const [quoteData, setQuoteData] = useState(null); // State to store the fetched data
 
 
-    const resetAction = StackActions.reset({
-        index: 0,
-        actions: [NavigationActions.navigate({ routeName: 'home' })],
-    });
+    // const resetAction = StackActions.reset({
+    //     index: 0,
+    //     actions: [NavigationActions.navigate({ routeName: 'home' })],
+    // });
 
     useEffect(() => {
         // Add a listener for the 'beforeRemove' event
