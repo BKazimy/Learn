@@ -18,7 +18,7 @@ function NewQuote({ navigation, route }) {
       console.log('Current Route:', currentRoute.name);
       if (previousRoute.name === 'quotePage') {
         console.log('Came from Route:', previousRoute.name);
-        navigation.navigate('')
+        navigation.navigate('home');
       } else {
         console.log('No previous route. This might be the initial screen.');
       }
