@@ -21,7 +21,7 @@ function QuotePage({ route, navigation }) {
           }),
           CommonActions.reset({
             index: 0,
-            
+            routes
           })
         );
     };
