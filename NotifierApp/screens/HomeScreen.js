@@ -10,6 +10,8 @@ import { useLayoutEffect, useState } from "react";
 function Home({ navigation, route }) {
     const [id, setid] = useState();
 
+    
+
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
         setid(data);
