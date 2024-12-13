@@ -27,9 +27,9 @@ function App() {
     setToday(a);
     console.log('appjs todya:', today);
   }
+  fetchId();
 
   useEffect(() => {
-    fetchId();
 
   //   setNotificationResponseListener(navigation);
 
