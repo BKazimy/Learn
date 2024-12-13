@@ -25,9 +25,10 @@ function App() {
     console.log('appjs id:', a);
     setId(a);
   }
-  fetchId();
 
   useEffect(() => {
+    fetchId();
+
   //   setNotificationResponseListener(navigation);
 
   //   const checkAndScheduleNotification = async () => {
