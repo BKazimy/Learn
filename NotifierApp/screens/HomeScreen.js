@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { Linking, View } from "react-native";
 
 // components
 import CompButton from "../components/compButton";
