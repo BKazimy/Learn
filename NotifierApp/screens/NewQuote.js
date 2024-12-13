@@ -6,7 +6,7 @@ function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
   useFocusEffect(
-    React.useCallback(() => {
+    useCallback(() => {
       const state = navigation.getState();
       const currentRoute = state.routes[state.index];
       const previousRoute =
