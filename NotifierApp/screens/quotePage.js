@@ -7,7 +7,7 @@ import QuotePost from "../components/quotePost";
 // utilities
 import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
-import { NavigationActions, StackActions } from 'react-navigation';
+import { CommonActions, StackActions } from "@react-navigation/native";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
@@ -35,7 +35,7 @@ function QuotePage({ route, navigation }) {
     
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
-            resetAction();
+            navigateToHome();
             console.log('went home!');
           } else {
             console.log('Default goBack behavior triggered.');
