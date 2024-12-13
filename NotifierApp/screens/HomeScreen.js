@@ -8,7 +8,7 @@ import { useLayoutEffect } from "react";
 // utilities
 
 function Home({ navigation, route }) {
-    const fetchId = route.params.today;
+    const fetchId = async () => route.params.today;
     // const id = today;
     console.log('home id:', id);
     // console.log('home today:', today);
