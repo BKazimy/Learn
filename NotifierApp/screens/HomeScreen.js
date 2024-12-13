@@ -32,12 +32,6 @@ function Home({ navigation, route }) {
         <Display>
             <View>
                 <CompButton 
-                    title="All Quotes"
-                    onPress={() => navigation.navigate('allquotes')}
-                />
-            </View>
-            <View>
-                <CompButton 
                     title="Write New Quote"
                     onPress={() => navigation.replace('newquote')}
                 />
