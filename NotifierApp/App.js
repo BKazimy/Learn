@@ -25,7 +25,7 @@ function App() {
     a = a.id
     console.log('appjs a.id:', a);
     setToday(a);
-    console.log('appjs todya:', today);
+    console.log('appjs today:', today);
   }
   fetchId();
 
