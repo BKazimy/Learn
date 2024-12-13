@@ -159,7 +159,7 @@ class QuoteDatabase {
       // console.log('jsonvalue:', jsonValue);
       const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value';
       // console.log('today:', today);
-      return today;
+      return today.id;
     } catch(e) {
       console.log("Error occured!", e);
     }
