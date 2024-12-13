@@ -8,19 +8,22 @@ import Display from '../components/display';
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
-  useLayoutEffect(() => {
+  
+  useFocusEffect(
+    useCallback(() => {
       const state = navigation.getState();
-      const previousRoute =
-        state.routes[state.index - 1] || null; // Check if there's a previous route
+      const previousRoute = state.routes[state.index - 1] || null;
 
-      console.log('previous Route from newQuote:', previousRoute.name);
-      if (previousRoute.name == 'quotePage') {
+      if (previousRoute) {
         console.log('Came from Route:', previousRoute.name);
-        navigation.navigate('home');
+        if (previousRoute.name === 'quotePage') {
+          navigation.navigate('home');
+        }
       } else {
         console.log('No previous route. This might be the initial screen.');
       }
-  }, [])
+    }, [navigation])
+  );
 
   async function newQuoteHandler(quote, author, story = '', source) {
     try {
