@@ -4,7 +4,7 @@ import { Linking, View } from "react-native";
 import CompButton from "../components/compButton";
 import Display from "../components/display";
 import { useLayoutEffect, useState } from "react";
-import { CommonActions } from "@react-navigation/native";
+// import { CommonActions } from "@react-navigation/native";
 
 function Home({ navigation, route }) {
     const [id, setid] = useState();
