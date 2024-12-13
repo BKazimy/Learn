@@ -32,7 +32,8 @@ function QuotePage({ route, navigation }) {
             navigation.dispatch(
                 CommonActions.reset({
                     index: 0, 
-                    routes: [{ name: 'home' }]})
+                    routes: [{ name: 'home' }]
+                })
             );
           } else {
             console.log('Default goBack behavior triggered.');
