@@ -9,24 +9,24 @@ function NewQuote({ navigation, route }) {
   const { db } = route.params;
 
   
-  // useFocusEffect(
-  //   useCallback(() => {
-  //     const state = navigation.getState();
-  //     console.log('Navigation State:', state);
+  useFocusEffect(
+    useCallback(() => {
+      const state = navigation.getState();
+      console.log('Navigation State:', state);
   
-  //     // Ensure we safely access the previous route
-  //     const previousRoute = state.routes[state.index - 1] || null;
+      // Ensure we safely access the previous route
+      const previousRoute = state.routes[state.index - 1] || null;
 
-  //     if (previousRoute) {
-  //       console.log('Came from Route:', previousRoute.name);
-  //       if (previousRoute.name === 'quotePage') {
-  //         navigation.navigate('home');
-  //       }
-  //     } else {
-  //       console.log('No previous route. This might be the initial screen.');
-  //     }
-  //   }, [navigation])
-  // );
+      if (previousRoute) {
+        console.log('Came from Route:', previousRoute.name);
+        if (previousRoute.name === 'quotePage') {
+          navigation.navigate('home');
+        }
+      } else {
+        console.log('No previous route. This might be the initial screen.');
+      }
+    }, [navigation])
+  );
 
   async function newQuoteHandler(quote, author, story = '', source) {
     try {
