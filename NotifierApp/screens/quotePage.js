@@ -25,7 +25,7 @@ function QuotePage({ route, navigation }) {
               const previousRoute =
                 state.routes[state.index - 1] || null; // Check if there's a previous route
         
-              if (previousRoute?.name !== 'newquote') {
+              if (previousRoute?.name !== 'allquotes') {
                 // Prevent the default back action
                 e.preventDefault();
         
