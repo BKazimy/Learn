@@ -11,11 +11,11 @@ function Home({ navigation, route }) {
     const [id, setid] = useState();
 
     const fetchId = async () => {
-        const id = GetQuoteOfDay();
+        const id = await GetQuoteOfDay();
         // const { today } = route.params;
         // const id = today;
         // console.log('home today:', a);
-        console.log('home today:', db.GetQuoteOfDay());
+        console.log('home today:', id);
     }
     fetchId(); 
 
