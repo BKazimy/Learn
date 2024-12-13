@@ -11,16 +11,16 @@ import { CommonActions } from "@react-navigation/native";
 function Home({ navigation, route }) {
     const [id, setid] = useState();
 
-    useLayoutEffect(() => {
-        navigation.dispatch(
-          CommonActions.reset({
-            index: 0, // Set the first screen to be home
-            routes: [
-              { name: 'home' }, // Your home screen name
-            ],
-          })
-        );
-      }, []);
+    // useLayoutEffect(() => {
+    //     navigation.dispatch(
+    //       CommonActions.reset({
+    //         index: 0, // Set the first screen to be home
+    //         routes: [
+    //           { name: 'home' }, // Your home screen name
+    //         ],
+    //       })
+    //     );
+    //   }, []);
 
     const fetchId = async () => {
         const data = await route.params.db.GetQuoteOfDay();
