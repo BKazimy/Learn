@@ -24,7 +24,7 @@ function App() {
     let a = await db.GetQuoteOfDay();
     console.log('appjs a.id:', a.id);
     setTodays(a);
-    console.log('appjs id:', id);
+    console.log('appjs id:', todays);
   }
 
   useEffect(() => {
