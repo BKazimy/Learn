@@ -56,7 +56,7 @@ function Home({ navigation, route }) {
             </View>
             <View>
                 <CompButton 
-                    title="Report Bug"
+                    title="Report an Issue"
                     onPress={() => navigation.navigate('allquotes')}
                 />
             </View>
