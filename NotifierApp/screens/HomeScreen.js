@@ -39,7 +39,7 @@ function Home({ navigation, route }) {
             <View>
                 <CompButton 
                     title="Write New Quote"
-                    onPress={() => navigation.navigate('newquote')}
+                    onPress={() => navigation.replace('newquote')}
                 />
             </View>
             <View>
