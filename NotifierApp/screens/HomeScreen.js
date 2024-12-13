@@ -9,7 +9,7 @@ import Display from "../components/display";
 function Home({ navigation, route }) {
     const { today } = route.params;
     const id = today;
-    console.log()
+    console.log('home id:', id);
 
     return (
         <Display>
