@@ -21,7 +21,8 @@ function App() {
   const { id, setId } = useState();
 
   const fetchId = async () => {
-    setId(await db.GetQuoteOfDay());
+    let a = await db.GetQuoteOfDay();
+    
     console.log('appjs id:', id);
   }
   fetchId();
