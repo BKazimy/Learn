@@ -157,7 +157,7 @@ class QuoteDatabase {
     try {
       const jsonValue = await AsyncStorage.getItem('today');
       // console.log('jsonvalue:', jsonValue);
-      const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value'
+      const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value';
       // console.log('today:', today);
       return today;
     } catch(e) {
