@@ -16,7 +16,7 @@ function QuotePage({ route, navigation }) {
 
     const resetAction = StackActions.reset({
         index: 0,
-        actions: [NavigationActions.navigate({ routeName: 'home' })],
+        actions: [NavigationAction.navigate({ routeName: 'home' })],
     });
 
     useEffect(() => {
