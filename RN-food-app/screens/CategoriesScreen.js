@@ -10,7 +10,7 @@ function CategoriesScreen({ navigation }) {
             navigation.navigate('MealOverview', {
                 categoryId: itemData.item.id,
             });
-        }icon
+        }
     
         return <CategoryGridTile 
             title={itemData.item.title} 
