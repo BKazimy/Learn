@@ -40,7 +40,7 @@ function QuotePage({ route, navigation }) {
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
             navigateToHome();
-            console.log('went home')
+            console.log('went home!');
           } else {
             console.log('Default goBack behavior triggered.');
             navigation.dispatch(e.data.action); // Allow the default back action
