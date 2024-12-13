@@ -12,7 +12,10 @@ function Home({ navigation, route }) {
     const [id, setid] = useState();
 
     useLayoutEffect(() => {
-        navigation.reset()
+        navigation.reset({
+            index: 0,
+            routes: [{ name: 'home' }]
+       })
       }, []);
 
     const fetchId = async () => {
