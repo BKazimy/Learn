@@ -154,7 +154,7 @@ class QuoteDatabase {
     try {
       const jsonValue = await AsyncStorage.getItem('todya');
       console.log('jsonvalue:', jsonValue);
-      return jsonValue != null ? JSON.parse(jsonValue) : null
+      jsonValue != null ? JSON.parse(jsonValue) : null
     } catch(e) {
       console.log("Error occured!", e);
     }
