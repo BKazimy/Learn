@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 
@@ -18,7 +18,9 @@ const Stack = createStackNavigator();
 
 function App() {
   let navigation = useNavigation;
-  const id = async () => {
+  const { id, setId } = useState();
+
+  async () => {
     db.GetQuoteOfDay();
     console.log('appjs id:', id);
   }
