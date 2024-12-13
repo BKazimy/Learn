@@ -64,7 +64,7 @@ function App() {
           <Stack.Screen 
             name="home" 
             component={Home} 
-            initialParams={{ today }}
+            initialParams={{ db }}
             options={{
               title: 'Home',
             }}
