@@ -10,7 +10,6 @@ function NewQuote({ navigation, route }) {
 
   useLayoutEffect(() => {
       const state = navigation.getState();
-      const currentRoute = state.routes[state.index];
       const previousRoute =
         state.routes[state.index - 1] || null; // Check if there's a previous route
 
