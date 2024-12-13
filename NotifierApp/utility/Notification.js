@@ -101,7 +101,7 @@ const resetAction = StackActions.reset({
       NavigationActions.navigate({ routeName: 'home' }),
       NavigationActions.navigate({ 
         routeName: 'quotePage' ,
-        params: {}
+        params: { id }
       }),
     ],
   });
