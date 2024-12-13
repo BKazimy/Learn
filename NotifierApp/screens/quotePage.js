@@ -7,6 +7,7 @@ import QuotePost from "../components/quotePost";
 // utilities
 import colors from "../utility/color";
 import { SendNotification } from "../utility/Notification";
+import { CommonActions } from "@react-navigation/native";
 
 function QuotePage({ route, navigation }) {
     const { db, id } = route.params;
@@ -28,7 +29,7 @@ function QuotePage({ route, navigation }) {
     
             console.log('Came from newQuote, navigating to home.');
             // navigation.navigate('home'); // Navigate to home
-            navigation.dispatch()
+            navigation.dispatch(CommonActions)
           } else {
             console.log('Default goBack behavior triggered.');
             navigation.dispatch(e.data.action); // Allow the default back action
