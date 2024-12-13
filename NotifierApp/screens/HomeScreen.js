@@ -7,7 +7,8 @@ import Display from "../components/display";
 // utilities
 
 function Home({ navigation, route }) {
-    const { id } = route.params;
+    const { today } = route.params;
+    
 
     return (
         <Display>
