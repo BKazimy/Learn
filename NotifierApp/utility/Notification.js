@@ -96,10 +96,10 @@ export const ScheduleNotification = async () => {
 export const setNotificationResponseListener = (navigation) => {
     
 const resetAction = StackActions.reset({
-    index: 0,
+    index: 1,
     actions: [NavigationActions.navigate({ routeName: 'Profile' })],
   });
-  
+
   Notifications.addNotificationResponseReceivedListener((response) => {
     const { id } = response.notification.request.content.data;
     if (id) {
