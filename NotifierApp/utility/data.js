@@ -5,6 +5,12 @@ const Entries = [
     story: "",
     source: "Art Of War",
   },
+  {
+    quote: "",
+    author: "Sun Tzu",
+    story: "",
+    source: "Art Of War",
+  },
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
           author: "Robert Greene",
