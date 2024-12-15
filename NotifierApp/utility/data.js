@@ -30,7 +30,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: The greatest victory is that which requires no battle",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
