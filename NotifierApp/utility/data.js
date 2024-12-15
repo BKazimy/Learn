@@ -108,7 +108,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: The supreme art of war is to subdue the enemy without fighting",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
