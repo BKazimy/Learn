@@ -74,6 +74,12 @@ const Entries = [
   {
     quote: "1. Laying plans: Build your opponent a golden bridge to retreat across",
     author: "Sun Tzu",
+    story: "Sun Tzu advises against cornering an enemy, as desperation can lead to fierce resistance. In one tale, a commander deliberately left an escape route for his adversaries, encouraging them to retreat instead of fighting to the death. This strategic act avoided unnecessary losses and secured victory with minimal bloodshed.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
