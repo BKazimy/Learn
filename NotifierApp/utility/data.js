@@ -270,46 +270,68 @@ const Entries = [
       story: "The Vietnam War is a classic example of how vital terrain knowledge is to success in battle. The Viet Cong, fighting in their own land, had an intimate understanding of the jungle, rivers, and hills that gave them a significant advantage over the American forces. The terrain allowed them to move stealthily, set traps, and ambush American troops, often catching them off guard. The ability to blend into the environment made it difficult for the Americans to find and target them effectively. The war is a stark reminder that understanding your battlefield is crucial to gaining the upper hand in any conflict."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: When the enemy is close at hand and remains quiet, he is relying on the natural strength of his position.",
       story: "In the Battle of Stalingrad during World War II, the German forces were initially confident, believing the Soviet army had been significantly weakened. However, as they neared the city, the Soviets remained silent, giving no indication of their presence or movements. The Germans, overconfident in their position, were caught off guard when the Soviet forces launched a massive counterattack from within the city. The quiet before the storm was a classic example of the enemy relying on the strength of their position, waiting for the perfect moment to strike. Understanding this tactic is key to both defense and offense in warfare."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: Having extensive knowledge about our environment allows us to act on the element of surprise, set up ambushes and traps, and strike when our enemies are complacent or caught off guard.",
       story: "During World War I, the British forces used trench warfare to gain a strategic advantage. They created networks of tunnels and camouflage that allowed them to launch surprise attacks on German forces. The most famous of these was the Battle of the Somme, where the British used well-planned attacks and surprise tactics to gain ground. By knowing their environment and controlling key positions like the high ground, they were able to surprise the enemy and force them into retreat. It wasn't just the battlefield that mattered; it was the ability to adapt to the surroundings and exploit weaknesses in the enemy's position."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: If you see an enemy approach a water source and drink thirstily, the enemy camp may be short of water, or a long way from a stable water source.",
       story: "In the Battle of the Alamo, the Mexican army, under General Santa Anna, faced a much smaller force of Texan defenders. One of the key advantages the Texans had was their knowledge of the local terrain, including water sources. As the Mexican army approached, the Texans noted signs of dehydration in the Mexican troops, and the fact that their supply lines were stretched thin. The defenders used this knowledge to harass the Mexican forces, denying them the resources they needed to maintain their siege. Recognizing small signs of distress or weakness, like a thirsty enemy, can provide crucial intelligence in determining the outcome of a conflict."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: A well-disciplined and well-led army acts in unison, and demonstrates no sign of discord.",
       story: "The Roman legions were known for their discipline and unity, which were key to their dominance across Europe and the Middle East. In battles such as the Battle of Cannae, despite facing a much larger Carthaginian force led by Hannibal, the Roman soldiers fought in tight, organized formations, demonstrating unwavering discipline. Their ability to act in unison, without signs of discord or hesitation, made them a formidable force. Even when the battle turned against them, the Roman soldiers maintained their discipline, which allowed them to regroup and continue the fight, proving the importance of unity and strong leadership."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: If you treat your soldiers, workers, and so on, like your children, they will follow you unquestioningly.",
       story: "The leadership of Napoleon Bonaparte is a clear example of the impact of leadership on morale. Napoleon had an almost familial relationship with his soldiers, often referring to them as his 'children' and ensuring that their needs were met in ways that promoted loyalty and devotion. This strong, paternal leadership style earned him the unwavering loyalty of his troops. His soldiers followed him with fierce dedication, willing to fight to the death. However, as Napoleon's leadership faltered and his soldiers were overworked and underfed during the Russian campaign, their loyalty began to break, and his once-unquestioning army started to rebel. This shift underscores the importance of understanding the balance between care and authority in leadership."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "5. Know Your Terrain: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven, and know Earth, you may make your victory complete.",
       story: "In the Battle of Midway during World War II, Admiral Chester W. Nimitz demonstrated how understanding both the environment (Heaven and Earth) and the enemy could lead to a decisive victory. The United States, despite being outnumbered and having fewer resources, used intelligence to predict Japan’s attack. Knowing the enemy’s plans and strengths allowed them to prepare effectively. Additionally, their knowledge of the terrain and weather conditions helped them launch a surprise attack against the Japanese fleet, leading to a pivotal American victory that turned the tide of the war in the Pacific. This battle exemplifies the importance of knowing both the battlefield and your adversary to secure a complete victory."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "Knowledge is power, but having foreknowledge is even more powerful.",
       story: "In *Game of Thrones*, Petyr Baelish, known as Littlefinger, is a master manipulator largely because he has access to information that others do not. His secret weapon is his extensive network of spies that gather intelligence for him across the Seven Kingdoms. Littlefinger's ability to predict his opponents’ moves, and his strategic use of foreknowledge, allows him to manipulate events in his favor. He maintains this edge by keeping his network secret and ensuring that he is always a step ahead of everyone else. The power of foreknowledge, as exemplified by Littlefinger, is a form of strategic advantage that can determine the outcome of battles and political maneuvers in any realm, fictional or real."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "The only way to obtain this type of knowledge is to use spies, and here Sun Tzu differentiates between local spies, inward spies, converted spies, doomed spies, and surviving spies.",
       story: "Sun Tzu understood the immense power of espionage in warfare. The ability to gather information before the battle begins gives a commander an insurmountable advantage. He categorized spies into five types: local spies, who gather information within the enemy's territory; inward spies, who provide critical insights from within the enemy's camp; converted spies, who are previously loyal soldiers turned traitor; doomed spies, who are sent on missions with little hope of survival but can gather crucial intelligence; and surviving spies, who return with valuable information. The importance of this intelligence network was demonstrated during World War II, when both sides used spies to gain an edge in strategy and tactics. The success of the D-Day invasion, for example, was made possible by the Allies' extensive network of spies and covert operations, which misled the Germans about the invasion location."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "When one has a well-coordinated network of spies, this is referred to as a 'divine manipulation of the threads.'",
       story: "The concept of 'divine manipulation of the threads' refers to a network of spies working together seamlessly, providing a commander with the most accurate and timely intelligence possible. During World War II, this type of covert intelligence operation was used effectively by both the Allies and the Axis powers. One famous example is the British 'Double Cross' system, where the British intelligence agency MI5 successfully turned German spies into double agents. By manipulating the flow of information, the Allies were able to mislead the Germans into believing that the invasion would occur at a different location than Normandy. This successful manipulation of espionage was crucial to the success of D-Day and a turning point in the war. The concept shows the power of having a reliable and coordinated intelligence network that can control the flow of information and deceive the enemy."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "Coordinating spies and embarking on espionage requires great subtlety.",
       story: "Espionage, according to Sun Tzu, must be executed with care and subtlety. It’s not just about collecting information—it’s about doing so without revealing the true intent. The story of Roald Dahl during World War II is a perfect example. Dahl, famous for his children's books like *Charlie and the Chocolate Factory*, was recruited by the British government during the war. After sustaining an injury in a car crash, Dahl was sent to Washington, D.C., where he became a covert agent, attending high-society events to extract valuable information for British intelligence. Dahl’s work in espionage was subtle and effective—he blended in with his social circle and subtly gathered information, providing the British with important insights about American and Axis activities. His experience illustrates how subtlety in espionage can be more powerful than overt action, keeping the enemy unaware while gaining the upper hand."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "It's also worth remembering that the other side may also use spies. In which case, the advice is to coax them out of hiding with bribes so that they will be converted.",
       story: "Sun Tzu’s advice on converting enemy spies with bribes reflects the strategic use of defection in warfare. During the Cold War, intelligence agencies on both sides—such as the CIA and KGB—often attempted to turn enemy agents by offering them protection or money in exchange for secrets. One famous case is that of Aldrich Ames, a CIA officer who was caught spying for the Soviet Union. The CIA, aware that the Soviets had their own spies, used their knowledge of Ames’ character and motivations to appeal to him. Though ultimately a traitor, his case shows the delicate art of managing enemy spies—finding out what drives them, and offering them something they value, often turning them into assets. Espionage is not just about gathering information, but also about manipulating individuals to work in your favor, regardless of their original loyalty."
   },
