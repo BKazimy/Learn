@@ -264,6 +264,8 @@ const Entries = [
       story: "Consider the reign of King Louis XVI of France, whose excessive concern for maintaining his honor and image contributed to his downfall. During the French Revolution, Louis hesitated to make necessary reforms and resisted constitutional changes, fearing they would diminish his authority. His indecision and sensitivity about his royal status alienated both reformers and royalists, ultimately leading to his execution. In contrast, leaders like Queen Elizabeth I of England balanced pragmatism with personal pride, avoiding similar pitfalls. Louis XVI's fate serves as a cautionary tale of how unchecked leadership flaws can lead to catastrophic outcomes."
   },
   {
+    source: "Art Of War",
+    author: "Sun Tzu",
       quote: "You can't go into battle if you don't know where you're fighting.",
       story: "The Vietnam War is a classic example of how vital terrain knowledge is to success in battle. The Viet Cong, fighting in their own land, had an intimate understanding of the jungle, rivers, and hills that gave them a significant advantage over the American forces. The terrain allowed them to move stealthily, set traps, and ambush American troops, often catching them off guard. The ability to blend into the environment made it difficult for the Americans to find and target them effectively. The war is a stark reminder that understanding your battlefield is crucial to gaining the upper hand in any conflict."
   },
