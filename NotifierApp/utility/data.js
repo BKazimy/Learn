@@ -1,9 +1,153 @@
 const Entries = [
   {
-    quote: "I. Laying plans:",
-    author: "Sun Tzu",
-    story: "",
-    source: "Art Of War",
+      quote: "1. Sun Tzu said: The art of war is of vital importance to the State.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: This opening statement in *The Art of War* emphasizes that warfare is not just a matter of military strategy but a fundamental part of a state’s survival. War can lead to either safety or ruin for a nation, making it an essential subject for any ruler to study. For Sun Tzu, understanding the nature of war and preparing for it is crucial to maintaining the state's power and prosperity.",
+      source: "Art Of War"
+  },
+  {
+      quote: "2. It is a matter of life and death, a road either to safety or to ruin. Hence it is a subject of inquiry which can on no account be neglected.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Here, Sun Tzu reinforces the urgency of studying war. The outcome of war determines the fate of a nation—it can either lead to survival and prosperity or destruction and collapse. This concept underscores the need for careful planning and understanding, as neglecting the study of warfare can be disastrous for the state.",
+      source: "Art Of War"
+  },
+  {
+      quote: "3. The art of war, then, is governed by five constant factors, to be taken into account in one’s deliberations, when seeking to determine the conditions obtaining in the field.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: In this passage, Sun Tzu introduces five critical factors that a general must consider when evaluating the conditions for battle. These factors—The Moral Law, Heaven, Earth, The Commander, and Method and Discipline—are the pillars of successful warfare. A general who understands these factors is equipped to make informed strategic decisions.",
+      source: "Art Of War"
+  },
+  {
+      quote: "4. These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu expands on the five key elements that govern war. The Moral Law represents the unity between the ruler and the people. Heaven refers to the environmental factors like weather and time, while Earth encompasses the geographical aspects. The Commander must possess virtues of wisdom, courage, and strictness, and Method and Discipline relate to how the army is organized and maintained.",
+      source: "Art Of War"
+  },
+  {
+      quote: "5.6. The Moral Law causes the people to be in complete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any danger.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: The Moral Law is about the deep connection between the ruler and the people. When the people align with their ruler’s values, they will follow him into battle without fear, showing unwavering loyalty. This unity strengthens the morale of the army, which is crucial for achieving victory in war.",
+      source: "Art Of War"
+  },
+  {
+      quote: "7. Heaven signifies night and day, cold and heat, times and seasons.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Heaven refers to the natural elements that can influence the course of a battle. Understanding the time of day, weather patterns, and seasons allows a general to take advantage of conditions that favor their strategy, whether by striking when the enemy is least prepared or exploiting favorable weather.",
+      source: "Art Of War"
+  },
+  {
+      quote: "8. Earth comprises distances, great and small; danger and security; open ground and narrow passes; the chances of life and death.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Earth covers the geographical terrain, which is a vital aspect of warfare. A skilled general takes into account the distances, the varying levels of danger, the open and narrow spaces, and the terrain’s impact on both the army’s movements and the battle’s outcome. Mastery over Earth’s characteristics can give one side a decisive advantage.",
+      source: "Art Of War"
+  },
+  {
+      quote: "9. The Commander stands for the virtues of wisdom, sincerity, benevolence, courage, and strictness.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: The Commander must possess a combination of virtues—wisdom, sincerity, benevolence, courage, and strictness. These qualities allow the leader to inspire confidence in his troops, devise effective strategies, and maintain discipline. Without these attributes, even the most well-equipped army may falter in battle.",
+      source: "Art Of War"
+  },
+  {
+      quote: "10. By method and discipline are to be understood the marshaling of the army in its proper subdivisions, the graduations of rank among the officers, the maintenance of roads by which supplies may reach the army, and the control of military expenditure.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Method and Discipline refer to the logistical and organizational aspects of war. A well-structured army with clear ranks and proper supply lines is essential for success. Without these aspects in place, the army will be disorganized and ill-prepared, leading to potential failure.",
+      source: "Art Of War"
+  },
+  {
+      quote: "11. These five heads should be familiar to every general: he who knows them will be victorious; he who knows them not will fail.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu stresses that the five factors—Moral Law, Heaven, Earth, The Commander, and Method and Discipline—are the foundation of successful strategy. A general who understands and applies them will lead his forces to victory, while one who neglects them will face defeat.",
+      source: "Art Of War"
+  },
+  {
+      quote: "12. Therefore, in your deliberations, when seeking to determine the military conditions, let them be made the basis of a comparison, in this wise:—",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu advises generals to compare the various factors when determining their military strategy. The analysis should include the moral law, the abilities of the commander, the advantages of terrain, the discipline of the troops, and the strength of the forces. This comparative approach allows for better-informed decisions and clearer insight into the strengths and weaknesses of both sides.",
+      source: "Art Of War"
+  },
+  {
+      quote: "13. (1) Which of the two sovereigns is imbued with the Moral law? (2) Which of the two generals has most ability? (3) With whom lie the advantages derived from Heaven and Earth? (4) On which side is discipline most rigorously enforced? (5) Which army is stronger?",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu lays out key questions that should be addressed during the planning stage. These questions focus on assessing the unity between the ruler and the people, the competence of the generals, the strategic advantages of terrain, the discipline of the army, and the strength of the forces. By answering these questions, a general can form a clearer picture of the situation and devise an effective plan of action.",
+      source: "Art Of War"
+  },
+  {
+      quote: "14. By means of these seven considerations, I can forecast victory or defeat.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Based on the seven considerations, Sun Tzu claims he can predict the outcome of a conflict. By thoroughly evaluating the conditions and answering the above questions, a general can anticipate whether victory or defeat is more likely. This foresight allows for more strategic decision-making.",
+      source: "Art Of War"
+  },
+  {
+      quote: "15. The general that hearkens to my counsel and acts upon it, will conquer: let such a one be retained in command! The general that hearkens not to my counsel nor acts upon it, will suffer defeat:—let such a one be dismissed!",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu makes it clear that the generals who follow his guidance will succeed, while those who disregard it will fail. His advice is based on strategic foresight and careful analysis of the battlefield. A wise leader listens to counsel, while a foolish one ignores it to the detriment of his army.",
+      source: "Art Of War"
+  },
+  {
+      quote: "16. While heading the profit of my counsel, avail yourself also of any helpful circumstances over and beyond the ordinary rules.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu acknowledges that while his counsel is invaluable, generals must also be flexible. They should take advantage of any favorable circumstances, even if they fall outside the standard rules. This adaptability can lead to unexpected victories in dynamic situations.",
+      source: "Art Of War"
+  },
+  {
+      quote: "17. According as circumstances are favorable, one should modify one’s plans.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: The best-laid plans must be adjusted according to circumstances. Sun Tzu advocates for flexibility in strategy. A plan that works under one set of conditions may need to be modified when new factors come into play, and the general who adapts is more likely to succeed.",
+      source: "Art Of War"
+  },
+  {
+      quote: "18. All warfare is based on deception.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu asserts that deception is the foundation of successful warfare. Misleading the enemy about your true intentions, strengths, and movements is key to gaining an advantage. A general must master the art of appearing weak when strong, or strong when weak, to confuse and outwit the opponent.",
+      source: "Art Of War"
+  },
+  {
+      quote: "19. Hence, when able to attack, we must seem unable; when using our forces, we must seem inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: This passage explains specific techniques of deception. Sun Tzu advises generals to manipulate the enemy’s perception of their capabilities and movements. By creating false impressions, you can force the enemy into a position where they make mistakes or act rashly, giving you the upper hand.",
+      source: "Art Of War"
+  },
+  {
+      quote: "20. Hold out baits to entice the enemy. Feign disorder, and crush him.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu suggests using deception as bait. By feigning disorganization or weakness, you can lure the enemy into an overconfident attack, at which point you can spring a surprise counterattack and destroy them. This tactic plays on the enemy’s misperception of your vulnerability.",
+      source: "Art Of War"
+  },
+  {
+      quote: "21. If he is secure at all points, be prepared for him. If he is in superior strength, evade him.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: If your enemy is well-defended and prepared at all points, Sun Tzu advises caution. Rather than engaging in direct conflict, you should prepare for any potential moves and avoid confrontation if the enemy is superior in strength. Tactical retreat or evasion may be the wisest course of action.",
+      source: "Art Of War"
+  },
+  {
+      quote: "22. If your opponent is of choleric temper, seek to irritate him. Pretend to be weak, that he may grow arrogant.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Understanding your enemy's character is critical. If your opponent is quick to anger, you can provoke him into making rash decisions by pretending to be weak or yielding. This manipulation forces him to grow overconfident, giving you an opportunity to strike when he is most vulnerable.",
+      source: "Art Of War"
+  },
+  {
+      quote: "23. If he is taking his ease, give him no rest. If his forces are united, separate them.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: If the enemy is complacent, do not allow them the time to relax. Constant pressure forces them into action, which may lead to mistakes. Similarly, if the enemy’s forces are united and strong, you should find ways to divide them and weaken their overall strength, making them easier to defeat in smaller groups.",
+      source: "Art Of War"
+  },
+  {
+      quote: "24. Attack him where he is unprepared, appear where you are not expected.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: Sun Tzu advises that surprise is a powerful weapon. Attack your enemy where they are least prepared, and appear in places where they do not anticipate you. This strategy catches them off guard and maximizes your chances of success.",
+      source: "Art Of War"
+  },
+  {
+      quote: "25. These military devices, leading to victory, must not be divulged beforehand.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: The strategies of deception and surprise should be kept secret until the moment of action. If the enemy anticipates your plans, they can counter them. A general must be cautious not to reveal their tactics too early, as that would undermine their effectiveness.",
+      source: "Art Of War"
+  },
+  {
+      quote: "26. Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose.",
+      author: "Sun Tzu",
+      story: "I. LAYING PLANS: In this final law, Sun Tzu underscores the importance of preparation. The general who wins a battle spends considerable time planning and calculating before engaging in battle. The more thought and preparation that goes into a plan, the higher the chances of victory. Conversely, failure to plan or rushing into battle without adequate preparation leads to defeat.",
+      source: "Art Of War"
   },
 
         {
