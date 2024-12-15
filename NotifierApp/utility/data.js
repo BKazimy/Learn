@@ -120,6 +120,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
+    source: "Art Of War",
       quote: "The decision to go to war should never be taken lightly.",
       story: "Sun Tzu recounts the cautionary tale of King Fu of Wei, who hastily declared war on a neighboring state without consulting his advisors or considering the costs. His troops were ill-equipped, the treasury was already stretched thin, and the people were unwilling to support the campaign. The war dragged on for years, devastating the economy and leaving the kingdom vulnerable to other enemies. This story highlights the heavy toll of impulsive decisions, urging leaders to weigh the consequences of war carefully."
   },
