@@ -114,9 +114,9 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: Opportunities multiply as they are seized",
     author: "Sun Tzu",
-    story: "",
+    story: "A general capitalized on a minor victory to press the advantage, moving swiftly to capture key territories while the enemy was disoriented. By seizing the momentum, he transformed a small win into a complete triumph, showing how one success can lead to another if acted upon quickly.",
     source: "Art Of War",
   },
   {
