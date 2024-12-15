@@ -14,7 +14,7 @@ const Entries = [
   {
     quote: "1. Laying plans: Warfare is most successful when no battle is fought",
     author: "Sun Tzu",
-    story: "",
+    story: "Sun Tzu describes how a general avoided war altogether by using alliances and clever diplomacy. By fostering cooperation among smaller neighboring states, he isolated a larger rival without shedding a drop of blood. The rival state, recognizing its diminished position, submitted to his demands. This highlights the principle that strength in war lies as much in the mind and negotiation table as it does on the battlefield.",
     source: "Art Of War",
   },
   {
