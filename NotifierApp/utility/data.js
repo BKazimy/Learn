@@ -203,6 +203,40 @@ const Entries = [
       quote: "2. Knowledge Is Power: Victory comes to those who prepare for all possibilities.",
       story: "In a pivotal battle, a general meticulously planned for every possible scenario, creating contingency strategies for unexpected weather, reinforcements, and terrain changes. When the enemy surprised him with an unconventional tactic, his army adapted seamlessly and turned the tide in their favor. Sun Tzu’s teaching on preparation proved instrumental in securing the win."
   },
+  {
+    source: "Art Of War",
+    author: "Sun Tzu",
+      quote: "3. Know Your Battles: If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+      story: "The rise of Snapchat illustrates this principle perfectly. When Mark Zuckerberg offered $3 billion to buy Snapchat, Evan Spiegel and Bobby Murphy refused, believing in their vision and the strength of their platform. When Zuckerberg attempted to intimidate them with the promise of launching Facebook's competing app, Poke, Spiegel and his team leaned into Sun Tzu’s wisdom. They studied Facebook’s weaknesses and their own strengths. Rather than rushing into panic-driven changes, they sharpened Snapchat's unique identity, innovating with features like Stories, which eventually became industry-defining. Their knowledge of themselves and their competitor allowed Snapchat to not only survive but thrive, cementing its place in social media history."
+  },
+  {
+    source: "Art Of War",
+    author: "Sun Tzu",
+      quote: "3. Know Your Battles: If you know yourself but not the enemy, for every victory gained you will also suffer a defeat.",
+      story: "Consider the story of BlackBerry’s decline. BlackBerry knew its own strengths—its secure messaging system and corporate user base—but underestimated the competitive threat posed by Apple’s iPhone. While BlackBerry stayed focused on its existing user base, Apple studied the market, identifying unmet needs like touchscreen devices and app ecosystems. BlackBerry's lack of awareness of their competitor’s strategy led to a series of missteps, and while they had small victories in maintaining their existing user base, they lost the larger battle for market relevance. This example highlights the importance of understanding both your own strengths and your competitor’s strategies."
+  },
+  {
+    source: "Art Of War",
+    author: "Sun Tzu",
+      quote: "3. Know Your Battles: If you know neither the enemy nor yourself, you will succumb in every battle.",
+      story: "The fall of Kodak offers a cautionary tale. Despite being a pioneer in photography, Kodak failed to adapt to the rise of digital cameras and smartphones. They neither recognized the threat from new competitors nor fully understood their own potential to innovate in the digital space. By the time they attempted to pivot, companies like Sony and Canon had already captured the market. Kodak’s inability to understand both itself and its competition led to its eventual bankruptcy, a stark reminder of the dangers of neglecting Sun Tzu's wisdom."
+  },
+  {
+    source: "Art Of War",
+    author: "Sun Tzu",
+      quote: "3. Know Your Battles: Frequently winning comes at a high cost, and it's better to recapture than to destroy.",
+      story: "During the Napoleonic Wars, Napoleon’s forces frequently left cities in ruins after battles, believing that destruction would prevent future resistance. However, this strategy often turned local populations against him, fueling rebellions and prolonging the war. In contrast, his opponents, such as the Duke of Wellington, focused on recapturing key territories intact, ensuring resources and public support remained available. Wellington’s approach proved more sustainable, demonstrating that victory should not come at the expense of the very thing you’re fighting for."
+  },
+  {
+    source: "Art Of War",
+    author: "Sun Tzu",
+      quote: "3. Know Your Battles: Choose your battles wisely.",
+      story: "In the early 2000s, Netflix faced pressure to compete directly with Blockbuster’s massive retail presence. Instead of fighting head-on in the physical rental space, Netflix chose to focus on the emerging trend of online DVD rentals and later streaming services. This strategic choice allowed them to bypass Blockbuster’s strengths and carve out a new market. By the time Blockbuster attempted to pivot, it was too late. Netflix’s decision to fight on its own terms, rather than directly challenging a stronger opponent, ensured its long-term success."
+  },
+
+
+
+
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
           author: "Robert Greene",
