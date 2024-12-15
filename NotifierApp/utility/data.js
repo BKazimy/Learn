@@ -95,6 +95,12 @@ const Entries = [
     story: "",
     source: "Art Of War",
   },
+  {
+    quote: "1. Laying plans: When you surround an army, leave an outlet free",
+    author: "Sun Tzu",
+    story: "",
+    source: "Art Of War",
+  },
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
           author: "Robert Greene",
