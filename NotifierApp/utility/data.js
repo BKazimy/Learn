@@ -68,6 +68,12 @@ const Entries = [
   {
     quote: "1. Laying plans: In the midst of chaos, there is also opportunity",
     author: "Sun Tzu",
+    story: "A general facing an enemy’s chaotic retreat used this moment of disorder to strike decisively. He cut off their supplies and secured a surrender. This story highlights how recognizing and acting on an opponent’s disorganization can lead to a swift resolution.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
