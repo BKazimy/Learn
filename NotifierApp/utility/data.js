@@ -110,6 +110,12 @@ const Entries = [
   {
     quote: "1. Laying plans: The supreme art of war is to subdue the enemy without fighting",
     author: "Sun Tzu",
+    story: "Sun Tzu describes how a ruler defeated a rival by winning over its population through better governance and alliances. As the rival weakened internally, its leaders surrendered without a single battle. This exemplifies the power of influence and strategy over direct conflict.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
