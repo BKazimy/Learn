@@ -24,7 +24,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: Conflict can be won without the opponent even knowing it",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
