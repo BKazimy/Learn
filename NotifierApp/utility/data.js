@@ -20,7 +20,7 @@ const Entries = [
   {
     quote: "1. Laying plans: A true warrior masters knowledge, not aggression",
     author: "Sun Tzu",
-    story: "",
+    story: "One of Sun Tzu's examples involves a leader who outsmarted an opponent by understanding terrain and troop psychology. Instead of engaging in a direct clash, he used the environment to create bottlenecks that restricted enemy movements. By anticipating the opponent’s choices and exploiting their weaknesses, he forced a retreat, demonstrating how knowledge and preparation triumph over aggression.",
     source: "Art Of War",
   },
   {
