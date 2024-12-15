@@ -104,7 +104,7 @@ const Entries = [
   {
     quote: "1. Laying plans: When able to attack, seem unable",
     author: "Sun Tzu",
-    story: "",
+    story: "A clever general camouflaged his army’s strength by feigning disorganization and retreat. The enemy, seeing this, pursued aggressively and fell into a well-planned trap. This story reflects the importance of hiding your true capabilities to lure opponents into mistakes.",
     source: "Art Of War",
   },
   {
