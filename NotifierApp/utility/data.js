@@ -96,7 +96,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: When you surround an army, leave an outlet free",
+    quote: "1. Laying plans: ",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
