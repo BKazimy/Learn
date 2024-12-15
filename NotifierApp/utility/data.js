@@ -12,7 +12,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: Warfare is most successful when no battle is fought",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
