@@ -1,12 +1,12 @@
 const Entries = [
   {
-    quote: "1Laying plans: Let your plans be dark and impenetrable as night",
+    quote: "1. Laying plans: Let your plans be dark and impenetrable as night",
     author: "Sun Tzu",
     story: "In The Art of War, Sun Tzu emphasizes the importance of secrecy and unpredictability in warfare. He recounts how a commander, facing a numerically superior enemy, deliberately leaked false plans to lure the opponent into a vulnerable position. When the enemy shifted their forces to defend against an anticipated attack, the commander launched an unexpected strike elsewhere, securing an effortless victory without direct confrontation. This demonstrates how withholding information and misdirection can lead to triumph without engaging in direct combat.",
     source: "Art Of War",
   },
   {
-    quote: "Laying plans: ",
+    quote: "1. Laying plans: ",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
