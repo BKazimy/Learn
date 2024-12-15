@@ -98,6 +98,12 @@ const Entries = [
   {
     quote: "1. Laying plans: Seize what your enemy holds dear",
     author: "Sun Tzu",
+    story: "Sun Tzu tells of a commander who captured a critical supply depot instead of directly engaging the enemy. By cutting off resources, he forced a surrender without a prolonged battle. This story shows how targeting key assets can end conflict quickly.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
