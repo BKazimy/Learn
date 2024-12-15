@@ -32,6 +32,12 @@ const Entries = [
   {
     quote: "1. Laying plans: The greatest victory is that which requires no battle",
     author: "Sun Tzu",
+    story: "Sun Tzu tells of a general who avoided war by winning over the enemy’s key allies. Through generous diplomacy and strategic gifts, he isolated his adversary. With no support and weakened resources, the opponent surrendered without a fight, demonstrating the power of diplomacy and foresight over brute force.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
