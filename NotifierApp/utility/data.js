@@ -8,7 +8,7 @@ const Entries = [
   {
     quote: "1. Laying plans: Victory is achieved without fighting",
     author: "Sun Tzu",
-    story: "",
+    story: "Sun Tzu illustrates this principle with the example of King Goujian of Yue. After suffering a defeat, the king patiently built his army and worked to undermine the morale of his enemy, the Kingdom of Wu. Through diplomatic manipulation and carefully planned espionage, King Goujian sowed discord among Wu’s leaders. When Wu was internally weakened, Goujian struck decisively, reclaiming his kingdom without prolonged warfare. This story shows how strategy and patience can outmatch brute force.",
     source: "Art Of War",
   },
   {
