@@ -38,6 +38,12 @@ const Entries = [
   {
     quote: "1. Laying plans: Move swiftly and strike like a thunderbolt",
     author: "Sun Tzu",
+    story: "In one of Sun Tzu’s examples, a general, using speed and surprise, led his troops through an unguarded mountain pass to attack an enemy encampment from the rear. The swift and decisive strike caught the enemy off guard, resulting in a quick victory. This story highlights how speed and timing can turn the tide of war.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
