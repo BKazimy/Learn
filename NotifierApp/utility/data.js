@@ -1,8 +1,8 @@
 const Entries = [
   {
     quote: "LAW 1: NEVER OUTSHINE THE MASTER",
-    author: "Robert Greene",
-    story: "—inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.",
+    author: "Suun",
+    story: "",
     source: "Art Of War",
   },
         {
