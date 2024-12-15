@@ -308,7 +308,7 @@ const Entries = [
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Knowledge is power, but having foreknowledge is even more powerful.",
+      quote: "6. Knowledge Is People: Knowledge is power, but having foreknowledge is even more powerful.",
       story: "In *Game of Thrones*, Petyr Baelish, known as Littlefinger, is a master manipulator largely because he has access to information that others do not. His secret weapon is his extensive network of spies that gather intelligence for him across the Seven Kingdoms. Littlefinger's ability to predict his opponents’ moves, and his strategic use of foreknowledge, allows him to manipulate events in his favor. He maintains this edge by keeping his network secret and ensuring that he is always a step ahead of everyone else. The power of foreknowledge, as exemplified by Littlefinger, is a form of strategic advantage that can determine the outcome of battles and political maneuvers in any realm, fictional or real."
   },
   {
