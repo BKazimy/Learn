@@ -48,9 +48,9 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: He who knows when to fight and when not to fight will be victorious",
     author: "Sun Tzu",
-    story: "",
+    story: "A commander observed his enemy setting up camp in a defensible position. Instead of attacking immediately, he waited until the enemy moved to less favorable terrain. By choosing the right time to engage, he secured a decisive victory, showing the importance of patience and situational awareness.",
     source: "Art Of War",
   },
   {
