@@ -80,7 +80,7 @@ const Entries = [
   {
     quote: "1. Laying plans: Attack where the enemy is unprepared",
     author: "Sun Tzu",
-    story: "",
+    story: "Sun Tzu narrates how a general noticed his enemy had fortified their main camps but left their supply lines vulnerable. By targeting the supplies instead of the fortifications, he weakened the opponent’s capacity to fight and won the war without engaging directly. This underscores the importance of attacking weaknesses instead of strengths.",
     source: "Art Of War",
   },
   {
