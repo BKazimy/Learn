@@ -60,7 +60,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: Appear at points the enemy must hasten to defend",
+    quote: "1. Laying plans: Know yourself and your enemy, and you need not fear a hundred battles",
     author: "Sun Tzu",
     story: "Sun Tzu describes how a general divided his army into multiple groups to feign attacks at several locations. The enemy scrambled to defend everywhere, thinning their forces. The general then focused his main attack on the weakest point, leading to a swift conquest. This demonstrates the value of diversion and strategic positioning.",
     source: "Art Of War",
