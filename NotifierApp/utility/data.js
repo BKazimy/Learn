@@ -44,6 +44,12 @@ const Entries = [
   {
     quote: "1. Laying plans: All warfare is based on deception",
     author: "Sun Tzu",
+    story: "Sun Tzu recounts a commander who faked a retreat, leaving behind supplies as bait. When the enemy pursued, thinking they had the upper hand, they fell into an ambush. This story demonstrates how deceit and calculated risk can outsmart a seemingly stronger opponent.",
+    source: "Art Of War",
+  },
+  {
+    quote: "1. Laying plans: ",
+    author: "Sun Tzu",
     story: "",
     source: "Art Of War",
   },
