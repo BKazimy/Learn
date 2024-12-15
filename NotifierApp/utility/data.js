@@ -18,7 +18,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans: ",
+    quote: "1. Laying plans: A true warrior masters knowledge, not aggression",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
