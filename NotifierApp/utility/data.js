@@ -231,7 +231,7 @@ const Entries = [
     source: "Art Of War",
     author: "Sun Tzu",
       quote: "3. Know Your Battles: Choose your battles wisely.",
-      story: "In the early 2000s, Netflix faced pressure to compete directly with Blockbuster’s massive retail presence. Instead of fighting head-on in the physical rental space, Netflix chose to focus on the emerging trend of online DVD rentals and later streaming services. This strategic choice allowed them to bypass Blockbuster’s strengths and carve out a new market. By the time Blockbuster attempted to pivot, it was too late. Netflix’s decision to fight on its own terms, rather than directly challenging a stronger opponent, ensured its long-term success."
+      story: "In the early 2000s, Netflix faced pressure to compete directly with Blockbuster’s massive retail presence. Instead of fighting head-on in the physical rental space, Netflix chose to focus on the emerging trend of online DVD rentals and later streaming services. This strategic choice allowed them to bypass Blockbuster’s strengths and carve out a new market. By the time Blockbuster attempted to pivot, it was too late. Netflix’s decision to fight on its own terms, rather than directly challenging a stronger opponent, ensured its long-term success. maneuver, adapt, and strategize."
   },
 
 
