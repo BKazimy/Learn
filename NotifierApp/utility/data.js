@@ -62,7 +62,7 @@ const Entries = [
   {
     quote: "1. Laying plans: Know yourself and your enemy, and you need not fear a hundred battles",
     author: "Sun Tzu",
-    story: "Sun Tzu describes how a general divided his army into multiple groups to feign attacks at several locations. The enemy scrambled to defend everywhere, thinning their forces. The general then focused his main attack on the weakest point, leading to a swift conquest. This demonstrates the value of diversion and strategic positioning.",
+    story: "A leader took time to gather intelligence on his adversary’s weaknesses and studied his own strengths. When battle came, he exploited the enemy’s poorly trained flanks while using his disciplined core troops effectively. This ensured victory with minimal losses, emphasizing the power of preparation and self-awareness.",
     source: "Art Of War",
   },
         {
