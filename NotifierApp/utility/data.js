@@ -134,73 +134,73 @@ const Entries = [
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "War can completely destroy a country and leave its people in ruin.",
+      quote: "2. Knowledge Is Power: War can completely destroy a country and leave its people in ruin.",
       story: "Sun Tzu describes the fall of the Zhou dynasty, which waged endless wars with its neighbors in an attempt to expand its territory. Though initially successful, the prolonged conflicts drained resources, alienated allies, and destabilized the internal structure of the kingdom. The people, overburdened by taxes and conscription, rose in rebellion, and the dynasty fell to an invading force that capitalized on their weakened state. The story serves as a grim reminder that unchecked aggression can lead to a nation's collapse."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Everyone must follow the same moral code to fight effectively.",
+      quote: "2. Knowledge Is Power: Everyone must follow the same moral code to fight effectively.",
       story: "Sun Tzu writes of the army of Chu, which fell into disarray when its soldiers disagreed on the purpose of their mission. Some fought for glory, others for gold, and many had no clear reason at all. Without unity of purpose, they became divided and vulnerable to a coordinated enemy attack. By contrast, the army of Qi, though smaller, was deeply committed to a shared cause: protecting their homeland. Their solidarity enabled them to outmaneuver and defeat the larger but fragmented force."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Heaven relates to factors such as night and day and the seasons.",
+      quote: "2. Knowledge Is Power: Heaven relates to factors such as night and day and the seasons.",
       story: "During a campaign against the northern tribes, a general underestimated the harsh winter conditions of the region. His troops, unprepared for the freezing temperatures, lost their morale and many succumbed to frostbite. Meanwhile, the opposing force, familiar with the terrain and seasons, used the weather to their advantage by launching surprise attacks during snowstorms. This story illustrates Sun Tzu’s principle of respecting and understanding the natural environment before engaging in conflict."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "The Commander must uphold the values of the fight.",
+      quote: "2. Knowledge Is Power: The Commander must uphold the values of the fight.",
       story: "In the battle of Xiangyang, a weak and indecisive commander led his troops into chaos by constantly changing strategies. The soldiers, confused and demoralized, began to lose faith in their leader and eventually deserted. On the other hand, General Yue Fei, a commander known for his integrity and clear vision, inspired absolute loyalty in his forces. His troops followed him into battle with unwavering confidence, leading to a resounding victory. Sun Tzu emphasizes that a commander’s character and leadership are pivotal in determining the outcome of a conflict."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "All warfare is based on deception.",
+      quote: "2. Knowledge Is Power: All warfare is based on deception.",
       story: "Sun Tzu recounts how the kingdom of Wei defeated a much larger force by creating the illusion of disarray. The Wei soldiers staged chaotic drills visible to their enemies, giving the impression of an unorganized and poorly trained army. The opposing commander, underestimating their readiness, launched a premature attack. Wei’s forces, having prepared meticulously, sprung their trap and routed the invaders. This story showcases the effectiveness of misdirection and strategic deception in warfare."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Understanding terrain is crucial to success.",
+      quote: "2. Knowledge Is Power: Understanding terrain is crucial to success.",
       story: "In a famous battle between the states of Han and Zhao, the Han forces used their knowledge of the local mountain passes to ambush the Zhao army. While Zhao’s larger army marched through the open plains, Han’s soldiers hid in the narrow valleys and attacked from higher ground, cutting off supply lines and forcing their enemies into a surrender. This victory highlighted the advantage of mastering the terrain and using it strategically, as advised by Sun Tzu."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Discipline and method are essential for victory.",
+      quote: "2. Knowledge Is Power: Discipline and method are essential for victory.",
       story: "Sun Tzu tells of a general who transformed an undisciplined militia into an elite fighting force by instilling strict routines and training. During a critical battle, this discipline allowed them to execute complex maneuvers under pressure, overwhelming an enemy twice their size. In contrast, their opponent’s forces, though skilled individually, were disorganized and failed to respond cohesively. The story emphasizes the importance of structure and method in achieving success."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "The side with the better leader will prevail.",
+      quote: "2. Knowledge Is Power: The side with the better leader will prevail.",
       story: "During the Warring States period, two armies of equal strength faced off. One was led by a brilliant strategist who inspired his troops and adapted quickly to changing circumstances. The other commander, though brave, lacked foresight and relied solely on brute force. Over the course of the battle, the strategist outmaneuvered his opponent, leading to a decisive victory. Sun Tzu’s teachings emphasize that leadership often outweighs numbers or strength in determining the outcome of a conflict."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Careless talk costs lives.",
+      quote: "2. Knowledge Is Power: Careless talk costs lives.",
       story: "A spy managed to infiltrate the court of a rival king by overhearing loose conversations among soldiers at a tavern. With this intelligence, the spy gained entry to the royal palace, eventually uncovering critical secrets that led to the kingdom’s downfall. This tale reinforces Sun Tzu’s warning that indiscreet speech can lead to disastrous consequences in both warfare and life."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Appear to be unprepared, but remain in constant readiness.",
+      quote: "2. Knowledge Is Power: Appear to be unprepared, but remain in constant readiness.",
       story: "A famous general pretended his army was disorganized and vulnerable, allowing the enemy to lower their guard. When the opposing force advanced with overconfidence, they walked into an ambush set by the general’s highly trained troops. The swift and decisive attack secured a victory. This story exemplifies Sun Tzu’s strategy of misleading the enemy while maintaining readiness for any scenario."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Know yourself and know your opponent.",
+      quote: "2. Knowledge Is Power: Know yourself and know your opponent.",
       story: "A commander facing an unfamiliar enemy spent weeks gathering intelligence before making his move. He discovered the enemy’s reliance on a single supply route and targeted it, crippling their campaign without engaging in a full battle. His success came from understanding both his strengths and the weaknesses of his adversary, illustrating Sun Tzu’s principle of self-knowledge and opponent awareness."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Victory comes to those who prepare for all possibilities.",
+      quote: "2. Knowledge Is Power: Victory comes to those who prepare for all possibilities.",
       story: "In a pivotal battle, a general meticulously planned for every possible scenario, creating contingency strategies for unexpected weather, reinforcements, and terrain changes. When the enemy surprised him with an unconventional tactic, his army adapted seamlessly and turned the tide in their favor. Sun Tzu’s teaching on preparation proved instrumental in securing the win."
   },
         {
