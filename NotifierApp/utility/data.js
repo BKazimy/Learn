@@ -1,6 +1,6 @@
 const Entries = [
   {
-    quote: "LAW 1: NEVER OUTSHINE THE MASTER",
+    quote: "",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
