@@ -86,7 +86,7 @@ const Entries = [
   {
     quote: "1. Laying plans: If quick, I survive; if not, I am lost",
     author: "Sun Tzu",
-    story: "",
+    story: "A commander, trapped in enemy territory, rallied his troops for a swift and aggressive push through the weakest point of the enemy’s encirclement. The unexpected ferocity of the attack stunned the enemy, allowing his forces to escape unharmed. This example highlights how decisive action in critical moments can mean the difference between survival and defeat.",
     source: "Art Of War",
   },
   {
