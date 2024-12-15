@@ -26,7 +26,7 @@ const Entries = [
   {
     quote: "1. Laying plans: Conflict can be won without the opponent even knowing it",
     author: "Sun Tzu",
-    story: "",
+    story: "Sun Tzu explains how a general used subtle psychological warfare to weaken his adversaries. By spreading rumors and exploiting the fears of his opponents, he created divisions within their ranks. As internal mistrust grew, the opposing army fell into disarray and was easily defeated without a major battle. This story underscores the power of deception and manipulation in conflict resolution.",
     source: "Art Of War",
   },
   {
