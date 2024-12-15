@@ -2,7 +2,7 @@ const Entries = [
   {
     quote: "LAW 1: NEVER OUTSHINE THE MASTER",
     author: "Robert Greene",
-    story: "Always make those above you feel comfortably superior. In your desire to please and impress them, do not go too far in displaying your talents or you might accomplish the opposite—inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.",
+    story: "—inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.",
     source: "Art Of War",
   },
         {
