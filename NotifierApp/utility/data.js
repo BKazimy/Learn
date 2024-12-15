@@ -308,31 +308,31 @@ const Entries = [
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "6Knowledge is power, but having foreknowledge is even more powerful.",
+      quote: "6. Knowledge Is People: 6. Knowledge Is People: Knowledge is power, but having foreknowledge is even more powerful.",
       story: "In *Game of Thrones*, Petyr Baelish, known as Littlefinger, is a master manipulator largely because he has access to information that others do not. His secret weapon is his extensive network of spies that gather intelligence for him across the Seven Kingdoms. Littlefinger's ability to predict his opponents’ moves, and his strategic use of foreknowledge, allows him to manipulate events in his favor. He maintains this edge by keeping his network secret and ensuring that he is always a step ahead of everyone else. The power of foreknowledge, as exemplified by Littlefinger, is a form of strategic advantage that can determine the outcome of battles and political maneuvers in any realm, fictional or real."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "The only way to obtain this type of knowledge is to use spies, and here Sun Tzu differentiates between local spies, inward spies, converted spies, doomed spies, and surviving spies.",
+      quote: "6. Knowledge Is People: The only way to obtain this type of knowledge is to use spies, and here Sun Tzu differentiates between local spies, inward spies, converted spies, doomed spies, and surviving spies.",
       story: "Sun Tzu understood the immense power of espionage in warfare. The ability to gather information before the battle begins gives a commander an insurmountable advantage. He categorized spies into five types: local spies, who gather information within the enemy's territory; inward spies, who provide critical insights from within the enemy's camp; converted spies, who are previously loyal soldiers turned traitor; doomed spies, who are sent on missions with little hope of survival but can gather crucial intelligence; and surviving spies, who return with valuable information. The importance of this intelligence network was demonstrated during World War II, when both sides used spies to gain an edge in strategy and tactics. The success of the D-Day invasion, for example, was made possible by the Allies' extensive network of spies and covert operations, which misled the Germans about the invasion location."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "When one has a well-coordinated network of spies, this is referred to as a 'divine manipulation of the threads.'",
+      quote: "6. Knowledge Is People: When one has a well-coordinated network of spies, this is referred to as a 'divine manipulation of the threads.'",
       story: "The concept of 'divine manipulation of the threads' refers to a network of spies working together seamlessly, providing a commander with the most accurate and timely intelligence possible. During World War II, this type of covert intelligence operation was used effectively by both the Allies and the Axis powers. One famous example is the British 'Double Cross' system, where the British intelligence agency MI5 successfully turned German spies into double agents. By manipulating the flow of information, the Allies were able to mislead the Germans into believing that the invasion would occur at a different location than Normandy. This successful manipulation of espionage was crucial to the success of D-Day and a turning point in the war. The concept shows the power of having a reliable and coordinated intelligence network that can control the flow of information and deceive the enemy."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Coordinating spies and embarking on espionage requires great subtlety.",
+      quote: "6. Knowledge Is People: Coordinating spies and embarking on espionage requires great subtlety.",
       story: "Espionage, according to Sun Tzu, must be executed with care and subtlety. It’s not just about collecting information—it’s about doing so without revealing the true intent. The story of Roald Dahl during World War II is a perfect example. Dahl, famous for his children's books like *Charlie and the Chocolate Factory*, was recruited by the British government during the war. After sustaining an injury in a car crash, Dahl was sent to Washington, D.C., where he became a covert agent, attending high-society events to extract valuable information for British intelligence. Dahl’s work in espionage was subtle and effective—he blended in with his social circle and subtly gathered information, providing the British with important insights about American and Axis activities. His experience illustrates how subtlety in espionage can be more powerful than overt action, keeping the enemy unaware while gaining the upper hand."
   },
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "It's also worth remembering that the other side may also use spies. In which case, the advice is to coax them out of hiding with bribes so that they will be converted.",
+      quote: "6. Knowledge Is People: It's also worth remembering that the other side may also use spies. In which case, the advice is to coax them out of hiding with bribes so that they will be converted.",
       story: "Sun Tzu’s advice on converting enemy spies with bribes reflects the strategic use of defection in warfare. During the Cold War, intelligence agencies on both sides—such as the CIA and KGB—often attempted to turn enemy agents by offering them protection or money in exchange for secrets. One famous case is that of Aldrich Ames, a CIA officer who was caught spying for the Soviet Union. The CIA, aware that the Soviets had their own spies, used their knowledge of Ames’ character and motivations to appeal to him. Though ultimately a traitor, his case shows the delicate art of managing enemy spies—finding out what drives them, and offering them something they value, often turning them into assets. Espionage is not just about gathering information, but also about manipulating individuals to work in your favor, regardless of their original loyalty."
   },
 
