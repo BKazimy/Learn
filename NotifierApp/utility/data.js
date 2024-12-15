@@ -149,6 +149,120 @@ const Entries = [
       story: "I. LAYING PLANS: In this final law, Sun Tzu underscores the importance of preparation. The general who wins a battle spends considerable time planning and calculating before engaging in battle. The more thought and preparation that goes into a plan, the higher the chances of victory. Conversely, failure to plan or rushing into battle without adequate preparation leads to defeat.",
       source: "Art Of War"
   },
+  {
+      quote: "1. Sun Tzu said: In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad soldiers, with provisions enough to carry them a thousand li, the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armor, will reach the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: This passage highlights the immense cost of waging war. Sun Tzu emphasizes the financial strain of maintaining a large army, noting that the expenses at home and on the battlefield are significant. To properly plan for war, one must account for the extensive resources required to support an army.",
+      source: "Art Of War"
+  },
+  {
+      quote: "2. When you engage in actual fighting, if victory is long in coming, then men’s weapons will grow dull and their ardor will be damped. If you lay siege to a town, you will exhaust your strength.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Sun Tzu warns against prolonged fighting, stating that delay causes the soldiers’ morale and strength to diminish. Long campaigns drain resources and weaken the army’s effectiveness, which is why swift action is critical to success.",
+      source: "Art Of War"
+  },
+  {
+      quote: "3. Again, if the campaign is protracted, the resources of the State will not be equal to the strain.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Extended warfare will deplete state resources, causing strain on the nation’s economy. Sun Tzu stresses the importance of ending conflicts quickly to preserve the resources necessary for victory and avoid destabilizing the state.",
+      source: "Art Of War"
+  },
+  {
+      quote: "4. Now, when your weapons are dulled, your ardor damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: This law underscores the risks of prolonged warfare. When an army is weakened, other leaders may rise to take advantage of the situation, leading to certain defeat. A general must act swiftly and decisively to prevent such a scenario.",
+      source: "Art Of War"
+  },
+  {
+      quote: "5. Thus, though we have heard of stupid haste in war, cleverness has never been seen associated with long delays.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Sun Tzu makes it clear that while hasty decisions can be detrimental, long delays in war are also dangerous. Strategic actions must be carried out with speed and purpose, as delay can lead to the loss of the advantage.",
+      source: "Art Of War"
+  },
+  {
+      quote: "6. There is no instance of a country having benefited from prolonged warfare.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Sun Tzu argues that no nation benefits from prolonged warfare. The damage caused by long-term conflict is too great for any state to recover from, making it essential to end war as quickly as possible.",
+      source: "Art Of War"
+  },
+  {
+      quote: "7. It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the profitable way of carrying it on.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Only those who understand the destruction and hardship of war can truly appreciate the value of carrying it out efficiently. A wise leader must know how to minimize the negative impact of war while achieving victory.",
+      source: "Art Of War"
+  },
+  {
+      quote: "8. The skillful soldier does not raise a second levy, neither are his supply-wagons loaded more than twice.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: A skilled general avoids overburdening the people and resources by making efficient use of what is available. Raising an army multiple times or overloading supply wagons can lead to exhaustion, both for the soldiers and the state.",
+      source: "Art Of War"
+  },
+  {
+      quote: "9. Bring war material with you from home, but forage on the enemy. Thus the army will have food enough for its needs.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Sun Tzu advocates for foraging on the enemy’s resources rather than relying solely on your own supplies. This strategy allows the army to preserve its own resources while simultaneously depleting the enemy’s.",
+      source: "Art Of War"
+  },
+  {
+      quote: "10. Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: When the state is poor, it may have to rely on external contributions to maintain an army, which places a heavy financial burden on the people. This drains the resources of the populace, weakening the state’s ability to sustain its military efforts.",
+      source: "Art Of War"
+  },
+  {
+      quote: "11. On the other hand, the proximity of an army causes prices to go up; and high prices cause the people’s substance to be drained away.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: The presence of an army near the populace drives up prices, further draining the resources of the people. The army’s needs—food, supplies, and equipment—cause inflation, which weakens the economy and burdens the population.",
+      source: "Art Of War"
+  },
+  {
+      quote: "12. When their substance is drained away, the peasantry will be afflicted by heavy exactions.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: As the resources of the people are depleted, they face increased taxes and demands to support the army. This exacerbates the suffering of the peasants and further destabilizes the state.",
+      source: "Art Of War"
+  },
+  {
+      quote: "13,14. With this loss of substance and exhaustion of strength, the homes of the people will be stripped bare, and three-tenths of their income will be dissipated; while government expenses for broken chariots, worn-out horses, breast-plates and helmets, bows and arrows, spears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: The ongoing costs of war deplete the population and the government. The expenditure for maintaining the army, repairing equipment, and replacing losses takes up a large portion of the state’s revenue, further damaging the economy.",
+      source: "Art Of War"
+  },
+  {
+      quote: "15. Hence a wise general makes a point of foraging on the enemy. One cartload of the enemy’s provisions is equivalent to twenty of one’s own, and likewise a single picul of his provender is equivalent to twenty from one’s own store.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: A wise general focuses on using the enemy’s resources to sustain the army. By doing so, the general avoids overburdening the state’s resources, allowing the army to maintain strength and endurance for a longer period.",
+      source: "Art Of War"
+  },
+  {
+      quote: "16. Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Sun Tzu explains that soldiers must be motivated to fight effectively. Anger can be a powerful motivator, but the promise of rewards is equally important in ensuring the soldiers’ commitment and dedication to achieving victory.",
+      source: "Art Of War"
+  },
+  {
+      quote: "17. Therefore in chariot fighting, when ten or more chariots have been taken, those should be rewarded who took the first. Our own flags should be substituted for those of the enemy, and the chariots mingled and used in conjunction with ours. The captured soldiers should be kindly treated and kept.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Rewards are used to motivate troops and enhance their morale. When chariots are captured, the soldiers who took them should be rewarded, and the captured chariots should be integrated into the army’s own forces. This boosts the army’s strength and morale while showing mercy to the captured soldiers.",
+      source: "Art Of War"
+  },
+  {
+      quote: "18. This is called, using the conquered foe to augment one’s own strength.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: Using the enemy’s resources and soldiers to strengthen one’s own army is a strategic move. This approach maximizes the benefits of victory by incorporating the enemy’s strength into your own forces.",
+      source: "Art Of War"
+  },
+  {
+      quote: "19. In war, then, let your great object be victory, not lengthy campaigns.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: The ultimate goal of war should always be victory, not the length of the campaign. Prolonged conflict only weakens both sides, so the general should focus on achieving a quick and decisive victory.",
+      source: "Art Of War"
+  },
+  {
+      quote: "20. Thus it may be known that the leader of armies is the arbiter of the people’s fate, the man on whom it depends whether the nation shall be in peace or in peril.",
+      author: "Sun Tzu",
+      story: "II. WAGING WAR: The general is responsible for the fate of the nation, as their decisions determine whether the people live in peace or face danger. The skillful leadership of the army is crucial to ensuring the safety and prosperity of the state.",
+      source: "Art Of War"
+  },
 
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
