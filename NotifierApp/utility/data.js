@@ -92,7 +92,7 @@ const Entries = [
   {
     quote: "1. Laying plans: When you surround an army, leave an outlet free",
     author: "Sun Tzu",
-    story: "",
+    story: "A story recounts a general who encircled his enemy but left one path open for escape. The enemy, thinking they had a safe exit, funneled through the opening, where the general’s ambush awaited. This strategy minimized resistance and casualties, showcasing the art of using subtle traps.",
     source: "Art Of War",
   },
   {
