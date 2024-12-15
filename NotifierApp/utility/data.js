@@ -119,12 +119,6 @@ const Entries = [
     story: "A general capitalized on a minor victory to press the advantage, moving swiftly to capture key territories while the enemy was disoriented. By seizing the momentum, he transformed a small win into a complete triumph, showing how one success can lead to another if acted upon quickly.",
     source: "Art Of War",
   },
-  {
-    quote: "2. Know Your Enemy: ",
-    author: "Sun Tzu",
-    story: "",
-    source: "Art Of War",
-  },
         {
           quote: "LAW 1: NEVER OUTSHINE THE MASTER",
           author: "Robert Greene",
