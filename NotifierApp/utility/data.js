@@ -128,7 +128,7 @@ const Entries = [
   {
     source: "Art Of War",
     author: "Sun Tzu",
-      quote: "Knowledge Is Power: Only wage war if you're confident that you're prepared.",
+      quote: "2. Knowledge Is Power: Only wage war if you're confident that you're prepared.",
       story: "In the ancient state of Wu, a young general once ignored Sun Tzu’s teachings by rushing into battle to prove his strength. Despite his soldiers’ bravery, they lacked proper training, and their equipment was insufficient for prolonged combat. The opposing army, led by an experienced commander, exploited their weaknesses and forced them into retreat. Years later, after learning from this failure, the same general meticulously prepared his forces, ensuring their readiness. When the rematch came, he emerged victorious within days, a testament to the value of preparation."
   },
   {
