@@ -1,6 +1,6 @@
 const Entries = [
   {
-    quote: "1. Laying plans: Let your plans be dark and impenetrable as night",
+    quote: "I. Laying plans:",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
