@@ -66,9 +66,9 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "1. Laying plans:",
+    quote: "1. Laying plans: ",
     author: "Sun Tzu",
-    story: "A leader took time to gather intelligence on his adversary’s weaknesses and studied his own strengths. When battle came, he exploited the enemy’s poorly trained flanks while using his disciplined core troops effectively. This ensured victory with minimal losses, emphasizing the power of preparation and self-awareness.",
+    story: "",
     source: "Art Of War",
   },
         {
