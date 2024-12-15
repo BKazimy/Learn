@@ -120,7 +120,7 @@ const Entries = [
     source: "Art Of War",
   },
   {
-    quote: "2. Laying plans: ",
+    quote: "2. Know Your Enemy: ",
     author: "Sun Tzu",
     story: "",
     source: "Art Of War",
