@@ -23,7 +23,6 @@ function NewQuote({ navigation, route }) {
 
   async function onReset() {
     try {
-      console.log('reset databae!');
       await db.reset();
       navigation.goBack(null);
     } catch (er) {
