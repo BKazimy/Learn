@@ -28,39 +28,39 @@
 //   }
 // };
 
-export const ScheduleNotification = async () => {
-  try {
-    // Cancel all existing notifications
-    await Notifications.cancelAllScheduledNotificationsAsync();
+// export const ScheduleNotification = async () => {
+//   try {
+//     // Cancel all existing notifications
+//     await Notifications.cancelAllScheduledNotificationsAsync();
 
-    // Access the current quote ID from the database
-    const id = await db.SetQuoteOfDay();
-    if (!id) {
-      console.error('No ID found in context.');
-      return;
-    }
+//     // Access the current quote ID from the database
+//     const id = await db.SetQuoteOfDay();
+//     if (!id) {
+//       console.error('No ID found in context.');
+//       return;
+//     }
 
-    // Fetch the quote details from the database
-    const quoteData = await db.getById(id);
-    if (!quoteData) {
-      console.error('No quote data found for the ID', id);
-      return;
-    }
+//     // Fetch the quote details from the database
+//     const quoteData = await db.getById(id);
+//     if (!quoteData) {
+//       console.error('No quote data found for the ID', id);
+//       return;
+//     }
 
-    const { quote: title, story: body } = quoteData;
+//     const { quote: title, story: body } = quoteData;
 
-    // Schedule the new notification
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title,
-        body,
-        data: { id },
-      },
-      trigger: { hour: 8, minute: 15, repeats: true },
-    });
+//     // Schedule the new notification
+//     await Notifications.scheduleNotificationAsync({
+//       content: {
+//         title,
+//         body,
+//         data: { id },
+//       },
+//       trigger: { hour: 8, minute: 15, repeats: true },
+//     });
 
-    console.log('Dynamic daily notification scheduled!');
-  } catch (error) {
-    console.error('Error scheduling dynamic daily notification:', error);
-  }
-};
+//     console.log('Dynamic daily notification scheduled!');
+//   } catch (error) {
+//     console.error('Error scheduling dynamic daily notification:', error);
+//   }
+// };
