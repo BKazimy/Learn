@@ -119,7 +119,6 @@ class QuoteDatabase {
   }
 
   async searchByAuthor(phrase) {
-    console.log("search phrase:", phrase);
     if ( !phrase || phrase === '' ) {
       return this.getAll();
     }
