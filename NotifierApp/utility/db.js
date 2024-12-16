@@ -141,7 +141,7 @@ class QuoteDatabase {
       await AsyncStorage.setItem('today', JSON.stringify(idObj));
       return await this.GetQuoteOfDay();
     } catch (e) {
-      console.log('Couldnt update quote of day!', e);
+      console.error('Couldnt update quote of day!', e);
     }
   }
 
@@ -151,7 +151,7 @@ class QuoteDatabase {
       const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value';
       return today.id;
     } catch(e) {
-      console.log("Error occured!", e);
+      console.error("Error occured!", e);
     }
   }
 }
