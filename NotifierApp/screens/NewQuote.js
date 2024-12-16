@@ -14,7 +14,6 @@ function NewQuote({ navigation, route }) {
         story,
         source,
       });
-      console.log('Added Quote:', newEntry);
       navigation.navigate('quotePage', { id: newEntry.id }); // Fixed typo
     } catch (error) {
       console.error('Error using QuoteDatabase:', error);
