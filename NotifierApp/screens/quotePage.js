@@ -40,7 +40,6 @@ function QuotePage({ route, navigation }) {
   const fetchData = async () => {
     try {
       let data;
-      console.log('quote page id:', id);
       if (id >= 0) {
         data = await db.getById(id); // Fetch quote data
       } else {
