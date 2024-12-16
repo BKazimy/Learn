@@ -8,9 +8,6 @@ class QuoteDatabase {
     this.initializeDatabase();
   }
 
-  /**
-   * Initialize the database with some default quotes if empty
-   */
   async initializeDatabase() {
     try {
       const quotes = await this.getAll();
@@ -25,9 +22,6 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Generate an auto-incremented ID
-   */
   async _generateId() {
     try {
       const currentId = await AsyncStorage.getItem(this.autoIncrementKey);
@@ -40,9 +34,6 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Get all quotes from storage
-   */
   async getAll() {
     try {
       const jsonValue = await AsyncStorage.getItem(this.storageKey);
@@ -53,10 +44,6 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Add a new quote
-   * @param {Object} quoteData - The quote object { quote, author, story }
-   */
   async add(quoteData) {
     try {
       const quotes = await this.getAll();
@@ -64,7 +51,7 @@ class QuoteDatabase {
         id: await this._generateId(),
         ...quoteData,
       };
-      quotes.push(newQuote);
+      quotes.unshift(newQuote);
       await AsyncStorage.setItem(this.storageKey, JSON.stringify(quotes));
       return newQuote;
     } catch (error) {
@@ -72,11 +59,6 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Update an existing quote
-   * @param {string} id - The ID of the quote to update
-   * @param {Object} updatedData - The updated data { quote, author, story }
-   */
   async update(id, updatedData) {
     try {
       const quotes = await this.getAll();
@@ -93,25 +75,29 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Delete a quote by ID
-   * @param {string} id - The ID of the quote to delete
-   */
   async delete(id) {
     try {
       const quotes = await this.getAll();
       const filteredQuotes = quotes.filter((q) => q.id !== id);
       await AsyncStorage.setItem(this.storageKey, JSON.stringify(filteredQuotes));
+      console.log(id, 'deleted!'); 
       return filteredQuotes;
     } catch (error) {
       console.error('Error deleting data:', error);
     }
   }
 
-  /**
-   * Get a single quote by ID
-   * @param {string} id - The ID of the quote to retrieve
-   */
+  async reset() {
+    try {
+      await AsyncStorage.clear();
+      console.log("database resetted");
+      await this.initializeDatabase();
+      await this.SetQuoteOfDay();
+    } catch (er) {
+      console.error('Error:', er);
+    }
+  }
+
   async getById(id) {
     try {
       const quotes = await this.getAll();
@@ -122,9 +108,6 @@ class QuoteDatabase {
     }
   }
 
-  /**
-   * Get a random quote
-   */
   async getRandom() {
     try {
       const quotes = await this.getAll();
@@ -137,40 +120,43 @@ class QuoteDatabase {
     }
   }
 
+  async searchByAuthor(phrase) {
+    console.log("search phrase:", phrase);
+    if ( !phrase || phrase === '' ) {
+      return this.getAll();
+    }
+    try {
+      const quotes = await this.getAll();
+      const filteredQuotes = quotes.filter(
+        (quote) => quote.author && quote.author.toLowerCase().includes(phrase.toLowerCase())
+      );
+      return filteredQuotes;
+    } catch (error) {
+      console.error('Error searching by author:', error);
+      return [];
+    }
+  }
+
   async SetQuoteOfDay() {
     try {
       const data = await this.getRandom();
-      // console.log('random data:', data.id);
       const idObj = {id: data.id};
-      // console.log('idObj data:', idObj.id);
-      // console.log('setquote id:', id);
       await AsyncStorage.setItem('today', JSON.stringify(idObj));
-      // console.log('today:', await this.GetQuoteOfDay());
       return await this.GetQuoteOfDay();
     } catch (e) {
       console.log('Couldnt update quote of day!', e);
-      // return this.SetQuoteOfDay();
     }
   }
 
   async GetQuoteOfDay() {
     try {
       const jsonValue = await AsyncStorage.getItem('today');
-      // console.log('jsonvalue:', jsonValue);
       const today = jsonValue != null ? JSON.parse(jsonValue) : 'no value';
-      // console.log('today:', today);
       return today.id;
     } catch(e) {
       console.log("Error occured!", e);
     }
   }
-  // try {
-  //   const jsonValue = await AsyncStorage.getItem(this.storageKey);
-  //   return jsonValue != null ? JSON.parse(jsonValue) : [];
-  // } catch (error) {
-  //   console.error('Error fetching data:', error);
-  //   return [];
-  // }
 }
 
 // Export an instance of the database class

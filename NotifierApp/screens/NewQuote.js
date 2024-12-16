@@ -1,32 +1,10 @@
-import React, { useCallback } from 'react';
-import { useFocusEffect } from '@react-navigation/native';
+import { View, StyleSheet } from "react-native";
 
 // components
 import Form from '../components/form';
-import Display from '../components/display';
 
 function NewQuote({ navigation, route }) {
   const { db } = route.params;
-
-  
-  useFocusEffect(
-    useCallback(() => {
-      const state = navigation.getState();
-      console.log('Navigation State:', state);
-  
-      // Ensure we safely access the previous route
-      const previousRoute = state.routes[state.index - 1] || null;
-
-      if (previousRoute) {
-        console.log('Came from Route:', previousRoute.name);
-        if (previousRoute.name === 'quotePage') {
-          navigation.navigate('home');
-        }
-      } else {
-        console.log('No previous route. This might be the initial screen.');
-      }
-    }, [navigation])
-  );
 
   async function newQuoteHandler(quote, author, story = '', source) {
     try {
@@ -44,11 +22,31 @@ function NewQuote({ navigation, route }) {
     }
   }
 
+  async function onReset() {
+    try {
+      console.log('reset databae!');
+      await db.reset();
+      navigation.goBack(null);
+    } catch (er) {
+      console.log('Error:', er);
+    }
+  }
+
   return (
-    <Display>
-      <Form navigation={navigation} newQuoteHandler={newQuoteHandler} />
-    </Display>
+    <View style={styles.container}>
+      <View>
+        <Form navigation={navigation} newQuoteHandler={newQuoteHandler} onReset={onReset} />
+      </View>
+    </View>
   );
 }
 
 export default NewQuote;
+
+const styles = StyleSheet.create({
+  container: {
+        flex: 1,
+        padding: 16,
+        justifyContent: 'center',
+    },
+})

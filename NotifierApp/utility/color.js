@@ -7,6 +7,7 @@ colors = {
     khaki: "#F0E68C",
     darkKhaki: "#BDB76B",
     dark: "#262425",
+    gainsboro: "#DCDCDC",
 }
 
 export default colors;

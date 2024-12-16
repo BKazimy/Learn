@@ -1,10 +1,10 @@
 import { Linking, View } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 
 // components
 import CompButton from "../components/compButton";
 import Display from "../components/display";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+// import * as Notifications from 'expo-notifications';
 
 function Home({ navigation, route }) {
     const [id, setid] = useState();
@@ -14,14 +14,27 @@ function Home({ navigation, route }) {
         setid(data);
     }
     fetchId(); 
-    console.log('home usestate id:', id);
 
+    // useEffect(() => {
+    // const subscription = Notifications.addNotificationResponseReceivedListener(response => {
+    //   const id = response.notification.request.content.data.id;
+    //   navigation.navigate('quotePage', {id});
+    // });
+    // return () => subscription.remove();
+    // }, []);
+    
     return (
         <Display>
             <View>
                 <CompButton 
-                    title="Write New Quote"
-                    onPress={() => navigation.replace('newquote')}
+                    title="All Quotes"
+                    onPress={() => navigation.navigate('allquotes')}
+                />
+            </View>
+            <View>
+                <CompButton 
+                    title="New Quote"
+                    onPress={() => navigation.navigate('newquote')}
                 />
             </View>
             <View>
@@ -34,12 +47,6 @@ function Home({ navigation, route }) {
                 <CompButton 
                     title="Today's Quote"
                     onPress={() => navigation.navigate('quotePage', {id})}
-                />
-            </View>
-            <View>
-                <CompButton 
-                    title="All Quotes"
-                    onPress={() => navigation.navigate('allquotes')}
                 />
             </View>
             <View>

@@ -13,9 +13,9 @@ function CompButton({ title, onPress, subtitle }) {
                 ]}  
                 onPress={onPress}
             >
-                <View style={styles.innerContainer}>
+                <View style={[styles.innerContainer, {alignItems: subtitle ? 'stretch' : 'center'}]}>
                     <Text style={styles.title}>{title}</Text>
-                    {subtitle && <Text style={styles.authorText}> -{subtitle}</Text>}
+                    {subtitle && <Text style={styles.authorText}>- {subtitle}</Text>}
                 </View>
             </Pressable>
         </View>
@@ -26,7 +26,7 @@ export default CompButton;
 
 const styles = StyleSheet.create({
     gridItem: {
-        flex: 1,
+        // flex: 1,
         margin: 16,
         marginVertical: 8,
         borderRadius: 8,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
-        flex: 1,
+        // flex: 1,
         shadowColor: 'black',
         shadowOpacity: 0.25,
         shadowOffset: { width: 0, height: 2},
@@ -53,11 +53,10 @@ const styles = StyleSheet.create({
     },
 
     innerContainer: {
-        flex: 1,
+        // flex: 1,
         padding: 16,
         borderRadius: 8,
         justifyContent: 'center',
-        alignItems: 'center',
         backgroundColor: colors.darkOliveGreen,
     },
 
