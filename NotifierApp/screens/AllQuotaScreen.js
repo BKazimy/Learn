@@ -25,7 +25,6 @@ function AllQuote({ navigation, route }) {
       }
     };
     fetchData();
-    console.log('data updated');
   }, [navigation, db]);
 
   function changeSearchIconHandler() {
