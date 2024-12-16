@@ -80,7 +80,6 @@ class QuoteDatabase {
       const quotes = await this.getAll();
       const filteredQuotes = quotes.filter((q) => q.id !== id);
       await AsyncStorage.setItem(this.storageKey, JSON.stringify(filteredQuotes));
-      console.log(id, 'deleted!'); 
       return filteredQuotes;
     } catch (error) {
       console.error('Error deleting data:', error);
@@ -90,7 +89,6 @@ class QuoteDatabase {
   async reset() {
     try {
       await AsyncStorage.clear();
-      console.log("database resetted");
       await this.initializeDatabase();
       await this.SetQuoteOfDay();
     } catch (er) {
