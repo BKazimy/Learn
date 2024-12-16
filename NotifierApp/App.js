@@ -32,21 +32,21 @@ const b = async () => {
 b();
 
 function App() {
-  useEffect(() => {
-    const checkAndScheduleNotification = async () => {
-      try {
-        const scheduledNotifications =
-          await getAllScheduledNotificationsAsync();
-        if (scheduledNotifications.length === 0) {
-          await ScheduleNotification();
-        }
-      } catch (error) {
-        console.error('Error checking scheduled notifications:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const checkAndScheduleNotification = async () => {
+  //     try {
+  //       const scheduledNotifications =
+  //         await getAllScheduledNotificationsAsync();
+  //       if (scheduledNotifications.length === 0) {
+  //         await ScheduleNotification();
+  //       }
+  //     } catch (error) {
+  //       console.error('Error checking scheduled notifications:', error);
+  //     }
+  //   };
 
-    checkAndScheduleNotification();
-  }, [navigation]);
+  //   checkAndScheduleNotification();
+  // }, [navigation]);
 
   const MyTheme = {
     ...DefaultTheme,
