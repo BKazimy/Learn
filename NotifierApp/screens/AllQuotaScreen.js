@@ -17,7 +17,6 @@ function AllQuote({ navigation, route }) {
     const fetchData = async () => {
       try {
         const quotes = await db.getAll(); // Fetch all quotes
-        console.log('got all quotes');
         setData(quotes); // Update state with fetched data
       } catch (error) {
         console.error('Error fetching quotes:', error);
