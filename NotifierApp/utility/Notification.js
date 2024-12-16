@@ -1,15 +1,15 @@
-// utility/Notification.js
-import * as Notifications from 'expo-notifications';
-import db from './db';
+// // utility/Notification.js
+// import * as Notifications from 'expo-notifications';
+// import db from './db';
 
-// Configure the notification handler to determine how notifications should behave
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: true,
-    shouldSetBadge: false,
-  }),
-});
+// // Configure the notification handler to determine how notifications should behave
+// Notifications.setNotificationHandler({
+//   handleNotification: async () => ({
+//     shouldShowAlert: true,
+//     shouldPlaySound: true,
+//     shouldSetBadge: false,
+//   }),
+// });
 
 // const navigation = useNavigation;
 
