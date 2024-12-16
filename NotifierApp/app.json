@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "bkazimy.NoifierApp"
+      "package": "bkazimy.Reminder"
     },
     "web": {
       "favicon": "./assets/favicon.png"
