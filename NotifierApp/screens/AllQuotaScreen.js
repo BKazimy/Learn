@@ -16,7 +16,6 @@ function AllQuote({ navigation, route }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log('db or navigation changed');
         const quotes = await db.getAll(); // Fetch all quotes
         console.log('got all quotes');
         setData(quotes); // Update state with fetched data
