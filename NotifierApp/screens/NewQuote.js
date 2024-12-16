@@ -26,7 +26,7 @@ function NewQuote({ navigation, route }) {
       await db.reset();
       navigation.goBack(null);
     } catch (er) {
-      console.log('Error:', er);
+      console.error('Error:', er);
     }
   }
 
