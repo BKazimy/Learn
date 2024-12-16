@@ -5,7 +5,7 @@ import {
   useNavigation,
   DefaultTheme,
 } from '@react-navigation/native';
-import { getAllScheduledNotificationsAsync } from 'expo-notifications';
+// import { getAllScheduledNotificationsAsync } from 'expo-notifications';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -18,7 +18,7 @@ import QuotePage from './screens/quotePage';
 // Utilities
 import db from './utility/db';
 import colors from './utility/color';
-import { ScheduleNotification } from './utility/Notification';
+// import { ScheduleNotification } from './utility/Notification';
 
 const Stack = createStackNavigator();
 const navigation = useNavigation;
