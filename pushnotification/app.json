@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.bkazimy.pushnotification"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,16 +32,21 @@
       [
         "expo-notifications",
         {
-          "icon": "./local/assets/notification_icon.png",
+          "icon": "./assets/icon.png",
           "color": "#ffffff",
           "defaultChannel": "default",
           "sounds": [
-            "./local/assets/notification_sound.wav",
-            "./local/assets/notification_sound_other.wav"
+            "./assets/sound.wav",
+            "./assets/sound_other.wav"
           ],
           "enableBackgroundRemoteNotifications": false
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ce7ff616-5214-4b09-b9ac-16ebcf66ccd0"
+      }
+    }
   }
 }
