@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720574285012",
+    "project_id": "pushnotification-c2234",
+    "storage_bucket": "pushnotification-c2234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720574285012:android:eb41cc439b8a27e1fb2741",
+        "android_client_info": {
+          "package_name": "com.bkazimy.pushnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL2FwdkxRBgNaqGCGMvquLeo5CDbu8Kq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
